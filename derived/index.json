@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_from": "skills/process_docs.py",
+    "generated_from": "mcp/process_docs.py",
     "total_chunks": 632,
     "node_files": [
       "derived/node/执行节点.md",

@@ -6,8 +6,10 @@ Miliastra-knowledge 是千星奇域工具箱的文档资产仓库，仅保存文
 
 - official/guide: 官方综合指南文档
 - official/tutorial: 官方教程文档
+- official/faq: 官方常见问题文档
 - bbs: 从问答楼整理出的社区问答文档
 - user: 预留给后续用户投稿或人工整理文档
+- derived: 由 process_docs.py 生成的聚合文档和索引
 
 ## 约定
 
