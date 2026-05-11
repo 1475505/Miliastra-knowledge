@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhg1700h8bug
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:41:33.889Z
+crawledAt: 2026-04-30T13:41:36.244Z
 ---
 
 # 一、界面控件组的定义
@@ -94,7 +94,5 @@ _界面控件组_是创作者(奇匠)对界面控件的自定义数据。
 
 
 **界面控件组触发时**
-
-[交互按钮界面控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhwkfsitckrw)，[道具展示界面控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhjja1ipq9ck)在关卡进行中被执行交互操作，会发送节点图事件“界面控件组触发时”
 
 该事件只有触发按钮的_玩家_节点图可以收到。

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhjwjrr5n73i
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:30:34.590Z
+crawledAt: 2026-04-30T13:41:55.268Z
 ---
 
 # 一、节点图功能概述
@@ -49,7 +49,7 @@ _连线_：分为_执行流连线_（节点图中白色连线）以及_运算流
 
 # 二、节点图的类型
 
-当前模式中，节点图被分为五类
+当前模式中，节点图被分为以下几类
 
 
 
