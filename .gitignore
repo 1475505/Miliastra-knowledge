@@ -3,3 +3,7 @@
 .idea/
 
 user/*
+lint_reports/
+lint_backup/
+__pycache__/
+.env
