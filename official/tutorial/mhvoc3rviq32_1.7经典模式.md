@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhvoc3rviq32
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-01-16T03:59:11.810Z
+crawledAt: 2026-05-20T03:39:07.575Z
 ---
 
 # 前言
@@ -60,7 +60,7 @@ _\*\*特别说明：经典模式与超限模式的存档（gil）无法互相转
 
 ## 二、设置经典模式关卡基础参数
 
-点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>即可进入
+点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>即可进入。
 
 ### 功能简述
 

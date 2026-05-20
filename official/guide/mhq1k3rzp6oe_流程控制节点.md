@@ -6,12 +6,12 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhq1k3rzp6oe
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:27:57.158Z
+crawledAt: 2026-05-20T03:34:12.217Z
 ---
 
-# 一、通用
+# **一、通用**
 
-## **1.双分支**
+## **1\. 双分支**
 
 **节点功能**
 

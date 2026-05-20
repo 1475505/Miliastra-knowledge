@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh4imrrhzdzi
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:28:56.426Z
+crawledAt: 2026-05-20T03:36:03.071Z
 ---
 
 |     |     |
@@ -126,3 +126,8 @@ crawledAt: 2026-01-16T03:28:56.426Z
 | 10000125 | 哥伦比娅 |
 | 10000126 | 兹白 |
 | 10000127 | 叶洛亚 |
+| 10000128 | 法尔伽 |
+| 10000129 | 洛恩 |
+| 10000130 | 莉奈娅 |
+| 10000131 | 尼可 |
+| 10000132 | 布伦妮 |

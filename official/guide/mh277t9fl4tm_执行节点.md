@@ -6,12 +6,12 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh277t9fl4tm
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:25:01.914Z
+crawledAt: 2026-05-20T03:32:11.641Z
 ---
 
-# 一、通用
+# **一、通用**
 
-## **1.切换自身执行状态**
+## **1\. 切换自身执行状态**
 
 **节点功能**
 

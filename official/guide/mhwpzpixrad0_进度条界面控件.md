@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhwpzpixrad0
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:46:23.908Z
+crawledAt: 2026-05-20T03:38:22.622Z
 ---
 
 # 一、进度条的功能
@@ -51,3 +51,7 @@ _最小值_
 _最大值_
 
 支持配置玩家和关卡的自定义变量
+
+# 三、进度条功能升级
+
+进度条新增自定义样式配置，奇匠可以自定义制作底图素材和进度图素材，其中，进度图素材将根据进度条的值的增减进行动态遮罩显示（注意：进度图素材中的动效素材无法根据进度进行裁切），奇匠可以选择横向填充，纵向填充，圆环填充三种方式，以实现不同的效果
