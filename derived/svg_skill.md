@@ -87,7 +87,7 @@ font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif"
 | 层级 | 大小 | 字重 | 颜色 |
 |------|------|------|------|
 | 页大标题 | 34px | bold | `#1A1B2E` |
-| 小节标题 | 18px | 700 | `#2D6BE4` |
+| 小节标题 | 18px | 400 | `#2D6BE4` |
 | 卡片标题 | 16px | 500 | `#1A1B2E` |
 | 正文 | 14px | normal | `#4A4B65` |
 | 正文加粗 | 14px | 500 | `#1A1B2E` |
@@ -98,7 +98,7 @@ font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif"
 ```
 1. 顶部色带（6px，蓝→深紫渐变）
 2. 标题卡片（白底阴影，左侧 4px 蓝色竖条）
-3. 小节标题（18px 蓝色 bold）+ 可选灰色副标题
+3. 小节标题（18px 蓝色）+ 可选灰色副标题
 4. 内容卡片（白底阴影，rx=14）
 5. 来源链接（页面底部，页脚上方，蓝色可点击文字）
 6. 页脚文字（8B8DA0，12px）
@@ -133,7 +133,7 @@ font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif"
 ### 小节标题格式
 
 ```xml
-<text x="48" y="Y" fill="#2D6BE4" font-size="18" font-weight="700">X、小节名称</text>
+<text x="48" y="Y" fill="#2D6BE4" font-size="18">X、小节名称</text>
 <text x="X2" y="Y" fill="#8B8DA0" font-size="13">补充说明</text>
 ```
 
