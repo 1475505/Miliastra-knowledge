@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 820">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="820" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">战利品</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">战利品组件 -- 击倒掉落配置、掉落形态与节点图操作</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、战利品组件的功能</text>
+  <rect x="60" y="170" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">战利品组件支持配置一份固定的战利品集合模板数据，在持有者被击倒时根据此数据创建战利品。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">推荐用于战利品相关概念实现。仅支持配置一份战利品模板数据。</text>
+  <rect x="80" y="238" width="160" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">仅一份战利品模板</text>
+  <rect x="250" y="238" width="160" height="22" rx="11" fill="#E8EEFB"/><text x="264" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">击倒时创建战利品</text>
+  <!-- Section 2: 编辑 -->
+  <text x="60" y="305" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、战利品组件的编辑</text>
+  <rect x="60" y="320" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">添加步骤</text>
+  <circle cx="95" cy="370" r="10" fill="#2D6BE4"/><text x="92" y="374" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">1</text>
+  <text x="115" y="375" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">实体/元件编辑 > 组件页签</text>
+  <circle cx="95" cy="392" r="10" fill="#2D6BE4"/><text x="92" y="396" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">2</text>
+  <text x="115" y="397" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">添加通用组件 > 选择"战利品"</text>
+  <circle cx="95" cy="414" r="10" fill="#2D6BE4"/><text x="92" y="418" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">3</text>
+  <text x="115" y="414" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击"详细编辑"展开编辑页</text>
+  <!-- 基础设置 -->
+  <rect x="620" y="320" width="520" height="220" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">基础设置</text>
+  <text x="640" y="372" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">销毁时掉落形态：</text>
+  <text x="660" y="392" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">分离掉落：每条虚拟物品转化为对应掉落物</text>
+  <text x="660" y="412" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">合并掉落：所有虚拟物品转化为一个掉落物</text>
+  <text x="640" y="436" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">战利品掉落形式：</text>
+  <text x="660" y="456" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">全员一份：所有玩家共享，一人拾取他人不可再拾取</text>
+  <text x="660" y="476" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">每人一份：每个玩家客户端独立掉落，互不干预</text>
+  <text x="640" y="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">对应掉落物外形：配置掉落物元件（仅合并掉落时生效）</text>
+  <text x="640" y="520" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">分离掉落时每个掉落物使用道具/货币模板自身配置的关联掉落物</text>
+  <!-- 掉落内容 -->
+  <rect x="60" y="430" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">掉落内容</text>
+  <text x="80" y="482" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击"添加物品"配置虚拟物品列表。</text>
+  <text x="80" y="504" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">物品列表：可选取所有已定义的道具、货币模板及数量。</text>
+  <!-- Section 3: 节点图 -->
+  <text x="60" y="565" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、节点图操作战利品组件</text>
+  <rect x="60" y="580" width="1080" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="80" y="595" width="240" height="44" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="615" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">触发战利品掉落（执行）</text>
+  <text x="100" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">手动触发掉落，不必等击倒</text>
+  <rect x="340" y="595" width="240" height="44" rx="10" fill="#FFF3E0"/>
+  <text x="360" y="615" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">设置战利品掉落内容（执行）</text>
+  <text x="360" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">动态修改掉落内容</text>
+  <!-- 要点 -->
+  <text x="60" y="695" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、要点总结</text>
+  <rect x="60" y="710" width="1080" height="60" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="90" cy="735" r="12" fill="#2D6BE4"/><text x="86" y="740" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
+  <text x="112" y="740" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">仅支持一份战利品模板 | 持有者被击倒时创建战利品</text>
+  <circle cx="500" cy="735" r="12" fill="#2D6BE4"/><text x="496" y="740" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
+  <text x="522" y="740" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">分离/合并掉落 | 全员一份/每人一份 | 节点图可触发/修改</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="795" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh63ox06afy8" target="_blank">
+  <text x="48" y="815" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：战利品</text>
+</a>
+<text x="600" y="808" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

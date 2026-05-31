@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1360">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1360" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">经典模式</text>
+<text x="248" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">经典模式与超限模式的差异及完整创建流程</text>
+
+<!-- Section 1: 模式对比 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、经典模式与超限模式对比</text>
+
+<!-- Comparison table -->
+<rect x="48" y="170" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+<rect x="48" y="202" width="1104" height="12" fill="#2D6BE4"/>
+<text x="222" y="198" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">功能</text>
+<text x="600" y="198" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">经典模式</text>
+<text x="960" y="198" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">超限模式</text>
+
+<rect x="48" y="214" width="1104" height="44" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="222" y="242" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">游玩人数</text>
+<text x="600" y="242" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">最多 4 人</text>
+<text x="960" y="242" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">最多 8 人</text>
+<line x1="392" y1="224" x2="392" y2="248" stroke="#E8E4DA"/>
+<line x1="780" y1="224" x2="780" y2="248" stroke="#E8E4DA"/>
+
+<rect x="48" y="260" width="1104" height="44" rx="0" fill="#F4F1EA"/>
+<text x="222" y="288" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提瓦特角色</text>
+<text x="600" y="288" fill="#34A853" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可进入</text>
+<text x="960" y="288" fill="#D93025" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">不可进入</text>
+<line x1="392" y1="270" x2="392" y2="294" stroke="#E8E4DA"/>
+<line x1="780" y1="270" x2="780" y2="294" stroke="#E8E4DA"/>
+
+<rect x="48" y="306" width="1104" height="44" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="222" y="334" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇偶</text>
+<text x="600" y="334" fill="#34A853" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可进入</text>
+<text x="960" y="334" fill="#34A853" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可进入</text>
+<line x1="392" y1="316" x2="392" y2="340" stroke="#E8E4DA"/>
+<line x1="780" y1="316" x2="780" y2="340" stroke="#E8E4DA"/>
+
+<!-- Warning -->
+<rect x="48" y="366" width="1104" height="48" rx="10" fill="#FDE8E6"/>
+<rect x="48" y="366" width="4" height="48" rx="2" fill="#D93025"/>
+<text x="72" y="396" fill="#D93025" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">注意：经典模式与超限模式的存档（gil）无法互相转换，导出的资产文件（gia）也无法互相导入。</text>
+
+<!-- Section 2: 创建经典模式存档 -->
+<text x="48" y="456" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、创建经典模式存档</text>
+
+<rect x="48" y="476" width="1104" height="76" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="476" width="4" height="76" rx="2" fill="#2D6BE4"/>
+<text x="72" y="506" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建流程</text>
+<text x="72" y="530" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入存档界面 → 点击右下角【新建存档】→ 选择「经典模式」→ 点击确定 → 进入编辑器界面</text>
+
+<rect x="48" y="562" width="1104" height="44" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="562" width="4" height="44" rx="2" fill="#2D6BE4"/>
+<text x="72" y="590" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提示：创建后进入编辑器界面，操作与超限模式并无差异，仅参数设置和角色选择有所不同。</text>
+
+<!-- Section 3: 关卡基础参数设置 -->
+<text x="48" y="644" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、关卡基础参数设置</text>
+<text x="280" y="644" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">ESC → 系统菜单 → 关卡设置 → 基础系统预设</text>
+
+<!-- Card: 可出战角色数量 -->
+<rect x="48" y="664" width="1104" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="664" width="4" height="160" rx="2" fill="#2D6BE4"/>
+<text x="72" y="694" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可出战角色数量</text>
+<text x="72" y="718" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">调整玩家最多编入队伍的角色数量，默认规则如下：</text>
+
+<rect x="72" y="734" width="1056" height="36" rx="8" fill="#E8EEFB"/>
+<text x="192" y="758" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">玩家数量</text>
+<text x="600" y="758" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">每名玩家最多编入角色数</text>
+<text x="960" y="758" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">备注</text>
+
+<text x="192" y="792" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1 位玩家</text>
+<text x="600" y="792" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">4 个角色</text>
+<text x="960" y="792" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">可修改</text>
+<text x="192" y="816" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2 位玩家</text>
+<text x="600" y="816" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">每人 2 个角色</text>
+<text x="960" y="816" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">前两个数字可修改</text>
+
+<!-- Card: 角色限制 -->
+<rect x="48" y="844" width="1104" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="844" width="4" height="140" rx="2" fill="#2D6BE4"/>
+<text x="72" y="874" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">角色限制</text>
+
+<circle cx="88" cy="902" r="12" fill="#2D6BE4"/>
+<text x="88" y="907" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1</text>
+<text x="108" y="907" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">将角色限制从「无限制」改为「部分角色可用」</text>
+
+<circle cx="88" cy="930" r="12" fill="#2D6BE4"/>
+<text x="88" y="935" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2</text>
+<text x="108" y="935" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击加号图标，选择可以进入关卡的角色</text>
+
+<circle cx="88" cy="958" r="12" fill="#1B4FC0"/>
+<text x="88" y="963" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">3</text>
+<text x="108" y="963" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持按元素力/武器类型筛选，支持一键全选或全部取消</text>
+
+<!-- Section 4: 试玩 -->
+<text x="48" y="1020" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、试玩经典模式关卡</text>
+
+<rect x="48" y="1040" width="340" height="48" rx="24" fill="#2D6BE4"/>
+<text x="218" y="1070" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">ESC → 系统菜单 → 试玩</text>
+<text x="406" y="1070" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<rect x="438" y="1040" width="300" height="48" rx="24" fill="#2D6BE4"/>
+<text x="588" y="1070" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">选择编入角色进队</text>
+<text x="756" y="1070" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<rect x="788" y="1040" width="364" height="48" rx="24" fill="#1B4FC0"/>
+<text x="970" y="1070" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入关卡体验</text>
+
+<rect x="48" y="1104" width="1104" height="44" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1104" width="4" height="44" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1132" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启角色限制后，仅允许选中的角色进入关卡。例如限制为旅行者时，只能编入旅行者。</text>
+
+<!-- Section 5: 拓展应用 -->
+<text x="48" y="1186" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五、拓展：通过节点图修改角色能量</text>
+
+<rect x="48" y="1204" width="1104" height="44" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1204" width="4" height="44" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1232" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建元件 → 添加选项卡组件 → 配置节点图（设置能量为 100/0、添加/减少 10）→ 挂载节点图 → 放置场景 → 试玩</text>
+
+<!-- 相关文档 -->
+<text x="48" y="1274" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhvoc3rviq32" target="_blank">
+  <text x="48" y="1294" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：1.7经典模式</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh4imrrhzdzi" target="_blank">
+  <text x="48" y="1314" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：经典模式角色编号一览</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1336" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

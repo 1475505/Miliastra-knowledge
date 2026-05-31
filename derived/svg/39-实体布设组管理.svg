@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1290">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="1290" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">实体布设组管理</text>
+<text x="290" y="70" fill="#4A4B65" font-size="16">批量管理与快速定位实体的分组工具</text>
+
+<!-- ========== Section 一: 实体布设组的功能 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、实体布设组的功能</text>
+
+<rect x="48" y="168" width="1104" height="180" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="180" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">核心能力</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">可用于批量管理布设实体，通过节点图实现批量创建和销毁。</text>
+
+<text x="72" y="254" fill="#4A4B65" font-size="14">可快速定位到所有属于该组的单位，便于在复杂场景中查找和管理实体。</text>
+
+<rect x="72" y="274" width="1056" height="56" rx="8" fill="#E8EEFB"/>
+<text x="84" y="296" fill="#2D6BE4" font-size="13" font-weight="500">可归属类型</text>
+<rect x="84" y="306" width="56" height="20" rx="10" fill="#2D6BE4"/>
+<text x="112" y="320" fill="#fff" font-size="11" text-anchor="middle" font-weight="500">造物</text>
+<rect x="152" y="306" width="56" height="20" rx="10" fill="#2D6BE4"/>
+<text x="180" y="320" fill="#fff" font-size="11" text-anchor="middle" font-weight="500">角色</text>
+<rect x="220" y="306" width="56" height="20" rx="10" fill="#2D6BE4"/>
+<text x="248" y="320" fill="#fff" font-size="11" text-anchor="middle" font-weight="500">物件</text>
+<rect x="288" y="306" width="56" height="20" rx="10" fill="#2D6BE4"/>
+<text x="316" y="320" fill="#fff" font-size="11" text-anchor="middle" font-weight="500">地形</text>
+
+<rect x="368" y="306" width="200" height="20" rx="10" fill="#FFF3E0"/>
+<text x="468" y="320" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">同一实体可归属于多个布设组</text>
+
+<!-- ========== Section 二: 全局定义 ========== -->
+<text x="48" y="388" fill="#2D6BE4" font-size="18" font-weight="700">二、全局定义</text>
+
+<rect x="48" y="406" width="540" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="406" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="436" fill="#1A1B2E" font-size="16" font-weight="500">管理入口</text>
+
+<text x="72" y="464" fill="#4A4B65" font-size="14">使用前需在实体布设组管理工具中全局定义。</text>
+
+<rect x="72" y="480" width="492" height="32" rx="8" fill="#E8EEFB"/>
+<text x="84" y="501" fill="#2D6BE4" font-size="13" font-weight="500">入口：系统菜单 → 实体布设组管理</text>
+
+<text x="72" y="536" fill="#4A4B65" font-size="14">可新建页签，按页签对实体布设组进行分类管理。</text>
+
+<rect x="72" y="556" width="492" height="32" rx="8" fill="#E5F2E9"/>
+<text x="84" y="577" fill="#2E7D32" font-size="12" font-weight="500">页签分类便于在大型项目中组织不同场景的布设组</text>
+
+<!-- Card: 界面布局 -->
+<rect x="612" y="406" width="540" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="406" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="636" y="436" fill="#1A1B2E" font-size="16" font-weight="500">界面布局</text>
+
+<circle cx="648" cy="466" r="12" fill="#2D6BE4"/>
+<text x="648" y="471" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">L</text>
+<text x="672" y="471" fill="#1A1B2E" font-size="14" font-weight="500">左侧管理栏</text>
+<text x="672" y="491" fill="#4A4B65" font-size="13">浏览已有组、添加新组</text>
+
+<circle cx="648" cy="520" r="12" fill="#2D6BE4"/>
+<text x="648" y="525" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">R</text>
+<text x="672" y="525" fill="#1A1B2E" font-size="14" font-weight="500">右侧详情栏</text>
+<text x="672" y="545" fill="#4A4B65" font-size="13">设置组属性和内容列表</text>
+
+<rect x="636" y="562" width="492" height="28" rx="8" fill="#FFF3E0"/>
+<text x="648" y="581" fill="#E65100" font-size="12" font-weight="500">左右分栏结构，左侧选择组、右侧编辑组内容</text>
+
+<!-- ========== Section 三: 管理实体布设组 ========== -->
+<text x="48" y="648" fill="#2D6BE4" font-size="18" font-weight="700">三、管理实体布设组</text>
+
+<!-- Card: 加入方式 -->
+<rect x="48" y="666" width="540" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="666" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="72" y="696" fill="#1A1B2E" font-size="16" font-weight="500">加入方式</text>
+
+<circle cx="84" cy="726" r="14" fill="#2D6BE4"/>
+<text x="84" y="731" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">1</text>
+<text x="108" y="731" fill="#1A1B2E" font-size="14" font-weight="500">地形编辑页签</text>
+<text x="108" y="751" fill="#4A4B65" font-size="13">右键地形，选择添加到布设组</text>
+
+<circle cx="84" cy="780" r="14" fill="#2D6BE4"/>
+<text x="84" y="785" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">2</text>
+<text x="108" y="785" fill="#1A1B2E" font-size="14" font-weight="500">实体摆放页签</text>
+<text x="108" y="805" fill="#4A4B65" font-size="13">右键实体添加（Shift+左键可多选）</text>
+
+<circle cx="84" cy="834" r="14" fill="#2D6BE4"/>
+<text x="84" y="839" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">3</text>
+<text x="108" y="839" fill="#1A1B2E" font-size="14" font-weight="500">详情界面选中模式</text>
+<text x="108" y="859" fill="#4A4B65" font-size="13">点击"场景中选中"进入选中模式，框选或点击快速添加</text>
+
+<rect x="72" y="878" width="492" height="48" rx="8" fill="#E8EEFB"/>
+<text x="84" y="900" fill="#2D6BE4" font-size="13" font-weight="500">三种方式灵活适配不同编辑场景</text>
+<text x="84" y="918" fill="#4A4B65" font-size="12">地形用右键、实体用多选右键、批量用选中模式</text>
+
+<!-- Card: 详情界面设置 -->
+<rect x="612" y="666" width="540" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="666" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="636" y="696" fill="#1A1B2E" font-size="16" font-weight="500">详情界面设置</text>
+
+<rect x="636" y="714" width="492" height="36" rx="8" fill="#E8EEFB"/>
+<text x="648" y="737" fill="#2D6BE4" font-size="13" font-weight="500">实体布设组名称</text>
+<text x="790" y="737" fill="#4A4B65" font-size="12">自定义命名，便于识别</text>
+
+<rect x="636" y="758" width="492" height="36" rx="8" fill="#FFF3E0"/>
+<text x="648" y="781" fill="#E65100" font-size="13" font-weight="500">索引</text>
+<text x="690" y="781" fill="#4A4B65" font-size="12">唯一标识，节点图通过索引引用该组</text>
+
+<rect x="636" y="802" width="492" height="36" rx="8" fill="#E5F2E9"/>
+<text x="648" y="825" fill="#2E7D32" font-size="13" font-weight="500">初始创建</text>
+<text x="740" y="825" fill="#4A4B65" font-size="12">决定地形和静态物件是否随关卡创建</text>
+
+<rect x="636" y="846" width="492" height="36" rx="8" fill="#FDE8E6"/>
+<text x="648" y="869" fill="#C62828" font-size="13" font-weight="500">内容列表</text>
+<text x="740" y="869" fill="#4A4B65" font-size="12">枚举组内所有单位，可移出或更换所属组</text>
+
+<rect x="636" y="896" width="492" height="32" rx="8" fill="#E8EEFB"/>
+<text x="648" y="917" fill="#2D6BE4" font-size="12" font-weight="500">索引是节点图引用布设组的关键标识，需保持唯一</text>
+
+<!-- ========== Section 四: 节点图管理 ========== -->
+<text x="48" y="988" fill="#2D6BE4" font-size="18" font-weight="700">四、节点图管理</text>
+
+<rect x="48" y="1006" width="1104" height="180" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1006" width="4" height="180" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1036" fill="#1A1B2E" font-size="16" font-weight="500">运行时操作布设组</text>
+
+<text x="72" y="1066" fill="#4A4B65" font-size="14">通过节点图可以查询当前激活的实体布设组列表。</text>
+
+<text x="72" y="1094" fill="#4A4B65" font-size="14">通过节点图可以激活或关闭实体布设组，控制组内实体的创建与销毁。</text>
+
+<rect x="72" y="1114" width="510" height="52" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1136" fill="#2D6BE4" font-size="13" font-weight="500">激活布设组</text>
+<text x="84" y="1154" fill="#4A4B65" font-size="12">组内实体被创建到场景中</text>
+
+<rect x="600" y="1114" width="510" height="52" rx="8" fill="#FDE8E6"/>
+<text x="612" y="1136" fill="#C62828" font-size="13" font-weight="500">关闭布设组</text>
+<text x="612" y="1154" fill="#4A4B65" font-size="12">组内实体被销毁，从场景中移除</text>
+
+<!-- Source links -->
+<text x="48" y="1230" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="1230" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhqmrlr6h58e" target="_blank">
+  <text x="48" y="1250" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：实体布设组管理</text>
+</a>
+<!-- Footer -->
+<text x="600" y="1260" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1630">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="1630" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">掉落物</text>
+<text x="180" y="70" fill="#4A4B65" font-size="16">物品掉落场景后的实体形态 -- 掉落物内容组件与拾取规则</text>
+
+<!-- ========== Section 一: 定义 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、掉落物的定义</text>
+
+<rect x="48" y="168" width="1104" height="220" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="220" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">核心概念</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">所有虚拟物品（道具、装备、货币、背包）掉落在场景中时，会转为一个元件实体，这个实体就是掉落物。</text>
+
+<text x="72" y="256" fill="#4A4B65" font-size="14">在进行虚拟物品的模板编辑时，都需要关联一个掉落物元件；如果没有关联，则掉落逻辑会被屏蔽。</text>
+
+<text x="72" y="286" fill="#4A4B65" font-size="14">掉落物是一种特殊的元件，相比普通动态单位元件，会额外携带一个掉落物内容组件。</text>
+
+<rect x="72" y="308" width="1056" height="32" rx="8" fill="#FDE8E6"/>
+<text x="84" y="329" fill="#C62828" font-size="13" font-weight="500">部分动态单位元件可用的组件，掉落物不可用</text>
+
+<rect x="72" y="348" width="1056" height="28" rx="8" fill="#E8EEFB"/>
+<text x="84" y="367" fill="#2D6BE4" font-size="13" font-weight="500">掉落物内容组件：所有掉落物类型元件固定携带，不可被移除</text>
+
+<!-- ========== Section 二: 掉落物内容组件 ========== -->
+<text x="48" y="430" fill="#2D6BE4" font-size="18" font-weight="700">二、掉落物内容组件的功能</text>
+
+<rect x="48" y="448" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="448" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<text x="72" y="478" fill="#1A1B2E" font-size="16" font-weight="500">组件功能</text>
+
+<text x="72" y="506" fill="#4A4B65" font-size="14">掉落物内容组件定义了掉落物的掉落表现和拾取规则。</text>
+
+<text x="72" y="536" fill="#4A4B65" font-size="14">可支持同时配置多个拾取范围，它们的生效范围会进行叠加。</text>
+
+<!-- ========== Section 三: 拾取规则 ========== -->
+<text x="48" y="610" fill="#2D6BE4" font-size="18" font-weight="700">三、拾取规则（四种模式）</text>
+
+<rect x="48" y="628" width="540" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="628" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="72" y="658" fill="#1A1B2E" font-size="16" font-weight="500">拾取方式</text>
+
+<rect x="72" y="674" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="692" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">交互拾取</text>
+<text x="204" y="692" fill="#4A4B65" font-size="13">角色靠近至拾取范围内，显示交互按钮，</text>
+<text x="204" y="710" fill="#4A4B65" font-size="13">触发按键交互即可直接拾取</text>
+
+<rect x="72" y="724" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="742" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">自动拾取</text>
+<text x="204" y="742" fill="#4A4B65" font-size="13">角色靠近至拾取范围内时，自动触发拾取</text>
+
+<rect x="72" y="768" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="786" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">打开拾取界面</text>
+<text x="204" y="786" fill="#4A4B65" font-size="13">角色靠近后显示交互按钮，触发后打开</text>
+<text x="204" y="804" fill="#4A4B65" font-size="13">拾取界面，玩家选中道具进行拾取</text>
+<text x="204" y="822" fill="#8B8DA0" font-size="12">推荐用于掉落物列表包含多个物品时</text>
+
+<rect x="72" y="836" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="854" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">自动吸附拾取</text>
+<text x="204" y="854" fill="#4A4B65" font-size="13">需配置"自动吸附距离"，角色进入吸附</text>
+<text x="204" y="872" fill="#4A4B65" font-size="13">距离时掉落物朝角色移动，进入拾取范围自动拾取</text>
+
+<!-- Card: 过滤器与掉落内容 -->
+<rect x="612" y="628" width="540" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="628" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="636" y="658" fill="#1A1B2E" font-size="16" font-weight="500">过滤器与掉落内容</text>
+
+<text x="636" y="686" fill="#1A1B2E" font-size="13" font-weight="500">本地过滤器：</text>
+<text x="636" y="706" fill="#4A4B65" font-size="13">分为布尔过滤器和整数过滤器两种</text>
+
+<text x="636" y="734" fill="#1A1B2E" font-size="13" font-weight="500">过滤器节点图：</text>
+<text x="636" y="754" fill="#4A4B65" font-size="13">可引用对应类型的过滤器节点图，判断是否达成条件</text>
+
+<text x="636" y="784" fill="#1A1B2E" font-size="13" font-weight="500">掉落内容：</text>
+<text x="636" y="804" fill="#4A4B65" font-size="13">支持配置一个掉落物所包含虚拟物品的字典</text>
+
+<rect x="636" y="820" width="492" height="56" rx="8" fill="#FFF3E0"/>
+<text x="648" y="840" fill="#E65100" font-size="12" font-weight="500">布设场景创建时：包含组件内配置的所有虚拟物品</text>
+<text x="648" y="858" fill="#E65100" font-size="12" font-weight="500">战利品形式创建时：只包含实际掉落的物品，默认数据被覆盖</text>
+
+<text x="636" y="898" fill="#1A1B2E" font-size="13" font-weight="500">自动吸附距离(m)：</text>
+<text x="636" y="918" fill="#4A4B65" font-size="13">"自动吸附拾取"触发掉落物移动的距离</text>
+
+<!-- ========== Section 四: 拾取范围 ========== -->
+<text x="48" y="970" fill="#2D6BE4" font-size="18" font-weight="700">四、拾取范围</text>
+
+<rect x="48" y="988" width="1104" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="988" width="4" height="140" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1018" fill="#1A1B2E" font-size="16" font-weight="500">拾取范围定义</text>
+
+<text x="72" y="1046" fill="#4A4B65" font-size="14">定义玩家可拾取掉落物的范围，使用通用的形状定义结构。</text>
+
+<text x="72" y="1076" fill="#1A1B2E" font-size="13" font-weight="500">支持三种基本形状：</text>
+
+<rect x="72" y="1090" width="100" height="26" rx="13" fill="#E8EEFB"/>
+<text x="122" y="1108" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">长方体</text>
+
+<rect x="184" y="1090" width="100" height="26" rx="13" fill="#E8EEFB"/>
+<text x="234" y="1108" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">球体</text>
+
+<rect x="296" y="1090" width="100" height="26" rx="13" fill="#E8EEFB"/>
+<text x="346" y="1108" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">胶囊体</text>
+
+<!-- ========== Section 五: 编辑位置 ========== -->
+<text x="48" y="1170" fill="#2D6BE4" font-size="18" font-weight="700">五、掉落物内容组件的编辑位置</text>
+
+<rect x="48" y="1188" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1188" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1218" fill="#1A1B2E" font-size="16" font-weight="500">编辑入口</text>
+
+<circle cx="84" cy="1244" r="12" fill="#2D6BE4"/>
+<text x="84" y="1249" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">1</text>
+<text x="104" y="1249" fill="#4A4B65" font-size="13">进入元件库编辑，找到对应的掉落物页签</text>
+
+<circle cx="84" cy="1274" r="12" fill="#2D6BE4"/>
+<text x="84" y="1279" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">2</text>
+<text x="104" y="1279" fill="#4A4B65" font-size="13">点击"详细编辑"，展开编辑页</text>
+
+<!-- ========== Section 六: 节点图操作 ========== -->
+<text x="48" y="1350" fill="#2D6BE4" font-size="18" font-weight="700">六、节点图操作掉落物组件</text>
+
+<rect x="48" y="1368" width="540" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1368" width="4" height="160" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1398" fill="#1A1B2E" font-size="16" font-weight="500">执行节点</text>
+
+<rect x="72" y="1414" width="492" height="28" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1433" fill="#E65100" font-size="13">增加掉落物组件道具数量</text>
+
+<rect x="72" y="1450" width="492" height="28" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1469" fill="#E65100" font-size="13">增加掉落物组件货币数量</text>
+
+<rect x="72" y="1488" width="492" height="28" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1507" fill="#2D6BE4" font-size="12" font-weight="500">用于在运行时动态修改掉落物内的物品数量</text>
+
+<!-- Card: 查询节点 -->
+<rect x="612" y="1368" width="540" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1368" width="4" height="160" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1398" fill="#1A1B2E" font-size="16" font-weight="500">查询节点</text>
+
+<rect x="636" y="1414" width="492" height="28" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1433" fill="#2E7D32" font-size="13">获取掉落物组件道具数量</text>
+
+<rect x="636" y="1450" width="492" height="28" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1469" fill="#2E7D32" font-size="13">获取掉落物组件装备列表</text>
+
+<rect x="636" y="1486" width="492" height="28" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1505" fill="#2E7D32" font-size="13">获取掉落物组件货币数量</text>
+
+<!-- Source links -->
+<text x="48" y="1570" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="1570" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhkfj1iilnck" target="_blank">
+  <text x="48" y="1590" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：掉落物</text>
+</a>
+<!-- Footer -->
+<text x="600" y="1600" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

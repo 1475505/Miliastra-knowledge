@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2074">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<!-- Page background -->
+<rect width="1200" height="2074" fill="#F9F7F2"/>
+<!-- Top color band -->
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地形编辑</text>
+<text x="216" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关卡场景地形搭建的完整操作指南</text>
+
+<!-- Section 1: 入口与基础 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、入口与基础概念</text>
+
+<rect x="48" y="168" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">入口位置：顶部页签栏第一个按钮</text>
+<text x="72" y="222" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">初始创生：创建存档时自动生成 100×100 地形（位于世界坐标 0,0,0）</text>
+<text x="72" y="246" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">最小操作单位：单层地块 5×5，层高 2.5</text>
+
+<!-- Section 2: 主界面 -->
+<text x="48" y="328" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、主界面组成</text>
+
+<!-- Card: 资产栏 -->
+<rect x="48" y="346" width="540" height="136" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="346" width="4" height="136" rx="2" fill="#2D6BE4"/>
+<text x="72" y="376" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">资产栏（左侧上方按钮开关）</text>
+<rect x="72" y="390" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="407" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地块材质</text>
+<rect x="164" y="390" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="204" y="407" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">环境配置</text>
+<rect x="256" y="390" width="96" height="24" rx="12" fill="#E8EEFB"/>
+<text x="304" y="407" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义元件</text>
+<rect x="364" y="390" width="96" height="24" rx="12" fill="#E8EEFB"/>
+<text x="412" y="407" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">预制元件</text>
+<rect x="472" y="390" width="72" height="24" rx="12" fill="#E8EEFB"/>
+<text x="508" y="407" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">资产库</text>
+<text x="72" y="440" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地块材质点击后进入自由编辑模式</text>
+<text x="72" y="464" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义/预制元件点击后直接创建</text>
+
+<!-- Card: 详情栏 -->
+<rect x="612" y="346" width="540" height="136" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="346" width="4" height="136" rx="2" fill="#2D6BE4"/>
+<text x="636" y="376" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">详情栏（右侧上方按钮开关）</text>
+<text x="636" y="404" fill="#4A4B65" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地形列表功能：</text>
+<text x="636" y="426" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">- 修改名称（双击名称开启）</text>
+<text x="636" y="448" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">- 聚焦（镜头定位至地形）</text>
+<text x="636" y="470" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">- 创建地形（进入地形创建流程）</text>
+
+<!-- Card: 详情栏-地形详情 -->
+<rect x="48" y="502" width="1104" height="96" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="502" width="4" height="96" rx="2" fill="#2D6BE4"/>
+<text x="72" y="530" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地形详情（选中地形后出现）</text>
+<text x="72" y="556" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">修改地形位置（X/Y/Z）</text>
+<text x="362" y="556" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">修改地形旋转（Y值）</text>
+<text x="652" y="556" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地块材质替换/清除</text>
+<text x="72" y="580" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">多选时地形详情不可用</text>
+
+<!-- Section 3: 地形创建 -->
+<text x="48" y="642" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、地形创建</text>
+
+<!-- Flow: 创建 -->
+<rect x="48" y="660" width="260" height="48" rx="24" fill="#2D6BE4"/>
+<text x="178" y="690" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">选择材质</text>
+<text x="328" y="690" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">›</text>
+<rect x="360" y="660" width="260" height="48" rx="24" fill="#2D6BE4"/>
+<text x="490" y="690" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">设定高度与笔刷</text>
+<text x="640" y="690" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">›</text>
+<rect x="672" y="660" width="260" height="48" rx="24" fill="#2D6BE4"/>
+<text x="802" y="690" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">涂抹创建地块</text>
+<text x="952" y="690" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">›</text>
+<rect x="984" y="660" width="168" height="48" rx="24" fill="#1B4FC0"/>
+<text x="1068" y="690" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">生成地形</text>
+
+<text x="48" y="736" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建入口：左侧资产栏点击右下角「基于格线创建」或右侧详情栏「创建地形」按钮</text>
+
+<!-- Brush tools card -->
+<rect x="48" y="756" width="1104" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="756" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="786" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">笔刷模式与功能</text>
+
+<!-- Row 1: 地块操作 -->
+<rect x="72" y="800" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="817" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地块操作</text>
+<text x="168" y="817" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建：增高 x 层</text>
+<text x="368" y="817" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">删除：降低 x 层</text>
+<text x="568" y="817" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">抹平：指定高度</text>
+<text x="768" y="817" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">笔刷层数控制单次操作的层数数值</text>
+
+<!-- Row 2: 斜坡操作 -->
+<rect x="72" y="838" width="80" height="24" rx="12" fill="#FFF3E0"/>
+<text x="112" y="855" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">斜坡操作</text>
+<text x="168" y="855" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">设置方向：正向/向左/向右</text>
+<text x="468" y="855" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建斜坡 / 删除斜坡</text>
+<text x="768" y="855" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">仅可选中已创建的地块</text>
+
+<!-- Row 3: 水体操作 -->
+<rect x="72" y="876" width="80" height="24" rx="12" fill="#E5F2E9"/>
+<text x="112" y="893" fill="#34A853" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">水体操作</text>
+<text x="168" y="893" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建水体：顶部一层变水体</text>
+<text x="468" y="893" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">删除水体：顶部水体变地块</text>
+<text x="768" y="893" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">仅可选中已创建的地块/水体</text>
+
+<!-- Row 4: 路径操作 -->
+<rect x="72" y="914" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="931" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">路径操作</text>
+<text x="168" y="931" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建路径：顶部表面创建路径</text>
+<text x="468" y="931" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">删除路径：删除顶部表面路径</text>
+
+<!-- 高度标尺 -->
+<rect x="48" y="972" width="1104" height="68" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="972" width="4" height="68" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1002" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">高度标尺（仅地形创建模式可用）</text>
+<text x="72" y="1024" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">移动滑块改变画布高度</text>
+<text x="312" y="1024" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">输入框直接改变高度</text>
+<text x="552" y="1024" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">聚焦画布高度</text>
+<text x="752" y="1024" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">增减画布高度 20</text>
+
+<!-- 提示 -->
+<rect x="48" y="1060" width="1104" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1060" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1090" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地形生成逻辑：所有相连的地块形成一块地形，不相连地块会创建为多个地形。</text>
+
+<!-- Section 4: 指针操作 -->
+<text x="48" y="1146" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、指针操作</text>
+<text x="244" y="1146" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">未进入编辑模式时的默认操作</text>
+
+<!-- Single select card -->
+<rect x="48" y="1164" width="540" height="230" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1164" width="4" height="230" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1194" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">单选地形</text>
+
+<circle cx="88" cy="1228" r="14" fill="#2D6BE4"/>
+<text x="88" y="1233" fill="#fff" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1</text>
+<text x="114" y="1233" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">变换处理：移动 / 旋转（空格切换）</text>
+
+<circle cx="88" cy="1262" r="14" fill="#2D6BE4"/>
+<text x="88" y="1267" fill="#fff" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2</text>
+<text x="114" y="1267" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">层数调整：抬高一层 / 下沉一层</text>
+
+<circle cx="88" cy="1296" r="14" fill="#2D6BE4"/>
+<text x="88" y="1301" fill="#fff" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">3</text>
+<text x="114" y="1301" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地块选择：Shift+左键多选 → 抬升/下沉/分割</text>
+
+<circle cx="88" cy="1330" r="14" fill="#2D6BE4"/>
+<text x="88" y="1335" fill="#fff" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">4</text>
+<text x="114" y="1335" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">精准编辑：进入精准编辑模式</text>
+
+<circle cx="88" cy="1364" r="14" fill="#1B4FC0"/>
+<text x="88" y="1369" fill="#fff" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">5</text>
+<text x="114" y="1369" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">删除地形</text>
+
+<!-- Multi select card -->
+<rect x="612" y="1164" width="540" height="100" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1164" width="4" height="100" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1194" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">多选地形</text>
+<text x="636" y="1220" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可用功能：变换处理工具、删除</text>
+<text x="636" y="1244" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">同时操作所有选中地形</text>
+
+<!-- Right-click menu -->
+<rect x="612" y="1280" width="540" height="108" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1280" width="4" height="108" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1310" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">右键菜单功能</text>
+<text x="636" y="1336" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">复制 / 粘贴 / 镜头聚焦 / 删除</text>
+<text x="636" y="1360" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">资产导出 / 角色假人 / 添加到实体布设组</text>
+
+<!-- Section 5: 自由编辑与精准编辑 -->
+<text x="48" y="1426" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五、自由编辑与精准编辑</text>
+
+<!-- Comparison: 自由 vs 精准 -->
+<rect x="48" y="1444" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+<rect x="48" y="1476" width="1104" height="12" fill="#2D6BE4"/>
+<text x="222" y="1472" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">对比项</text>
+<text x="600" y="1472" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自由编辑</text>
+<text x="960" y="1472" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">精准编辑</text>
+
+<rect x="48" y="1488" width="1104" height="44" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="222" y="1516" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入方式</text>
+<text x="600" y="1516" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击资产栏材质</text>
+<text x="960" y="1516" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">指针操作选地形后进入</text>
+<line x1="392" y1="1498" x2="392" y2="1522" stroke="#E8E4DA"/>
+<line x1="780" y1="1498" x2="780" y2="1522" stroke="#E8E4DA"/>
+
+<rect x="48" y="1534" width="1104" height="44" rx="0" fill="#F4F1EA"/>
+<text x="222" y="1562" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">编辑范围</text>
+<text x="600" y="1562" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可切换编辑任意地形</text>
+<text x="960" y="1562" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">仅限开始前选中的地形</text>
+<line x1="392" y1="1544" x2="392" y2="1568" stroke="#E8E4DA"/>
+<line x1="780" y1="1544" x2="780" y2="1568" stroke="#E8E4DA"/>
+
+<rect x="48" y="1580" width="1104" height="44" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="222" y="1608" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">结束方式</text>
+<text x="600" y="1608" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击其他地形时结束</text>
+<text x="960" y="1608" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击结束绘制按钮</text>
+<line x1="392" y1="1590" x2="392" y2="1614" stroke="#E8E4DA"/>
+<line x1="780" y1="1590" x2="780" y2="1614" stroke="#E8E4DA"/>
+
+<rect x="48" y="1626" width="1104" height="44" rx="0" fill="#F4F1EA"/>
+<text x="222" y="1654" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可用功能</text>
+<text x="600" y="1654" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">素材栏 + 底部功能区</text>
+<text x="960" y="1654" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">素材栏 + 底部功能区</text>
+<line x1="392" y1="1636" x2="392" y2="1660" stroke="#E8E4DA"/>
+<line x1="780" y1="1636" x2="780" y2="1660" stroke="#E8E4DA"/>
+
+<!-- Section 6: 快捷操作 -->
+<text x="48" y="1716" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">六、快捷操作</text>
+<text x="216" y="1716" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">处于任意编辑模式或地块操作模式中可用</text>
+
+<rect x="48" y="1734" width="540" height="100" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1734" width="4" height="100" rx="2" fill="#2D6BE4"/>
+<rect x="72" y="1754" width="96" height="24" rx="12" fill="#E8EEFB"/>
+<text x="120" y="1771" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">统一高度</text>
+<text x="72" y="1802" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">按住 Alt 键，第一次点击获取地块层数</text>
+<text x="72" y="1822" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">后续点击将笔刷所接触地块统一到该层数</text>
+
+<rect x="612" y="1734" width="540" height="100" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1734" width="4" height="100" rx="2" fill="#2D6BE4"/>
+<rect x="636" y="1754" width="96" height="24" rx="12" fill="#E8EEFB"/>
+<text x="684" y="1771" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">快捷生成</text>
+<text x="636" y="1802" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">按住 Shift 键，点击网格起点</text>
+<text x="636" y="1822" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">悬停预览终点，点击终点后生成地形</text>
+
+<!-- FAQ warnings -->
+<rect x="48" y="1852" width="1104" height="48" rx="10" fill="#FDE8E6"/>
+<rect x="48" y="1852" width="4" height="48" rx="2" fill="#D93025"/>
+<text x="72" y="1882" fill="#D93025" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">FAQ：无法在已有地形墙面挖洞，中间层不可删除。需通过两地形拼接实现挖洞/造桥效果。</text>
+
+<rect x="48" y="1910" width="1104" height="48" rx="10" fill="#FDE8E6"/>
+<rect x="48" y="1910" width="4" height="48" rx="2" fill="#D93025"/>
+<text x="72" y="1940" fill="#D93025" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">FAQ：局内编辑器的水体不支持冰元素技能冻结，与游戏本篇不同。</text>
+
+<!-- 相关文档 -->
+<text x="48" y="1988" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhwe1n94b1x6" target="_blank">
+  <text x="48" y="2008" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：地形编辑指南</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/faq/detail/mhcqfc0h5aoo" target="_blank">
+  <text x="48" y="2028" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：地形编辑FAQ</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="2050" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+</svg>

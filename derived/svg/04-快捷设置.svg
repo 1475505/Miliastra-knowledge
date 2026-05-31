@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1450">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<!-- Page background -->
+<rect width="1200" height="1450" fill="#F9F7F2"/>
+<!-- Top color band -->
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">快捷设置</text>
+<text x="240" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">编辑界面右上角齿轮图标呼出的快捷配置菜单</text>
+
+<!-- Section 1: 镜头控制 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、镜头控制</text>
+
+<rect x="48" y="170" width="540" height="80" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="200" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">镜头水平速度</text>
+<text x="72" y="224" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">编辑界面中水平方向移动镜头的速度</text>
+
+<rect x="612" y="170" width="540" height="80" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="170" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="636" y="200" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">镜头垂直速度</text>
+<text x="636" y="224" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">编辑界面中垂直方向移动镜头的速度</text>
+
+<!-- Section 2: 摆放控制 -->
+<text x="48" y="292" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、摆放控制</text>
+
+<rect x="48" y="310" width="1104" height="380" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="310" width="4" height="380" rx="2" fill="#2D6BE4"/>
+
+<rect x="72" y="334" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="351" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">贴地摆放</text>
+<text x="168" y="351" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启后，布设的单位底部紧贴地形摆放</text>
+
+<rect x="72" y="374" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="391" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">表面吸附</text>
+<text x="168" y="391" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启后，布设的单位贴近附近的其他单位</text>
+
+<rect x="72" y="414" width="112" height="24" rx="12" fill="#FFF3E0"/>
+<text x="128" y="431" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">吸附后转正</text>
+<text x="200" y="431" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">仅表面吸附开启后可用，自动旋转贴近的单位</text>
+<text x="72" y="456" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">如：将物件吸附到墙面时，物件会根据墙面角度自动调整朝向</text>
+
+<rect x="72" y="480" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="497" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">中心对齐</text>
+<text x="168" y="497" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启后，布设单位的中心点自动与附近单位对齐</text>
+
+<text x="72" y="534" fill="#1A1B2E" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">对齐位置</text>
+<text x="184" y="534" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">指定中心对齐时使用的坐标系</text>
+
+<rect x="72" y="554" width="152" height="24" rx="12" fill="#E8EEFB"/>
+<text x="148" y="571" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">移动时显示距离</text>
+<text x="240" y="571" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">移动单位时在界面底部显示相对位移</text>
+
+<rect x="72" y="594" width="128" height="24" rx="12" fill="#E8EEFB"/>
+<text x="136" y="611" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">Alt复制数量</text>
+<text x="216" y="611" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">长按 Alt 批量复制时的复制数量</text>
+
+<!-- 摆放 tip -->
+<rect x="72" y="640" width="1056" height="36" rx="8" fill="#E8EEFB"/>
+<rect x="72" y="640" width="4" height="36" rx="2" fill="#2D6BE4"/>
+<text x="92" y="664" fill="#2D6BE4" font-size="13" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提示：表面吸附 + 吸附后转正组合使用可快速在斜面/墙面放置物件。</text>
+
+<!-- Section 3: 显示控制 -->
+<text x="48" y="732" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、显示控制</text>
+
+<rect x="48" y="750" width="1104" height="226" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="750" width="4" height="226" rx="2" fill="#2D6BE4"/>
+
+<rect x="72" y="774" width="128" height="24" rx="12" fill="#E8EEFB"/>
+<text x="136" y="791" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">造物入战范围</text>
+<text x="216" y="791" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">控制是否显示造物入战范围可视化标识</text>
+
+<rect x="72" y="814" width="128" height="24" rx="12" fill="#E8EEFB"/>
+<text x="136" y="831" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">预设点常驻显示</text>
+<text x="216" y="831" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">控制预设点是否在编辑界面中常驻显示</text>
+
+<rect x="72" y="854" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="871" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">空物件提示模型常驻</text>
+<text x="248" y="871" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">控制空物件的示意模型是否常驻显示</text>
+
+<rect x="72" y="894" width="112" height="24" rx="12" fill="#E8EEFB"/>
+<text x="128" y="911" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">路径常驻显示</text>
+<text x="200" y="911" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">控制路径是否在编辑界面中常驻显示</text>
+
+<!-- Section 4: 环境与快捷键 -->
+<text x="48" y="1018" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、环境设置与快捷键</text>
+
+<rect x="48" y="1036" width="540" height="80" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1036" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1066" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">环境设置</text>
+<text x="72" y="1090" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">设置当前场景内生效的环境内容</text>
+<text x="72" y="1108" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">包含：背景、灯光、天气</text>
+
+<rect x="612" y="1036" width="540" height="80" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1036" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1066" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">快捷键总览</text>
+<text x="636" y="1090" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击可查看编辑界面所有可用的快捷键说明</text>
+
+<!-- Section 5: 常用快捷键 -->
+<text x="48" y="1156" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五、编辑器相机操作快捷键</text>
+
+<rect x="48" y="1174" width="1104" height="36" rx="8" fill="#2D6BE4"/>
+<text x="220" y="1198" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操作</text>
+<text x="700" y="1198" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">快捷键</text>
+
+<rect x="48" y="1210" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="220" y="1234" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自由移动相机</text>
+<rect x="656" y="1222" width="88" height="24" rx="6" fill="#E8EEFB"/>
+<text x="700" y="1239" fill="#2D6BE4" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">WASD</text>
+
+<rect x="48" y="1246" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="220" y="1270" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相机上升 / 下降</text>
+<rect x="656" y="1258" width="88" height="24" rx="6" fill="#E8EEFB"/>
+<text x="700" y="1275" fill="#2D6BE4" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">E / Q</text>
+
+<rect x="48" y="1282" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="220" y="1306" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">旋转相机</text>
+<text x="700" y="1306" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">鼠标右键</text>
+
+<rect x="48" y="1318" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="220" y="1342" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">水平移动相机</text>
+<text x="700" y="1342" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">鼠标中键</text>
+
+<rect x="200" y="1246" width="200" height="1" opacity="0"/>
+<rect x="140" y="1318" width="200" height="1" opacity="0"/>
+
+<!-- 相关文档 -->
+<text x="48" y="1384" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhn4bsi5lb58" target="_blank">
+  <text x="48" y="1404" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：整体界面</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1426" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 650">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="650" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">图文输入框控件</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">图片与文本混排 | 图片动态适配文本长度 | 行间距与偏移配置</text>
+
+  <rect x="40" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、图文输入框的功能</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可配置在界面布局中，</text>
+  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">适用于图片和文本混排使用的情景。</text>
+  <text x="60" y="238" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">图片会基于文本内容的实际长度进行动态适配。</text>
+  <rect x="60" y="260" width="120" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="277" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">图文混排</text>
+  <rect x="190" y="260" width="120" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="205" y="277" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">动态适配</text>
+
+  <rect x="620" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、文本框设置</text>
+  <text x="640" y="190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">字号</text>
+  <text x="740" y="190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">图文输入框中文本的字号大小</text>
+  <text x="640" y="220" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">行间距</text>
+  <text x="740" y="220" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">行距单位为字号尺寸</text>
+  <text x="640" y="248" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">实际行距尺寸 = 当前字号 x 行间距值</text>
+  <rect x="640" y="260" width="160" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="655" y="277" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">行间距=字号*值</text>
+
+  <rect x="40" y="310" width="1120" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、图片设置</text>
+  <text x="60" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">在图文输入框中，点击【插入图片】后可添加图片。</text>
+
+  <text x="60" y="400" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">图片特性：</text>
+  <text x="60" y="425" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">图片不能够修改颜色。</text>
+  <text x="60" y="452" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">当图片源设置为【静态引用】时，无法使用素材组。</text>
+
+  <text x="60" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">位置偏移：</text>
+  <text x="180" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">单位为字号尺寸，即：实际偏移值 = 当前字号 x 偏移值</text>
+
+  <rect x="40" y="510" width="1120" height="60" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、添加方式</text>
+  <text x="250" y="540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">在界面控件组编辑窗口，添加界面控件模板 - 图文输入框。</text>
+
+  <text x="600" y="620" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="620" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh496c08hooo" target="_blank">
+  <text x="48" y="640" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：图文输入框控件</text>
+</a>
+</svg>

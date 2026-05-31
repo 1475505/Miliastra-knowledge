@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 820">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="820" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">文本框界面控件</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">显示预编辑文本内容 | 支持自定义变量实时更新</text>
+
+  <!-- Section 1: Function -->
+  <rect x="40" y="130" width="540" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、文本框的功能</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">关卡运行中，显示预先编辑的文本内容。</text>
+  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">若文本内容中包含自定义变量，会实时更新显示。</text>
+  <rect x="60" y="230" width="100" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="247" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">实时刷新</text>
+  <rect x="170" y="230" width="120" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="185" y="247" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">自定义变量</text>
+
+  <!-- Section 2: Edit -->
+  <rect x="620" y="130" width="540" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、编辑参数</text>
+  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E" font-weight="700">背景颜色</text>
+  <text x="740" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持透明、黑色半透明底色</text>
+  <text x="640" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E" font-weight="700">字号</text>
+  <text x="740" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">文本显示的字号大小配置</text>
+  <text x="640" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E" font-weight="700">文本内容</text>
+  <text x="740" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持基础字符、数字、自定义变量</text>
+  <text x="640" y="257" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E" font-weight="700">对齐</text>
+  <text x="740" y="257" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">左/中/右 + 顶/中/底 六种对齐方式</text>
+
+  <!-- Section 3: Variable Insert -->
+  <rect x="40" y="290" width="1120" height="250" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="320" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、插入自定义变量</text>
+  <text x="60" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过「插入变量」选择预定义在关卡实体、玩家实体上的自定义变量。变量数据变化后，运行中显示文本会同步更新。</text>
+
+  <text x="60" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">富文本格式：</text>
+  <rect x="200" y="365" width="260" height="28" rx="6" fill="#E8EEFB"/>
+  <text x="215" y="385" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">{类型:前缀.变量名}</text>
+
+  <!-- Table -->
+  <rect x="60" y="405" width="500" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="80" y="428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">自定义变量目标</text>
+  <text x="320" y="428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">前缀</text>
+  <text x="440" y="428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">示例</text>
+
+  <text x="80" y="460" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">玩家1~8</text>
+  <text x="320" y="460" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">p1~8</text>
+  <text x="440" y="460" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">{1:p4.测试2}</text>
+
+  <text x="80" y="486" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">关卡实体</text>
+  <text x="320" y="486" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">lv</text>
+  <text x="440" y="486" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">{1:lv.分数}</text>
+
+  <text x="80" y="512" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">玩家自身实体</text>
+  <text x="320" y="512" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">ps</text>
+  <text x="440" y="512" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">{1:ps.血量}</text>
+
+  <!-- Right side: format explanation -->
+  <rect x="620" y="405" width="520" height="120" rx="10" fill="#FFF3E0"/>
+  <text x="640" y="430" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">格式说明</text>
+  <text x="640" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">类型：引用自定义变量时为 1</text>
+  <text x="640" y="481" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">前缀：根据变量所属实体确定</text>
+  <text x="640" y="504" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">变量名：在实体上预定义的自定义变量名称</text>
+
+  <!-- Section 4: Alignment -->
+  <rect x="40" y="560" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="590" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、对齐方式</text>
+
+  <rect x="60" y="610" width="150" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="80" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">水平：左/中/右</text>
+  <rect x="220" y="610" width="150" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="240" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">垂直：顶/中/底</text>
+
+  <text x="60" y="670" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">根据文本位置与内容选择合适的对齐方式。</text>
+  <text x="60" y="695" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">水平与垂直方向可独立配置。</text>
+  <text x="60" y="720" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">共六种对齐方式可自由组合。</text>
+
+  <!-- Section 5: Layout Adjustment -->
+  <rect x="620" y="560" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="590" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、界面布局中的调整</text>
+  <text x="640" y="618" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">将鼠标放在编辑窗口内，正在编辑中的文本框边界，</text>
+  <text x="640" y="641" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">鼠标将变成箭头符号，支持调整文本框的大小。</text>
+  <text x="640" y="670" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">调整后，其位置、大小参数会同步进行更新。</text>
+  <rect x="640" y="690" width="120" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="655" y="707" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">拖拽调整大小</text>
+  <rect x="770" y="690" width="120" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="785" y="707" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">参数同步更新</text>
+
+  <!-- Footer -->
+  <text x="600" y="790" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="790" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhnltrr3g966" target="_blank">
+  <text x="48" y="810" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：文本框界面控件</text>
+</a>
+</svg>

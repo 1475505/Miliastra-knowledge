@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2470">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="2470" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">复杂造物</text>
+<text x="240" y="70" fill="#4A4B65" font-size="16">可自定义逻辑与技能的造物 -- 造物状态决策、技能管理与自主逻辑参数</text>
+
+<!-- ========== Section 一: 定义与创建 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、复杂造物的定义与创建</text>
+
+<rect x="48" y="168" width="1104" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="140" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">定义</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">为满足奇匠对造物模型和行为进行更自由化定制的需求，投放了部分造物可以对其自主逻辑进行编辑，</text>
+<text x="72" y="248" fill="#4A4B65" font-size="14">以及可以像角色一样编辑自定义技能，这部分造物称为复杂造物。</text>
+
+<text x="72" y="278" fill="#1A1B2E" font-size="14" font-weight="500">创建方式：</text>
+<text x="200" y="278" fill="#4A4B65" font-size="14">在实体摆放界面，在复杂造物页签中选择具体项，选中或拖入场景内即可创建。</text>
+
+<!-- ========== Section 二: 与基础造物的区别 ========== -->
+<text x="48" y="350" fill="#2D6BE4" font-size="18" font-weight="700">二、复杂造物与基础造物的区别</text>
+
+<rect x="48" y="368" width="540" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="368" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="398" fill="#1A1B2E" font-size="16" font-weight="500">基础信息差异</text>
+
+<rect x="72" y="414" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="432" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">变换</text>
+<text x="204" y="432" fill="#4A4B65" font-size="13">支持缩放调整，缩放调整率为0.5-3.0</text>
+
+<rect x="72" y="450" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="468" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">模型</text>
+<text x="204" y="468" fill="#4A4B65" font-size="13">可调整预设状态，影响一系列表现（含初始动作）</text>
+
+<rect x="72" y="496" width="492" height="56" rx="8" fill="#E8EEFB"/>
+<text x="84" y="516" fill="#2D6BE4" font-size="12" font-weight="500">其他参数含义参考基础造物文档</text>
+<text x="84" y="536" fill="#4A4B65" font-size="12">基础造物的通用组件、节点图等功能同样适用于复杂造物</text>
+
+<!-- Card: 特化配置差异 -->
+<rect x="612" y="368" width="540" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="368" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="636" y="398" fill="#1A1B2E" font-size="16" font-weight="500">特化配置差异（核心）</text>
+
+<rect x="636" y="414" width="200" height="26" rx="13" fill="#2D6BE4"/>
+<text x="736" y="432" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">造物状态决策节点图</text>
+<text x="848" y="432" fill="#4A4B65" font-size="13">持续访问，按条件进入不同自主逻辑状态</text>
+
+<rect x="636" y="450" width="200" height="26" rx="13" fill="#2D6BE4"/>
+<text x="736" y="468" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">造物技能管理</text>
+<text x="848" y="468" fill="#4A4B65" font-size="13">自定义技能，类似角色技能编辑方式</text>
+
+<rect x="636" y="486" width="200" height="26" rx="13" fill="#2D6BE4"/>
+<text x="736" y="504" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">自主逻辑参数设置</text>
+<text x="848" y="504" fill="#4A4B65" font-size="13">定义战斗行为基础需求参数</text>
+
+<rect x="636" y="522" width="492" height="32" rx="8" fill="#FDE8E6"/>
+<text x="648" y="543" fill="#C62828" font-size="12" font-weight="500">复杂造物独有：状态决策 + 自定义技能 + 自主逻辑参数模板</text>
+
+<!-- ========== Section 三: 造物技能管理 ========== -->
+<text x="48" y="610" fill="#2D6BE4" font-size="18" font-weight="700">三、造物技能管理</text>
+
+<rect x="48" y="628" width="540" height="340" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="628" width="4" height="340" rx="2" fill="#2D6BE4"/>
+<text x="72" y="658" fill="#1A1B2E" font-size="16" font-weight="500">技能基础设置</text>
+
+<text x="72" y="686" fill="#4A4B65" font-size="14">复杂造物可使用自定义技能，需预先定义后才能在造物状态节点图中使用。</text>
+<text x="72" y="708" fill="#4A4B65" font-size="14">技能编辑方式类似角色技能。</text>
+
+<text x="72" y="738" fill="#1A1B2E" font-size="13" font-weight="500">技能引用：</text>
+<rect x="72" y="750" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="767" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">序号</text>
+<text x="164" y="767" fill="#4A4B65" font-size="12">状态节点图中引用，用于实际执行的调用</text>
+
+<rect x="72" y="780" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="112" y="797" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">引用技能</text>
+<text x="164" y="797" fill="#4A4B65" font-size="12">只能引用支持自身使用的技能</text>
+
+<rect x="72" y="820" width="492" height="44" rx="8" fill="#FFF3E0"/>
+<text x="84" y="840" fill="#E65100" font-size="12" font-weight="500">技能释放受三重冷却限制：</text>
+<text x="84" y="858" fill="#4A4B65" font-size="12">技能公共冷却时间 + 技能冷却时间 + 技能冷却组时间，全部满足才可释放</text>
+
+<text x="72" y="892" fill="#1A1B2E" font-size="13" font-weight="500">造物技能通用配置：</text>
+<text x="72" y="912" fill="#4A4B65" font-size="12">可打断其他技能 / 自动面向目标 / 击败目标是否继续释放</text>
+<text x="72" y="930" fill="#4A4B65" font-size="12">目标可达时释放技能 / 目标不可达时释放技能</text>
+
+<text x="72" y="956" fill="#1A1B2E" font-size="13" font-weight="500">技能类型：</text>
+<text x="72" y="976" fill="#4A4B65" font-size="12">瞬发技能（瞬间触发，不可编辑动画） / 普通技能（可编辑动画时间轴）</text>
+
+<!-- Card: 冷却时间配置 -->
+<rect x="612" y="628" width="540" height="340" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="628" width="4" height="340" rx="2" fill="#2D6BE4"/>
+<text x="636" y="658" fill="#1A1B2E" font-size="16" font-weight="500">冷却时间配置</text>
+
+<text x="636" y="686" fill="#1A1B2E" font-size="13" font-weight="500">每个技能的冷却参数：</text>
+
+<rect x="636" y="700" width="200" height="24" rx="12" fill="#E8EEFB"/>
+<text x="736" y="717" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">初始冷却开始时点</text>
+<text x="848" y="717" fill="#4A4B65" font-size="12">入战时 / 脱战时</text>
+
+<rect x="636" y="730" width="200" height="24" rx="12" fill="#E8EEFB"/>
+<text x="736" y="747" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">初始冷却区间(s)</text>
+<text x="848" y="747" fill="#4A4B65" font-size="12">区间随机，创生后经过此时间才可使用</text>
+
+<rect x="636" y="760" width="200" height="24" rx="12" fill="#E8EEFB"/>
+<text x="736" y="777" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">默认冷却区间(s)</text>
+<text x="848" y="777" fill="#4A4B65" font-size="12">区间随机，使用后在此时间内不可再用</text>
+
+<rect x="636" y="790" width="200" height="24" rx="12" fill="#E8EEFB"/>
+<text x="736" y="807" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">所属冷却时间组</text>
+<text x="848" y="807" fill="#4A4B65" font-size="12">需同时满足自身+公共+组冷却</text>
+
+<rect x="636" y="820" width="200" height="24" rx="12" fill="#E8EEFB"/>
+<text x="736" y="837" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">冷却时间触发时机</text>
+<text x="848" y="837" fill="#4A4B65" font-size="12">技能结束时 / 技能开始时</text>
+
+<rect x="636" y="850" width="200" height="24" rx="12" fill="#E8EEFB"/>
+<text x="736" y="867" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">触发/忽略公共冷却</text>
+<text x="848" y="867" fill="#4A4B65" font-size="12">是否影响/无视公共冷却时间</text>
+
+<text x="636" y="902" fill="#1A1B2E" font-size="13" font-weight="500">公共冷却时间(s)：</text>
+<text x="636" y="922" fill="#4A4B65" font-size="12">所有技能都受此公共冷却影响</text>
+
+<text x="636" y="950" fill="#1A1B2E" font-size="13" font-weight="500">冷却时间组：</text>
+<text x="636" y="970" fill="#4A4B65" font-size="12">组序号(节点引用) / 组名称(编辑选取) / 冷却区间(s)</text>
+
+<!-- ========== Section 四: 自主逻辑参数 ========== -->
+<text x="48" y="1010" fill="#2D6BE4" font-size="18" font-weight="700">四、自主逻辑参数设置</text>
+
+<rect x="48" y="1028" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1028" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1058" fill="#1A1B2E" font-size="16" font-weight="500">参数模板概述</text>
+
+<text x="72" y="1086" fill="#4A4B65" font-size="14">复杂造物需要定义自主逻辑参数模板，可在造物状态节点图中使用。这些参数是战斗行为的基础需求参数。</text>
+
+<rect x="72" y="1104" width="240" height="26" rx="13" fill="#FFF3E0"/>
+<text x="192" y="1122" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">初始生效自主逻辑参数模板</text>
+<text x="324" y="1122" fill="#4A4B65" font-size="13">运行时默认生效，至多1个</text>
+
+<!-- Sub-cards for auto-logic params -->
+<rect x="48" y="1168" width="540" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1168" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1198" fill="#1A1B2E" font-size="16" font-weight="500">入战设置</text>
+
+<text x="72" y="1226" fill="#1A1B2E" font-size="13" font-weight="500">范围感知：</text>
+<text x="72" y="1246" fill="#4A4B65" font-size="13">范围感知距离 -- 敌对实体处于该范围内即入战</text>
+
+<text x="72" y="1274" fill="#1A1B2E" font-size="13" font-weight="500">视野检测：</text>
+<text x="72" y="1294" fill="#4A4B65" font-size="13">视野类型：视锥(配置视锥距离) / 全视野(配置球体半径)</text>
+
+<text x="72" y="1322" fill="#1A1B2E" font-size="13" font-weight="500">连锁入战距离(m)：</text>
+<text x="72" y="1342" fill="#4A4B65" font-size="13">造物入战时，范围内未入战的造物也一同入战</text>
+
+<rect x="72" y="1362" width="492" height="32" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1383" fill="#2D6BE4" font-size="12" font-weight="500">所有范围均可在编辑界面开启预览查看</text>
+
+<!-- Right card: 脱战 + 领地 -->
+<rect x="612" y="1168" width="540" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1168" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1198" fill="#1A1B2E" font-size="16" font-weight="500">脱战设置与领地设置</text>
+
+<text x="636" y="1226" fill="#1A1B2E" font-size="13" font-weight="500">脱战设置：</text>
+<text x="636" y="1246" fill="#4A4B65" font-size="13">脱战距离(m) -- 与目标距离大于配置距离时脱战</text>
+<text x="636" y="1266" fill="#4A4B65" font-size="13">寻路失败脱战 -- 与目标间无合法路径时脱战</text>
+<text x="636" y="1286" fill="#4A4B65" font-size="13">脱战延时(s) -- 满足脱战条件后延时脱战</text>
+
+<text x="636" y="1316" fill="#1A1B2E" font-size="13" font-weight="500">领地设置：</text>
+<text x="636" y="1336" fill="#4A4B65" font-size="13">领地形状：无 / 球体 / 圆柱体（需配置尺寸）</text>
+<text x="636" y="1356" fill="#4A4B65" font-size="13">以创建坐标为中心，不随造物运动改变位置</text>
+<text x="636" y="1376" fill="#4A4B65" font-size="13">玩家离开区域后脱战 + 脱战延时(s)</text>
+<text x="636" y="1396" fill="#4A4B65" font-size="13">造物运动范围被限制在领地内（可通过节点调整）</text>
+
+<!-- ========== Section 五: 造物状态决策节点图 ========== -->
+<text x="48" y="1450" fill="#2D6BE4" font-size="18" font-weight="700">五、造物状态决策节点图</text>
+
+<rect x="48" y="1468" width="1104" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1468" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1498" fill="#1A1B2E" font-size="16" font-weight="500">决策逻辑机制</text>
+
+<text x="72" y="1526" fill="#4A4B65" font-size="14">以【按顺序唯一执行】节点起始，每个出引脚连接【切换自身执行状态】节点。</text>
+
+<text x="72" y="1556" fill="#4A4B65" font-size="14">持续执行：若前置顺序状态满足条件，复杂造物立刻切换执行前置顺序的造物状态节点图。</text>
+
+<text x="72" y="1586" fill="#4A4B65" font-size="14">若条件不满足，复杂造物可能不会执行任何状态节点图。</text>
+
+<rect x="72" y="1604" width="1056" height="80" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1624" fill="#2D6BE4" font-size="13" font-weight="500">执行优先级示例：</text>
+<text x="84" y="1644" fill="#4A4B65" font-size="12">从1号分支开始判断A节点 -> 满足则执行，不满足则判断B -> A/B均不满足则从2号分支判断C</text>
+<text x="84" y="1664" fill="#4A4B65" font-size="12">若正在执行C，但A条件满足了，则立即切换为执行A节点内的造物状态节点图</text>
+
+<text x="72" y="1706" fill="#1A1B2E" font-size="14" font-weight="500">关键节点：</text>
+<rect x="72" y="1718" width="160" height="24" rx="12" fill="#FFF3E0"/>
+<text x="152" y="1735" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">按顺序唯一执行</text>
+<rect x="244" y="1718" width="180" height="24" rx="12" fill="#FFF3E0"/>
+<text x="334" y="1735" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">切换自身执行状态</text>
+<rect x="436" y="1718" width="120" height="24" rx="12" fill="#FFF3E0"/>
+<text x="496" y="1735" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">失败执行</text>
+
+<!-- ========== Section 六: 造物状态节点图 ========== -->
+<text x="48" y="1810" fill="#2D6BE4" font-size="18" font-weight="700">六、造物状态节点图</text>
+
+<rect x="48" y="1828" width="1104" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1828" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1858" fill="#1A1B2E" font-size="16" font-weight="500">持续性行为执行</text>
+
+<text x="72" y="1886" fill="#4A4B65" font-size="14">造物状态节点图的出入引脚仅支持单线连接。</text>
+
+<text x="72" y="1916" fill="#4A4B65" font-size="14">代表持续性的行为：当复杂造物处于某个执行状态中，且未被状态决策节点图切换时，</text>
+<text x="72" y="1938" fill="#4A4B65" font-size="14">会持续执行造物状态节点图中的配置。</text>
+
+<rect x="72" y="1958" width="1056" height="52" rx="8" fill="#E5F2E9"/>
+<text x="84" y="1978" fill="#2E7D32" font-size="13" font-weight="500">示例：通过造物状态决策节点图切换到某造物状态节点图时，该节点图会持续执行</text>
+<text x="84" y="1998" fill="#4A4B65" font-size="12">直到决策节点图切换到另一个状态节点图为止</text>
+
+<!-- ========== Section 七: 造物技能编辑 ========== -->
+<text x="48" y="2070" fill="#2D6BE4" font-size="18" font-weight="700">七、造物技能的动画编辑</text>
+
+<rect x="48" y="2088" width="1104" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="2088" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="72" y="2118" fill="#1A1B2E" font-size="16" font-weight="500">技能动画时间轴编辑（仅普通技能）</text>
+
+<text x="72" y="2146" fill="#4A4B65" font-size="14">以时间轴形式配置，分为动作轴和逻辑轴。技能释放时从前往后按时间依次触发。</text>
+
+<text x="72" y="2176" fill="#1A1B2E" font-size="13" font-weight="500">添加动作：</text>
+<text x="72" y="2196" fill="#4A4B65" font-size="13">选择可用的造物动画。动画是整个技能轨道的尺度，事件轴总长度等于所有动画时长之和。</text>
+
+<text x="72" y="2226" fill="#1A1B2E" font-size="13" font-weight="500">事件轨道（四种类型）：</text>
+
+<rect x="72" y="2240" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="2257" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">开始事件轨道</text>
+<text x="244" y="2257" fill="#4A4B65" font-size="12">技能开始释放时立即触发</text>
+
+<rect x="72" y="2270" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="2287" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">结束事件轨道</text>
+<text x="244" y="2287" fill="#4A4B65" font-size="12">动作全部播放完成后触发</text>
+
+<rect x="72" y="2300" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="2317" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">节点图事件轨道</text>
+<text x="244" y="2317" fill="#4A4B65" font-size="12">按动画进度打点，触发本地节点图</text>
+
+<rect x="72" y="2330" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="2347" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">状态轨道</text>
+<text x="244" y="2347" fill="#4A4B65" font-size="12">持续性表现（如播放特效），可配置开始/结束时点</text>
+
+<!-- Source links -->
+<text x="48" y="2410" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="2410" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhb8nl0w8cao" target="_blank">
+  <text x="48" y="2430" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：复杂造物</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhftoirpwd46">
+  <text x="200" y="2410" fill="#2D6BE4" font-size="12" text-decoration="underline">复杂造物技能</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhufqo0c0tqw">
+  <text x="310" y="2410" fill="#2D6BE4" font-size="12" text-decoration="underline">造物</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="2440" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

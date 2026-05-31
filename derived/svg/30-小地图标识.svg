@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1400">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1400" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">小地图标识</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">小地图可视化标识 -- 图标/范围/标记点类型、显示设置与节点图管理</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、小地图标识组件的功能</text>
+  <rect x="60" y="170" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">小地图标识组件支持实体通过图标/范围等可视化标识显示在预制小地图界面控件中。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持玩家、物件、造物使用。可通过默认配置/节点图控制激活/关闭。</text>
+  <rect x="80" y="238" width="160" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">玩家/物件/造物可用</text>
+  <rect x="250" y="238" width="160" height="22" rx="11" fill="#E8EEFB"/><text x="264" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">预制小地图控件中显示</text>
+  <!-- Section 2: 编辑 -->
+  <text x="60" y="305" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、小地图标识组件的编辑</text>
+  <rect x="60" y="320" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">添加与编辑</text>
+  <text x="80" y="372" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">组件页签 > 添加组件 > 小地图标识 > 详细编辑</text>
+  <text x="80" y="394" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">初始生效：下拉枚举，可修改勾选状态</text>
+  <text x="80" y="414" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">小地图标识列表：枚举实体配置的所有标识</text>
+  <rect x="620" y="320" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">添加标识</text>
+  <text x="640" y="372" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击添加小地图标识，初始生效默认开启</text>
+  <text x="640" y="394" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">标记X（X=序号）作为节点输入项可调整初始生效参数</text>
+  <!-- Section 3: 显示设置 -->
+  <text x="60" y="455" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、显示设置</text>
+  <rect x="60" y="470" width="1080" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="498" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">初始所有玩家可见：开启后满足条件的所有玩家都能在小地图上看到该标识</text>
+  <text x="80" y="520" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">跟随物体可见性：开启后实体隐藏时标识一同隐藏 | 显示优先级：数字越大优先级越高，堆叠时覆盖低优先级</text>
+  <!-- Section 4: 标记样式 -->
+  <text x="60" y="585" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、标记样式（五种类型）</text>
+  <!-- 图标 -->
+  <rect x="60" y="600" width="520" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="600" width="520" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="620" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">图标</text>
+  <text x="80" y="648" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">选择图标：提供多种可选图标</text>
+  <text x="80" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">底图：无 / 圆形</text>
+  <text x="80" y="688" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">底图外框颜色：指定颜色 / 逻辑颜色</text>
+  <text x="80" y="708" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">是否可点击：开启后展开地图点击显示配置信息 | 文本内容</text>
+  <!-- 范围 -->
+  <rect x="620" y="600" width="520" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="620" y="600" width="520" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="640" y="620" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">范围</text>
+  <text x="640" y="648" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">范围样式：实线 / 虚线</text>
+  <text x="640" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">颜色（指定/逻辑）| 范围大小(m)：按比例在小地图中显示</text>
+  <!-- 标记点 -->
+  <rect x="60" y="740" width="340" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="740" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="760" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">标记点</text>
+  <text x="80" y="788" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">样式预览（不可修改）| 颜色</text>
+  <text x="80" y="808" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">大地图中不可点击</text>
+  <!-- 玩家标记 -->
+  <rect x="430" y="740" width="340" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="430" y="740" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="450" y="760" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">玩家标记</text>
+  <text x="450" y="788" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">预览为创作者头像，实际需节点传入</text>
+  <text x="450" y="808" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">大地图中不可点击 | 底图外框颜色</text>
+  <!-- 造物头像 -->
+  <rect x="800" y="740" width="340" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="800" y="740" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="820" y="760" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">造物头像</text>
+  <text x="820" y="788" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">仅造物可设置 | 头像预览（不可编辑）</text>
+  <text x="820" y="808" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">底图外框颜色 | 可点击 | 标记名称 | 文本内容</text>
+  <!-- 逻辑颜色 -->
+  <rect x="60" y="830" width="1080" height="60" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="858" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">逻辑颜色说明：</text>
+  <text x="80" y="878" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">敌友关系：敌方红色、友方绿色、自身蓝色 | 跟随自身阵营：根据自身当前阵营颜色 | 跟随所有者阵营：跟随所有者阵营颜色</text>
+  <!-- 显示高低差 -->
+  <rect x="60" y="900" width="1080" height="40" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="925" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">显示高低差：开启后高低差超过10m的实体会在小地图内额外标记</text>
+  <!-- Section 5: 节点图 -->
+  <text x="60" y="975" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">五、节点图管理小地图标识</text>
+  <rect x="60" y="990" width="1080" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="80" y="1005" width="300" height="44" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="1025" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">修改小地图标识生效状态</text>
+  <text x="100" y="1043" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">通过序号列表批量修改生效状态</text>
+  <rect x="400" y="1005" width="300" height="44" rx="10" fill="#FFF3E0"/>
+  <text x="420" y="1025" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">修改可见小地图标识的玩家列表</text>
+  <text x="420" y="1043" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">控制哪些玩家可见</text>
+  <rect x="720" y="1005" width="300" height="44" rx="10" fill="#E5F2E9"/>
+  <text x="740" y="1025" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">修改小地图标识的玩家标记</text>
+  <text x="740" y="1043" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">动态修改玩家标记图标</text>
+  <rect x="80" y="1060" width="300" height="44" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="1080" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">修改小地图缩放</text>
+  <text x="100" y="1098" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">调整小地图缩放比例</text>
+  <rect x="400" y="1060" width="300" height="44" rx="10" fill="#FFF3E0"/>
+  <text x="420" y="1080" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">修改追踪小地图标识的玩家列表</text>
+  <text x="420" y="1098" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">控制哪些玩家追踪标识</text>
+  <rect x="720" y="1060" width="300" height="44" rx="10" fill="#E5F2E9"/>
+  <text x="740" y="1080" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">查询指定小地图标识信息</text>
+  <text x="740" y="1098" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">查询标识的详细配置信息</text>
+  <rect x="80" y="1115" width="300" height="44" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="1135" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">获取实体的小地图标识状态</text>
+  <text x="100" y="1153" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">查询实体当前标识生效状态</text>
+  <!-- 要点 -->
+  <text x="60" y="1225" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">六、要点总结</text>
+  <rect x="60" y="1240" width="1080" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="90" cy="1265" r="12" fill="#2D6BE4"/><text x="86" y="1270" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
+  <text x="112" y="1270" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">五种标记类型：图标、范围、标记点、玩家标记、造物头像</text>
+  <circle cx="90" cy="1290" r="12" fill="#2D6BE4"/><text x="86" y="1295" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
+  <text x="112" y="1295" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">逻辑颜色支持敌友关系/自身阵营/所有者阵营 | 高低差超10m可额外标记</text>
+  <circle cx="90" cy="1315" r="12" fill="#2D6BE4"/><text x="86" y="1320" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">3</text>
+  <text x="112" y="1320" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">节点图可批量修改生效状态、可见玩家列表、玩家标记、缩放等</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1360" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh0pppib5eyc" target="_blank">
+  <text x="48" y="1380" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：小地图标识</text>
+</a>
+<text x="600" y="1388" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

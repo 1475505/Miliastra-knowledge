@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1000">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="1000" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">悬浮交互页 - 页签</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">页签项配置与样式 | 容器/控件状态设置 | 形式变量与交互</text>
+
+  <rect x="40" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、页签样式</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持预设样式和自定义样式两种。</text>
+  <text x="60" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">两种样式都需要配置滚动方向：横向/纵向。</text>
+  <text x="60" y="245" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">自定义样式：</text>
+  <text x="60" y="268" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">支持添加多种页签项样式，每种可配置</text>
+  <text x="60" y="291" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">默认/悬停/按下/选中四种状态的素材。</text>
+
+  <rect x="620" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、页签设置</text>
+
+  <rect x="640" y="178" width="500" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="660" y="201" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">配置参数</text>
+  <text x="880" y="201" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">说明</text>
+
+  <text x="660" y="233" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">页签项尺寸</text>
+  <text x="880" y="233" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">每个页签项的通用配置</text>
+  <text x="660" y="259" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">间距</text>
+  <text x="880" y="259" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">页签项之间的距离</text>
+  <text x="660" y="285" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">边距</text>
+  <text x="880" y="285" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">距离边框的上下左右边距</text>
+
+  <rect x="40" y="330" width="1120" height="280" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、页签项配置</text>
+
+  <text x="60" y="390" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持提前定制页签项，静态配置关联，运行时可通过节点图调整。</text>
+
+  <rect x="60" y="410" width="340" height="80" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="435" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">添加页签项</text>
+  <text x="80" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">页签名称 + 序号（唯一标识）</text>
+  <text x="80" y="481" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通过详情编辑中的加号增加</text>
+
+  <rect x="420" y="410" width="340" height="80" rx="10" fill="#FFF3E0"/>
+  <text x="440" y="435" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">基础设置</text>
+  <text x="440" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">页签名称/样式/预览选中状态</text>
+  <text x="440" y="481" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">返回服务器事件：触发悬浮交互页操作事件</text>
+
+  <rect x="780" y="410" width="340" height="80" rx="10" fill="#E5F2E9"/>
+  <text x="800" y="435" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2E7D32">形式变量配置</text>
+  <text x="800" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">关联形式变量与自定义变量</text>
+  <text x="800" y="481" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">素材引用形式变量时以实时数据为准</text>
+
+  <rect x="60" y="500" width="340" height="80" rx="10" fill="#FDE8E6"/>
+  <text x="80" y="525" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#C62828">容器状态设置</text>
+  <text x="80" y="548" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">配置每个容器的显示/隐藏状态</text>
+  <text x="80" y="571" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选中页签项时按配置进行显隐</text>
+
+  <rect x="420" y="500" width="340" height="80" rx="10" fill="#E8EEFB"/>
+  <text x="440" y="525" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">控件状态设置</text>
+  <text x="440" y="548" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">配置容器内控件的显示/隐藏</text>
+  <text x="440" y="571" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选中页签项时按配置进行显隐</text>
+
+  <rect x="780" y="500" width="340" height="80" rx="10" fill="#FFF3E0"/>
+  <text x="800" y="525" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">交互设置</text>
+  <text x="800" y="548" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">启用快捷键时支持快捷交互</text>
+  <text x="800" y="571" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">交互时触发配置的音效</text>
+
+  <rect x="40" y="630" width="1120" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="660" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、手柄导航</text>
+  <text x="60" y="688" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">页签开启手柄快捷键时，不能触发手柄导航功能。</text>
+  <text x="60" y="715" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">不开启快捷键时，可配置：可被手柄摇杆导航选中、导航提示样式、导航提示指向(上下左右)、</text>
+  <text x="60" y="742" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">导航提示偏移、向左/右/上/下吸附配置（默认最近控件，支持选择所有容器中控件）。</text>
+
+  <rect x="40" y="780" width="1120" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="810" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、节点图管理</text>
+  <text x="60" y="840" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">页签和单选项视窗统称为「列表」，节点图管理方式一致：</text>
+  <rect x="60" y="858" width="160" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">唤起悬浮交互页</text>
+  <rect x="230" y="858" width="160" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="245" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">关闭悬浮交互页</text>
+  <rect x="400" y="858" width="200" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="415" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">更新列表数据</text>
+  <rect x="610" y="858" width="200" height="24" rx="12" fill="#FDE8E6"/>
+  <text x="625" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#C62828">操作触发时事件</text>
+  <text x="60" y="908" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">运行时点击页签项会触发「悬浮交互页操作触发时」服务器节点图事件。</text>
+
+  <text x="600" y="970" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="970" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2u2e9o3jn6" target="_blank">
+  <text x="48" y="990" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：悬浮交互页控件</text>
+</a>
+</svg>

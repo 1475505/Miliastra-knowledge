@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 910" width="100%" height="100%">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D6BE4"/>
+      <stop offset="100%" stop-color="#4A3F6B"/>
+    </linearGradient>
+    <filter id="card">
+      <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+    </filter>
+    <filter id="elevated">
+      <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="1200" height="910" fill="#F9F7F2"/>
+
+  <!-- Top gradient bar (6px) -->
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+
+  <!-- ===== Title Card ===== -->
+  <rect x="48" y="32" width="1104" height="80" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="72" y="74" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义小地图管理</text>
+  <text x="350" y="74" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">上传、映射、切换与配置</text>
+
+  <!-- ===== Section One: 功能概述 ===== -->
+  <text x="48" y="128" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、功能概述</text>
+
+  <rect x="48" y="150" width="1104" height="90" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="178" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持上传自定义地图图片，并通过节点图切换每位玩家对应的小地图</text>
+  <text x="72" y="202" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可自定义图片与关卡场景的对应关系（大小、方向、位置）</text>
+  <text x="72" y="226" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持显示小地图标识组件中的所有标识</text>
+
+  <!-- ===== Section Two: 自定义小地图管理 ===== -->
+  <text x="48" y="260" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、自定义小地图管理</text>
+
+  <rect x="48" y="282" width="1104" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="308" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">入口：界面控件组管理 → 固有内容 → 小地图</text>
+
+  <text x="72" y="336" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">初始可见性：</tspan>
+    <tspan fill="#4A4B65" font-weight="normal">决定应用当前界面布局的玩家是否显示小地图</tspan>
+  </text>
+  <text x="72" y="362" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">显示自身视野范围：</tspan>
+    <tspan fill="#4A4B65" font-weight="normal">决定是否显示小地图上方的距离数值</tspan>
+  </text>
+  <text x="72" y="388" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">初始生效地图：</tspan>
+    <tspan fill="#4A4B65" font-weight="normal">选择默认生效小地图，切换界面布局不会同步切换</tspan>
+  </text>
+
+  <!-- ===== Section Three: 自定义小地图编辑 ===== -->
+  <text x="48" y="442" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、自定义小地图编辑</text>
+
+  <rect x="48" y="464" width="1104" height="366" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+
+  <!-- Step 1: 添加自定义小地图 -->
+  <circle cx="72" cy="490" r="12" fill="#2D6BE4"/>
+  <text x="72" y="495" fill="#FFFFFF" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">1</text>
+  <text x="98" y="494" fill="#1A1B2E" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">添加自定义小地图</text>
+  <text x="98" y="516" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">通过编辑地图面板中的"+"按钮新建自定义地图</text>
+
+  <!-- Step 2: 上传自定义图片 -->
+  <circle cx="72" cy="534" r="12" fill="#2D6BE4"/>
+  <text x="72" y="539" fill="#FFFFFF" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">2</text>
+  <text x="98" y="538" fill="#1A1B2E" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">上传自定义图片</text>
+  <text x="98" y="560" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">通过选择地图图片打开资源管理界面，上传并选择希望使用的图片</text>
+
+  <!-- Step 3: 映射 -->
+  <circle cx="72" cy="578" r="12" fill="#2D6BE4"/>
+  <text x="72" y="583" fill="#FFFFFF" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">3</text>
+  <text x="98" y="582" fill="#1A1B2E" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">映射自定义图片与关卡场景</text>
+
+  <text x="116" y="604" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">原点设置：</tspan>
+    <tspan fill="#4A4B65">图片与场景完全对应的基准点，需与场景预设点对应</tspan>
+  </text>
+  <text x="116" y="626" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">方向点设置：</tspan>
+    <tspan fill="#4A4B65">确定图片方向映射，仅处理方向不做缩放计算</tspan>
+  </text>
+  <text x="116" y="648" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">10像素对应场景中距离(m)：</tspan>
+    <tspan fill="#4A4B65">决定缩放比例的地图比例尺，根据场景与图片大小计算</tspan>
+  </text>
+  <text x="116" y="670" font-size="13" fill="#4A4B65" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">映射关系为场景XZ轴到图片XY轴，不涉及Y轴</text>
+
+  <!-- Step 4: 地图显示配置 -->
+  <circle cx="72" cy="690" r="12" fill="#2D6BE4"/>
+  <text x="72" y="695" fill="#FFFFFF" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">4</text>
+  <text x="98" y="694" fill="#1A1B2E" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地图显示配置</text>
+
+  <text x="116" y="716" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">小地图缩放比：</tspan>
+    <tspan fill="#4A4B65">决定小地图默认缩放倍率</tspan>
+  </text>
+  <text x="116" y="738" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">大地图缩放配置：</tspan>
+    <tspan fill="#4A4B65">最小值0.1，最大值2，调整颗粒度0.1，可通过下方缩放比例预览</tspan>
+  </text>
+
+  <!-- Step 5: 切换（最终步骤，深蓝） -->
+  <circle cx="72" cy="758" r="12" fill="#1B4FC0"/>
+  <text x="72" y="763" fill="#FFFFFF" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">5</text>
+  <text x="98" y="762" fill="#1A1B2E" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义小地图的切换</text>
+
+  <text x="116" y="784" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">服务器节点：切换自定义地图</tspan>
+    <tspan fill="#4A4B65">，为目标玩家切换对应的小地图和配置</tspan>
+  </text>
+  <text x="116" y="806" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
+    <tspan fill="#1A1B2E" font-weight="500">是否显示地图：</tspan>
+    <tspan fill="#4A4B65">为是则显示，为否则不显示（与无地图配置效果相同）</tspan>
+  </text>
+
+  <!-- ===== Footer: Source Link ===== -->
+  <text x="48" y="858" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhls9miyjwjg" target="_blank">
+    <text x="48" y="876" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：自定义小地图控件</text>
+  </a>
+
+  <!-- Footer Text -->
+  <text x="600" y="894" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

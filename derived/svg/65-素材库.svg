@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="750" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">素材库</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">自定义素材组创建与管理 | 界面控件模板组合 | 遮罩功能</text>
+
+  <rect x="40" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、素材库的定义</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">素材库中奇匠可以创建多个自定义素材组。</text>
+  <text x="60" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">素材组是对单个/多个界面控件模板，</text>
+  <text x="60" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">进行组合、编辑参数后保存的数据。</text>
+  <text x="60" y="269" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">在支持配置素材组的界面控件中，可引用已定义的素材组。</text>
+
+  <rect x="620" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、支持的引用控件</text>
+  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">素材库支持在以下控件中引用：</text>
+  <rect x="640" y="205" width="100" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="655" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">自定义开关</text>
+  <rect x="750" y="205" width="100" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="765" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">自定义按钮</text>
+  <rect x="860" y="205" width="100" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="875" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">悬浮交互页</text>
+  <rect x="640" y="235" width="60" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="655" y="252" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">页签</text>
+  <rect x="710" y="235" width="100" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="725" y="252" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">单选项视窗</text>
+  <rect x="820" y="235" width="80" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="835" y="252" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">图片控件</text>
+
+  <rect x="40" y="310" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、创建素材组</text>
+  <text x="60" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">1. 选择素材库，点击【添加素材模板】</text>
+  <text x="60" y="395" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">2. 将支持的界面控件模板添加到素材详情</text>
+  <text x="60" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">3. 选择任意界面控件进行组合</text>
+  <text x="60" y="449" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">4. 点击【创建素材组】生成素材组</text>
+  <text x="60" y="476" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">5. 可选择是否开启遮罩</text>
+  <rect x="60" y="490" width="160" height="24" rx="12" fill="#FDE8E6"/>
+  <text x="75" y="507" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#C62828">遮罩不支持遮罩特效</text>
+
+  <rect x="620" y="310" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、素材组引用</text>
+  <text x="640" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">以状态显示区控件为例，在引用素材区可引用素材组。</text>
+  <text x="640" y="395" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">点击详情编辑，可新创建素材组，</text>
+  <text x="640" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">也可直接引用已创建好的素材组。</text>
+
+  <text x="640" y="455" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">素材库支持的控件模板：</text>
+  <text x="640" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">文本框、界面动效、图片、特殊数字</text>
+
+  <rect x="40" y="530" width="1120" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="560" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、遮罩功能与预览设置</text>
+
+  <text x="60" y="590" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">遮罩功能：</text>
+  <text x="180" y="590" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">开启遮罩后仅保留遮罩内部分进行使用</text>
+  <text x="60" y="615" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">遮罩形状：矩形/圆形 | 位置：遮罩中心 | 大小：遮罩尺寸</text>
+
+  <text x="60" y="645" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">预览设置：</text>
+  <text x="180" y="645" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">编辑时素材组以蒙版与控件画布隔离，位置仅供编辑预览</text>
+  <text x="60" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">可在设置中调整蒙版和素材组来源控件在编辑时的可见性</text>
+
+  <text x="600" y="720" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="720" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhwylormozcm" target="_blank">
+  <text x="48" y="740" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：素材库</text>
+</a>
+</svg>

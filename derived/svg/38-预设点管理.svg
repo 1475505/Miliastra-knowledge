@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1060">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1060" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">预设点管理</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">场景中的世界位置与朝向标记 -- 创建、编辑、引用预设点位</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、预设点的定义</text>
+  <rect x="60" y="170" width="1080" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">预设点是一组场景中的世界位置和朝向的数据信息。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可被需要点位信息的功能引用，例如出生点、复苏点、节点图获取点位等。</text>
+  <rect x="80" y="242" width="80" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="258" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">世界位置</text>
+  <rect x="170" y="242" width="80" height="22" rx="11" fill="#E8EEFB"/><text x="184" y="258" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">朝向数据</text>
+  <rect x="260" y="242" width="80" height="22" rx="11" fill="#FFF3E0"/><text x="274" y="258" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">可被引用</text>
+  <rect x="350" y="242" width="100" height="22" rx="11" fill="#E5F2E9"/><text x="364" y="258" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">场景坐标标记</text>
+  <!-- Section 2 -->
+  <text x="60" y="315" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、编辑入口与界面</text>
+  <rect x="60" y="330" width="340" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="90" cy="360" r="12" fill="#2D6BE4"/><text x="86" y="365" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
+  <text x="112" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">预设点库</text>
+  <text x="112" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">所有预设点在此枚举</text>
+  <text x="112" y="400" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">可管理在布设场景的可见性</text>
+  <rect x="420" y="330" width="340" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="450" cy="360" r="12" fill="#2D6BE4"/><text x="446" y="365" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
+  <text x="472" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">编辑窗口可见性</text>
+  <text x="472" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">常驻显示开关</text>
+  <text x="472" y="400" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">开启/关闭预设点在编辑窗口的显示</text>
+  <rect x="780" y="330" width="360" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="810" cy="360" r="12" fill="#2D6BE4"/><text x="806" y="365" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">3</text>
+  <text x="832" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">创建预设点</text>
+  <text x="832" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击"创建预设点"按钮</text>
+  <text x="832" y="400" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">在编辑窗口中央生成</text>
+  <text x="832" y="420" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">自动开启命名编辑</text>
+  <!-- Section 3 -->
+  <text x="60" y="495" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、预设点参数</text>
+  <rect x="60" y="510" width="1080" height="230" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <!-- Row 1 -->
+  <rect x="80" y="525" width="500" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="100" y="545" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">预设点名称</text>
+  <text x="100" y="563" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">可修改，用于标识预设点</text>
+  <rect x="600" y="525" width="520" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="620" y="545" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">预设点索引</text>
+  <text x="620" y="563" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">作为节点入参，是唯一标识</text>
+  <!-- Row 2 -->
+  <rect x="80" y="579" width="500" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="100" y="599" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">锁定变换</text>
+  <text x="100" y="617" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">勾选后不可调整位置和旋转</text>
+  <rect x="600" y="579" width="520" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="620" y="599" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">是否在场景中显示</text>
+  <text x="620" y="617" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">取消勾选只留坐标轴</text>
+  <!-- Row 3 -->
+  <rect x="80" y="633" width="500" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="100" y="653" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">位置</text>
+  <text x="100" y="671" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">预设点的世界位置数据</text>
+  <rect x="600" y="633" width="520" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="620" y="653" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">旋转</text>
+  <text x="620" y="671" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">预设点的朝向数据</text>
+  <!-- Row 4 -->
+  <rect x="80" y="687" width="500" height="44" rx="10" fill="#F9F7F2"/>
+  <text x="100" y="707" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">单位标签</text>
+  <text x="100" y="725" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">可添加单位标签，用于节点图按标签获取预设点位列表</text>
+  <!-- Section 4 -->
+  <text x="60" y="780" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、预设点的引用</text>
+  <!-- 出生点 -->
+  <rect x="60" y="795" width="340" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="80" y="810" width="80" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="826" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">出生点</text>
+  <text x="80" y="855" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">关卡设置</text>
+  <text x="80" y="877" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">关卡设置 > 出生点配置</text>
+  <text x="80" y="897" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择点位引用预设点</text>
+  <text x="80" y="925" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">玩家角色出生时的初始位置</text>
+  <!-- 复苏点 -->
+  <rect x="420" y="795" width="340" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="440" y="810" width="80" height="22" rx="11" fill="#E5F2E9"/><text x="454" y="826" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">复苏点</text>
+  <text x="440" y="855" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">关卡设置</text>
+  <text x="440" y="877" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">关卡设置 > 复苏点配置</text>
+  <text x="440" y="897" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择点位引用预设点</text>
+  <text x="440" y="925" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">角色倒下后复苏的重生位置</text>
+  <!-- 节点图 -->
+  <rect x="780" y="795" width="360" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="800" y="810" width="80" height="22" rx="11" fill="#FFF3E0"/><text x="814" y="826" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">节点图</text>
+  <text x="800" y="855" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">查询节点</text>
+  <text x="800" y="877" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通过索引查询预设点位置旋转</text>
+  <text x="800" y="897" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">以单位标签获取预设点位列表</text>
+  <text x="800" y="925" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">节点图中动态获取点位数据</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="985" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhfvn30ctm9c" target="_blank">
+  <text x="48" y="1005" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：预设点管理</text>
+</a>
+<text x="600" y="1030" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

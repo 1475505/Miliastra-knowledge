@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">特效播放</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">特效播放组件 -- 循环特效挂载、节点图播放与参数配置</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、特效播放组件的功能</text>
+  <rect x="60" y="170" width="1080" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">特效播放组件包含两部分功能：</text>
+  <circle cx="95" cy="222" r="10" fill="#2D6BE4"/><text x="92" y="226" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">1</text>
+  <text x="115" y="227" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">节点图播放的特效必须依赖特效播放组件，无组件时无法通过节点图播放特效</text>
+  <circle cx="95" cy="248" r="10" fill="#2D6BE4"/><text x="92" y="252" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">2</text>
+  <text x="115" y="253" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">允许通过组件挂载默认的循环特效，这些特效与实体一同创建</text>
+  <rect x="80" y="262" width="200" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">同时可生效多个特效</text>
+  <rect x="290" y="262" width="240" height="22" rx="11" fill="#E8EEFB"/><text x="304" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">所有单位默认挂载该组件</text>
+  <!-- Section 2: 编辑 -->
+  <text x="60" y="315" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、特效播放组件的编辑</text>
+  <rect x="60" y="330" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">添加步骤</text>
+  <circle cx="95" cy="380" r="10" fill="#2D6BE4"/><text x="92" y="384" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">1</text>
+  <text x="115" y="385" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">切换到实体/元件的组件页签</text>
+  <circle cx="95" cy="402" r="10" fill="#2D6BE4"/><text x="92" y="406" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">2</text>
+  <text x="115" y="407" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">找到或新增特效播放组件（默认挂载）</text>
+  <circle cx="95" cy="424" r="10" fill="#2D6BE4"/><text x="92" y="428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">3</text>
+  <text x="115" y="424" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击【添加特效】新增配置</text>
+  <!-- 参数 -->
+  <rect x="620" y="330" width="520" height="360" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">配置参数</text>
+  <text x="640" y="382" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">特效播放器序号：播放器的识别序号</text>
+  <text x="640" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">特效播放器名称：同实体上名称不可重复</text>
+  <text x="640" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">特效资产类型：循环特效 / 限时特效（决定特效资产库）</text>
+  <text x="640" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">特效资产：选择特效资产后可在场景中预览播放</text>
+  <text x="640" y="462" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">跟随位置：是否跟随组件拥有者一起运动</text>
+  <text x="640" y="482" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">跟随旋转：是否跟随旋转（仅当跟随位置为"是"时生效）</text>
+  <text x="640" y="502" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">挂接点：特效播放挂接的位置（固有/额外挂接点）</text>
+  <text x="640" y="522" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">缩放比例：特效的缩放比例</text>
+  <text x="640" y="542" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">偏移：相对于挂接点的位置偏移</text>
+  <text x="640" y="562" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">旋转：相对于挂接点的朝向偏移</text>
+  <text x="640" y="586" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">本地过滤器：引用本地过滤器节点图，判断特效播放与否</text>
+  <text x="640" y="606" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">过滤器在特效挂载实体在场期间持续检测</text>
+  <text x="640" y="626" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">获取自身实体=挂载实体 | 获取目标实体=无 | 获取当前角色=本地角色</text>
+  <text x="640" y="650" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">过滤器类型：布尔型（true=播放）或整型（在生效范围内=播放）</text>
+  <text x="640" y="674" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">特效资产类型决定了使用的特效资产库（循环/限时）</text>
+  <!-- Section 3: 本地过滤器 -->
+  <rect x="60" y="440" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="468" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">本地过滤器说明</text>
+  <text x="80" y="492" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">本地过滤器在特效挂载实体在场期间内持续检测。</text>
+  <text x="80" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">过滤器节点图中的基础节点：</text>
+  <text x="80" y="536" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">获取自身实体 > 挂载特效组件的实体</text>
+  <text x="80" y="554" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">获取当前角色 > 本地角色</text>
+  <!-- Section 4: 要点 -->
+  <text x="60" y="600" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、要点总结</text>
+  <rect x="60" y="615" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="90" cy="640" r="12" fill="#2D6BE4"/><text x="86" y="645" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
+  <text x="112" y="645" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">节点图播放特效必须持有该组件</text>
+  <circle cx="90" cy="665" r="12" fill="#2D6BE4"/><text x="86" y="670" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
+  <text x="112" y="670" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">组件可挂载默认循环特效，随实体创建</text>
+  <circle cx="90" cy="690" r="12" fill="#2D6BE4"/><text x="86" y="695" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">3</text>
+  <text x="112" y="695" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">同时可生效多个特效，支持本地过滤器控制</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="750" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh4ppo02m1o8" target="_blank">
+  <text x="48" y="770" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：特效播放</text>
+</a>
+<text x="600" y="885" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

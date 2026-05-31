@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 4040">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="4040" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">技能</text>
+<text x="148" y="72" fill="#4A4B65" font-size="16">综合指南：定义、类型、参数、动画编辑、槽位、资源、变量、属性组、关键行为</text>
+
+<!-- ============================================================ -->
+<!-- 一、技能的定义 -->
+<!-- ============================================================ -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、技能的定义</text>
+
+<rect x="48" y="168" width="1104" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="206" fill="#4A4B65" font-size="14">技能是通过接收游玩时的用户输入，让角色执行某一段预设行为的封装。</text>
+<text x="72" y="228" fill="#4A4B65" font-size="14">经典模式中，角色的普通攻击、元素战技、元素爆发等都是一个技能。</text>
+<text x="72" y="260" fill="#1A1B2E" font-size="14" font-weight="500">技能主要实现三个基本功能：</text>
+<text x="72" y="282" font-size="14"><tspan fill="#1A1B2E" font-weight="500">角色动画调用</tspan><tspan fill="#4A4B65">：定义技能释放后的角色动画演出效果</tspan></text>
+<text x="72" y="304" font-size="14"><tspan fill="#1A1B2E" font-weight="500">触发客户端节点图</tspan><tspan fill="#4A4B65">：通过节点图事件轨道触发指定客户端节点图</tspan></text>
+<text x="72" y="326" font-size="14"><tspan fill="#1A1B2E" font-weight="500">配置技能状态</tspan><tspan fill="#4A4B65">：在动画播放过程中特定时间窗口附加持续性逻辑</tspan></text>
+
+<!-- ============================================================ -->
+<!-- 二、技能类型 -->
+<!-- ============================================================ -->
+<text x="48" y="366" fill="#2D6BE4" font-size="18" font-weight="700">二、技能类型</text>
+
+<rect x="48" y="384" width="1104" height="220" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="422" fill="#4A4B65" font-size="14">配置ID：技能的唯一标识，在节点图修改对应技能配置时引用该ID</text>
+<text x="72" y="444" fill="#1A1B2E" font-size="14" font-weight="500">技能类型分为以下五种：</text>
+<text x="72" y="466" font-size="14"><tspan fill="#1A1B2E" font-weight="500">瞬发技能</tspan><tspan fill="#4A4B65">：无法编辑动画，在接受输入的瞬间立即触发逻辑</tspan></text>
+<text x="72" y="488" font-size="14"><tspan fill="#1A1B2E" font-weight="500">普通技能</tspan><tspan fill="#4A4B65">：基础技能类型，支持完整时间轴配置</tspan></text>
+<text x="72" y="510" font-size="14"><tspan fill="#1A1B2E" font-weight="500">长按技能</tspan><tspan fill="#4A4B65">：支持引用循环动画，玩家长按输入维持循环播放</tspan></text>
+<text x="72" y="532" font-size="14"><tspan fill="#1A1B2E" font-weight="500">连段技能</tspan><tspan fill="#4A4B65">：配置一连串连续动作，接受特定时点输入后在动作间跳转</tspan></text>
+<text x="72" y="554" font-size="14"><tspan fill="#1A1B2E" font-weight="500">瞄准技能</tspan><tspan fill="#4A4B65">：提供成套瞄准动作，施放时使角色进入瞄准状态</tspan></text>
+
+<rect x="72" y="576" width="1056" height="24" rx="8" fill="#E8EEFB"/>
+<text x="84" y="593" fill="#2D6BE4" font-size="12" font-weight="500">编辑入口：战斗预设页签 > 技能页签 > 新建技能</text>
+
+<!-- ============================================================ -->
+<!-- 三、技能参数 -->
+<!-- ============================================================ -->
+<text x="48" y="642" fill="#2D6BE4" font-size="18" font-weight="700">三、技能参数</text>
+<text x="228" y="642" fill="#8B8DA0" font-size="13">基础设置 / 数值配置 / 生命周期 / 连段配置 / 瞄准配置</text>
+
+<rect x="48" y="660" width="1104" height="540" rx="14" fill="#fff" filter="url(#card)"/>
+
+<!-- 基础设置 -->
+<text x="72" y="698" fill="#1A1B2E" font-size="14" font-weight="500">基础设置</text>
+<text x="72" y="720" font-size="14"><tspan fill="#1A1B2E" font-weight="500">启用运动坠崖保护</tspan><tspan fill="#4A4B65">：勾选时，角色位移不会触发坠崖</tspan></text>
+<text x="72" y="742" font-size="14"><tspan fill="#1A1B2E" font-weight="500">是否可在空中释放</tspan><tspan fill="#4A4B65">：跳跃/下落/滑翔等空中状态时能否使用</tspan></text>
+<text x="72" y="764" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能备注</tspan><tspan fill="#4A4B65">：编辑时描述技能的大致作用</tspan></text>
+
+<!-- 数值配置 -->
+<text x="72" y="796" fill="#1A1B2E" font-size="14" font-weight="500">数值配置</text>
+<text x="72" y="818" font-size="14"><tspan fill="#1A1B2E" font-weight="500">冷却时间(s)</tspan><tspan fill="#4A4B65">：可开关；释放后需等待多久才能再次释放</tspan></text>
+<text x="72" y="840" font-size="14"><tspan fill="#1A1B2E" font-weight="500">使用次数</tspan><tspan fill="#4A4B65">：默认可使用次数，归零后不可用；每过一个冷却时间恢复一次，最大恢复至默认值</tspan></text>
+<text x="72" y="862" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能消耗</tspan><tspan fill="#4A4B65">：开启后配置消耗类型（技能资源）和消耗量</tspan></text>
+<text x="72" y="884" font-size="14"><tspan fill="#1A1B2E" font-weight="500">索敌范围</tspan><tspan fill="#4A4B65">：圆柱体（半径+高度）/ 扇形（半径+高度+角度+旋转）</tspan></text>
+
+<!-- 生命周期 -->
+<text x="72" y="916" fill="#1A1B2E" font-size="14" font-weight="500">生命周期管理</text>
+<text x="72" y="938" font-size="14"><tspan fill="#1A1B2E" font-weight="500">达到次数上限是否销毁技能</tspan><tspan fill="#4A4B65">：开启后配置次数上限，达到上限后技能自动移除</tspan></text>
+
+<!-- 连段配置 -->
+<text x="72" y="970" fill="#1A1B2E" font-size="14" font-weight="500">连段配置（连段技能专有）</text>
+<text x="72" y="992" font-size="14"><tspan fill="#1A1B2E" font-weight="500">是否开启蓄力分支</tspan><tspan fill="#4A4B65">：开启后可在动画编辑处定义连段转入蓄力动作逻辑</tspan></text>
+<text x="72" y="1014" font-size="14"><tspan fill="#1A1B2E" font-weight="500">蓄力公共前摇</tspan><tspan fill="#4A4B65">：开启后连段与蓄力动画共用前摇槽位；关闭后槽位不播放</tspan></text>
+
+<!-- 瞄准配置 -->
+<text x="72" y="1046" fill="#1A1B2E" font-size="14" font-weight="500">瞄准配置（瞄准技能专有）</text>
+<text x="72" y="1068" font-size="14"><tspan fill="#1A1B2E" font-weight="500">瞄准进入方式</tspan><tspan fill="#4A4B65">：长按（按住进入松开退出）/ 点按切换（点击切换）</tspan></text>
+<text x="72" y="1090" font-size="14"><tspan fill="#1A1B2E" font-weight="500">瞄准中是否可移动</tspan><tspan fill="#4A4B65">：瞄准模式下角色是否可位移</tspan></text>
+<text x="72" y="1112" font-size="14"><tspan fill="#1A1B2E" font-weight="500">瞄准发射动画时长</tspan><tspan fill="#4A4B65">：切换为自定义后可修改发射动画播放时长（运行时生效，预览不生效）</tspan></text>
+
+<rect x="72" y="1134" width="1056" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="72" y="1134" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="92" y="1156" fill="#2D6BE4" font-size="13" font-weight="500">索敌范围说明</text>
+<text x="92" y="1174" fill="#4A4B65" font-size="12">可在本地节点图中通过查询节点获取本次技能释放的目标单位</text>
+
+<!-- ============================================================ -->
+<!-- 四、动画编辑 -->
+<!-- ============================================================ -->
+<text x="48" y="1240" fill="#2D6BE4" font-size="18" font-weight="700">四、技能的动画编辑</text>
+
+<rect x="48" y="1258" width="1104" height="580" rx="14" fill="#fff" filter="url(#card)"/>
+
+<!-- 普通技能 -->
+<text x="72" y="1296" fill="#1A1B2E" font-size="14" font-weight="500">普通技能（基础类型）</text>
+<text x="72" y="1318" fill="#4A4B65" font-size="14">以时间轴形式配置，分为动作轴和逻辑轴。动画总长度决定事件轴总时长，按时间依次触发。</text>
+
+<!-- 事件轨道 -->
+<text x="72" y="1350" fill="#1A1B2E" font-size="14" font-weight="500">四种事件轨道</text>
+<text x="72" y="1372" font-size="14"><tspan fill="#1A1B2E" font-weight="500">开始事件轨道</tspan><tspan fill="#4A4B65">：技能释放时立即触发的时点</tspan></text>
+<text x="72" y="1394" font-size="14"><tspan fill="#1A1B2E" font-weight="500">结束事件轨道</tspan><tspan fill="#4A4B65">：动作全部播放完成后触发的时点</tspan></text>
+<text x="72" y="1416" font-size="14"><tspan fill="#1A1B2E" font-weight="500">节点图事件轨道</tspan><tspan fill="#4A4B65">：按动画进度打点并添加事件，触发技能节点图</tspan></text>
+<text x="72" y="1438" font-size="14"><tspan fill="#1A1B2E" font-weight="500">状态轨道</tspan><tspan fill="#4A4B65">：定义非触发类表现（如持续播放特效），自由配置起止时点</tspan></text>
+
+<rect x="72" y="1454" width="1056" height="36" rx="8" fill="#FDE8E6"/>
+<rect x="72" y="1454" width="4" height="36" rx="2" fill="#D93025"/>
+<text x="92" y="1478" fill="#D93025" font-size="12">节点图事件轨道有极小概率跳过事件，关键逻辑应写在结束事件轨道作为兜底</text>
+
+<!-- 瞬发技能 -->
+<text x="72" y="1512" fill="#1A1B2E" font-size="14" font-weight="500">瞬发技能</text>
+<text x="72" y="1534" fill="#4A4B65" font-size="14">不可添加动作，只保留开始事件轨道，逻辑在技能释放瞬间触发</text>
+
+<!-- 长按技能 -->
+<text x="72" y="1566" fill="#1A1B2E" font-size="14" font-weight="500">长按技能</text>
+<text x="72" y="1588" fill="#4A4B65" font-size="14">支持引用循环动画，可调整循环持续时长。保持长按时循环持续播放至持续时长，松开后根据分支轨道跳转</text>
+
+<!-- 连段技能 -->
+<text x="72" y="1620" fill="#1A1B2E" font-size="14" font-weight="500">连段技能</text>
+<text x="72" y="1642" fill="#4A4B65" font-size="14">配置多个独立动作，通过连段轨道定义跳转规则和输入窗口实现连招效果</text>
+<text x="72" y="1664" font-size="14"><tspan fill="#1A1B2E" font-weight="500">连段轨道</tspan><tspan fill="#4A4B65">：预输入阶段（点按接受输入，长按蓄力跳转）/ 响应阶段（点按立即跳转）</tspan></text>
+<text x="72" y="1686" font-size="14"><tspan fill="#1A1B2E" font-weight="500">公共前摇</tspan><tspan fill="#4A4B65">：从待机短按技能初次进入连段时，或长按进入蓄力时，优先播放公共前摇动作</tspan></text>
+
+<!-- 瞄准技能 -->
+<text x="72" y="1718" fill="#1A1B2E" font-size="14" font-weight="500">瞄准技能</text>
+<text x="72" y="1740" fill="#4A4B65" font-size="14">三个动画槽位成套配置，不支持分别配置。蓄力动作到达持续时长后保持在最后时刻，待解除瞄准后转入分支</text>
+<text x="72" y="1762" font-size="14"><tspan fill="#1A1B2E" font-weight="500">进入瞄准状态事件</tspan><tspan fill="#4A4B65">：配置镜头视野/视角偏移/俯仰角度范围/进入和退出过渡时长</tspan></text>
+<text x="72" y="1784" font-size="14"><tspan fill="#1A1B2E" font-weight="500">开启准星事件</tspan><tspan fill="#4A4B65">：无可配置参数，开启后显示准星</tspan></text>
+
+<rect x="72" y="1800" width="1056" height="24" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1817" fill="#2D6BE4" font-size="12" font-weight="500">分支轨道：长按技能和瞄准技能支持分支，可配置多个段落，每个段落对应一个跳转分支</text>
+
+<!-- ============================================================ -->
+<!-- 五、技能槽位 -->
+<!-- ============================================================ -->
+<text x="48" y="1876" fill="#2D6BE4" font-size="18" font-weight="700">五、技能槽位</text>
+<text x="228" y="1876" fill="#8B8DA0" font-size="13">决定技能在UI中的位置和对应输入</text>
+
+<rect x="48" y="1894" width="1104" height="180" rx="14" fill="#fff" filter="url(#card)"/>
+
+<text x="72" y="1932" fill="#4A4B65" font-size="14">目前开放了五个技能槽位，决定技能在UI上的显示位置和释放对应的输入：</text>
+
+<rect x="72" y="1950" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="1968" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">普通攻击</text>
+<text x="204" y="1968" fill="#4A4B65" font-size="13">PC端鼠标左键</text>
+
+<rect x="72" y="1984" width="80" height="26" rx="13" fill="#2D6BE4"/>
+<text x="112" y="2002" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">技能1</text>
+<text x="164" y="2002" fill="#4A4B65" font-size="13">PC端键盘E键</text>
+
+<rect x="290" y="1984" width="80" height="26" rx="13" fill="#2D6BE4"/>
+<text x="330" y="2002" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">技能2</text>
+<text x="382" y="2002" fill="#4A4B65" font-size="13">PC端键盘Q键</text>
+
+<rect x="508" y="1984" width="80" height="26" rx="13" fill="#2D6BE4"/>
+<text x="548" y="2002" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">技能3</text>
+<text x="600" y="2002" fill="#4A4B65" font-size="13">PC端键盘R键</text>
+
+<rect x="726" y="1984" width="80" height="26" rx="13" fill="#2D6BE4"/>
+<text x="766" y="2002" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">技能4</text>
+<text x="818" y="2002" fill="#4A4B65" font-size="13">PC端键盘T键</text>
+
+<text x="72" y="2040" fill="#4A4B65" font-size="14">技能添加途径：职业默认配置（见职业文档） / 节点图添加</text>
+
+<rect x="72" y="2058" width="1056" height="24" rx="8" fill="#E8EEFB"/>
+<text x="84" y="2075" fill="#2D6BE4" font-size="12" font-weight="500">节点图：查询角色技能 / 修改角色技能 / 添加技能</text>
+
+<!-- ============================================================ -->
+<!-- 六、技能资源 -->
+<!-- ============================================================ -->
+<text x="48" y="2112" fill="#2D6BE4" font-size="18" font-weight="700">六、技能资源</text>
+<text x="228" y="2112" fill="#8B8DA0" font-size="13">释放技能时需要扣除的资源</text>
+
+<rect x="48" y="2130" width="1104" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+
+<text x="72" y="2168" fill="#4A4B65" font-size="14">技能资源是特定技能释放时需要扣除的资源，如经典模式的元素能量。奇匠可自定义资源类型。</text>
+<text x="72" y="2198" fill="#1A1B2E" font-size="14" font-weight="500">编辑入口</text>
+<text x="72" y="2220" fill="#4A4B65" font-size="14">系统菜单栏 > 技能资源管理按钮，打开界面即可编辑全局可用的技能资源类型</text>
+
+<text x="72" y="2252" fill="#1A1B2E" font-size="14" font-weight="500">参数介绍</text>
+<text x="72" y="2274" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能资源名</tspan><tspan fill="#4A4B65">：技能资源的命名</tspan></text>
+<text x="72" y="2296" font-size="14"><tspan fill="#1A1B2E" font-weight="500">配置ID</tspan><tspan fill="#4A4B65">：唯一标识，节点图调用时依赖该ID</tspan></text>
+<text x="72" y="2318" font-size="14"><tspan fill="#1A1B2E" font-weight="500">可获取最大值</tspan><tspan fill="#4A4B65">：技能资源量的上限，角色获取量无法超过该值</tspan></text>
+<text x="72" y="2340" font-size="14"><tspan fill="#1A1B2E" font-weight="500">引用信息</tspan><tspan fill="#4A4B65">：显示该技能资源被哪些技能引用</tspan></text>
+
+<text x="72" y="2372" fill="#1A1B2E" font-size="14" font-weight="500">增长类型（三种）</text>
+<text x="72" y="2394" font-size="14"><tspan fill="#1A1B2E" font-weight="500">无条件增长</tspan><tspan fill="#4A4B65">：超过可获取最大值时无条件增长</tspan></text>
+<text x="72" y="2416" font-size="14"><tspan fill="#1A1B2E" font-weight="500">跟随技能（保留值）</tspan><tspan fill="#4A4B65">：仅当玩家有需要该资源的技能时才可改变，无对应技能时保留当前值</tspan></text>
+<text x="72" y="2438" font-size="14"><tspan fill="#1A1B2E" font-weight="500">跟随技能（不保留值）</tspan><tspan fill="#4A4B65">：规则同上，但无对应技能时清零</tspan></text>
+
+<!-- ============================================================ -->
+<!-- 七、技能动画（概念） -->
+<!-- ============================================================ -->
+<text x="48" y="2470" fill="#2D6BE4" font-size="18" font-weight="700">七、技能动画</text>
+<text x="228" y="2470" fill="#8B8DA0" font-size="13">角色技能动画 vs 造物技能动画</text>
+
+<rect x="48" y="2488" width="540" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="2488" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="72" y="2518" fill="#1A1B2E" font-size="16" font-weight="500">角色技能动画</text>
+<text x="72" y="2548" fill="#4A4B65" font-size="13">必须依赖角色实体，每个动画必须有明确角色做载体</text>
+<text x="72" y="2572" fill="#4A4B65" font-size="13">播放依赖自定义技能的释放</text>
+<text x="72" y="2596" fill="#4A4B65" font-size="13">按技能使用特色分三类：</text>
+<rect x="72" y="2610" width="72" height="22" rx="11" fill="#E8EEFB"/>
+<text x="108" y="2625" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">普通攻击</text>
+<rect x="156" y="2610" width="72" height="22" rx="11" fill="#E8EEFB"/>
+<text x="192" y="2625" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">持续引导</text>
+<rect x="240" y="2610" width="48" height="22" rx="11" fill="#E8EEFB"/>
+<text x="264" y="2625" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">位移</text>
+<text x="72" y="2660" fill="#4A4B65" font-size="13">在技能编辑中引用角色技能动画，定义动画演出效果</text>
+<rect x="72" y="2680" width="492" height="36" rx="8" fill="#E5F2E9"/>
+<text x="84" y="2703" fill="#2E7D32" font-size="12" font-weight="500">引用方式见技能文档（mho81frl33im）</text>
+
+<rect x="612" y="2488" width="540" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="2488" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="636" y="2518" fill="#1A1B2E" font-size="16" font-weight="500">造物技能动画</text>
+<text x="636" y="2548" fill="#4A4B65" font-size="13">必须依赖造物实体，每个动画必须有明确造物做载体</text>
+<text x="636" y="2572" fill="#4A4B65" font-size="13">播放依赖自定义技能的释放</text>
+<text x="636" y="2596" fill="#4A4B65" font-size="13">按技能使用特色分两类：</text>
+<rect x="636" y="2610" width="48" height="22" rx="11" fill="#FFF3E0"/>
+<text x="660" y="2625" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">普通</text>
+<rect x="696" y="2610" width="48" height="22" rx="11" fill="#FFF3E0"/>
+<text x="720" y="2625" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">持续</text>
+<text x="636" y="2660" fill="#4A4B65" font-size="13">在技能编辑中引用造物技能动画，定义动画演出效果</text>
+<rect x="636" y="2680" width="492" height="36" rx="8" fill="#FFF3E0"/>
+<text x="648" y="2703" fill="#E65100" font-size="12" font-weight="500">引用编辑方式见技能文档（mho81frl33im）</text>
+
+<!-- ============================================================ -->
+<!-- 八、技能变量 -->
+<!-- ============================================================ -->
+<text x="48" y="2770" fill="#2D6BE4" font-size="18" font-weight="700">八、技能变量</text>
+<text x="228" y="2770" fill="#8B8DA0" font-size="13">持久化记录在玩家身上的客户端值</text>
+
+<rect x="48" y="2788" width="1104" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+
+<text x="72" y="2826" fill="#4A4B65" font-size="14">技能变量是一类持久化记录在玩家身上的值，与自定义变量相似但有区别：</text>
+<text x="72" y="2848" fill="#4A4B65" font-size="14">客户端值，可被客户端节点直接修改，修改立即生效，时效性优于自定义变量</text>
+<text x="72" y="2870" fill="#4A4B65" font-size="14">默认浮点数类型（暂时不支持其他类型）</text>
+<text x="72" y="2892" fill="#4A4B65" font-size="14">用途：实现同一技能内异步查询，或跨技能信息传递</text>
+
+<text x="72" y="2924" fill="#1A1B2E" font-size="14" font-weight="500">编辑入口</text>
+<text x="72" y="2946" fill="#4A4B65" font-size="14">系统菜单 > 技能变量管理 > 新增变量</text>
+
+<text x="72" y="2978" fill="#1A1B2E" font-size="14" font-weight="500">参数</text>
+<text x="72" y="3000" font-size="14"><tspan fill="#1A1B2E" font-weight="500">变量名</tspan><tspan fill="#4A4B65">：技能变量的命名</tspan></text>
+<text x="72" y="3022" font-size="14"><tspan fill="#1A1B2E" font-weight="500">配置ID</tspan><tspan fill="#4A4B65">：唯一标识，节点图调用时依赖该ID</tspan></text>
+
+<!-- ============================================================ -->
+<!-- 九、技能属性组 -->
+<!-- ============================================================ -->
+<text x="48" y="3068" fill="#2D6BE4" font-size="18" font-weight="700">九、技能属性组</text>
+<text x="228" y="3068" fill="#8B8DA0" font-size="13">动态修改技能行为</text>
+
+<rect x="48" y="3086" width="1104" height="400" rx="14" fill="#fff" filter="url(#card)"/>
+
+<text x="72" y="3124" fill="#4A4B65" font-size="14">技能属性组可被技能关联，通过修改属性组的值来动态修改技能的部分行为</text>
+
+<text x="72" y="3156" fill="#1A1B2E" font-size="14" font-weight="500">编辑入口</text>
+<text x="72" y="3178" fill="#4A4B65" font-size="14">系统菜单 > 技能资源管理 > 技能属性组页签</text>
+<text x="72" y="3200" font-size="14"><tspan fill="#1A1B2E" font-weight="500">属性组命名</tspan><tspan fill="#4A4B65">：属性组配置的名称</tspan></text>
+<text x="72" y="3222" font-size="14"><tspan fill="#1A1B2E" font-weight="500">配置ID</tspan><tspan fill="#4A4B65">：唯一标识，外部系统调用时依赖</tspan></text>
+
+<text x="72" y="3254" fill="#1A1B2E" font-size="14" font-weight="500">属性类型（两种）</text>
+<text x="72" y="3276" font-size="14"><tspan fill="#1A1B2E" font-weight="500">动画速度倍率</tspan><tspan fill="#4A4B65">：在基础动画速度上叠加额外变化值，节点图触发时机也受影响</tspan></text>
+<text x="72" y="3298" font-size="14"><tspan fill="#1A1B2E" font-weight="500">冷却时间倍率</tspan><tspan fill="#4A4B65">：在基础冷却时间上叠加额外变化值</tspan></text>
+
+<text x="72" y="3330" fill="#1A1B2E" font-size="14" font-weight="500">计算公式</text>
+<text x="72" y="3352" fill="#4A4B65" font-size="13">最终动画速度 = 技能属性组初始值 + (单位状态修改值 x 层数) + 技能轨道修改值</text>
+<text x="72" y="3372" fill="#4A4B65" font-size="13">最终技能冷却 = 原始技能冷却 x (技能属性组初始值 + (单位状态修改值 x 层数))</text>
+
+<text x="72" y="3404" fill="#1A1B2E" font-size="14" font-weight="500">三种修改方式</text>
+<text x="72" y="3426" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能配置引用</tspan><tspan fill="#4A4B65">：在技能编辑中关联预先配置的属性组，初始值为全局默认值</tspan></text>
+<text x="72" y="3448" font-size="14"><tspan fill="#1A1B2E" font-weight="500">单位状态修改</tspan><tspan fill="#4A4B65">：通过单位状态的调整施法速度/冷却缩减运行时动态修改</tspan></text>
+<text x="72" y="3470" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能轨道修改</tspan><tspan fill="#4A4B65">：动画编辑的状态轨道添加"调整动画速度"事件，只支持固定参数</tspan></text>
+
+<rect x="72" y="3492" width="1056" height="36" rx="8" fill="#E8EEFB"/>
+<rect x="72" y="3492" width="4" height="36" rx="2" fill="#2D6BE4"/>
+<text x="92" y="3516" fill="#2D6BE4" font-size="12" font-weight="500">动画速度倍率通过技能轨道修改只支持固定参数，通常用于优化动画表现</text>
+
+<!-- ============================================================ -->
+<!-- 十、关键行为 -->
+<!-- ============================================================ -->
+<text x="48" y="3568" fill="#2D6BE4" font-size="18" font-weight="700">十、关键行为</text>
+<text x="228" y="3568" fill="#8B8DA0" font-size="13">纯客户端指令序列</text>
+
+<rect x="48" y="3586" width="1104" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+
+<text x="72" y="3624" fill="#4A4B65" font-size="14">关键行为是纯客户端的数据，在技能施放过程中通过节点图定义并记录</text>
+<text x="72" y="3646" fill="#4A4B65" font-size="14">系统将记录的关键行为列表和触发时的客户端时间保存在关键行为记录板内</text>
+<text x="72" y="3668" fill="#4A4B65" font-size="14">可视为简化的指令序列，用于实现有时效性需求的技能连段或组合技能</text>
+
+<text x="72" y="3700" fill="#1A1B2E" font-size="14" font-weight="500">基础概念</text>
+<text x="72" y="3722" font-size="14"><tspan fill="#1A1B2E" font-weight="500">关键行为ID</tspan><tspan fill="#4A4B65">：关键行为的唯一标识，节点图调用时依赖该ID</tspan></text>
+<text x="72" y="3744" font-size="14"><tspan fill="#1A1B2E" font-weight="500">客户端时间</tspan><tspan fill="#4A4B65">：添加关键行为时记录在客户端的时间戳</tspan></text>
+
+<text x="72" y="3776" fill="#1A1B2E" font-size="14" font-weight="500">节点图操作</text>
+<text x="72" y="3798" fill="#4A4B65" font-size="14">添加关键行为 / 清空关键行为记录板 / 获取当前关键行为 / 获取当前关键行为（高精度）</text>
+<rect x="72" y="3816" width="1056" height="24" rx="8" fill="#E8EEFB"/>
+<text x="84" y="3833" fill="#2D6BE4" font-size="12" font-weight="500">客户端时间受浮点数精度影响，需要更高精度时推荐使用高精度版本节点</text>
+
+<!-- ============================================================ -->
+<!-- Sources -->
+<!-- ============================================================ -->
+<text x="48" y="3870" fill="#8B8DA0" font-size="12">相关文档：</text>
+
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mho81frl33im" target="_blank">
+  <text x="48" y="3890" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh6ate95agb6" target="_blank">
+  <text x="48" y="3910" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能资源</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh57xz9afh7e" target="_blank">
+  <text x="48" y="3930" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能动画</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhhzqw98264i" target="_blank">
+  <text x="48" y="3950" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能变量</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh0inr0jak34" target="_blank">
+  <text x="48" y="3970" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能属性组</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhapp3r8gkdq" target="_blank">
+  <text x="48" y="3990" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：关键行为</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="4016" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+</svg>

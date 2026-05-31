@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 850">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="850" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">消息队列控件</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">节点图实时推送消息 | 结构体数据推送 | 渐入渐出动画</text>
+
+  <rect x="40" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、消息队列的功能</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可配置在界面布局中，通过节点图实时推送指定样式的消息。</text>
+  <text x="60" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">适用于得分、资源获取、关卡流程更新等信息推送。</text>
+  <text x="60" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">仅供信息展示使用，不可交互。</text>
+  <text x="60" y="269" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">消息项加入/移出队列时，会额外附带动画表现。</text>
+  <rect x="60" y="285" width="120" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="302" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">渐入渐出动画</text>
+
+  <rect x="620" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、消息项样式设置</text>
+  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">与页签/单选项视窗类似，可定制消息项样式。</text>
+  <text x="640" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">点击【详情编辑】在消息项素材组中加入任意素材。</text>
+  <text x="640" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可添加界面动效，新消息项加入时触发播放提示更新。</text>
+  <rect x="640" y="260" width="200" height="24" rx="12" fill="#FDE8E6"/>
+  <text x="655" y="277" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#C62828">大量消息可能有动画延迟</text>
+  <text x="640" y="300" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">默认带有渐入和渐出动画</text>
+
+  <rect x="40" y="330" width="1120" height="240" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、功能设置</text>
+
+  <text x="60" y="390" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">初始填充点</text>
+  <text x="200" y="390" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">第一个消息项加入队列时的初始填充位置</text>
+
+  <text x="60" y="420" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">填充方向</text>
+  <text x="200" y="420" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">消息项的填充方向</text>
+
+  <text x="60" y="450" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">新消息插入位置</text>
+  <text x="200" y="450" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">搭配填充方向和初始填充点实现不同效果</text>
+
+  <text x="60" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">对齐</text>
+  <text x="200" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">所有消息项关于父级控件的上下左右对齐方式</text>
+
+  <rect x="60" y="500" width="520" height="50" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="520" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">从上到下：初始填充点=左上 + 纵向 + 队列结尾</text>
+  <text x="80" y="543" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">从下到上：初始填充点=左下 + 纵向 + 队列开头</text>
+
+  <rect x="40" y="590" width="1120" height="80" rx="14" fill="#FDE8E6"/>
+  <text x="60" y="618" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#C62828">注意事项</text>
+  <text x="60" y="645" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">消息队列数据最大数量超出控件显示范围时，素材组中添加的界面动效无法被裁切。</text>
+  <text x="60" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">不推荐将最大消息数量配置为超出控件大小的值。</text>
+
+  <rect x="40" y="690" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="720" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、更新方式</text>
+  <text x="60" y="748" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">使用服务器节点「更新消息队列」推送消息。消息队列的更新只能以一份结构体数据为整体进行推送。</text>
+
+  <text x="600" y="820" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="820" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhs1f7ibtc6c" target="_blank">
+  <text x="48" y="840" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：消息队列控件</text>
+</a>
+</svg>

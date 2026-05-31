@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1030">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1030" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光源管理</text>
+<text x="212" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">实体光源组件：挂载、配置与节点图控制</text>
+
+<!-- Section 1 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、光源组件功能</text>
+<rect x="48" y="170" width="1104" height="60" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="60" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">在实体上挂载光源组件，提供基础照明或改变环境氛围。单个光源组件上可同时生效多个光源。</text>
+<text x="72" y="220" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持点光源、聚光灯两种类型</text>
+
+<!-- Section 2 -->
+<text x="48" y="272" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、添加光源组件</text>
+<rect x="48" y="290" width="1104" height="72" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="290" width="4" height="72" rx="2" fill="#2D6BE4"/>
+<text x="72" y="318" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">在实体/元件编辑界面中，打开组件编辑页签，点击下方"添加通用组件"，选择"光源"。</text>
+<text x="72" y="344" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">添加后点击"详细编辑"展开编辑页，可配置各项参数。点击"添加光源"可添加多个光源。</text>
+
+<!-- Section 3 -->
+<text x="48" y="404" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、光源参数配置</text>
+
+<rect x="48" y="422" width="1104" height="36" rx="8" fill="#2D6BE4"/>
+<text x="160" y="446" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">参数</text>
+<text x="500" y="446" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">说明</text>
+<text x="900" y="446" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">备注</text>
+
+<rect x="48" y="458" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="482" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">初始生效</text>
+<text x="500" y="482" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启后实体创建时该光源自动生效</text>
+<text x="900" y="482" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开关控制</text>
+<line x1="280" y1="466" x2="280" y2="486" stroke="#E8E4DA"/>
+<line x1="700" y1="466" x2="700" y2="486" stroke="#E8E4DA"/>
+
+<rect x="48" y="494" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="518" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光源序号</text>
+<text x="500" y="518" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">区分实体上多个光源，不可修改</text>
+<text x="900" y="518" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自动分配</text>
+<line x1="280" y1="502" x2="280" y2="522" stroke="#E8E4DA"/>
+<line x1="700" y1="502" x2="700" y2="522" stroke="#E8E4DA"/>
+
+<rect x="48" y="530" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="554" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光源名称</text>
+<text x="500" y="554" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义备注名称</text>
+<text x="900" y="554" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可修改</text>
+<line x1="280" y1="538" x2="280" y2="558" stroke="#E8E4DA"/>
+<line x1="700" y1="538" x2="700" y2="558" stroke="#E8E4DA"/>
+
+<rect x="48" y="566" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="590" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光源类型</text>
+<text x="500" y="590" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点光源、聚光灯</text>
+<text x="900" y="590" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">两种可选</text>
+<line x1="280" y1="574" x2="280" y2="594" stroke="#E8E4DA"/>
+<line x1="700" y1="574" x2="700" y2="594" stroke="#E8E4DA"/>
+
+<rect x="48" y="602" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="626" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">颜色</text>
+<text x="500" y="626" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">照射模型时显现的颜色变化</text>
+<text x="900" y="626" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">颜色选择器</text>
+<line x1="280" y1="610" x2="280" y2="630" stroke="#E8E4DA"/>
+<line x1="700" y1="610" x2="700" y2="630" stroke="#E8E4DA"/>
+
+<rect x="48" y="638" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="662" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">半径</text>
+<text x="500" y="662" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光源照射半径</text>
+<text x="900" y="662" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">数值</text>
+<line x1="280" y1="646" x2="280" y2="666" stroke="#E8E4DA"/>
+<line x1="700" y1="646" x2="700" y2="666" stroke="#E8E4DA"/>
+
+<rect x="48" y="674" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="698" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">强度</text>
+<text x="500" y="698" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">颜色或亮度的变化程度</text>
+<text x="900" y="698" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">数值</text>
+<line x1="280" y1="682" x2="280" y2="702" stroke="#E8E4DA"/>
+<line x1="700" y1="682" x2="700" y2="702" stroke="#E8E4DA"/>
+
+<rect x="48" y="710" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="734" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">生效范围</text>
+<text x="500" y="734" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">角色进入该范围时光源才加载</text>
+<text x="900" y="734" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">性能优化</text>
+<line x1="280" y1="718" x2="280" y2="738" stroke="#E8E4DA"/>
+<line x1="700" y1="718" x2="700" y2="738" stroke="#E8E4DA"/>
+
+<rect x="48" y="746" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="770" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">生效范围预览</text>
+<text x="500" y="770" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">在编辑界面预览光源生效范围</text>
+<text x="900" y="770" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">编辑时可见</text>
+<line x1="280" y1="754" x2="280" y2="774" stroke="#E8E4DA"/>
+<line x1="700" y1="754" x2="700" y2="774" stroke="#E8E4DA"/>
+
+<rect x="48" y="782" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="806" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">挂接点</text>
+<text x="500" y="806" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">指定光源跟随的挂接点</text>
+<text x="900" y="806" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">默认根节点</text>
+<line x1="280" y1="790" x2="280" y2="810" stroke="#E8E4DA"/>
+<line x1="700" y1="790" x2="700" y2="810" stroke="#E8E4DA"/>
+
+<rect x="48" y="818" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="842" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">位置、旋转</text>
+<text x="500" y="842" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相对挂接点的位置与旋转偏移</text>
+<text x="900" y="842" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">3D变换</text>
+<line x1="280" y1="826" x2="280" y2="846" stroke="#E8E4DA"/>
+<line x1="700" y1="826" x2="700" y2="846" stroke="#E8E4DA"/>
+
+<!-- Section 4 -->
+<text x="48" y="898" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、节点图控制</text>
+
+<rect x="48" y="916" width="540" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="916" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="946" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">节点图节点：开关实体光源，可控制光源的开启与关闭</text>
+
+<!-- Source -->
+<text x="48" y="988" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhgkan9wgil6" target="_blank">
+  <text x="48" y="1008" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：光源</text>
+</a>
+<text x="600" y="1012" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+</svg>

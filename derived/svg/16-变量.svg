@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1580">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1580" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">变量体系</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">自定义变量、节点图变量、技能变量 -- 定义、作用域、操作与运行时细节</text>
+  <!-- Section 1: 自定义变量定义 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、自定义变量的定义</text>
+  <rect x="60" y="170" width="1080" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">自定义变量是存储在实体的自定义变量组件内、创作者可自行定义和使用的数据结构。</text>
+  <text x="80" y="220" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">用途：承载玩法逻辑的自定义数据，如记录玩家得分、记录击打次数判断机关开关等。</text>
+  <text x="80" y="244" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">支持的数据类型：</text>
+  <text x="80" y="266" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">基础类型：整数、浮点数、字符串、布尔值、三维向量、实体、GUID、元件ID、配置ID、结构体</text>
+  <text x="80" y="286" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">列表类型：上述所有基础类型的列表  |  字典类型：所有字典数据类型</text>
+  <rect x="80" y="300" width="380" height="24" rx="12" fill="#FFF3E0"/><text x="95" y="317" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#1A1B2E">整数取值范围：-2147483647 ~ 2147483647（不含-2147483648）</text>
+  <rect x="480" y="300" width="280" height="24" rx="12" fill="#FDE8E6"/><text x="495" y="317" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#1A1B2E">同实体上自定义变量名不可重名</text>
+  <text x="80" y="342" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">使用自定义变量名（字符串型）作为唯一索引，读取、修改、监听均依赖变量名。</text>
+  <!-- Section 2: 生命周期与作用域 -->
+  <text x="60" y="385" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、生命周期与作用域</text>
+  <rect x="60" y="400" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">生命周期</text>
+  <text x="80" y="452" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">跟随组件（也跟随组件挂载的实体）。</text>
+  <text x="80" y="474" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">实体销毁时，自定义变量同步销毁（无法访问、修改）。</text>
+  <rect x="80" y="490" width="120" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="506" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">跟随实体生命周期</text>
+  <rect x="620" y="400" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">作用域</text>
+  <text x="640" y="452" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">读写拥有全局作用域，可读取/修改任意实体上的变量。</text>
+  <text x="640" y="474" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">事件仅推送给节点图所挂载的实体。</text>
+  <rect x="640" y="490" width="100" height="22" rx="11" fill="#E5F2E9"/><text x="654" y="506" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">全局可读写</text>
+  <!-- Section 3: 组件编辑 -->
+  <text x="60" y="555" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、自定义变量组件编辑</text>
+  <rect x="60" y="570" width="1080" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="598" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">自定义变量组件是所有单位的默认挂载组件，实体创建时默认挂载。</text>
+  <text x="80" y="622" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">编辑步骤：</text>
+  <circle cx="95" cy="645" r="10" fill="#2D6BE4"/><text x="92" y="649" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">1</text>
+  <text x="115" y="650" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">在实体/元件组件页签找到或新增自定义变量组件 > 点击【详细编辑】</text>
+  <circle cx="95" cy="670" r="10" fill="#2D6BE4"/><text x="92" y="674" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">2</text>
+  <text x="115" y="675" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">在详细编辑页新增/修改自定义变量（变量名、数据类型、默认值）</text>
+  <circle cx="95" cy="695" r="10" fill="#2D6BE4"/><text x="92" y="699" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="10" fill="#FFF" text-anchor="middle">3</text>
+  <text x="115" y="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">其他功能：关卡变量总览、按类型筛选、批量删除</text>
+  <rect x="80" y="710" width="340" height="22" rx="11" fill="#FDE8E6"/><text x="94" y="726" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">注意：修改/删除已定义变量可能导致节点图节点无法执行</text>
+  <!-- Section 4: 节点图操作 -->
+  <text x="60" y="765" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、节点图中的自定义变量操作</text>
+  <!-- 设置 -->
+  <rect x="60" y="780" width="340" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="780" width="340" height="30" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="800" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#FFF">设置自定义变量（执行节点）</text>
+  <text x="80" y="828" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">入参：目标实体（实体）</text>
+  <text x="80" y="848" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">入参：变量名（字符串）</text>
+  <text x="80" y="868" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">入参：变量值（泛型）</text>
+  <text x="80" y="888" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">入参：是否触发事件（布尔值）</text>
+  <text x="80" y="910" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">目标实体需存在自定义变量组件及对应变量名</text>
+  <text x="80" y="928" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">可动态创建新变量（不可与现存重名）</text>
+  <!-- 获取 -->
+  <rect x="430" y="780" width="340" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="430" y="780" width="340" height="30" rx="14" fill="#2D6BE4"/>
+  <text x="450" y="800" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#FFF">获取自定义变量（查询节点）</text>
+  <text x="450" y="828" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">入参：目标实体（实体）</text>
+  <text x="450" y="848" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">入参：变量名（字符串）</text>
+  <text x="450" y="868" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">出参：变量值（泛型，需连线确定类型）</text>
+  <text x="450" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">服务端和本地节点图均可使用</text>
+  <text x="450" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">本地节点图仅可读取，不可写入</text>
+  <!-- 变化事件 -->
+  <rect x="800" y="780" width="340" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="800" y="780" width="340" height="30" rx="14" fill="#2D6BE4"/>
+  <text x="820" y="800" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#FFF">自定义变量变化时（事件节点）</text>
+  <text x="820" y="828" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">出参：事件源实体、事件源GUID</text>
+  <text x="820" y="848" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">出参：变量名（字符串）</text>
+  <text x="820" y="868" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">出参：变化前值、变化后值（泛型）</text>
+  <text x="820" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">任意修改即触发（即使值相同）</text>
+  <text x="820" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">容器类型变化事件中无变化前/后值</text>
+  <!-- Section 5: 容器类型与引用传值 -->
+  <text x="60" y="975" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">五、容器类型与引用传值</text>
+  <rect x="60" y="990" width="1080" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="1018" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">容器数据类型：所有列表、所有字典、所有结构体 -- 具有引用传值的性质。</text>
+  <text x="80" y="1042" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">获取容器类型变量后，对输出的操作会直接修改自定义变量中存储的数据（引用传值）。</text>
+  <text x="80" y="1066" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">非容器类型的操作不会影响原变量（值传递）。</text>
+  <rect x="80" y="1080" width="280" height="22" rx="11" fill="#FDE8E6"/><text x="94" y="1096" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">引用传值修改不触发【变化时】事件</text>
+  <rect x="380" y="1080" width="320" height="22" rx="11" fill="#FFF3E0"/><text x="394" y="1096" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">仅【设置自定义变量】节点可触发变化事件</text>
+  <rect x="720" y="1080" width="340" height="22" rx="11" fill="#E8EEFB"/><text x="734" y="1096" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">容器类型变化事件的变化前/后值为空</text>
+  <!-- Section 6: 节点图变量 -->
+  <text x="60" y="1155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">六、节点图变量</text>
+  <rect x="60" y="1170" width="1080" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="1198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">节点图变量是生命周期跟随节点图的变量（仅服务端节点图可用）。</text>
+  <text x="80" y="1222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">与自定义变量的对比：</text>
+  <text x="80" y="1246" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">生命周期：跟随节点图（vs 跟随实体）  |  定义域：仅在定义该变量的节点图内可访问（vs 全局可访问）</text>
+  <text x="80" y="1268" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">命名规则：同节点图内不可重名（vs 同实体不可重名）  |  可用数据类型：所有基础和列表类型</text>
+  <text x="80" y="1292" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">可向关卡暴露节点图变量，允许在编辑关卡时覆写值（如不同炸药桶配置不同伤害）。</text>
+  <text x="80" y="1316" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">编辑入口：千星沙箱 > 快捷菜单栏 > 节点图变量页签。支持拖拽变量到编辑区快捷创建设置/获取节点。</text>
+  <rect x="80" y="1328" width="160" height="22" rx="11" fill="#E5F2E9"/><text x="94" y="1344" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">使用更轻量、可重名</text>
+  <rect x="250" y="1328" width="200" height="22" rx="11" fill="#E5F2E9"/><text x="264" y="1344" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">避免暴露专属性变量到外部</text>
+  <rect x="460" y="1328" width="180" height="22" rx="11" fill="#E5F2E9"/><text x="474" y="1344" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">支持模块化设计</text>
+  <!-- Section 7: 技能变量 -->
+  <text x="60" y="1385" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">七、技能变量</text>
+  <rect x="60" y="1400" width="1080" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="1428" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">技能变量是持久化记录在玩家身上的客户端值，默认为浮点数类型，暂不支持其他类型。</text>
+  <text x="80" y="1452" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">特性：客户端值，可被客户端节点直接修改且立即生效，时效性好于自定义变量。</text>
+  <text x="80" y="1476" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">用途：实时记录信息，实现同一技能中的异步查询，或跨技能的信息传递。</text>
+  <text x="80" y="1498" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">编辑入口：系统菜单 > 技能变量管理。节点图操作：设置技能变量、增加技能变量值、查询技能变量对应值。</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1540" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhso1b9wjica" target="_blank">
+  <text x="48" y="1560" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：自定义变量</text>
+</a>
+<text x="190" y="1540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhtshailzs7w"><text x="205" y="1540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：节点图变量</text></a>
+  <text x="325" y="1540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhhzqw98264i"><text x="340" y="1540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：技能变量</text></a>
+  <text x="600" y="1565" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

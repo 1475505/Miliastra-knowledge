@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 960">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="960" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">物件镜头</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">动态物件/造物挂载额外镜头 -- 模板配置、预览与节点图切换管理</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、物件镜头组件的功能</text>
+  <rect x="60" y="170" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过组件形式允许动态物件/造物挂载额外镜头，可在关卡运行中切换镜头以增加更好的表现效果。</text>
+  <rect x="80" y="218" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">额外镜头挂载</text>
+  <rect x="190" y="218" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="204" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">运行时切换</text>
+  <rect x="300" y="218" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="314" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">表现效果增强</text>
+  <rect x="410" y="218" width="120" height="22" rx="11" fill="#FFF3E0"/><text x="424" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">动态物件/造物</text>
+  <!-- Section 2 -->
+  <text x="60" y="305" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、添加组件</text>
+  <rect x="60" y="320" width="340" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="90" cy="350" r="12" fill="#2D6BE4"/><text x="86" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
+  <text x="112" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">打开组件编辑页签</text>
+  <text x="112" y="370" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">在实体/元件编辑界面中，</text>
+  <text x="112" y="390" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">打开组件编辑页签</text>
+  <rect x="430" y="320" width="340" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="460" cy="350" r="12" fill="#2D6BE4"/><text x="456" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
+  <text x="482" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">添加物件镜头组件</text>
+  <text x="482" y="370" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">点击"添加通用组件"，</text>
+  <text x="482" y="390" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">选择"物件镜头"，成功添加</text>
+  <rect x="800" y="320" width="340" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="830" cy="350" r="12" fill="#2D6BE4"/><text x="826" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">3</text>
+  <text x="852" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">展开详细编辑</text>
+  <text x="852" y="370" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">点击"详细编辑"，</text>
+  <text x="852" y="390" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">展开物件镜头编辑页</text>
+  <!-- Section 3 -->
+  <text x="60" y="465" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、物件镜头组件的编辑</text>
+  <rect x="60" y="480" width="1080" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <!-- 新建镜头 -->
+  <rect x="80" y="498" width="310" height="60" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="522" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4">新建物件镜头</text>
+  <text x="100" y="544" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">点击+新建，选择预先配置好的镜头模板</text>
+  <!-- 管理镜头 -->
+  <rect x="410" y="498" width="310" height="60" rx="10" fill="#FFF3E0"/>
+  <text x="430" y="522" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">管理镜头</text>
+  <text x="430" y="544" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">通过【管理镜头】进入【主镜头管理】编辑</text>
+  <!-- 预览模式 -->
+  <rect x="740" y="498" width="310" height="60" rx="10" fill="#E5F2E9"/>
+  <text x="760" y="522" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">预览镜头</text>
+  <text x="760" y="544" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">选中镜头后，【进入预览模式】预览效果</text>
+  <!-- 编辑流程说明 -->
+  <text x="80" y="590" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">编辑流程：新建镜头 > 选择模板 > 管理镜头参数 > 预览确认。镜头模板在主镜头管理中统一配置。</text>
+  <rect x="80" y="606" width="120" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="622" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">镜头模板选择</text>
+  <rect x="210" y="606" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="224" y="622" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">主镜头管理</text>
+  <rect x="320" y="606" width="100" height="22" rx="11" fill="#E5F2E9"/><text x="334" y="622" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">预览模式确认</text>
+  <!-- Section 4 -->
+  <text x="60" y="690" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、通过节点图管理物件镜头</text>
+  <rect x="60" y="705" width="1080" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="733" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">物件镜头切换时，需保证挂载目标镜头的物件/造物在场，否则无法切换。</text>
+  <rect x="80" y="750" width="500" height="50" rx="10" fill="#FDE8E6"/>
+  <text x="100" y="772" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">注意事项</text>
+  <text x="100" y="792" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">挂载目标镜头的物件/造物必须在场，否则镜头切换无效</text>
+  <rect x="600" y="750" width="500" height="50" rx="10" fill="#E8EEFB"/>
+  <text x="620" y="772" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4">节点图切换</text>
+  <text x="620" y="792" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">通过节点图执行节点切换物件镜头，实现运行时镜头变化</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="860" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhx9b60or59k" target="_blank">
+  <text x="48" y="880" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：物件镜头</text>
+</a>
+<text x="600" y="935" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

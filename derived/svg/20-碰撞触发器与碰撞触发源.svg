@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1100">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1100" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">碰撞触发器与碰撞触发源</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">碰撞检测范围与触发源 -- 配对机制、编辑参数与节点图事件</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、碰撞检测机制</text>
+  <rect x="60" y="170" width="1080" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">碰撞触发器持续监测携带碰撞触发源的实体。两者范围发生碰撞时，发送节点图事件给配置触发器的实体。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">这种碰撞不会带来物理层的碰撞阻碍（仅逻辑检测）。</text>
+  <text x="80" y="246" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">碰撞触发源与不同触发器碰撞时，检测独立计算，分别发送事件互不影响。</text>
+  <rect x="80" y="262" width="200" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">触发器=检测范围（接收方）</text>
+  <rect x="290" y="262" width="200" height="22" rx="11" fill="#E8EEFB"/><text x="304" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">触发源=被检测范围（发送方）</text>
+  <rect x="500" y="262" width="160" height="22" rx="11" fill="#FFF3E0"/><text x="514" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">无物理碰撞阻碍</text>
+  <!-- Section 2: 碰撞触发器 -->
+  <text x="60" y="335" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、碰撞触发器组件</text>
+  <rect x="60" y="350" width="520" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="378" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">组件编辑</text>
+  <text x="80" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">添加：组件页签 > 添加通用组件 > 碰撞触发器</text>
+  <text x="80" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">支持同时生效多个碰撞触发器</text>
+  <text x="80" y="446" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">组件参数：</text>
+  <text x="80" y="466" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">初始生效触发器：枚举默认生效的触发器，可修改勾选状态</text>
+  <text x="80" y="486" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">触发器列表：枚举实体配置的所有碰撞触发器</text>
+  <text x="80" y="510" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">触发器序号作为节点输入项，可调整参数</text>
+  <rect x="620" y="350" width="520" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="378" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">触发器详细编辑</text>
+  <text x="640" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">基础信息：</text>
+  <text x="640" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">初始生效：是否随实体创建立即生效</text>
+  <text x="640" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">生效目标：仅对配置的实体类型检测（角色/物件/造物）</text>
+  <text x="640" y="466" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">触发区范围：</text>
+  <text x="640" y="486" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">触发区形状：长方体、球体、胶囊体</text>
+  <text x="640" y="506" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">中心（偏移）| 旋转（各轴向）| 缩放倍率（各轴向）</text>
+  <text x="640" y="526" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">同一触发器下多个触发区取并集范围生效</text>
+  <!-- Section 3: 碰撞触发源 -->
+  <text x="60" y="585" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、碰撞触发源组件</text>
+  <rect x="60" y="600" width="1080" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="628" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">碰撞触发源组件提供碰撞检测的触发源，仅可同时生效一个碰撞触发源。</text>
+  <text x="80" y="652" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">添加：组件页签 > 添加通用组件 > 碰撞触发源 > 详细编辑</text>
+  <text x="80" y="678" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">配置参数：</text>
+  <text x="80" y="698" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">初始生效：是否在实体创建时激活</text>
+  <text x="80" y="718" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">触发区形状：长方体、球体、胶囊体 | 中心（偏移）| 旋转 | 缩放倍率</text>
+  <rect x="80" y="734" width="280" height="22" rx="11" fill="#E5F2E9"/><text x="94" y="750" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">造物/角色默认包含碰撞触发源</text>
+  <rect x="370" y="734" width="280" height="22" rx="11" fill="#FFF3E0"/><text x="384" y="750" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">无触发源的实体无法触发碰撞事件</text>
+  <!-- Section 4: 节点图 -->
+  <text x="60" y="810" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、节点图管理碰撞触发</text>
+  <rect x="60" y="825" width="1080" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="80" y="840" width="240" height="50" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="862" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">进入碰撞触发器时（事件）</text>
+  <text x="100" y="880" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">触发源进入触发器范围时发送事件给触发器实体</text>
+  <rect x="340" y="840" width="240" height="50" rx="10" fill="#FFF3E0"/>
+  <text x="360" y="862" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">离开碰撞触发器时（事件）</text>
+  <text x="360" y="880" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">触发源离开触发器范围时发送事件给触发器实体</text>
+  <rect x="600" y="840" width="240" height="50" rx="10" fill="#E5F2E9"/>
+  <text x="620" y="862" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">激活/关闭碰撞触发器</text>
+  <text x="620" y="880" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">动态调整触发器生效参数</text>
+  <rect x="860" y="840" width="240" height="50" rx="10" fill="#E5F2E9"/>
+  <text x="880" y="862" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">激活/关闭碰撞触发源</text>
+  <text x="880" y="880" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">动态调整触发源生效参数</text>
+  <!-- 举例 -->
+  <text x="80" y="920" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">典型用例：</text>
+  <text x="80" y="942" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">给木箱添加碰撞触发源（大小=木箱尺寸）> 给尖刺平台加碰撞触发器（放于地面）</text>
+  <text x="80" y="962" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">木箱触发源与尖刺平台触发器接触时，尖刺平台收到进入碰撞触发器事件 > 可在节点图中编辑伤害逻辑</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1010" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh8w69rzuc3i" target="_blank">
+  <text x="48" y="1030" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：碰撞触发器</text>
+</a>
+<text x="190" y="1010" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhn95di01j84"><text x="205" y="1010" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：碰撞触发源</text></a>
+  <text x="600" y="1085" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1350">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1350" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">道具</text>
+<text x="148" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">道具的定义、分类、基础/掉落/交互设置详解</text>
+
+<!-- Section 1 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、道具的定义与分类</text>
+
+<rect x="48" y="170" width="1104" height="72" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="72" rx="2" fill="#2D6BE4"/>
+<text x="72" y="200" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">道具是玩家可在局内获取、使用或装备的虚拟物品，由道具背包作为容器进行统一管理。</text>
+<text x="72" y="226" fill="#1A1B2E" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">分类：</text>
+<rect x="130" y="212" width="48" height="22" rx="11" fill="#E8EEFB"/>
+<text x="154" y="228" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">装备</text>
+<rect x="192" y="212" width="48" height="22" rx="11" fill="#FFF3E0"/>
+<text x="216" y="228" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">材料</text>
+<rect x="254" y="212" width="60" height="22" rx="11" fill="#E5F2E9"/>
+<text x="284" y="228" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">消耗品</text>
+<rect x="328" y="212" width="72" height="22" rx="11" fill="#FDE8E6"/>
+<text x="364" y="228" fill="#C62828" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">贵重物品</text>
+
+<!-- Section 2 -->
+<text x="48" y="284" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、道具编辑入口与基础信息</text>
+
+<rect x="48" y="302" width="1104" height="72" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="302" width="4" height="72" rx="2" fill="#2D6BE4"/>
+<text x="72" y="332" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">入口：道具页签 → 新建道具 → 确认创建</text>
+<text x="72" y="358" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">道具名称（界面显示）| 道具图标（界面图标）| 配置ID（模板唯一标识，节点图引用）</text>
+
+<!-- Section 3: 基础设置 -->
+<text x="48" y="416" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、基础设置</text>
+
+<rect x="48" y="434" width="1104" height="36" rx="8" fill="#2D6BE4"/>
+<text x="160" y="458" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">参数</text>
+<text x="500" y="458" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">说明</text>
+<text x="900" y="458" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">备注</text>
+
+<rect x="48" y="470" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="494" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">稀有度</text>
+<text x="500" y="494" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">决定道具图标底图颜色</text>
+<text x="900" y="494" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">灰/绿/蓝/紫/橙 五种</text>
+<line x1="280" y1="478" x2="280" y2="498" stroke="#E8E4DA"/>
+<line x1="700" y1="478" x2="700" y2="498" stroke="#E8E4DA"/>
+
+<rect x="48" y="506" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="530" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">堆叠上限</text>
+<text x="500" y="530" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一个背包栏位可容纳的道具数量上限</text>
+<text x="900" y="530" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进包时判定</text>
+<line x1="280" y1="514" x2="280" y2="534" stroke="#E8E4DA"/>
+<line x1="700" y1="514" x2="700" y2="534" stroke="#E8E4DA"/>
+
+<rect x="48" y="542" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="566" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关联道具节点图</text>
+<text x="500" y="566" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入背包时附加到角色单位上</text>
+<text x="900" y="566" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">节点图随道具生效</text>
+<line x1="280" y1="550" x2="280" y2="570" stroke="#E8E4DA"/>
+<line x1="700" y1="550" x2="700" y2="570" stroke="#E8E4DA"/>
+
+<rect x="48" y="578" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="602" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">背包内归属页签</text>
+<text x="500" y="602" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">决定道具在背包中被分类到哪个页签</text>
+<text x="900" y="602" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">分类管理</text>
+<line x1="280" y1="586" x2="280" y2="606" stroke="#E8E4DA"/>
+<line x1="700" y1="586" x2="700" y2="606" stroke="#E8E4DA"/>
+
+<rect x="48" y="614" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="638" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">货币价值</text>
+<text x="500" y="638" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">是否有货币价值，关联商店交易价值锚定</text>
+<text x="900" y="638" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可选开启显示</text>
+<line x1="280" y1="622" x2="280" y2="642" stroke="#E8E4DA"/>
+<line x1="700" y1="622" x2="700" y2="642" stroke="#E8E4DA"/>
+
+<!-- Section 4: 掉落设置 -->
+<text x="48" y="694" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、掉落设置</text>
+
+<rect x="48" y="712" width="352" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="712" width="4" height="140" rx="2" fill="#2D6BE4"/>
+<rect x="72" y="732" width="108" height="24" rx="12" fill="#E8EEFB"/>
+<text x="126" y="749" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">销毁时掉落形态</text>
+<text x="72" y="782" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">掉落：击倒时转化为掉落物实体</text>
+<text x="72" y="802" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">销毁：击倒时道具销毁</text>
+<text x="72" y="822" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">保留：击倒时保留在背包内</text>
+<text x="72" y="842" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">保留仅对角色有意义</text>
+
+<rect x="416" y="712" width="352" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="416" y="712" width="4" height="140" rx="2" fill="#FFF3E0"/>
+<rect x="440" y="732" width="108" height="24" rx="12" fill="#FFF3E0"/>
+<text x="494" y="749" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">战利品掉落形式</text>
+<text x="440" y="782" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">全员一份：共享，一人拾取他人不可</text>
+<text x="440" y="802" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">每人一份：各自独立掉落互不干扰</text>
+<text x="440" y="842" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配置掉落物元件作为外形</text>
+
+<rect x="784" y="712" width="368" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="784" y="712" width="4" height="140" rx="2" fill="#E5F2E9"/>
+<rect x="808" y="732" width="96" height="24" rx="12" fill="#E5F2E9"/>
+<text x="856" y="749" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">掉落物外形</text>
+<text x="808" y="782" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配置一个掉落物元件</text>
+<text x="808" y="802" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">道具创建在场景时以对应</text>
+<text x="808" y="822" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">掉落物模型展示</text>
+<text x="808" y="842" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">有物理实体的元件</text>
+
+<!-- Section 5: 交互设置 -->
+<text x="48" y="896" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五、交互设置</text>
+
+<rect x="48" y="914" width="1104" height="36" rx="8" fill="#2D6BE4"/>
+<text x="160" y="938" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">参数</text>
+<text x="500" y="938" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">说明</text>
+<text x="900" y="938" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">备注</text>
+
+<rect x="48" y="950" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="974" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">允许销毁</text>
+<text x="500" y="974" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">玩家能否通过界面操作销毁该道具</text>
+<text x="900" y="974" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">背包内操作</text>
+<line x1="280" y1="958" x2="280" y2="978" stroke="#E8E4DA"/>
+<line x1="700" y1="958" x2="700" y2="978" stroke="#E8E4DA"/>
+
+<rect x="48" y="986" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="1010" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">允许交易</text>
+<text x="500" y="1010" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">该道具能否在商店中出售</text>
+<text x="900" y="1010" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">商店模块联动</text>
+<line x1="280" y1="994" x2="280" y2="1014" stroke="#E8E4DA"/>
+<line x1="700" y1="994" x2="700" y2="1014" stroke="#E8E4DA"/>
+
+<rect x="48" y="1022" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="1046" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">允许使用</text>
+<text x="500" y="1046" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">玩家能否通过界面操作使用道具</text>
+<text x="900" y="1046" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">基础交互</text>
+<line x1="280" y1="1030" x2="280" y2="1050" stroke="#E8E4DA"/>
+<line x1="700" y1="1030" x2="700" y2="1050" stroke="#E8E4DA"/>
+
+<rect x="48" y="1058" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="1082" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">批量使用</text>
+<text x="500" y="1082" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">能否一次操作使用多个道具</text>
+<text x="900" y="1082" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配合允许使用</text>
+<line x1="280" y1="1066" x2="280" y2="1086" stroke="#E8E4DA"/>
+<line x1="700" y1="1066" x2="700" y2="1086" stroke="#E8E4DA"/>
+
+<rect x="48" y="1094" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="1118" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进包后自动使用</text>
+<text x="500" y="1118" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">获取该道具时自动使用</text>
+<text x="900" y="1118" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自动触发</text>
+<line x1="280" y1="1102" x2="280" y2="1122" stroke="#E8E4DA"/>
+<line x1="700" y1="1102" x2="700" y2="1122" stroke="#E8E4DA"/>
+
+<rect x="48" y="1130" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="1154" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">冷却时间</text>
+<text x="500" y="1154" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">使用后进入冷却，冷却内无法再次使用</text>
+<text x="900" y="1154" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">单位：秒</text>
+<line x1="280" y1="1138" x2="280" y2="1158" stroke="#E8E4DA"/>
+<line x1="700" y1="1138" x2="700" y2="1158" stroke="#E8E4DA"/>
+
+<rect x="48" y="1166" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="1190" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关系组冷却</text>
+<text x="500" y="1190" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入冷却时连带关系组内所有道具同时冷却</text>
+<text x="900" y="1190" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配置道具列表定义关系组</text>
+<line x1="280" y1="1174" x2="280" y2="1194" stroke="#E8E4DA"/>
+<line x1="700" y1="1174" x2="700" y2="1194" stroke="#E8E4DA"/>
+
+<!-- Tip -->
+<rect x="48" y="1222" width="1104" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1222" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1252" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">冷却连带关系组：配置一个道具列表，定义关系组内的所有道具，冷却时长等于该项配置值。</text>
+
+<!-- Source --><!-- 相关文档 -->
+<text x="48" y="1300" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhbgx0rspbqu" target="_blank">
+  <text x="48" y="1320" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：道具</text>
+</a>
+<text x="600" y="1326" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1050">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1050" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <!-- Title Card -->
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">界面布局</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">玩家信息获取与交互操作的界面体系 | 设备适配与布局规范</text>
+
+  <!-- Section 1: Definition -->
+  <rect x="40" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、定义与作用</text>
+  <text x="60" y="185" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">界面布局是关卡运行时，玩家用于信息获取和交互操作的界面。</text>
+  <text x="60" y="208" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">在默认布局之上，支持玩家对界面布局自定义。</text>
+  <text x="60" y="231" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">运行时每个玩家有且仅有一个生效的界面布局。</text>
+  <rect x="60" y="250" width="100" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="267" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">依赖玩家运行</text>
+  <rect x="170" y="250" width="120" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="185" y="267" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">通过职业配置</text>
+
+  <!-- Section 2: Management -->
+  <rect x="620" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、管理方式</text>
+  <text x="640" y="185" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过「界面控件组管理 - 界面布局」统一管理。</text>
+  <text x="640" y="208" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">默认配置：通过职业编辑界面，选择布局引用。</text>
+  <text x="640" y="231" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">节点图管理：切换当前界面布局 / 获取当前布局索引。</text>
+  <rect x="640" y="250" width="140" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="655" y="267" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">布局索引切换</text>
+  <rect x="790" y="250" width="140" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="805" y="267" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">获取当前索引</text>
+
+  <!-- Section 3: Device Adaptation -->
+  <rect x="40" y="330" width="1120" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、设备适配</text>
+  <text x="60" y="385" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">不同设备分辨率/按钮排布差异大，需分别调整控件的位置、大小、锚点。</text>
+
+  <!-- Device table -->
+  <rect x="60" y="400" width="200" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="80" y="423" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">设备类型</text>
+  <rect x="280" y="400" width="400" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="300" y="423" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">说明</text>
+
+  <text x="80" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E">PC端</text>
+  <text x="300" y="458" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">键鼠操作，标准16:9分辨率</text>
+  <text x="80" y="482" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E">移动端</text>
+  <text x="300" y="482" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">触屏操作，需关注界面死区</text>
+  <text x="80" y="506" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#1A1B2E">主机端</text>
+  <text x="300" y="506" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">手柄操作，导航提示配置</text>
+
+  <text x="760" y="400" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">调整位置与大小：</text>
+  <text x="760" y="425" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">位置：以画布左下角为原点，控件中心点相对位置</text>
+  <text x="760" y="450" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">大小：可锁定长宽比，部分控件大小不可调整</text>
+  <text x="760" y="475" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个设备需单独设置</text>
+  <rect x="760" y="490" width="160" height="24" rx="12" fill="#FDE8E6"/>
+  <text x="775" y="507" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#C62828">界面死区：移动端16:9基准</text>
+
+  <!-- Section 4: Anchor -->
+  <rect x="40" y="550" width="540" height="230" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="580" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、锚点系统</text>
+  <text x="60" y="605" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">分辨率变化时，控件自适应位置与锚点保持相对不变。</text>
+  <text x="60" y="635" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">锚点选择建议：</text>
+  <text x="60" y="658" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">根据控件所在位置，九宫格中主体位于哪部分选对应锚点</text>
+  <text x="60" y="681" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">功能区锚点应保持一致（如多条任务文本框）</text>
+  <text x="60" y="711" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">锚点类型扩展：</text>
+  <rect x="60" y="725" width="100" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="742" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">拉伸锚点</text>
+  <text x="170" y="742" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">根据背景/容器大小变化进行拉伸适配</text>
+  <rect x="60" y="755" width="120" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="75" y="772" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">跟随固有控件</text>
+  <text x="190" y="772" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">与固有控件（如技能区）保持对齐</text>
+
+  <!-- Section 5: Text Reference -->
+  <rect x="620" y="550" width="540" height="230" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="580" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、文字规范参考</text>
+
+  <text x="640" y="610" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">字号推荐：</text>
+  <text x="640" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">大标题 36-32px | 小标题/按钮 24px | 正文(最常用) 20px</text>
+  <text x="640" y="656" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">辅助字 18px | 推荐最小字号 16px</text>
+
+  <text x="640" y="686" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">字色命令符：</text>
+  <text x="640" y="709" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">&lt;color=#FFFFFF&gt;文本&lt;/color&gt; 替换颜色编码</text>
+  <text x="640" y="732" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">深色底：标题#D3BC8E | 普通#FFFFFF | 关键字#FFCC33/#37FFFF</text>
+  <text x="640" y="755" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">浅色底：普通#4A5366 | 关键字#F39000/#3399CC | 警示#FF5E41</text>
+  <text x="640" y="778" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">文字描边功能可关闭以增强暗色文字可辨识度</text>
+
+  <!-- Section 6: Layout Reference -->
+  <rect x="40" y="800" width="1120" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">六、界面布局参考</text>
+
+  <rect x="60" y="850" width="240" height="110" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">主界面任务</text>
+  <text x="80" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">主要任务：20号字</text>
+  <text x="80" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">次要任务：18号字</text>
+  <text x="80" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">锚点：左上角</text>
+
+  <rect x="320" y="850" width="240" height="110" rx="10" fill="#FFF3E0"/>
+  <text x="340" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">提示</text>
+  <text x="340" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">字号20，居中对齐</text>
+  <text x="340" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">长度5000（适配各屏幕）</text>
+  <text x="340" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">锚点：正上方</text>
+
+  <rect x="580" y="850" width="240" height="110" rx="10" fill="#E5F2E9"/>
+  <text x="600" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2E7D32">弹窗窗口</text>
+  <text x="600" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">小标题字色：#D3BC8E</text>
+  <text x="600" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">强调文本：黄色#FFCC33</text>
+  <text x="600" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">新段落前需空一行</text>
+
+  <rect x="840" y="850" width="300" height="110" rx="10" fill="#FDE8E6"/>
+  <text x="860" y="875" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#C62828">任务追踪</text>
+  <text x="860" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">成功字色：#ACFF44</text>
+  <text x="860" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">失败字色：#FFFFFFBF</text>
+  <text x="860" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">追踪距离需插入自定义变量</text>
+
+  <!-- Footer -->
+  <text x="600" y="1020" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="1020" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhozt0r74ng6" target="_blank">
+  <text x="48" y="1040" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：界面布局</text>
+</a>
+</svg>

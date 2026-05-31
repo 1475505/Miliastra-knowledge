@@ -1,0 +1,298 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2090">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="2090" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">玩家模板</text>
+<text x="240" y="70" fill="#4A4B65" font-size="16">玩家编辑与角色编辑 -- 抽象实体与物理实体的配置</text>
+
+<!-- ========== Section 一: 玩家概念 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、玩家的概念</text>
+
+<rect x="48" y="168" width="540" height="220" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="220" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">玩家实体</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">一种特殊的抽象实体类型，用于描述游戏中</text>
+<text x="72" y="248" fill="#4A4B65" font-size="14">"角色的从属概念"。</text>
+
+<text x="72" y="278" fill="#4A4B65" font-size="14">在超限模式中，每个玩家只对应一个角色。</text>
+
+<text x="72" y="308" fill="#4A4B65" font-size="14">在经典模式中，玩家队伍中可编入多个角色。</text>
+
+<rect x="72" y="332" width="492" height="44" rx="8" fill="#E8EEFB"/>
+<text x="84" y="352" fill="#2D6BE4" font-size="12" font-weight="500">玩家实体是纯逻辑实体</text>
+<text x="84" y="370" fill="#4A4B65" font-size="12">无物理实体，无布设信息，生命周期随关卡初始化创建/销毁</text>
+
+<!-- Card: 角色实体 -->
+<rect x="612" y="168" width="540" height="220" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="168" width="4" height="220" rx="2" fill="#2D6BE4"/>
+<text x="636" y="198" fill="#1A1B2E" font-size="16" font-weight="500">角色实体</text>
+
+<text x="636" y="226" fill="#4A4B65" font-size="14">区别于玩家实体，角色实体指代游戏过程中</text>
+<text x="636" y="248" fill="#4A4B65" font-size="14">玩家实际控制的走跑爬飞单位，有物理实体。</text>
+
+<text x="636" y="278" fill="#4A4B65" font-size="14">角色在游戏过程中根据模板配置动态初始化，</text>
+<text x="636" y="300" fill="#4A4B65" font-size="14">因此角色实体不具有对应的GUID。</text>
+
+<rect x="636" y="322" width="492" height="52" rx="8" fill="#FFF3E0"/>
+<text x="648" y="342" fill="#E65100" font-size="12" font-weight="500">角色生命值归零时：</text>
+<text x="648" y="360" fill="#4A4B65" font-size="12">节点图可收到实体销毁时事件和实体移除/销毁时事件</text>
+
+<!-- ========== Section 二: 玩家模板配置 ========== -->
+<text x="48" y="430" fill="#2D6BE4" font-size="18" font-weight="700">二、玩家模板配置</text>
+
+<rect x="48" y="448" width="1104" height="380" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="448" width="4" height="380" rx="2" fill="#2D6BE4"/>
+<text x="72" y="478" fill="#1A1B2E" font-size="16" font-weight="500">基础信息页签</text>
+
+<text x="72" y="506" fill="#4A4B65" font-size="14">点击新建模板即可创建一个新的玩家模板。</text>
+
+<rect x="72" y="522" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="540" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">生效目标</text>
+<text x="204" y="540" fill="#4A4B65" font-size="13">决定该模板对哪些玩家生效</text>
+
+<rect x="72" y="556" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="574" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">等级</text>
+<text x="204" y="574" fill="#4A4B65" font-size="13">覆写职业的初始等级</text>
+
+<rect x="72" y="590" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="608" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">出生点</text>
+<text x="204" y="608" fill="#4A4B65" font-size="13">玩家可用的出生点列表（引用预设点）</text>
+
+<rect x="72" y="624" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="642" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">初始职业</text>
+<text x="204" y="642" fill="#4A4B65" font-size="13">该玩家模板的初始职业</text>
+
+<rect x="72" y="658" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="676" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">复苏</text>
+<text x="204" y="676" fill="#4A4B65" font-size="13">玩家对应的复苏规则（详见复苏配置）</text>
+
+<rect x="72" y="692" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="710" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">特殊被击倒损伤</text>
+<text x="204" y="710" fill="#4A4B65" font-size="13">溺水、摔伤等特殊原因被击倒时扣除的生命百分比</text>
+
+<text x="72" y="746" fill="#1A1B2E" font-size="14" font-weight="500">玩家模板可用组件：</text>
+
+<rect x="72" y="760" width="120" height="24" rx="12" fill="#E8EEFB"/>
+<text x="132" y="777" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">自定义变量</text>
+<rect x="200" y="760" width="120" height="24" rx="12" fill="#E8EEFB"/>
+<text x="260" y="777" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">全局计时器</text>
+<rect x="328" y="760" width="120" height="24" rx="12" fill="#E8EEFB"/>
+<text x="388" y="777" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">单位状态</text>
+
+<text x="72" y="808" fill="#1A1B2E" font-size="14" font-weight="500">节点图页签：</text>
+<text x="200" y="808" fill="#4A4B65" font-size="14">可在此页签给玩家实体添加节点图或查看已添加的节点图</text>
+
+<!-- ========== Section 三: 复苏配置 ========== -->
+<text x="48" y="870" fill="#2D6BE4" font-size="18" font-weight="700">三、复苏相关配置（玩家模板上）</text>
+
+<rect x="48" y="888" width="1104" height="420" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="888" width="4" height="420" rx="2" fill="#2D6BE4"/>
+<text x="72" y="918" fill="#1A1B2E" font-size="16" font-weight="500">复苏配置项（不同玩家可有不同复苏配置）</text>
+
+<rect x="72" y="934" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="952" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">允许复苏</text>
+<text x="204" y="952" fill="#4A4B65" font-size="13">配置为"否"时无法复苏；可通过节点图动态开关</text>
+
+<rect x="72" y="968" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="986" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">显示复苏界面</text>
+<text x="204" y="986" fill="#4A4B65" font-size="13">为"否"时不弹出复苏界面，需自定义复苏逻辑</text>
+
+<rect x="72" y="1002" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="1020" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">复苏耗时(s)</text>
+<text x="204" y="1020" fill="#4A4B65" font-size="13">倒下后等待此时间才可复苏；配置为"自动复苏"时等待后立刻复苏</text>
+
+<rect x="72" y="1036" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="1054" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">自动复苏</text>
+<text x="204" y="1054" fill="#4A4B65" font-size="13">等待复苏时间后自动复苏，不需玩家点击</text>
+
+<rect x="72" y="1070" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="1088" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">复苏次数限制</text>
+<text x="204" y="1088" fill="#4A4B65" font-size="13">超过次数后无法复苏；可通过节点图调整剩余次数</text>
+
+<rect x="72" y="1104" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="1122" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">复苏点列表</text>
+<text x="204" y="1122" fill="#4A4B65" font-size="13">默认合法复苏点列表；可通过激活/注销复苏点节点动态调整</text>
+
+<rect x="72" y="1138" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="132" y="1156" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">复苏点选取规则</text>
+<text x="204" y="1156" fill="#4A4B65" font-size="13">最近的 / 最新激活的 / 优先级最高的 / 随机的</text>
+
+<rect x="72" y="1172" width="160" height="26" rx="13" fill="#FFF3E0"/>
+<text x="152" y="1190" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">复苏后生命比例(%)</text>
+<text x="244" y="1190" fill="#4A4B65" font-size="13">复苏后角色生命值百分比，不可为0</text>
+
+<rect x="72" y="1206" width="200" height="26" rx="13" fill="#FDE8E6"/>
+<text x="172" y="1224" fill="#C62828" font-size="12" text-anchor="middle" font-weight="500">特殊被击倒损伤-扣除最大生命(%)</text>
+<text x="284" y="1224" fill="#4A4B65" font-size="13">溺水/坠入深渊扣除生命值百分比，不扣复苏次数</text>
+
+<text x="72" y="1260" fill="#1A1B2E" font-size="14" font-weight="500">复苏流程：</text>
+<text x="72" y="1280" fill="#4A4B65" font-size="13">角色倒下 -> 进入所有角色倒下状态 -> 复苏界面(放弃挑战/等待复苏) -> 点击复苏/自动复苏/节点图强制复苏 -> 在复苏点复苏</text>
+
+<!-- ========== Section 四: 角色编辑 ========== -->
+<text x="48" y="1350" fill="#2D6BE4" font-size="18" font-weight="700">四、角色模板编辑（超限模式中作为玩家模板的一部分）</text>
+
+<rect x="48" y="1368" width="540" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1368" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1398" fill="#1A1B2E" font-size="16" font-weight="500">角色编辑页签</text>
+
+<text x="72" y="1426" fill="#4A4B65" font-size="14">在超限模式中，玩家和角色一一对应，</text>
+<text x="72" y="1448" fill="#4A4B65" font-size="14">角色的模板配置作为玩家模板的一部分存在。</text>
+
+<text x="72" y="1478" fill="#1A1B2E" font-size="13" font-weight="500">四大页签：</text>
+
+<rect x="72" y="1494" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="1512" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">基础信息</text>
+<text x="204" y="1512" fill="#4A4B65" font-size="13">仅有音效相关信息</text>
+
+<rect x="72" y="1528" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="1546" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">特化配置</text>
+<text x="204" y="1546" fill="#4A4B65" font-size="13">仅有战斗设置相关参数</text>
+
+<rect x="72" y="1562" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="1580" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">通用组件</text>
+<text x="204" y="1580" fill="#4A4B65" font-size="13">添加/查看组件</text>
+
+<rect x="72" y="1596" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="1614" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">节点图</text>
+<text x="204" y="1614" fill="#4A4B65" font-size="13">添加/查看节点图</text>
+
+<rect x="72" y="1640" width="492" height="20" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1655" fill="#2D6BE4" font-size="11" font-weight="500">玩家模板上不可配置基础战斗属性（由职业提供）</text>
+
+<!-- Card: 角色可用组件 -->
+<rect x="612" y="1368" width="540" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1368" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1398" fill="#1A1B2E" font-size="16" font-weight="500">角色实体可用组件</text>
+
+<rect x="636" y="1414" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1429" fill="#2D6BE4" font-size="10" text-anchor="middle">碰撞触发器</text>
+<rect x="752" y="1414" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1429" fill="#2D6BE4" font-size="10" text-anchor="middle">自定义变量</text>
+<rect x="868" y="1414" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1429" fill="#2D6BE4" font-size="10" text-anchor="middle">全局计时器</text>
+
+<rect x="636" y="1442" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1457" fill="#2D6BE4" font-size="10" text-anchor="middle">单位状态</text>
+<rect x="752" y="1442" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1457" fill="#2D6BE4" font-size="10" text-anchor="middle">特效播放</text>
+<rect x="868" y="1442" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1457" fill="#2D6BE4" font-size="10" text-anchor="middle">自定义挂接点</text>
+
+<rect x="636" y="1470" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1485" fill="#2D6BE4" font-size="10" text-anchor="middle">碰撞触发源</text>
+<rect x="752" y="1470" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1485" fill="#2D6BE4" font-size="10" text-anchor="middle">音效播放器</text>
+<rect x="868" y="1470" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1485" fill="#2D6BE4" font-size="10" text-anchor="middle">背包组件</text>
+
+<rect x="636" y="1498" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1513" fill="#2D6BE4" font-size="10" text-anchor="middle">战利品</text>
+<rect x="752" y="1498" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1513" fill="#2D6BE4" font-size="10" text-anchor="middle">铭牌</text>
+<rect x="868" y="1498" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1513" fill="#2D6BE4" font-size="10" text-anchor="middle">文本气泡</text>
+
+<rect x="636" y="1526" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1541" fill="#2D6BE4" font-size="10" text-anchor="middle">扫描标签</text>
+<rect x="752" y="1526" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1541" fill="#2D6BE4" font-size="10" text-anchor="middle">小地图标识</text>
+
+<rect x="636" y="1560" width="108" height="22" rx="11" fill="#FFF3E0"/>
+<text x="690" y="1575" fill="#E65100" font-size="10" text-anchor="middle" font-weight="500">装备栏(仅角色)</text>
+
+<rect x="636" y="1596" width="492" height="56" rx="8" fill="#E8EEFB"/>
+<text x="648" y="1616" fill="#2D6BE4" font-size="12" font-weight="500">角色运行时特性：</text>
+<text x="648" y="1636" fill="#4A4B65" font-size="12">根据模板配置动态初始化，无GUID；联机退出时关卡收到角色移除事件</text>
+
+<!-- ========== Section 五: 复苏相关节点 ========== -->
+<text x="48" y="1710" fill="#2D6BE4" font-size="18" font-weight="700">五、复苏相关节点图节点</text>
+
+<rect x="48" y="1728" width="540" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1728" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1758" fill="#1A1B2E" font-size="16" font-weight="500">执行节点</text>
+
+<rect x="72" y="1774" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1791" fill="#E65100" font-size="12">复苏角色（入参：角色实体）</text>
+
+<rect x="72" y="1804" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1821" fill="#E65100" font-size="12">复苏玩家所有角色（入参：玩家实体 / 是否扣除复苏次数）</text>
+
+<rect x="72" y="1834" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1851" fill="#E65100" font-size="12">击倒玩家所有角色（入参：玩家实体）</text>
+
+<rect x="72" y="1864" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1881" fill="#E65100" font-size="12">设置玩家复苏耗时（入参：玩家实体 / 时长）</text>
+
+<rect x="72" y="1894" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1911" fill="#E65100" font-size="12">设置玩家剩余复苏次数（入参：玩家实体 / 剩余次数）</text>
+
+<rect x="72" y="1924" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1941" fill="#E65100" font-size="12">允许/禁止玩家复苏（入参：玩家实体 / 是否允许）</text>
+
+<rect x="72" y="1954" width="492" height="24" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1971" fill="#E65100" font-size="12">激活/注销复苏点（入参：玩家实体 / 复苏点序号）</text>
+
+<!-- Card: 事件与查询节点 -->
+<rect x="612" y="1728" width="540" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1728" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1758" fill="#1A1B2E" font-size="16" font-weight="500">事件节点与查询节点</text>
+
+<text x="636" y="1786" fill="#1A1B2E" font-size="13" font-weight="500">事件节点：</text>
+<rect x="636" y="1798" width="492" height="24" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1815" fill="#2E7D32" font-size="12">玩家所有角色倒下时（出参：玩家实体 / 原因枚举）</text>
+
+<rect x="636" y="1828" width="492" height="24" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1845" fill="#2E7D32" font-size="12">玩家所有角色复苏时（出参：玩家实体）</text>
+
+<rect x="636" y="1858" width="492" height="24" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1875" fill="#2E7D32" font-size="12">玩家异常倒下并复苏时（出参：玩家实体）</text>
+
+<rect x="636" y="1888" width="492" height="24" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1905" fill="#2E7D32" font-size="12">角色倒下时（出参：角色实体 / 原因 / 击倒者实体）</text>
+
+<rect x="636" y="1918" width="492" height="24" rx="8" fill="#E5F2E9"/>
+<text x="648" y="1935" fill="#2E7D32" font-size="12">角色复苏时（出参：角色实体）</text>
+
+<text x="636" y="1964" fill="#1A1B2E" font-size="13" font-weight="500">查询节点：</text>
+<rect x="636" y="1976" width="492" height="24" rx="8" fill="#E8EEFB"/>
+<text x="648" y="1993" fill="#2D6BE4" font-size="12">查询玩家角色是否全部倒下 / 获取复苏耗时 / 获取剩余复苏次数</text>
+
+<!-- Source links -->
+<text x="48" y="2030" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="2030" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhctmgi51lpo" target="_blank">
+  <text x="48" y="2050" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：玩家</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh3ecor1x5cm">
+  <text x="160" y="2030" fill="#2D6BE4" font-size="12" text-decoration="underline">角色</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh796lr44x0e">
+  <text x="200" y="2030" fill="#2D6BE4" font-size="12" text-decoration="underline">复苏</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="2060" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2880">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="2880" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">实体与元件</text>
+<text x="280" y="70" fill="#4A4B65" font-size="16">千星奇域编辑器核心概念 -- 单位体系、实体摆放与元件编辑</text>
+
+<!-- ========== Section 一: 核心概念 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、核心概念：单位、实体与元件</text>
+
+<rect x="48" y="168" width="540" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">概念层级</text>
+
+<rect x="72" y="212" width="80" height="30" rx="15" fill="#2D6BE4"/>
+<text x="112" y="232" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">单 位</text>
+<text x="164" y="232" fill="#4A4B65" font-size="13">编辑与运行中集成了数据的个体</text>
+
+<line x1="112" y1="242" x2="112" y2="256" stroke="#8B8DA0" stroke-width="1.5" stroke-dasharray="4"/>
+<polygon points="108,254 112,262 116,254" fill="#8B8DA0"/>
+
+<rect x="72" y="264" width="80" height="30" rx="15" fill="#2D6BE4"/>
+<text x="112" y="284" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">实 体</text>
+<text x="164" y="284" fill="#4A4B65" font-size="13">单位在游戏中的具象化体现</text>
+<text x="164" y="302" fill="#4A4B65" font-size="12">运行时可作为变量类型记录与传递</text>
+
+<rect x="80" y="316" width="96" height="26" rx="13" fill="#E8EEFB"/>
+<text x="128" y="334" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">动态实体</text>
+<text x="188" y="334" fill="#4A4B65" font-size="12">可编辑属性、组件、节点图</text>
+
+<rect x="80" y="348" width="96" height="26" rx="13" fill="#E8EEFB"/>
+<text x="128" y="366" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">静态实体</text>
+<text x="188" y="366" fill="#4A4B65" font-size="12">仅模型布设与是否在场，用于装饰</text>
+
+<line x1="112" y1="376" x2="112" y2="390" stroke="#8B8DA0" stroke-width="1.5" stroke-dasharray="4"/>
+<polygon points="108,388 112,396 116,388" fill="#8B8DA0"/>
+
+<rect x="72" y="398" width="80" height="30" rx="15" fill="#2D6BE4"/>
+<text x="112" y="418" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">元 件</text>
+<text x="164" y="418" fill="#4A4B65" font-size="13">预设的实体数据，所有实体均由元件创建</text>
+
+<!-- Right card: identifiers -->
+<rect x="612" y="168" width="540" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="168" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="636" y="198" fill="#1A1B2E" font-size="16" font-weight="500">标识与分类</text>
+
+<rect x="636" y="212" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="696" y="230" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">实体 GUID</text>
+<text x="768" y="230" fill="#4A4B65" font-size="13">每个可编辑实体的全局唯一标识符</text>
+<text x="768" y="248" fill="#8B8DA0" font-size="12">即使同一元件创建，GUID也不同</text>
+
+<rect x="636" y="262" width="120" height="26" rx="13" fill="#FFF3E0"/>
+<text x="696" y="280" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">元件 ID</text>
+<text x="768" y="280" fill="#4A4B65" font-size="13">元件的全局唯一标识</text>
+<text x="768" y="298" fill="#8B8DA0" font-size="12">仅动态/敌人元件可通过节点图生成运行时实体</text>
+
+<rect x="636" y="316" width="120" height="26" rx="13" fill="#E5F2E9"/>
+<text x="696" y="334" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">预制元件</text>
+<text x="768" y="334" fill="#4A4B65" font-size="13">系统提供的动态、静态、敌人元件</text>
+
+<rect x="636" y="352" width="120" height="26" rx="13" fill="#E5F2E9"/>
+<text x="696" y="370" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">自定义元件</text>
+<text x="768" y="370" fill="#4A4B65" font-size="13">基于预制元件修改后另存为的元件</text>
+
+<rect x="636" y="388" width="120" height="26" rx="13" fill="#FDE8E6"/>
+<text x="696" y="406" fill="#C62828" font-size="12" text-anchor="middle" font-weight="500">临时实体</text>
+<text x="768" y="406" fill="#4A4B65" font-size="13">运行时由节点图创建，无编辑时GUID</text>
+
+<!-- ========== Section 二: 单位类型 ========== -->
+<text x="48" y="470" fill="#2D6BE4" font-size="18" font-weight="700">二、单位的六种类型</text>
+
+<rect x="48" y="488" width="1104" height="80" rx="14" fill="#fff" filter="url(#card)"/>
+
+<rect x="72" y="502" width="100" height="32" rx="16" fill="#2D6BE4"/>
+<text x="122" y="523" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">玩家</text>
+<text x="184" y="523" fill="#4A4B65" font-size="12">抽象实体，描述角色从属</text>
+
+<rect x="352" y="502" width="100" height="32" rx="16" fill="#2D6BE4"/>
+<text x="402" y="523" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">角色</text>
+<text x="464" y="523" fill="#4A4B65" font-size="12">玩家实际控制的物理实体</text>
+
+<rect x="632" y="502" width="100" height="32" rx="16" fill="#2D6BE4"/>
+<text x="682" y="523" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">造物</text>
+<text x="744" y="523" fill="#4A4B65" font-size="12">自主反应的敌对/NPC实体</text>
+
+<rect x="72" y="542" width="100" height="32" rx="16" fill="#2D6BE4"/>
+<text x="122" y="563" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">物件</text>
+<text x="184" y="563" fill="#4A4B65" font-size="12">静态/动态场景实体</text>
+
+<rect x="352" y="542" width="100" height="32" rx="16" fill="#2D6BE4"/>
+<text x="402" y="563" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">本地投射物</text>
+<text x="464" y="563" fill="#4A4B65" font-size="12">本地计算的投射物实体</text>
+
+<rect x="632" y="542" width="100" height="32" rx="16" fill="#2D6BE4"/>
+<text x="682" y="563" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">关卡</text>
+<text x="744" y="563" fill="#4A4B65" font-size="12">承载关卡逻辑的特殊实体</text>
+
+<!-- ========== Section 三: 实体摆放 ========== -->
+<text x="48" y="612" fill="#2D6BE4" font-size="18" font-weight="700">三、实体摆放操作流程</text>
+
+<!-- Card: 创建实体 -->
+<rect x="48" y="630" width="540" height="220" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="630" width="4" height="220" rx="2" fill="#2D6BE4"/>
+<text x="72" y="660" fill="#1A1B2E" font-size="16" font-weight="500">创建实体</text>
+
+<circle cx="84" cy="686" r="12" fill="#2D6BE4"/>
+<text x="84" y="691" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">1</text>
+<text x="104" y="691" fill="#4A4B65" font-size="13">进入实体摆放页签（顶部页签栏第二个图标）</text>
+
+<circle cx="84" cy="716" r="12" fill="#2D6BE4"/>
+<text x="84" y="721" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">2</text>
+<text x="104" y="721" fill="#4A4B65" font-size="13">侧边栏展示自定义元件与预制元件</text>
+
+<circle cx="84" cy="746" r="12" fill="#2D6BE4"/>
+<text x="84" y="751" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">3</text>
+<text x="104" y="751" fill="#4A4B65" font-size="13">左键长按拖拽元件到场景 / 左键单击在屏幕中心创建</text>
+
+<circle cx="84" cy="776" r="12" fill="#2D6BE4"/>
+<text x="84" y="781" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">4</text>
+<text x="104" y="781" fill="#4A4B65" font-size="13">动态/静态由元件类型决定，不可在实体面板切换</text>
+
+<rect x="72" y="800" width="492" height="36" rx="8" fill="#FFF3E0"/>
+<text x="84" y="823" fill="#E65100" font-size="12" font-weight="500">注意：动态实体有GUID可被节点图操作；静态实体无GUID</text>
+
+<!-- Card: 基础操作 -->
+<rect x="612" y="630" width="540" height="220" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="630" width="4" height="220" rx="2" fill="#2D6BE4"/>
+<text x="636" y="660" fill="#1A1B2E" font-size="16" font-weight="500">基础摆放操作</text>
+
+<text x="636" y="686" fill="#1A1B2E" font-size="13" font-weight="500">单选</text>
+<text x="680" y="686" fill="#4A4B65" font-size="13">鼠标左键单击，高亮描边+变换工具+右侧详情面板</text>
+
+<text x="636" y="710" fill="#1A1B2E" font-size="13" font-weight="500">多选</text>
+<text x="680" y="710" fill="#4A4B65" font-size="13">左键拖拽框选 / Shift+左键连续点击</text>
+
+<text x="636" y="734" fill="#1A1B2E" font-size="13" font-weight="500">变换</text>
+<text x="680" y="734" fill="#4A4B65" font-size="13">空格键切换：三合一 / 移动 / 旋转 / 缩放</text>
+<text x="680" y="752" fill="#8B8DA0" font-size="12">每种工具均有步进功能进行精准操作</text>
+
+<text x="636" y="776" fill="#1A1B2E" font-size="13" font-weight="500">删除</text>
+<text x="680" y="776" fill="#4A4B65" font-size="13">Delete键 或 点击删除</text>
+
+<text x="636" y="800" fill="#1A1B2E" font-size="13" font-weight="500">复制</text>
+<text x="680" y="800" fill="#4A4B65" font-size="13">Ctrl+C/V隔空复制；Alt+拖拽轴原地复制</text>
+
+<text x="636" y="824" fill="#1A1B2E" font-size="13" font-weight="500">撤销/保存</text>
+<text x="712" y="824" fill="#4A4B65" font-size="13">Ctrl+Z撤销 / Ctrl+S保存（请经常保存）</text>
+
+<!-- ========== Section 四: 详情编辑面板 ========== -->
+<text x="48" y="892" fill="#2D6BE4" font-size="18" font-weight="700">四、实体详情编辑面板</text>
+
+<rect x="48" y="910" width="1104" height="400" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="910" width="4" height="400" rx="2" fill="#2D6BE4"/>
+<text x="72" y="940" fill="#1A1B2E" font-size="16" font-weight="500">右侧详情面板 -- 基础属性页签（左侧第一个）</text>
+
+<!-- Row 1 -->
+<rect x="72" y="956" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="152" y="974" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">变换</text>
+<text x="244" y="974" fill="#4A4B65" font-size="13">精细调整位置、旋转、缩放；可锁定变换防误触</text>
+
+<rect x="612" y="956" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="692" y="974" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">模型</text>
+<text x="784" y="974" fill="#4A4B65" font-size="13">替换主物件模型、查看挂接点、添加装饰物</text>
+
+<!-- Row 2 -->
+<rect x="72" y="994" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="152" y="1012" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">原生碰撞</text>
+<text x="244" y="1012" fill="#4A4B65" font-size="13">初始生效开关 + 是否可攀爬</text>
+
+<rect x="612" y="994" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="692" y="1012" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">可见性</text>
+<text x="784" y="1012" fill="#4A4B65" font-size="13">仅影响模型显示，不影响其他逻辑</text>
+
+<!-- Row 3 -->
+<rect x="72" y="1032" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="152" y="1050" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">创建设置</text>
+<text x="244" y="1050" fill="#4A4B65" font-size="13">关闭初始创建后，实体不初始创建，可通过节点图动态创建</text>
+
+<rect x="612" y="1032" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="692" y="1050" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">阵营</text>
+<text x="784" y="1050" fill="#4A4B65" font-size="13">设置实体所属阵营</text>
+
+<!-- Row 4 -->
+<rect x="72" y="1070" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="152" y="1088" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">单位标签</text>
+<text x="244" y="1088" fill="#4A4B65" font-size="13">添加标签，节点图内可查询带标签的实体</text>
+
+<rect x="612" y="1070" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="692" y="1088" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">实体布设组</text>
+<text x="784" y="1088" fill="#4A4B65" font-size="13">管理实体所属布设组</text>
+
+<!-- Row 5 -->
+<rect x="72" y="1108" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="152" y="1126" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">负载优化</text>
+<text x="244" y="1126" fill="#4A4B65" font-size="13">距离角色过远时是否在该玩家客户端运行</text>
+
+<rect x="612" y="1108" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="692" y="1126" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">音效</text>
+<text x="784" y="1126" fill="#4A4B65" font-size="13">是否播放自身携带的音效</text>
+
+<!-- Row 6 -->
+<rect x="72" y="1146" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="152" y="1164" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">引用源</text>
+<text x="244" y="1164" fill="#4A4B65" font-size="13">查看实体所属的元件</text>
+
+<rect x="612" y="1146" width="160" height="26" rx="13" fill="#E8EEFB"/>
+<text x="692" y="1164" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">备注</text>
+<text x="784" y="1164" fill="#4A4B65" font-size="13">填写备注文本</text>
+
+<!-- Four panels -->
+<text x="72" y="1206" fill="#1A1B2E" font-size="14" font-weight="500">四大编辑面板：</text>
+
+<rect x="72" y="1218" width="120" height="28" rx="14" fill="#2D6BE4"/>
+<text x="132" y="1237" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">基础信息</text>
+<text x="204" y="1237" fill="#4A4B65" font-size="12">不可删除的基础属性，不同类型属性不同</text>
+
+<rect x="72" y="1254" width="120" height="28" rx="14" fill="#2D6BE4"/>
+<text x="132" y="1273" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">特化配置</text>
+<text x="204" y="1273" fill="#4A4B65" font-size="12">基础战斗属性、仇恨配置、受击盒、战斗设置、能力单元</text>
+
+<rect x="72" y="1290" width="120" height="28" rx="14" fill="#2D6BE4"/>
+<text x="132" y="1309" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">通用组件</text>
+<text x="204" y="1309" fill="#4A4B65" font-size="12">添加/删除/编辑组件，部分类型默认挂载组件</text>
+
+<!-- ========== Section 五: 便捷摆放 ========== -->
+<text x="48" y="1360" fill="#2D6BE4" font-size="18" font-weight="700">五、便捷摆放功能（顶部栏快捷设置齿轮图标）</text>
+
+<rect x="48" y="1378" width="540" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1378" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1408" fill="#1A1B2E" font-size="16" font-weight="500">摆放辅助</text>
+
+<text x="72" y="1434" fill="#1A1B2E" font-size="13" font-weight="500">贴地摆放</text>
+<text x="160" y="1434" fill="#4A4B65" font-size="13">拖拽变换工具中心点进行贴地</text>
+
+<text x="72" y="1458" fill="#1A1B2E" font-size="13" font-weight="500">表面吸附</text>
+<text x="160" y="1458" fill="#4A4B65" font-size="13">根据实体包围盒6面进行吸附</text>
+
+<text x="72" y="1482" fill="#1A1B2E" font-size="13" font-weight="500">吸附后转正</text>
+<text x="172" y="1482" fill="#4A4B65" font-size="13">纠正表面吸附后角度到0/90/180/270</text>
+
+<text x="72" y="1506" fill="#1A1B2E" font-size="13" font-weight="500">中心对齐</text>
+<text x="160" y="1506" fill="#4A4B65" font-size="13">两个实体中心对齐</text>
+
+<text x="72" y="1530" fill="#1A1B2E" font-size="13" font-weight="500">移动时显示距离</text>
+<text x="200" y="1530" fill="#4A4B65" font-size="13">拖拽时显示当前移动距离</text>
+
+<text x="72" y="1554" fill="#1A1B2E" font-size="13" font-weight="500">Alt复制数量</text>
+<text x="184" y="1554" fill="#4A4B65" font-size="13">影响Alt复制时的实体数量（右上角快捷设置）</text>
+
+<text x="72" y="1578" fill="#1A1B2E" font-size="13" font-weight="500">显示设置</text>
+<text x="160" y="1578" fill="#4A4B65" font-size="13">开关造物入战范围/预设点/空物件/路径点常驻显示</text>
+
+<text x="72" y="1602" fill="#1A1B2E" font-size="13" font-weight="500">镜头设置</text>
+<text x="160" y="1602" fill="#4A4B65" font-size="13">水平/垂直速度；水平锁开启后仅EQ改变高度</text>
+
+<text x="72" y="1626" fill="#1A1B2E" font-size="13" font-weight="500">环境设置</text>
+<text x="160" y="1626" fill="#4A4B65" font-size="13">更改编辑时预览环境</text>
+
+<!-- Card: 复制粘贴数据 -->
+<rect x="612" y="1378" width="540" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1378" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1408" fill="#1A1B2E" font-size="16" font-weight="500">复制粘贴与数据管理</text>
+
+<text x="636" y="1434" fill="#1A1B2E" font-size="13" font-weight="500">复制粘贴实体数据</text>
+<text x="636" y="1454" fill="#4A4B65" font-size="13">不创建新实体，入口在右键菜单</text>
+<text x="636" y="1474" fill="#4A4B65" font-size="13">将被复制实体数据覆盖到选中实体上</text>
+<text x="636" y="1494" fill="#4A4B65" font-size="13">同时修改元件引用源，GUID不变</text>
+
+<rect x="636" y="1508" width="492" height="32" rx="8" fill="#FDE8E6"/>
+<text x="648" y="1529" fill="#C62828" font-size="12" font-weight="500">禁止：物件、造物间不可相互粘贴实体数据</text>
+
+<text x="636" y="1560" fill="#1A1B2E" font-size="13" font-weight="500">实体数据覆写机制</text>
+<text x="636" y="1580" fill="#4A4B65" font-size="13">未被覆写的数据：接收元件推送的修改（覆盖保存后）</text>
+<text x="636" y="1600" fill="#4A4B65" font-size="13">被覆写的数据：不接收推送（详情面板中标蓝显示）</text>
+
+<text x="636" y="1626" fill="#1A1B2E" font-size="13" font-weight="500">还原为元件数据</text>
+<text x="636" y="1646" fill="#4A4B65" font-size="13">整体还原：顶部栏物件图标 > 还原为元件数据</text>
+
+<!-- ========== Section 六: 元件编辑 ========== -->
+<text x="48" y="1700" fill="#2D6BE4" font-size="18" font-weight="700">六、元件编辑流程</text>
+
+<rect x="48" y="1718" width="1104" height="340" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1718" width="4" height="340" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1748" fill="#1A1B2E" font-size="16" font-weight="500">元件库编辑</text>
+
+<circle cx="84" cy="1774" r="12" fill="#2D6BE4"/>
+<text x="84" y="1779" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">1</text>
+<text x="104" y="1779" fill="#4A4B65" font-size="13">选中元件库图标（A），进入元件库界面</text>
+
+<circle cx="84" cy="1804" r="12" fill="#2D6BE4"/>
+<text x="84" y="1809" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">2</text>
+<text x="104" y="1809" fill="#4A4B65" font-size="13">状态栏切换面板：物件(B) / 造物(C) / 掉落物(D) / 元件组(E)</text>
+
+<circle cx="84" cy="1834" r="12" fill="#2D6BE4"/>
+<text x="84" y="1839" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">3</text>
+<text x="104" y="1839" fill="#4A4B65" font-size="13">建立管理页签，按习惯分类管理制作的元件</text>
+
+<circle cx="84" cy="1864" r="12" fill="#2D6BE4"/>
+<text x="84" y="1869" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">4</text>
+<text x="104" y="1869" fill="#4A4B65" font-size="13">元件命名需全局唯一(A)；保存后生成全局唯一元件ID(B)</text>
+
+<circle cx="84" cy="1894" r="12" fill="#2D6BE4"/>
+<text x="84" y="1899" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">5</text>
+<text x="104" y="1899" fill="#4A4B65" font-size="13">下拉菜单可修改元件为动态/静态(C)</text>
+
+<circle cx="84" cy="1924" r="12" fill="#2D6BE4"/>
+<text x="84" y="1929" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">6</text>
+<text x="104" y="1929" fill="#4A4B65" font-size="13">四个页签(D)：基础信息 / 特化配置 / 通用组件 / 节点图</text>
+
+<text x="72" y="1964" fill="#1A1B2E" font-size="14" font-weight="500">保存元件：</text>
+<text x="72" y="1984" fill="#4A4B65" font-size="13">预制元件修改 > 保存按钮 > 存为自定义元件放入指定页签</text>
+<text x="72" y="2004" fill="#4A4B65" font-size="13">自定义元件 > 覆盖保存元件（更新原本）或 另存为元件（新元件）</text>
+
+<text x="72" y="2034" fill="#1A1B2E" font-size="14" font-weight="500">元件创建实体：</text>
+<text x="72" y="2054" fill="#4A4B65" font-size="13">动态/静态元件均可在实体摆放页签拖入场景成为可编辑实体</text>
+
+<!-- ========== Section 七: 静态实体 ========== -->
+<text x="48" y="2100" fill="#2D6BE4" font-size="18" font-weight="700">七、静态实体特殊说明</text>
+
+<rect x="48" y="2118" width="540" height="180" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="2118" width="4" height="180" rx="2" fill="#2D6BE4"/>
+<text x="72" y="2148" fill="#1A1B2E" font-size="16" font-weight="500">静态实体限制</text>
+
+<text x="72" y="2174" fill="#4A4B65" font-size="13">- 无法编辑额外的属性、组件与节点图功能</text>
+<text x="72" y="2196" fill="#4A4B65" font-size="13">- 不可供玩家在运行时获取</text>
+<text x="72" y="2218" fill="#4A4B65" font-size="13">- 仅用于装饰与场景布设</text>
+<text x="72" y="2240" fill="#4A4B65" font-size="13">- 无GUID，不可被节点图操作</text>
+<text x="72" y="2262" fill="#4A4B65" font-size="13">- 不可通过节点图【创建元件】创建临时静态实体</text>
+<text x="72" y="2284" fill="#4A4B65" font-size="13">- 仅可通过拖动元件到实体摆放页签场景创建</text>
+
+<!-- Card: 动态实体运行时 -->
+<rect x="612" y="2118" width="540" height="180" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="2118" width="4" height="180" rx="2" fill="#2D6BE4"/>
+<text x="636" y="2148" fill="#1A1B2E" font-size="16" font-weight="500">运行时实体与临时实体</text>
+
+<text x="636" y="2174" fill="#1A1B2E" font-size="13" font-weight="500">运行时实体</text>
+<text x="636" y="2194" fill="#4A4B65" font-size="13">关卡运行时，根据可编辑实体数据生成</text>
+<text x="636" y="2214" fill="#4A4B65" font-size="13">或使用节点图通过预设元件即时生成</text>
+
+<text x="636" y="2244" fill="#1A1B2E" font-size="13" font-weight="500">临时实体</text>
+<text x="636" y="2264" fill="#4A4B65" font-size="13">通过节点图【创建元件】在运行时由元件创建</text>
+<text x="636" y="2284" fill="#4A4B65" font-size="13">无编辑时GUID，其他与普通实体一致</text>
+
+<!-- ========== Section 八: 覆写与还原 ========== -->
+<text x="48" y="2340" fill="#2D6BE4" font-size="18" font-weight="700">八、实体与元件的覆写和还原机制</text>
+
+<rect x="48" y="2358" width="1104" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="2358" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="72" y="2388" fill="#1A1B2E" font-size="16" font-weight="500">覆写规则</text>
+
+<text x="72" y="2414" fill="#4A4B65" font-size="13">实体的数据引用元件数据，在实体上单独修改会覆写引用数据</text>
+
+<rect x="72" y="2428" width="200" height="26" rx="13" fill="#E5F2E9"/>
+<text x="172" y="2446" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">未被覆写的数据</text>
+<text x="284" y="2446" fill="#4A4B65" font-size="13">接收元件推送的数据修改（元件点击覆盖保存后）</text>
+
+<rect x="72" y="2462" width="200" height="26" rx="13" fill="#FDE8E6"/>
+<text x="172" y="2480" fill="#C62828" font-size="12" text-anchor="middle" font-weight="500">被覆写的数据</text>
+<text x="284" y="2480" fill="#4A4B65" font-size="13">不接收推送修改（详情面板中标蓝显示）</text>
+
+<text x="72" y="2514" fill="#1A1B2E" font-size="14" font-weight="500">修改元件：</text>
+<text x="72" y="2534" fill="#4A4B65" font-size="13">元件库中直接编辑 / 实体右键菜单 > 覆盖保存元件（反向推送） / 另存为元件（创建新元件）</text>
+
+<text x="72" y="2564" fill="#1A1B2E" font-size="14" font-weight="500">还原到元件数据：</text>
+<text x="72" y="2584" fill="#4A4B65" font-size="13">整体还原：顶部栏物件图标 > 还原为元件数据（除移动、旋转外回退为元件状态）</text>
+
+<!-- ========== Section 九: 删除元件影响 ========== -->
+<text x="48" y="2640" fill="#2D6BE4" font-size="18" font-weight="700">九、重要注意事项</text>
+
+<rect x="48" y="2658" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="2658" width="4" height="120" rx="2" fill="#2D6BE4"/>
+
+<rect x="72" y="2678" width="1056" height="32" rx="8" fill="#FDE8E6"/>
+<text x="84" y="2699" fill="#C62828" font-size="13" font-weight="500">删除元件后，所有由该元件创建的实体会一同被删除</text>
+
+<rect x="72" y="2718" width="1056" height="32" rx="8" fill="#FFF3E0"/>
+<text x="84" y="2739" fill="#E65100" font-size="13" font-weight="500">将元件拖入场景创建实体后，对实体的改动完全与创建其的元件无关</text>
+
+<!-- Source links -->
+<text x="48" y="2820" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="2820" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2xoxrop0la" target="_blank">
+  <text x="48" y="2840" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：单位</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhnffmieeqbg">
+  <text x="160" y="2820" fill="#2D6BE4" font-size="12" text-decoration="underline">实体摆放</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="2850" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1000">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1000" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">文本气泡</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">实体关联文本气泡 -- 自定义变量引用、循环播放与节点图管理</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、文本气泡组件的功能</text>
+  <rect x="60" y="170" width="1080" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">文本气泡组件提供挂载于实体的文本气泡功能，可引用自定义变量数据，在运行时显示配置内容。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持物件、造物使用。可配置多个气泡但同时仅支持生效一个。</text>
+  <text x="80" y="246" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可通过默认配置/节点图控制生效气泡切换，支持本地过滤器调整可见性。</text>
+  <rect x="80" y="262" width="160" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">物件/造物可使用</text>
+  <rect x="250" y="262" width="160" height="22" rx="11" fill="#FFF3E0"/><text x="264" y="278" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">同时仅生效一个气泡</text>
+  <!-- Section 2: 编辑 -->
+  <text x="60" y="325" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、文本气泡组件的编辑</text>
+  <rect x="60" y="340" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">组件编辑</text>
+  <text x="80" y="392" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">组件页签 > 添加组件 > 文本气泡 > 详细编辑</text>
+  <text x="80" y="414" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">初始生效文本气泡：下拉枚举，可修改勾选状态</text>
+  <text x="80" y="434" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">文本气泡列表：枚举实体配置的所有气泡</text>
+  <rect x="620" y="340" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">添加气泡</text>
+  <text x="640" y="392" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击添加文本气泡，初始生效默认关闭</text>
+  <text x="640" y="414" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">气泡X（X=序号）作为节点输入项可调整初始生效参数</text>
+  <!-- Section 3: 基础设置 -->
+  <text x="60" y="475" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、文本气泡的编辑</text>
+  <rect x="60" y="490" width="1080" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="518" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">基础设置：</text>
+  <text x="80" y="542" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择挂点：预制/自定义挂接点 | 偏移：以挂接点为基准调整</text>
+  <text x="80" y="562" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">字号：字体大小 | 可见半径(m)：角色和实体距离满足配置才运行逻辑</text>
+  <text x="80" y="582" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">过滤器节点图：布尔型（true=可见）或整型（在生效范围内=可见）</text>
+  <text x="80" y="602" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">过滤器节点：获取自身=挂载实体 | 获取目标=范围内本地角色 | 获取当前角色=本地角色</text>
+  <text x="80" y="626" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">是否循环播放：开启后循环播放文本气泡，关闭则只播放一次</text>
+  <text x="80" y="650" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">是否发送结束事件：开启后每次对话最后一句结束后向节点图发送事件</text>
+  <text x="80" y="672" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">勾选时：服务器记录结束，重新进入范围/断线重连不会重新触发</text>
+  <text x="80" y="686" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">不勾选时：重新进入范围/断线重连会重新触发气泡</text>
+  <!-- 文本编辑 -->
+  <rect x="60" y="700" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="728" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">文本编辑：</text>
+  <text x="80" y="752" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">添加文本：增加配置条目，支持多条文本按顺序播放</text>
+  <text x="80" y="772" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">每条文本配置：持续时间（显示时间）| 文本内容（支持插入自定义变量，实时更新）</text>
+  <text x="80" y="792" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">文本字号依赖基础配置字号 | 气泡框大小根据文本数量和字号自适应 | 支持复制/粘贴/删除 | 支持预览</text>
+  <!-- Section 4: 节点图 -->
+  <text x="60" y="835" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、节点图管理文本气泡</text>
+  <rect x="60" y="850" width="1080" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="80" y="865" width="280" height="44" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="885" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">切换生效的文本气泡（执行）</text>
+  <text x="100" y="903" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">通过气泡序号替换为最新生效气泡</text>
+  <rect x="380" y="865" width="280" height="44" rx="10" fill="#FFF3E0"/>
+  <text x="400" y="885" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">文本气泡完成时（事件）</text>
+  <text x="400" y="903" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">气泡播放完成时触发（需勾选发送结束事件）</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="965" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhwtz297kp6a" target="_blank">
+  <text x="48" y="985" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：文本气泡</text>
+</a>
+<text x="600" y="988" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

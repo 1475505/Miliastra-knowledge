@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1100">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="1100" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">悬浮交互页控件</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">高级页签/单选项视窗配置 | 复杂关联界面 | 容器与形式变量</text>
+
+  <rect x="40" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、悬浮交互页的功能</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">提供高级的页签、单选项视窗等一系列配置，</text>
+  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">便于配置较为复杂的关联界面。</text>
+  <text x="60" y="238" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持添加各种按键、开关，丰富功能和表现。</text>
+  <text x="60" y="265" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">展开/关闭时可触发服务器节点图事件。</text>
+  <rect x="60" y="285" width="160" height="24" rx="12" fill="#FDE8E6"/>
+  <text x="75" y="302" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#C62828">断线重连不恢复</text>
+
+  <rect x="620" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、样式配置</text>
+  <text x="640" y="190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">使用预设背景</text>
+  <text x="640" y="213" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">开启后选择预设背景，关闭使用默认背景</text>
+  <text x="640" y="240" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">页面容器</text>
+  <text x="640" y="263" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">划分悬浮交互页内部控件信息结构，每个容器相当于一个独立页面</text>
+  <text x="640" y="290" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">初始生效</text>
+  <text x="640" y="313" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">决定哪些容器初始生效</text>
+
+  <rect x="40" y="330" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、功能配置</text>
+  <text x="60" y="388" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">单人游玩暂停游戏</text>
+  <text x="60" y="411" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">单人关卡时打开悬浮交互页暂停游戏</text>
+  <text x="60" y="438" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">手柄初始选中控件</text>
+  <text x="60" y="461" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择编辑界面内配置的控件</text>
+  <text x="60" y="488" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">打开/关闭音效</text>
+  <text x="60" y="511" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">打开/关闭时触发的音效资产</text>
+
+  <rect x="620" y="330" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、形式变量管理</text>
+  <text x="640" y="388" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个悬浮交互页都支持配置一组形式变量。</text>
+  <text x="640" y="415" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">素材库中引用形式变量时，以当前悬浮交互页的值为准。</text>
+  <text x="640" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">形式变量的映射关系需确保数据类型一致。</text>
+  <rect x="640" y="460" width="160" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="655" y="477" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">避免重复设置变量</text>
+  <text x="640" y="510" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">暂停时：环境/生物/角色/战斗/物件音效会暂停，</text>
+  <text x="640" y="533" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">界面音效不会暂停，会继续播放。</text>
+
+  <rect x="40" y="550" width="1120" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="580" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、悬浮交互页编辑界面</text>
+  <text x="60" y="608" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">相当于打开了一个新的「界面布局」，可添加界面控件并修改配置。</text>
+  <text x="60" y="635" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">有一些界面控件是悬浮交互页专有的：交互页关闭按钮、页签、单选项视窗。</text>
+  <rect x="60" y="655" width="160" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="75" y="672" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">专属界面控件</text>
+
+  <rect x="40" y="700" width="1120" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="730" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">六、交互页关闭按钮</text>
+  <text x="60" y="758" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">默认携带，支持点击关闭整个悬浮交互页及其内包含的所有控件。在固有容器中不可删除。</text>
+  <text x="60" y="785" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">无关闭按钮时：PC端ESC关闭，手柄端退出键关闭，移动端需通过节点图关闭。</text>
+
+  <rect x="40" y="830" width="1120" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="860" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">七、通过节点图管理</text>
+  <text x="60" y="888" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">唤起悬浮交互页 | 关闭悬浮交互页 | 更新悬浮交互页列表数据 | 悬浮交互页操作触发时</text>
+  <text x="60" y="915" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">页签和单选项视窗统称为「列表」，节点图对其引用和出参管理一致。</text>
+
+  <text x="600" y="1070" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="1070" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2u2e9o3jn6" target="_blank">
+  <text x="48" y="1090" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：悬浮交互页控件</text>
+</a>
+</svg>

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1430">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="1430" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">元件组</text>
+<text x="180" y="70" fill="#4A4B65" font-size="16">多元件引用与批量布设工具</text>
+
+<!-- ========== Section 一: 功能概述 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、元件组的功能</text>
+
+<rect x="48" y="168" width="1104" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">核心定义</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">元件组可以引用多个元件，其中包含各元件的位置、旋转（相对于元件组中心）等信息。</text>
+
+<text x="72" y="256" fill="#4A4B65" font-size="14">元件组可以直接创建，也可以在关卡运行中通过节点图创建，效果等同于同时创建多个元件。</text>
+
+<text x="72" y="286" fill="#4A4B65" font-size="14">元件组可以比较方便地对实体进行布设，改动元件组的位置信息，其内部包含的元件会随之移动。</text>
+
+<rect x="72" y="306" width="1056" height="44" rx="8" fill="#E8EEFB"/>
+<text x="84" y="326" fill="#2D6BE4" font-size="13" font-weight="500">核心优势：批量管理</text>
+<text x="84" y="344" fill="#4A4B65" font-size="12">一次操作即可创建/移动/旋转多个元件，元件组中心位置自动计算确定</text>
+
+<!-- ========== Section 二: 编辑方式 ========== -->
+<text x="48" y="410" fill="#2D6BE4" font-size="18" font-weight="700">二、元件组的编辑方式</text>
+
+<!-- Card: 元件库编辑 -->
+<rect x="48" y="428" width="540" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="428" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="458" fill="#1A1B2E" font-size="16" font-weight="500">元件库编辑</text>
+
+<circle cx="84" cy="486" r="12" fill="#2D6BE4"/>
+<text x="84" y="491" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">1</text>
+<text x="104" y="491" fill="#4A4B65" font-size="13">在元件库中同时选中多个元件</text>
+
+<circle cx="84" cy="516" r="12" fill="#2D6BE4"/>
+<text x="84" y="521" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">2</text>
+<text x="104" y="521" fill="#4A4B65" font-size="13">右键菜单选择"创建元件组"或"合并元件组"</text>
+
+<circle cx="84" cy="546" r="12" fill="#2D6BE4"/>
+<text x="84" y="551" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">3</text>
+<text x="104" y="551" fill="#4A4B65" font-size="13">元件组中心位置会自动计算确定</text>
+
+<rect x="72" y="572" width="492" height="36" rx="8" fill="#E5F2E9"/>
+<text x="84" y="595" fill="#2E7D32" font-size="12" font-weight="500">适用场景：在元件库中预先组合多个元件</text>
+
+<!-- Card: 实体布设场景编辑 -->
+<rect x="612" y="428" width="540" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="428" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="636" y="458" fill="#1A1B2E" font-size="16" font-weight="500">实体布设场景编辑</text>
+
+<circle cx="648" cy="486" r="12" fill="#2D6BE4"/>
+<text x="648" y="491" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">1</text>
+<text x="668" y="491" fill="#4A4B65" font-size="13">在场景中布设好实体后，同时选中多个实体</text>
+
+<circle cx="648" cy="516" r="12" fill="#2D6BE4"/>
+<text x="648" y="521" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">2</text>
+<text x="668" y="521" fill="#4A4B65" font-size="13">右键菜单选择"创建元件组"或"合并元件组"</text>
+
+<circle cx="648" cy="546" r="12" fill="#2D6BE4"/>
+<text x="648" y="551" fill="#fff" font-size="11" text-anchor="middle" font-weight="700">3</text>
+<text x="668" y="551" fill="#4A4B65" font-size="13">元件组中心位置会自动计算确定</text>
+
+<rect x="636" y="572" width="492" height="36" rx="8" fill="#E5F2E9"/>
+<text x="648" y="595" fill="#2E7D32" font-size="12" font-weight="500">适用场景：在场景中已摆放好的实体组合成组</text>
+
+<!-- ========== Section 三: 修改信息 ========== -->
+<text x="48" y="670" fill="#2D6BE4" font-size="18" font-weight="700">三、修改元件组信息</text>
+
+<rect x="48" y="688" width="1104" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="688" width="4" height="160" rx="2" fill="#2D6BE4"/>
+<text x="72" y="718" fill="#1A1B2E" font-size="16" font-weight="500">元件组内部编辑</text>
+
+<text x="72" y="748" fill="#4A4B65" font-size="14">选中元件组后，可以调整其中每一个元件相对元件组中心的位置和旋转。</text>
+
+<text x="72" y="778" fill="#4A4B65" font-size="14">每个元件的位置和旋转信息都是相对于元件组中心定义的。</text>
+
+<rect x="72" y="798" width="1056" height="32" rx="8" fill="#FFF3E0"/>
+<text x="84" y="819" fill="#E65100" font-size="13" font-weight="500">移动元件组整体位置时，内部所有元件随之移动，保持相对位置不变</text>
+
+<!-- ========== Section 四: 节点图创建 ========== -->
+<text x="48" y="890" fill="#2D6BE4" font-size="18" font-weight="700">四、节点图创建元件组</text>
+
+<rect x="48" y="908" width="1104" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="908" width="4" height="160" rx="2" fill="#2D6BE4"/>
+<text x="72" y="938" fill="#1A1B2E" font-size="16" font-weight="500">运行时动态创建</text>
+
+<text x="72" y="968" fill="#4A4B65" font-size="14">通过节点图节点直接创建元件组，效果等同于分别创建其中的每个元件。</text>
+
+<text x="72" y="998" fill="#4A4B65" font-size="14">适用于需要在关卡运行时动态生成一组实体的场景。</text>
+
+<rect x="72" y="1018" width="1056" height="32" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1039" fill="#2D6BE4" font-size="13" font-weight="500">节点图创建元件组 = 分别创建元件组内每个元件的效果</text>
+
+<!-- ========== Section 五: 使用流程 ========== -->
+<text x="48" y="1110" fill="#2D6BE4" font-size="18" font-weight="700">五、元件组使用流程总结</text>
+
+<rect x="48" y="1128" width="1104" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1128" width="4" height="200" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1158" fill="#1A1B2E" font-size="16" font-weight="500">典型工作流</text>
+
+<circle cx="84" cy="1186" r="14" fill="#2D6BE4"/>
+<text x="84" y="1191" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">1</text>
+<text x="108" y="1191" fill="#1A1B2E" font-size="14" font-weight="500">准备元件</text>
+<text x="220" y="1191" fill="#4A4B65" font-size="13">在元件库中准备好需要组合的多个元件</text>
+
+<circle cx="84" cy="1218" r="14" fill="#2D6BE4"/>
+<text x="84" y="1223" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">2</text>
+<text x="108" y="1223" fill="#1A1B2E" font-size="14" font-weight="500">创建元件组</text>
+<text x="232" y="1223" fill="#4A4B65" font-size="13">选中多个元件/实体，右键创建或合并元件组</text>
+
+<circle cx="84" cy="1250" r="14" fill="#2D6BE4"/>
+<text x="84" y="1255" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">3</text>
+<text x="108" y="1255" fill="#1A1B2E" font-size="14" font-weight="500">调整内部布局</text>
+<text x="256" y="1255" fill="#4A4B65" font-size="13">调整每个元件相对于元件组中心的位置和旋转</text>
+
+<circle cx="84" cy="1282" r="14" fill="#2D6BE4"/>
+<text x="84" y="1287" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">4</text>
+<text x="108" y="1287" fill="#1A1B2E" font-size="14" font-weight="500">布设或运行时创建</text>
+<text x="288" y="1287" fill="#4A4B65" font-size="13">拖入场景布设，或通过节点图在运行时动态创建</text>
+
+<!-- Source links -->
+<text x="48" y="1370" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="1370" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhzhzb9rw0uy" target="_blank">
+  <text x="48" y="1390" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：元件组</text>
+</a>
+<!-- Footer -->
+<text x="600" y="1400" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">锚点</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">分辨率自适应的核心机制 | 控件与屏幕边缘的相对位置保持</text>
+
+  <!-- Section 1: Definition -->
+  <rect x="40" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、锚点的定义</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">当分辨率变化时，控件会自适应位置，</text>
+  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">与设置的锚点保持相对位置不变。</text>
+  <text x="60" y="240" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">例：16:9 切换到 21:9 后，锚点决定控件跟随哪个屏幕边缘。</text>
+  <rect x="60" y="260" width="120" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="277" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">九宫格锚点系统</text>
+
+  <!-- Section 2: Selection Guide -->
+  <rect x="620" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、锚点选择建议</text>
+  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">按控件位置选择：</text>
+  <text x="640" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">九宫格中主体位于哪部分，就选择对应位置的锚点</text>
+  <text x="640" y="240" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">按功能区选择：</text>
+  <text x="640" y="263" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">同一功能区（如多条任务文本框）锚点应保持一致</text>
+
+  <!-- Section 3: Nine-grid visualization -->
+  <rect x="40" y="310" width="540" height="280" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、九宫格锚点示意</text>
+  <!-- Grid -->
+  <rect x="100" y="360" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="160" y="395" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">左上</text>
+  <rect x="230" y="360" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="290" y="395" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">正上</text>
+  <rect x="360" y="360" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="420" y="395" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">右上</text>
+
+  <rect x="100" y="430" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="160" y="465" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">左中</text>
+  <rect x="230" y="430" width="120" height="60" rx="6" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="290" y="465" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#E65100">居中</text>
+  <rect x="360" y="430" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="420" y="465" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">右中</text>
+
+  <rect x="100" y="500" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="160" y="535" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">左下</text>
+  <rect x="230" y="500" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="290" y="535" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">正下</text>
+  <rect x="360" y="500" width="120" height="60" rx="6" fill="#E8EEFB" stroke="#2D6BE4" stroke-width="1"/>
+  <text x="420" y="535" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#2D6BE4">右下</text>
+
+  <!-- Section 4: Stretch Anchor -->
+  <rect x="620" y="310" width="540" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、拉伸锚点</text>
+  <text x="640" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">锚点类型扩展，使UI元素可根据背景或容器的大小变化进行拉伸适配。</text>
+  <text x="640" y="395" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">适用于需要随容器自适应缩放的控件场景。</text>
+  <rect x="640" y="410" width="80" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="655" y="427" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">拉伸适配</text>
+
+  <!-- Section 5: Follow Built-in -->
+  <rect x="620" y="460" width="540" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="490" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、跟随固有控件</text>
+  <text x="640" y="518" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">原有锚点无法与固有控件（如技能区）在不同屏幕宽度下对齐。</text>
+  <text x="640" y="545" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">选取跟随对象后，屏幕大小变化时控件即可与固有控件保持对齐。</text>
+  <rect x="640" y="560" width="120" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="655" y="577" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">解决对齐偏移</text>
+
+  <!-- Section 6: Common Use Cases -->
+  <rect x="40" y="610" width="1120" height="220" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="640" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">六、常见场景锚点推荐</text>
+
+  <rect x="60" y="660" width="250" height="60" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">任务文本</text>
+  <text x="80" y="708" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">锚点：左上角</text>
+
+  <rect x="330" y="660" width="250" height="60" rx="10" fill="#FFF3E0"/>
+  <text x="350" y="685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">提示信息</text>
+  <text x="350" y="708" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">锚点：正上方</text>
+
+  <rect x="600" y="660" width="250" height="60" rx="10" fill="#E5F2E9"/>
+  <text x="620" y="685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2E7D32">技能区文本</text>
+  <text x="620" y="708" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">锚点：跟随固有控件(技能区)</text>
+
+  <rect x="870" y="660" width="270" height="60" rx="10" fill="#FDE8E6"/>
+  <text x="890" y="685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#C62828">界面死区注意</text>
+  <text x="890" y="708" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">移动端16:9为基准，确保可点击控件在安全区域内</text>
+
+  <!-- Tips -->
+  <rect x="60" y="740" width="1080" height="70" rx="10" fill="#FDE8E6"/>
+  <text x="80" y="768" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#C62828">注意</text>
+  <text x="130" y="768" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">移动端界面最小，需以移动端16:9适配作为基准确保可点击控件在安全区域内。不同设备锚点设置需单独配置。</text>
+  <text x="80" y="795" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">后续版本将不再维护时序渲染(旧)模式，建议使用层级渲染(新)模式。</text>
+
+  <!-- Footer -->
+  <text x="600" y="870" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="870" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhozt0r74ng6" target="_blank">
+  <text x="48" y="890" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：界面布局</text>
+</a>
+</svg>

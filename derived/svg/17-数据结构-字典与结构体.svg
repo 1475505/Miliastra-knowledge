@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1400">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1400" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">数据结构 -- 字典与结构体</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">映射关系与自定义复合数据结构的定义、操作与节点图使用</text>
+  <!-- Section 1: 字典定义 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、字典是什么</text>
+  <rect x="60" y="170" width="1080" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">字典是用于描述一组映射关系的数据结构。每个字典描述数据类型A（键）到数据类型B（值）的映射。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每组键+值称为一个键值对，字典就是若干键值对的集合。</text>
+  <text x="80" y="248" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">功能要点：</text>
+  <rect x="80" y="260" width="200" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="276" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">类型由键+值的类型唯一确定</text>
+  <rect x="290" y="260" width="140" height="22" rx="11" fill="#E8EEFB"/><text x="304" y="276" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">键不可重复（唯一）</text>
+  <rect x="440" y="260" width="140" height="22" rx="11" fill="#E8EEFB"/><text x="454" y="276" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">引用传递（同列表）</text>
+  <rect x="590" y="260" width="140" height="22" rx="11" fill="#E8EEFB"/><text x="604" y="276" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">乱序储存（无序）</text>
+  <text x="80" y="304" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">引用传递：修改节点直接作用于自定义变量/节点图变量内的字典数据，不触发变化事件。</text>
+  <text x="80" y="324" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">泛型使用：在泛型配置中选【字典】> 选择键类型 > 选择值类型，才能唯一确定字典类型。</text>
+  <!-- 字典键/值类型 -->
+  <rect x="60" y="350" width="520" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="378" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">字典键可用类型</text>
+  <text x="80" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">实体、GUID、整数、字符串、阵营、元件ID、配置ID</text>
+  <rect x="80" y="416" width="100" height="22" rx="11" fill="#FFF3E0"/><text x="94" y="432" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">7种基础类型</text>
+  <rect x="620" y="350" width="520" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="378" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">字典值可用类型</text>
+  <text x="640" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">基础类型 + 对应列表类型 + 自定义结构体/结构体列表</text>
+  <text x="640" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">实体/GUID/整数/布尔/浮点/字符串/阵营/三维向量/元件ID/配置ID/结构体</text>
+  <rect x="640" y="436" width="160" height="22" rx="11" fill="#FFF3E0"/><text x="654" y="452" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">基础+列表+结构体</text>
+  <!-- 字典节点 -->
+  <text x="60" y="515" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、字典相关节点</text>
+  <rect x="60" y="530" width="340" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="530" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="550" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">执行节点</text>
+  <text x="80" y="578" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">对字典设置或新增键值对</text>
+  <text x="80" y="598" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">以键对字典移除键值对</text>
+  <text x="80" y="618" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">清空字典</text>
+  <text x="80" y="638" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">对字典按键排序 / 按值排序</text>
+  <rect x="430" y="530" width="340" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="430" y="530" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="450" y="550" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">查询节点</text>
+  <text x="450" y="578" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">查询字典长度</text>
+  <text x="450" y="598" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">以键查询字典值</text>
+  <text x="450" y="618" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">获取字典中键/值组成的列表</text>
+  <text x="450" y="638" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">查询字典是否包含特定键/值</text>
+  <rect x="800" y="530" width="340" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="800" y="530" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="820" y="550" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">运算节点</text>
+  <text x="820" y="578" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">建立字典</text>
+  <text x="820" y="598" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">拼装字典</text>
+  <!-- Section 3: 结构体 -->
+  <text x="60" y="710" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、结构体是什么</text>
+  <rect x="60" y="725" width="1080" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="753" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">结构体是允许创作者将一组不同类型的数据整合在一起，形成自定义数据的高级数据结构。</text>
+  <text x="80" y="777" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个结构体有唯一名字，内含多个任意数据类型的成员（每个成员有唯一字段名）。</text>
+  <text x="80" y="801" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">功能要点：</text>
+  <rect x="80" y="814" width="200" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">类型由名字完全确定</text>
+  <rect x="290" y="814" width="180" height="22" rx="11" fill="#E8EEFB"/><text x="304" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">不同名即不同类型</text>
+  <rect x="480" y="814" width="140" height="22" rx="11" fill="#E8EEFB"/><text x="494" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">引用传递（同列表）</text>
+  <rect x="630" y="814" width="140" height="22" rx="11" fill="#E8EEFB"/><text x="644" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">支持结构体嵌套</text>
+  <text x="80" y="862" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">成员可用类型：所有基础类型、列表类型、所有类型字典、自定义结构体/结构体列表。</text>
+  <text x="80" y="884" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">结构体间不允许同名。引用传递修改不触发变化事件，需通过获取自定义变量获取变化后的值。</text>
+  <!-- 创建结构体 -->
+  <text x="60" y="940" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、创建与编辑结构体</text>
+  <rect x="60" y="955" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="983" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">创建入口</text>
+  <text x="80" y="1007" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">系统菜单 > 高级数据管理 > 结构体编辑页面</text>
+  <text x="80" y="1031" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可新增结构体、在结构体内新增成员。</text>
+  <rect x="620" y="955" width="520" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="983" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">泛型中使用结构体</text>
+  <text x="640" y="1007" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">泛型展开菜单 > 结构体/结构体列表 > 选择已定义类型</text>
+  <text x="640" y="1031" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">选定后节点引脚确定为特定结构体类型。</text>
+  <!-- 结构体节点 -->
+  <text x="60" y="1090" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">五、结构体相关节点</text>
+  <rect x="60" y="1105" width="340" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="1105" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="1125" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">运算节点 - 拼装结构体</text>
+  <text x="80" y="1153" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">填写各成员值以生成结构体数据</text>
+  <text x="80" y="1173" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">需先通过泛型选择结构体类型</text>
+  <text x="80" y="1193" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择后显示所有成员变量输入</text>
+  <rect x="430" y="1105" width="340" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="430" y="1105" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="450" y="1125" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">运算节点 - 拆分结构体</text>
+  <text x="450" y="1153" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">传入结构体，返回每个成员的值</text>
+  <text x="450" y="1173" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">需先通过泛型选择结构体类型</text>
+  <text x="450" y="1193" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择后显示所有成员变量输出</text>
+  <rect x="800" y="1105" width="340" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="800" y="1105" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="820" y="1125" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">执行节点 - 修改结构体</text>
+  <text x="820" y="1153" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">传入结构体，修改部分成员的值</text>
+  <text x="820" y="1173" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通过下拉选项勾选需修改的成员</text>
+  <text x="820" y="1193" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">未勾选的成员值不会被修改</text>
+  <!-- 使用建议 -->
+  <text x="60" y="1280" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">六、使用建议</text>
+  <rect x="60" y="1295" width="1080" height="60" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="1320" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">字典适合存储实体到数据的映射（如玩家分数表、武器库）。结构体适合将多属性打包为一个整体（如武器数据）。</text>
+  <text x="80" y="1342" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可结合使用：定义整数到结构体的字典，作为数据表使用。</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1375" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhubgk9yy8gy" target="_blank">
+  <text x="48" y="1395" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：字典</text>
+</a>
+<text x="120" y="1375" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh3fmi0t99ns"><text x="135" y="1375" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：结构体</text></a>
+  <text x="600" y="1392" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">全局计时器</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">计时能力组件 -- 预定义、引用、节点图操控与界面控件同步</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、全局计时器组件的功能</text>
+  <rect x="60" y="170" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">全局计时器组件提供计时能力，支持操纵计时的暂停、重启、修改，也支持同步界面控件显示计时时间。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持配置多组静态计时器数据。不同运行时实体上独立运行。</text>
+  <rect x="80" y="238" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">多组计时器</text>
+  <rect x="190" y="238" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="204" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">实体独立运行</text>
+  <rect x="300" y="238" width="120" height="22" rx="11" fill="#E8EEFB"/><text x="314" y="254" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">界面控件可同步</text>
+  <!-- Section 2: 使用方式 -->
+  <text x="60" y="305" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、两种使用方式</text>
+  <rect x="60" y="320" width="520" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="90" cy="350" r="12" fill="#2D6BE4"/><text x="86" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
+  <text x="112" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">实体编辑组件配置引用计时器</text>
+  <text x="112" y="370" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">计时器随实体创建一同激活</text>
+  <rect x="620" y="320" width="520" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="650" cy="350" r="12" fill="#2D6BE4"/><text x="646" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
+  <text x="672" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">节点图执行节点激活计时器</text>
+  <text x="672" y="370" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">计时器随节点图执行激活</text>
+  <!-- Section 3: 管理工具 -->
+  <text x="60" y="435" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、全局计时器管理工具</text>
+  <rect x="60" y="450" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="478" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过计时器管理工具预定义所有全局计时器。枚举当前关卡所有预定义的全局计时器。</text>
+  <text x="80" y="502" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">编辑操作：</text>
+  <text x="80" y="524" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">添加计时器 | 重命名（点击图标） | 删除计时器 | 名称即全局计时器的引用</text>
+  <text x="80" y="542" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">基础信息：全局计时器类型（倒计时/正计时） | 时长(s)（倒计时时需配置）</text>
+  <!-- Section 4: 引用方式 -->
+  <text x="60" y="585" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、引用方式</text>
+  <!-- 界面控件引用 -->
+  <rect x="60" y="600" width="520" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="628" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">界面控件引用</text>
+  <text x="80" y="652" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">界面布局管理工具 > 计时器界面控件 > 编辑"计时器"</text>
+  <text x="80" y="674" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">配置参数：类型（正/倒计时）、指定计时器、来源实体</text>
+  <text x="80" y="696" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">来源实体默认关卡实体，可选玩家实体</text>
+  <text x="80" y="718" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">来源实体需配置全局计时器组件，未生效时显示00:00</text>
+  <!-- 组件引用 -->
+  <rect x="620" y="600" width="520" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="628" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">组件引用</text>
+  <text x="640" y="652" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">实体/元件编辑 > 组件页签 > 添加通用组件 > 全局计时器</text>
+  <text x="640" y="674" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">点击"详细编辑" > "添加计时器" > 选择预定义计时器</text>
+  <text x="640" y="696" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通过组件引用的全局计时器随实体创建一同激活</text>
+  <text x="640" y="718" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">点击"管理计时器"可打开全局计时器管理工具</text>
+  <!-- Section 5: 节点图操作 -->
+  <text x="60" y="765" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">五、节点图操作全局计时器</text>
+  <rect x="60" y="780" width="1080" height="310" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <!-- 启动 -->
+  <rect x="80" y="795" width="200" height="50" rx="10" fill="#E8EEFB"/>
+  <text x="100" y="816" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">启动全局计时器</text>
+  <text x="100" y="835" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">引用预定义计时器，以运行中实体为载体</text>
+  <!-- 终止 -->
+  <rect x="300" y="795" width="200" height="50" rx="10" fill="#FDE8E6"/>
+  <text x="320" y="816" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">终止全局计时器</text>
+  <text x="320" y="835" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">提前结束运行中的计时器</text>
+  <!-- 暂停 -->
+  <rect x="520" y="795" width="200" height="50" rx="10" fill="#FFF3E0"/>
+  <text x="540" y="816" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">暂停全局计时器</text>
+  <text x="540" y="835" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">暂停时界面控件显示也暂停</text>
+  <!-- 恢复 -->
+  <rect x="740" y="795" width="200" height="50" rx="10" fill="#E5F2E9"/>
+  <text x="760" y="816" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">恢复全局计时器</text>
+  <text x="760" y="835" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">恢复暂停的计时器及界面表现</text>
+  <!-- 修改 -->
+  <rect x="80" y="860" width="420" height="100" rx="10" fill="#F9F7F2"/>
+  <text x="100" y="882" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">修改全局计时器</text>
+  <text x="100" y="904" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">变化值：倒计时正数=增加剩余时间，负数=减少</text>
+  <text x="100" y="922" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">正计时正数=增加累计时间，负数=减少</text>
+  <text x="100" y="940" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">暂停后修改减少到0s再恢复 > 触发事件 | 修改到0s再增加再恢复 > 不触发</text>
+  <!-- 触发事件 -->
+  <rect x="520" y="860" width="420" height="50" rx="10" fill="#F9F7F2"/>
+  <text x="540" y="882" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">全局计时器触发时（事件）</text>
+  <text x="540" y="900" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">倒计时计时结束时向节点图发送事件</text>
+  <!-- 获取当前时间 -->
+  <rect x="520" y="920" width="420" height="50" rx="10" fill="#F9F7F2"/>
+  <text x="540" y="942" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">获取全局计时器当前时间（查询）</text>
+  <text x="540" y="960" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">倒计时=剩余时间，正计时=累计时间</text>
+  <!-- 关键规则 -->
+  <text x="80" y="990" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">修改时间关键规则：</text>
+  <text x="80" y="1010" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">暂停后修改减少时间，修改后时间最少为0s。暂停后修改到0s且恢复 > 触发【全局计时器触发时】事件。</text>
+  <text x="80" y="1030" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">暂停后修改到0s > 再修改增加时间 > 再恢复 > 不触发事件。界面控件的计时表现会同步修改。</text>
+  <text x="80" y="1050" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">计时器引用只能是全局计时器管理工具中预先定义的计时器，否则无效。</text>
+  <rect x="80" y="1060" width="260" height="22" rx="11" fill="#FDE8E6"/><text x="94" y="1076" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">引用必须是预定义的计时器</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1120" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhawd6rl5kpy" target="_blank">
+  <text x="48" y="1140" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：全局计时器</text>
+</a>
+<text x="600" y="1185" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">扫描标签</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">镜头选取实体功能 -- 扫描标签定义、生效条件、状态表现与节点图操作</text>
+  <!-- Section 1 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、扫描功能概述</text>
+  <rect x="60" y="170" width="1080" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">扫描功能：玩家通过操作镜头选取某一个实体。选取目标支持配置特殊表现（图标/特效）。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">技能释放中可通过节点图节点获取扫描到的目标，实现选取特定技能目标。</text>
+  <text x="80" y="246" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">扫描标签定义可扫描物的筛选逻辑和表现，扫描组件赋予实体对应逻辑。</text>
+  <!-- Section 2: 标签编辑 -->
+  <text x="60" y="305" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、扫描标签的编辑</text>
+  <rect x="60" y="320" width="1080" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="348" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">编辑入口：系统菜单 > 扫描标签管理。界面三部分：标签列表、效果预览、生效逻辑配置。</text>
+  <text x="80" y="372" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">基础定义：扫描标签名称（识别用）| 配置ID（唯一标识，节点图内索引）</text>
+  <!-- 状态表现 -->
+  <rect x="60" y="410" width="1080" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="438" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">状态表现</text>
+  <text x="80" y="462" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">图标设置：选择图标资源组（可配空，同屏最多显示两个）| 挂接点 | 偏移</text>
+  <text x="80" y="486" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">三种选中状态：</text>
+  <rect x="80" y="498" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">激活状态</text>
+  <text x="190" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">当前被扫描选中（同时刻唯一）</text>
+  <rect x="420" y="498" width="100" height="22" rx="11" fill="#E5F2E9"/><text x="434" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">可用状态</text>
+  <text x="530" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">满足条件但未激活</text>
+  <rect x="700" y="498" width="100" height="22" rx="11" fill="#FDE8E6"/><text x="714" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">禁用状态</text>
+  <text x="810" y="514" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">未满足生效条件</text>
+  <text x="80" y="542" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">特效配置（每种状态独立）：</text>
+  <text x="80" y="564" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">激活/可用/禁用状态特效：特效资产 | 挂接点（自动跟随位置和旋转）| 缩放比例 | 偏移 | 旋转</text>
+  <text x="80" y="586" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">每种状态的特效参数配置一致</text>
+  <!-- 生效条件 -->
+  <rect x="60" y="620" width="1080" height="280" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="648" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">生效条件</text>
+  <text x="80" y="672" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">本地过滤器：布尔/整数过滤器，不满足条件时不参与状态计算</text>
+  <text x="80" y="698" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">障碍检测：</text>
+  <text x="80" y="718" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">确认本地角色和扫描物之间射线可见（是否有阻挡）| 障碍检测点（挂接点名称）| 忽略水面</text>
+  <text x="80" y="744" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">距离检测：</text>
+  <text x="80" y="764" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">定义扫描物可用范围 | 距离检测点（挂接点）| 检测距离范围（可在场景内预览）</text>
+  <text x="80" y="790" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">视线检测：</text>
+  <text x="80" y="810" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">确认本地镜头和扫描物之间射线可见 | 视线检测点 | 忽略水面 | 忽略障碍阻挡</text>
+  <text x="80" y="836" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">视野范围设置：</text>
+  <text x="80" y="856" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">屏幕坐标系下扫描物须在屏幕中心椭圆区域内 | 视野检测点 | 椭圆横轴/纵轴比例</text>
+  <text x="80" y="878" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">点击"预览视野范围"可直观浏览实际生效范围</text>
+  <!-- Section 3: 扫描组件 -->
+  <text x="60" y="935" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、扫描标签组件</text>
+  <rect x="60" y="950" width="1080" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="978" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">添加：组件页签 > 添加组件 > 扫描标签。可配置多个备选标签模板，运行时仅一个生效。</text>
+  <text x="80" y="1002" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">初始生效：默认生效的扫描标签 | 扫描标签列表：组件持有的全部扫描标签</text>
+  <text x="80" y="1024" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">详细编辑：扫描标签序号（节点图切换标识）| 初始生效（同时仅一个）| 引用扫描标签（全局定义）</text>
+  <text x="80" y="1048" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">可使用节点图动态切换生效标签</text>
+  <!-- 筛选逻辑 -->
+  <rect x="60" y="1070" width="520" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="1098" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">筛选逻辑（职业属性）</text>
+  <text x="80" y="1120" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">扫描标签识别规则：视野中心距离（最近优先）| 实际位置距离（最近优先）</text>
+  <text x="80" y="1142" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">多个可用扫描物同时在场时，唯一激活由职业属性规则决定</text>
+  <!-- 节点图 -->
+  <text x="60" y="1185" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、节点图操作</text>
+  <rect x="60" y="1200" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="1200" width="520" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="1220" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">服务器节点</text>
+  <text x="80" y="1248" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">设置扫描标签的规则</text>
+  <text x="80" y="1268" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">设置扫描组件的生效扫描标签序号</text>
+  <text x="80" y="1288" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取当前生效的扫描标签配置ID</text>
+  <rect x="620" y="1200" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="620" y="1200" width="520" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="640" y="1220" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">客户端节点</text>
+  <text x="640" y="1248" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取扫描组件可扫描的所有合法对象</text>
+  <text x="640" y="1268" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取扫描组件当前扫描到的实体</text>
+  <text x="640" y="1288" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取实体当前生效的扫描标签 | 获取实体扫描状态</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1360" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhfc0lr1tcke" target="_blank">
+  <text x="48" y="1380" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：扫描标签</text>
+</a>
+<text x="600" y="1485" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

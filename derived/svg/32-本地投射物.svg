@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1400">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1400" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">本地投射物</text>
+<text x="310" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由本地计算和呈现投射效果及命中表现的实体</text>
+
+<!-- Section 1 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、定义与特点</text>
+
+<rect x="48" y="170" width="1104" height="100" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="100" rx="2" fill="#2D6BE4"/>
+<text x="72" y="200" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">本地投射物是由本地计算和呈现投射物效果以及命中表现效果的实体。</text>
+<text x="72" y="224" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">需在编辑时预先定义，才能被技能节点图引用创建。运行时依赖投射运动器决定运动规则，依赖命中检测决定碰撞判定。</text>
+<text x="72" y="252" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">编辑入口：战斗预设页签 → 本地投射物页签 → 新建本地投射物 → 确认创建</text>
+
+<!-- Section 2 -->
+<text x="48" y="312" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、基础属性 — 基础设置与战斗参数</text>
+
+<rect x="48" y="330" width="540" height="130" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="330" width="4" height="130" rx="2" fill="#2D6BE4"/>
+<rect x="72" y="350" width="72" height="24" rx="12" fill="#E8EEFB"/>
+<text x="108" y="367" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">基础设置</text>
+<text x="72" y="400" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">运行时采用的模型配置</text>
+<text x="72" y="422" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">模型来自预先提供的投射物模型库</text>
+<text x="72" y="444" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持调节xyz轴缩放，切换模型后缩放数值保留</text>
+
+<rect x="612" y="330" width="540" height="130" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="330" width="4" height="130" rx="2" fill="#2D6BE4"/>
+<rect x="636" y="350" width="72" height="24" rx="12" fill="#FFF3E0"/>
+<text x="672" y="367" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">战斗参数</text>
+<text x="636" y="400" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">属性设置：继承自创建者 / 独立设置</text>
+<text x="636" y="422" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">继承：生命值、攻击力、防御力同创建者</text>
+<text x="636" y="444" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">后续是否受创建者影响：同步部分单位状态</text>
+
+<!-- Section 3 -->
+<text x="48" y="504" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、生命周期设置</text>
+
+<rect x="48" y="522" width="1104" height="36" rx="8" fill="#2D6BE4"/>
+<text x="160" y="546" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">参数</text>
+<text x="500" y="546" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">说明</text>
+<text x="900" y="546" fill="#fff" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">备注</text>
+
+<rect x="48" y="558" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="582" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">永久持续</text>
+<text x="500" y="582" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">不开启时需填写持续时长</text>
+<text x="900" y="582" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">默认关闭</text>
+<line x1="280" y1="566" x2="280" y2="586" stroke="#E8E4DA"/>
+<line x1="700" y1="566" x2="700" y2="586" stroke="#E8E4DA"/>
+
+<rect x="48" y="594" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="618" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">持续时长</text>
+<text x="500" y="618" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">从开始运行到销毁的最长时间</text>
+<text x="900" y="618" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">无其他影响因素条件下</text>
+<line x1="280" y1="602" x2="280" y2="622" stroke="#E8E4DA"/>
+<line x1="700" y1="602" x2="700" y2="622" stroke="#E8E4DA"/>
+
+<rect x="48" y="630" width="1104" height="36" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="654" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">X/Z轴销毁距离</text>
+<text x="500" y="654" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">除能力单元外优先级最高的销毁判定条件</text>
+<text x="900" y="654" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">超过最大距离自行销毁</text>
+<line x1="280" y1="638" x2="280" y2="658" stroke="#E8E4DA"/>
+<line x1="700" y1="638" x2="700" y2="658" stroke="#E8E4DA"/>
+
+<rect x="48" y="666" width="1104" height="36" rx="0" fill="#F4F1EA"/>
+<text x="160" y="690" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">Y轴销毁距离</text>
+<text x="500" y="690" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">垂直方向的销毁距离判定</text>
+<text x="900" y="690" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">与X/Z轴配合使用</text>
+<line x1="280" y1="674" x2="280" y2="694" stroke="#E8E4DA"/>
+<line x1="700" y1="674" x2="700" y2="694" stroke="#E8E4DA"/>
+
+<!-- Section 4 -->
+<text x="48" y="746" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、生命周期结束时行为</text>
+
+<rect x="48" y="764" width="1104" height="60" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="764" width="4" height="60" rx="2" fill="#2D6BE4"/>
+<text x="72" y="794" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">生命周期结束时，依照配置顺序从上到下执行配置的能力单元。能力单元来自本地投射物能力单元内的编辑。</text>
+<text x="72" y="814" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">命名需全局唯一，自动生成全局唯一的元件ID</text>
+
+<!-- Section 5 -->
+<text x="48" y="868" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五、通用组件</text>
+
+<rect x="48" y="886" width="352" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="886" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<rect x="72" y="906" width="72" height="24" rx="12" fill="#E8EEFB"/>
+<text x="108" y="923" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">特效播放</text>
+<text x="72" y="956" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">挂载特效资产到投射物上</text>
+<text x="72" y="978" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持限时/持续特效</text>
+
+<rect x="416" y="886" width="352" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="416" y="886" width="4" height="120" rx="2" fill="#FFF3E0"/>
+<rect x="440" y="906" width="84" height="24" rx="12" fill="#FFF3E0"/>
+<text x="482" y="923" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">投射运动器</text>
+<text x="440" y="956" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">决定投射物运行时的运动规则</text>
+<text x="440" y="978" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">运动轨迹、速度等</text>
+
+<rect x="784" y="886" width="368" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="784" y="886" width="4" height="120" rx="2" fill="#E5F2E9"/>
+<rect x="808" y="906" width="72" height="24" rx="12" fill="#E5F2E9"/>
+<text x="844" y="923" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">命中检测</text>
+<text x="808" y="956" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">碰撞触发的判定规则和效果</text>
+<text x="808" y="978" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可引用预定义能力单元</text>
+
+<!-- Section 6 -->
+<text x="48" y="1050" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">六、能力单元</text>
+
+<rect x="48" y="1068" width="1104" height="72" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1068" width="4" height="72" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1098" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">本地投射物可引用能力单元，需进行预定义编辑。通过「详细编辑」可调整能力单元。</text>
+<text x="72" y="1124" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">在命中检测组件中可引用预定义的能力单元，在命中检测生效后执行。</text>
+
+<!-- Section 7: 架构流程 -->
+<text x="48" y="1184" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">七、运行时架构</text>
+
+<rect x="48" y="1202" width="1104" height="48" rx="24" fill="#2D6BE4"/>
+<text x="120" y="1232" fill="#fff" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">预定义投射物</text>
+<text x="250" y="1232" fill="#fff" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<text x="300" y="1232" fill="#fff" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">技能节点图引用创建</text>
+<text x="480" y="1232" fill="#fff" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<text x="540" y="1232" fill="#fff" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">投射运动器控制运动</text>
+<text x="720" y="1232" fill="#fff" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<text x="780" y="1232" fill="#fff" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">命中检测判定碰撞</text>
+<text x="960" y="1232" fill="#fff" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<text x="1020" y="1232" fill="#fff" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">能力单元执行</text>
+
+<!-- Tip -->
+<rect x="48" y="1270" width="1104" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1270" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1300" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">本地投射物实体运行时遵循「生命周期」配置，X/Z轴销毁距离是除能力单元外优先级最高的销毁条件。</text>
+
+<!-- Source --><!-- 相关文档 -->
+<text x="48" y="1348" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhciimiw86jg" target="_blank">
+  <text x="48" y="1368" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：本地投射物</text>
+</a>
+<text x="240" y="1348" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">|</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhaqt9rgqv4u" target="_blank">
+  <text x="262" y="1348" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">投射运动器</text>
+</a>
+<text x="356" y="1348" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">|</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2pir0hat1s" target="_blank">
+  <text x="378" y="1348" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">命中检测</text>
+</a>
+
+<text x="600" y="1374" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+</svg>

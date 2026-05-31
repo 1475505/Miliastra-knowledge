@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1080">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="1080" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">自定义按钮控件</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">特殊交互按钮 | 可配置图标和文本 | 预设样式与自定义样式</text>
+
+  <rect x="40" y="130" width="540" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、自定义按钮的功能</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">自定义按钮是一种特殊的交互按钮，</text>
+  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可以配置其图标和显示的文本。</text>
+  <text x="60" y="234" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">交互按钮适配的逻辑在自定义按钮中同样适用。</text>
+
+  <rect x="620" y="130" width="540" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、样式配置</text>
+  <rect x="640" y="178" width="80" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="655" y="195" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">预设样式</text>
+  <text x="730" y="195" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择预设按钮样式，部分支持自定义图标/颜色/文本</text>
+  <rect x="640" y="208" width="80" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="655" y="225" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">自定义</text>
+  <text x="730" y="225" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">自由配置默认/悬停/按下状态的素材</text>
+
+  <rect x="40" y="280" width="1120" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="310" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、自定义样式状态说明</text>
+
+  <rect x="60" y="330" width="340" height="110" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">默认状态</text>
+  <text x="80" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">无交互状态</text>
+  <text x="80" y="403" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">按钮的基础显示状态</text>
+
+  <rect x="420" y="330" width="340" height="110" rx="10" fill="#FFF3E0"/>
+  <text x="440" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">悬停状态</text>
+  <text x="440" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">键鼠操作时，指针悬停在按钮上的状态</text>
+  <text x="440" y="403" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通常用外描边、高亮、尺寸增大示意</text>
+
+  <rect x="780" y="330" width="340" height="110" rx="10" fill="#E5F2E9"/>
+  <text x="800" y="355" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2E7D32">按下状态</text>
+  <text x="800" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">键鼠或触屏操作按下时的状态</text>
+  <text x="800" y="403" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通常用颜色变化、尺寸减小示意</text>
+
+  <rect x="40" y="480" width="540" height="300" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="510" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、功能配置</text>
+
+  <text x="60" y="540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">按键设置</text>
+  <text x="60" y="563" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">预设样式：按键类型锁定为交互事件</text>
+  <text x="60" y="586" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">自定义样式：按键类型可选技能/交互事件/道具</text>
+
+  <text x="60" y="615" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">按键类型详解：</text>
+  <text x="60" y="638" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">技能：可配置对应技能槽位</text>
+  <text x="60" y="661" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">交互事件：可配置冷却时间</text>
+  <text x="60" y="684" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">道具：可配置对应道具的配置ID</text>
+
+  <text x="60" y="713" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">其他配置：</text>
+  <text x="60" y="736" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">键鼠/手柄映射、按键提示偏移、触发音效</text>
+  <text x="60" y="759" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">仅技能类型可配置不可用状态素材</text>
+
+  <rect x="620" y="480" width="540" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="510" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、响应点击区域</text>
+  <text x="640" y="538" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">仅自定义样式支持配置点击区域。</text>
+  <text x="640" y="565" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持在编辑窗口中直接拖动调整。</text>
+  <text x="640" y="592" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">区域大小：跟随按钮尺寸 / 自定义尺寸</text>
+  <text x="640" y="619" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持位置偏移和尺寸配置。</text>
+
+  <rect x="620" y="650" width="540" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="680" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">六、推荐按钮尺寸</text>
+
+  <rect x="640" y="698" width="500" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="660" y="721" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">优先级</text>
+  <text x="780" y="721" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">说明</text>
+  <text x="1000" y="721" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">建议大小</text>
+
+  <text x="660" y="750" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">1级</text>
+  <text x="780" y="750" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">核心操作按钮</text>
+  <text x="1000" y="750" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">高48~52</text>
+
+  <rect x="40" y="800" width="1120" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">七、额外说明</text>
+  <text x="60" y="858" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">自定义按钮无法同时响应多个同按键映射。默认规则为根据按钮创建时序，优先响应最近创建的按钮。</text>
+  <text x="60" y="881" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">若使用节点图动态增删自定义按钮，响应优先级也会随之改变。</text>
+
+  <text x="600" y="1050" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="1050" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhtpwgitsigc" target="_blank">
+  <text x="48" y="1070" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：自定义按钮控件</text>
+</a>
+</svg>

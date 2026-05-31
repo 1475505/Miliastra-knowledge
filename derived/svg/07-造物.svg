@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1910">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="1910" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">造物</text>
+<text x="160" y="70" fill="#4A4B65" font-size="16">自主反应的敌对/NPC实体 -- 行为模式、战斗配置与组件功能</text>
+
+<!-- ========== Section 一: 定义与特点 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、造物的定义与特点</text>
+
+<rect x="48" y="168" width="540" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">定义</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">造物是对人型生物、元素生物、深渊魔物、</text>
+<text x="72" y="248" fill="#4A4B65" font-size="14">异种魔兽、小动物、机械战斗单位等的统称。</text>
+
+<text x="72" y="278" fill="#4A4B65" font-size="14">造物可以自主对敌对阵营的实体做出反应，</text>
+<text x="72" y="300" fill="#4A4B65" font-size="14">包含但不限于入战、追踪。</text>
+
+<rect x="72" y="322" width="492" height="32" rx="8" fill="#E8EEFB"/>
+<text x="84" y="343" fill="#2D6BE4" font-size="13" font-weight="500">造物遵循实体的一切通用规则</text>
+
+<rect x="72" y="362" width="492" height="32" rx="8" fill="#FFF3E0"/>
+<text x="84" y="383" fill="#E65100" font-size="13" font-weight="500">阵营关系决定敌对/友善判定</text>
+
+<!-- Card: 特点 -->
+<rect x="612" y="168" width="540" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="168" width="4" height="240" rx="2" fill="#2D6BE4"/>
+<text x="636" y="198" fill="#1A1B2E" font-size="16" font-weight="500">核心特点</text>
+
+<rect x="636" y="214" width="120" height="26" rx="13" fill="#E8EEFB"/>
+<text x="696" y="232" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">行为模式</text>
+<text x="768" y="232" fill="#4A4B65" font-size="13">编辑时配置，运行时不可动态替换</text>
+<text x="768" y="250" fill="#8B8DA0" font-size="12">仅生效一种行为模式，整个生命周期内严格执行</text>
+
+<rect x="636" y="264" width="120" height="26" rx="13" fill="#E8EEFB"/>
+<text x="696" y="282" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">受击盒</text>
+<text x="768" y="282" fill="#4A4B65" font-size="13">默认携带与自身模型等大受击盒</text>
+<text x="768" y="300" fill="#8B8DA0" font-size="12">可正确接收战斗信息</text>
+
+<rect x="636" y="314" width="120" height="26" rx="13" fill="#E8EEFB"/>
+<text x="696" y="332" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">通用规则</text>
+<text x="768" y="332" fill="#4A4B65" font-size="13">遵循实体一切通用规则</text>
+
+<rect x="636" y="356" width="492" height="36" rx="8" fill="#FDE8E6"/>
+<text x="648" y="379" fill="#C62828" font-size="12" font-weight="500">行为模式来自预先提供的行为池，不支持运行时动态切换</text>
+
+<!-- ========== Section 二: 行为模式 ========== -->
+<text x="48" y="450" fill="#2D6BE4" font-size="18" font-weight="700">二、造物的行为模式</text>
+
+<rect x="48" y="468" width="540" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="468" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="72" y="498" fill="#1A1B2E" font-size="16" font-weight="500">非入战状态</text>
+
+<text x="72" y="526" fill="#4A4B65" font-size="14">造物创建后，默认处于非入战状态。</text>
+
+<text x="72" y="556" fill="#4A4B65" font-size="14">当造物入战后，通过各种原因脱战，</text>
+<text x="72" y="578" fill="#4A4B65" font-size="14">会重新回到非入战状态。</text>
+
+<text x="72" y="610" fill="#1A1B2E" font-size="13" font-weight="500">未入战行为（部分可编辑）：</text>
+
+<rect x="72" y="624" width="100" height="24" rx="12" fill="#E5F2E9"/>
+<text x="122" y="641" fill="#2E7D32" font-size="11" text-anchor="middle" font-weight="500">待机</text>
+
+<rect x="184" y="624" width="100" height="24" rx="12" fill="#E5F2E9"/>
+<text x="234" y="641" fill="#2E7D32" font-size="11" text-anchor="middle" font-weight="500">游荡</text>
+
+<rect x="296" y="624" width="100" height="24" rx="12" fill="#E5F2E9"/>
+<text x="346" y="641" fill="#2E7D32" font-size="11" text-anchor="middle" font-weight="500">巡逻</text>
+
+<text x="72" y="672" fill="#8B8DA0" font-size="12">不同行为模式包含不同的未入战行为池</text>
+
+<rect x="72" y="690" width="492" height="60" rx="8" fill="#E8EEFB"/>
+<text x="84" y="710" fill="#2D6BE4" font-size="12" font-weight="500">游荡参数：</text>
+<text x="84" y="728" fill="#4A4B65" font-size="11">移动区域(球体) / 区域半径(m) / 移动间隔时间(s) / 单次移动距离(m)</text>
+<text x="84" y="744" fill="#4A4B65" font-size="11">以造物创建坐标为中心，在领地符合范围的区域内随机选点运动</text>
+
+<!-- Card: 入战状态 -->
+<rect x="612" y="468" width="540" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="468" width="4" height="300" rx="2" fill="#2D6BE4"/>
+<text x="636" y="498" fill="#1A1B2E" font-size="16" font-weight="500">入战状态</text>
+
+<text x="636" y="526" fill="#4A4B65" font-size="14">当造物通过范围感知或视野检测获取到</text>
+<text x="636" y="548" fill="#4A4B65" font-size="14">敌对关系的实体时，以对应实体为目标，</text>
+<text x="636" y="570" fill="#4A4B65" font-size="14">从非入战状态切换为入战状态。</text>
+
+<text x="636" y="602" fill="#1A1B2E" font-size="13" font-weight="500">入战区域检测方式：</text>
+
+<rect x="636" y="618" width="120" height="24" rx="12" fill="#FFF3E0"/>
+<text x="696" y="635" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">范围感知</text>
+<text x="768" y="635" fill="#4A4B65" font-size="12">敌对实体处于范围内即入战</text>
+
+<rect x="636" y="650" width="120" height="24" rx="12" fill="#FFF3E0"/>
+<text x="696" y="667" fill="#E65100" font-size="11" text-anchor="middle" font-weight="500">视野检测</text>
+<text x="768" y="667" fill="#4A4B65" font-size="12">全视野(球体) / 视锥(扇形)</text>
+
+<text x="636" y="700" fill="#1A1B2E" font-size="13" font-weight="500">脱战规则：</text>
+<text x="636" y="720" fill="#4A4B65" font-size="12">脱战距离(m) / 寻路失败脱战 / 脱战延时(s)</text>
+<text x="636" y="740" fill="#4A4B65" font-size="12">领地：无/球体/圆柱体，以创建坐标为中心</text>
+<text x="636" y="758" fill="#4A4B65" font-size="12">玩家离开区域后脱战 + 脱战延时(s)</text>
+
+<!-- ========== Section 三: 常规设置 ========== -->
+<text x="48" y="810" fill="#2D6BE4" font-size="18" font-weight="700">三、常规设置（造物专有特化配置）</text>
+
+<rect x="48" y="828" width="1104" height="320" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="828" width="4" height="320" rx="2" fill="#2D6BE4"/>
+<text x="72" y="858" fill="#1A1B2E" font-size="16" font-weight="500">行为模式 / 未入战行为 / 入战区域</text>
+
+<!-- 行为模式 -->
+<rect x="72" y="874" width="140" height="26" rx="13" fill="#2D6BE4"/>
+<text x="142" y="892" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">行为模式</text>
+<text x="224" y="892" fill="#4A4B65" font-size="13">从枚举项中选择，每种模式对未入战/入战提供不同可选行为</text>
+
+<!-- 未入战行为 -->
+<rect x="72" y="908" width="140" height="26" rx="13" fill="#2D6BE4"/>
+<text x="142" y="926" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">未入战行为</text>
+<text x="224" y="926" fill="#4A4B65" font-size="13">选择行为模式后可配置，不同模式包含不同未入战行为池</text>
+
+<!-- 入战区域 -->
+<rect x="72" y="942" width="140" height="26" rx="13" fill="#2D6BE4"/>
+<text x="142" y="960" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">入战区域</text>
+<text x="224" y="960" fill="#4A4B65" font-size="13">范围感知 / 视野检测，所有行为模式都包含这两种规则</text>
+
+<!-- 巡逻 -->
+<text x="72" y="996" fill="#1A1B2E" font-size="14" font-weight="500">巡逻配置（部分造物支持）：</text>
+<text x="72" y="1016" fill="#4A4B65" font-size="13">初始生效巡逻模板 / 循环类型(单程/往返/循环) / 巡逻起始位置(最近点/起点)</text>
+<text x="72" y="1036" fill="#4A4B65" font-size="13">巡逻路径：引用路径管理工具中配置好的路径</text>
+<text x="72" y="1056" fill="#4A4B65" font-size="13">路点信息：前往速度(走/跑) / 抵达判定半径(m) / 停留时间(s) / 到达后转向 / 到达通知节点图</text>
+
+<!-- 技能设置 -->
+<text x="72" y="1086" fill="#1A1B2E" font-size="14" font-weight="500">技能设置（部分造物支持）：</text>
+<text x="72" y="1106" fill="#4A4B65" font-size="13">技能名称 / 启用该技能 / 初始冷却区间(s) / 默认冷却区间(s)</text>
+<text x="72" y="1126" fill="#4A4B65" font-size="13">部分造物支持配置自身逻辑参数（如深渊法师的元素护罩强效）</text>
+
+<!-- ========== Section 四: 编辑面板 ========== -->
+<text x="48" y="1190" fill="#2D6BE4" font-size="18" font-weight="700">四、造物的编辑面板</text>
+
+<rect x="48" y="1208" width="540" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1208" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1238" fill="#1A1B2E" font-size="16" font-weight="500">基础信息（第一栏）</text>
+
+<text x="72" y="1266" fill="#1A1B2E" font-size="13" font-weight="500">变换</text>
+<text x="112" y="1266" fill="#4A4B65" font-size="13">不支持X、Z轴旋转，仅支持Y轴（水平朝向）编辑</text>
+
+<text x="72" y="1296" fill="#1A1B2E" font-size="16" font-weight="500">特化配置（第二栏）</text>
+
+<rect x="72" y="1312" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="1329" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">基础战斗属性</text>
+<text x="244" y="1329" fill="#4A4B65" font-size="12">等级属性+固定属性，支持成长曲线规划</text>
+
+<rect x="72" y="1344" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="1361" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">仇恨配置</text>
+<text x="244" y="1361" fill="#4A4B65" font-size="12">目标优先级、仇恨列表、阵营仇恨</text>
+
+<rect x="72" y="1376" width="160" height="24" rx="12" fill="#E8EEFB"/>
+<text x="152" y="1393" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">常规设置</text>
+<text x="244" y="1393" fill="#4A4B65" font-size="12">行为模式、未入战行为、入战区域</text>
+
+<rect x="72" y="1416" width="492" height="56" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1436" fill="#E65100" font-size="12" font-weight="500">受击盒设置 / 战斗设置 / 能力单元</text>
+<text x="84" y="1456" fill="#4A4B65" font-size="12">均在特化配置中配置，为造物添加战斗相关逻辑</text>
+
+<!-- Card: 组件与节点图 -->
+<rect x="612" y="1208" width="540" height="280" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="612" y="1208" width="4" height="280" rx="2" fill="#2D6BE4"/>
+<text x="636" y="1238" fill="#1A1B2E" font-size="16" font-weight="500">通用组件（第三栏）</text>
+
+<text x="636" y="1264" fill="#4A4B65" font-size="13">通过"添加通用组件"按键按需挂载，每种最多一次</text>
+
+<!-- Component list -->
+<rect x="636" y="1278" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1293" fill="#2D6BE4" font-size="10" text-anchor="middle">选项卡</text>
+<rect x="752" y="1278" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1293" fill="#2D6BE4" font-size="10" text-anchor="middle">碰撞触发器</text>
+<rect x="868" y="1278" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1293" fill="#2D6BE4" font-size="10" text-anchor="middle">自定义变量</text>
+
+<rect x="636" y="1306" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1321" fill="#2D6BE4" font-size="10" text-anchor="middle">全局计时器</text>
+<rect x="752" y="1306" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1321" fill="#2D6BE4" font-size="10" text-anchor="middle">单位状态</text>
+<rect x="868" y="1306" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1321" fill="#2D6BE4" font-size="10" text-anchor="middle">特效播放</text>
+
+<rect x="636" y="1334" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1349" fill="#2D6BE4" font-size="10" text-anchor="middle">自定义挂接点</text>
+<rect x="752" y="1334" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1349" fill="#2D6BE4" font-size="10" text-anchor="middle">碰撞触发源</text>
+<rect x="868" y="1334" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1349" fill="#2D6BE4" font-size="10" text-anchor="middle">音效播放器</text>
+
+<rect x="636" y="1362" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1377" fill="#2D6BE4" font-size="10" text-anchor="middle">背包组件</text>
+<rect x="752" y="1362" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1377" fill="#2D6BE4" font-size="10" text-anchor="middle">战利品</text>
+<rect x="868" y="1362" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1377" fill="#2D6BE4" font-size="10" text-anchor="middle">铭牌</text>
+
+<rect x="636" y="1390" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1405" fill="#2D6BE4" font-size="10" text-anchor="middle">文本气泡</text>
+<rect x="752" y="1390" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="806" y="1405" fill="#2D6BE4" font-size="10" text-anchor="middle">商店组件</text>
+<rect x="868" y="1390" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="922" y="1405" fill="#2D6BE4" font-size="10" text-anchor="middle">扫描标签</text>
+
+<rect x="636" y="1418" width="108" height="22" rx="11" fill="#E8EEFB"/>
+<text x="690" y="1433" fill="#2D6BE4" font-size="10" text-anchor="middle">小地图标识</text>
+
+<text x="636" y="1468" fill="#1A1B2E" font-size="16" font-weight="500">节点图（第四栏）</text>
+<text x="636" y="1488" fill="#4A4B65" font-size="13">可引用预先配置的实体节点图，为造物添加逻辑功能</text>
+
+<!-- ========== Section 五: 节点图管理巡逻 ========== -->
+<text x="48" y="1530" fill="#2D6BE4" font-size="18" font-weight="700">五、通过节点图管理造物巡逻</text>
+
+<rect x="48" y="1548" width="1104" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1548" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1578" fill="#1A1B2E" font-size="16" font-weight="500">巡逻相关节点</text>
+
+<rect x="72" y="1594" width="200" height="26" rx="13" fill="#FFF3E0"/>
+<text x="172" y="1612" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">事件节点</text>
+<text x="284" y="1612" fill="#4A4B65" font-size="13">造物抵达巡逻路点时（需勾选到达发送节点图事件）</text>
+<text x="284" y="1630" fill="#8B8DA0" font-size="12">出参：造物实体 / 造物GUID / 当前巡逻模板序号 / 当前路径索引 / 当前抵达路点序号 / 即将前往路点序号</text>
+
+<rect x="72" y="1648" width="200" height="26" rx="13" fill="#E8EEFB"/>
+<text x="172" y="1666" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">执行节点</text>
+<text x="284" y="1666" fill="#4A4B65" font-size="13">切换造物巡逻模板（入参：造物实体 / 巡逻模板序号）</text>
+
+<rect x="72" y="1684" width="200" height="26" rx="13" fill="#E5F2E9"/>
+<text x="172" y="1702" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">查询节点</text>
+<text x="284" y="1702" fill="#4A4B65" font-size="13">获取当前造物的巡逻模板（出参：巡逻模板序号 / 路径索引 / 目标路点序号）</text>
+
+<rect x="72" y="1720" width="200" height="26" rx="13" fill="#E5F2E9"/>
+<text x="172" y="1738" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">仇恨查询</text>
+<text x="284" y="1738" fill="#4A4B65" font-size="13">获取默认模式的造物仇恨列表（仅仇恨配置为默认类型时有效）</text>
+
+<rect x="72" y="1756" width="200" height="26" rx="13" fill="#E5F2E9"/>
+<text x="172" y="1774" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">目标查询</text>
+<text x="284" y="1774" fill="#4A4B65" font-size="13">获取造物当前目标（攻击时为目标敌方，治疗时为目标友方）</text>
+
+<!-- Source links -->
+<text x="48" y="1850" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="1850" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhufqo0c0tqw" target="_blank">
+  <text x="48" y="1870" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：造物</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh3rgo0c16c8">
+  <text x="160" y="1850" fill="#2D6BE4" font-size="12" text-decoration="underline">常规设置</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1880" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

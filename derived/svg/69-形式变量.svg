@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 850">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="850" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">形式变量</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">悬浮交互页中的变量抽象层 | 素材复用与数据映射 | 避免重复配置</text>
+
+  <rect x="40" y="130" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、形式变量的定义</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">形式变量是悬浮交互页中声明的一种变量抽象层。</text>
+  <text x="60" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个悬浮交互页都支持配置一组形式变量。</text>
+  <text x="60" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">当素材库中引用了对应形式变量时，</text>
+  <text x="60" y="269" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">会以当前悬浮交互页的形式变量值为准。</text>
+  <rect x="60" y="290" width="120" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="307" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">变量抽象层</text>
+  <rect x="190" y="290" width="120" height="24" rx="12" fill="#E5F2E9"/>
+  <text x="205" y="307" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">素材复用机制</text>
+
+  <rect x="620" y="130" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、核心机制</text>
+  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">形式变量的映射关系，需要确保数据类型一致。</text>
+  <text x="640" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">文本框的插入变量，支持配置基础的玩家自定义变量，</text>
+  <text x="640" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">也支持配置悬浮交互页中声明的形式变量。</text>
+  <text x="640" y="269" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">若配置形式变量，会根据不同悬浮交互页中</text>
+  <text x="640" y="296" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">实际引用处关联的自定义变量赋值，无需多次重复设置。</text>
+  <rect x="640" y="310" width="160" height="24" rx="12" fill="#FFF3E0"/>
+  <text x="655" y="327" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#E65100">无需多次重复设置</text>
+
+  <rect x="40" y="350" width="1120" height="220" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="380" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、形式变量配置位置</text>
+
+  <text x="60" y="410" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">形式变量可在以下两个层级进行配置：</text>
+
+  <rect x="60" y="430" width="520" height="120" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="455" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#2D6BE4">页签项中的形式变量配置</text>
+  <text x="80" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">将形式变量与指定数据或玩家自定义变量进行关联。</text>
+  <text x="80" y="503" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">本页签项中若有素材引用形式变量，</text>
+  <text x="80" y="526" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">则以对应配置的自定义变量实时数据为准。</text>
+  <text x="80" y="549" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">不同页签项可关联不同的自定义变量。</text>
+
+  <rect x="600" y="430" width="520" height="120" rx="10" fill="#FFF3E0"/>
+  <text x="620" y="455" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#E65100">单选项视窗中的形式变量配置</text>
+  <text x="620" y="480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">将形式变量与指定数据或玩家自定义变量进行关联。</text>
+  <text x="620" y="503" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">本列表项中若有素材引用形式变量，</text>
+  <text x="620" y="526" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">则以对应配置的自定义变量实时数据为准。</text>
+  <text x="620" y="549" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">不同列表项可关联不同的自定义变量。</text>
+
+  <rect x="40" y="590" width="1120" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="620" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、形式变量的工作流程</text>
+
+  <rect x="60" y="640" width="200" height="50" rx="10" fill="#E8EEFB"/>
+  <text x="80" y="662" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">一、声明形式变量</text>
+  <text x="80" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">在悬浮交互页中定义</text>
+
+  <text x="270" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="20" fill="#2D6BE4">--></text>
+
+  <rect x="310" y="640" width="200" height="50" rx="10" fill="#FFF3E0"/>
+  <text x="330" y="662" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#E65100">二、素材引用形式变量</text>
+  <text x="330" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">素材组中使用形式变量</text>
+
+  <text x="520" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="20" fill="#2D6BE4">--></text>
+
+  <rect x="560" y="640" width="240" height="50" rx="10" fill="#E5F2E9"/>
+  <text x="580" y="662" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2E7D32">三、页签/列表项关联变量</text>
+  <text x="580" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">各引用处关联自定义变量</text>
+
+  <text x="810" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="20" fill="#2D6BE4">--></text>
+
+  <rect x="850" y="640" width="250" height="50" rx="10" fill="#FDE8E6"/>
+  <text x="870" y="662" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#C62828">四、运行时实时赋值</text>
+  <text x="870" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">以当前页签/列表项关联值为准</text>
+
+  <text x="60" y="720" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过形式变量，同一份素材组可在不同页签/列表项中显示不同的数据，实现素材的高效复用。</text>
+  <text x="60" y="748" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">数据类型必须一致，确保映射关系正确。</text>
+
+  <rect x="40" y="785" width="1120" height="30" rx="8" fill="#FDE8E6"/>
+  <text x="60" y="805" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#C62828">注意：形式变量的映射关系需要确保数据类型一致，否则可能导致显示异常。</text>
+
+  <text x="600" y="845" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="845" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2u2e9o3jn6" target="_blank">
+  <text x="48" y="865" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：悬浮交互页控件</text>
+</a>
+</svg>

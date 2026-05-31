@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1250">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1250" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+  <!-- Title -->
+  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
+  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">货币与背包</text>
+  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">资源系统容器 -- 货币定义、背包模板、背包组件与节点图操作</text>
+  <!-- Section 1: 货币 -->
+  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、货币的定义</text>
+  <rect x="60" y="170" width="1080" height="190" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">货币是玩法中的一般等价物，用于标定虚拟道具价值，以及在交易行为中作为成交判据。</text>
+  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">货币可被单位持有，随交易或节点图逻辑增加或消耗。</text>
+  <text x="80" y="248" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">编辑入口：货币与背包按钮 > 货币页签</text>
+  <text x="80" y="272" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">货币名称：创作者定义的命名 | 配置ID：货币数据的唯一标识</text>
+  <text x="80" y="296" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">基础属性：</text>
+  <text x="80" y="316" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">图标：预制图标中选择 | 显示优先级：数字越大在背包中显示越靠前</text>
+  <text x="80" y="336" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">销毁时掉落形态：掉落（转化为掉落物）| 销毁 | 保留（仅角色有效，复活后保留）</text>
+  <text x="80" y="354" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">战利品掉落形式：全员一份（共享，一人拾取他人不可再拾取）| 每人一份（独立掉落）</text>
+  <!-- Section 2: 背包 -->
+  <text x="60" y="395" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、背包的定义</text>
+  <rect x="60" y="410" width="1080" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="438" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">背包是整个资源系统的容器，管理持有者的所有虚拟道具、装备和货币。</text>
+  <text x="80" y="462" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">道具以槽位方式展示，玩家可在运行时对背包内道具进行拆分、销毁或丢弃操作。</text>
+  <text x="80" y="488" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">编辑入口：货币与背包按钮 > 背包页签</text>
+  <text x="80" y="512" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">背包模板名称 | 背包格数量（初始栏位数，每栏可容纳一种道具并可堆叠）</text>
+  <text x="80" y="536" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">销毁时掉落形态：掉落 | 销毁 | 保留（仅角色）| 应用道具掉落规则（遵循单个道具自身配置）</text>
+  <text x="80" y="558" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">战利品掉落形式：全员一份 | 每人一份 | 对应掉落物外形：配置掉落物元件</text>
+  <text x="80" y="580" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">当背包掉落配置不为"应用道具掉落规则"时，会覆盖道具模板上的同名字段。</text>
+  <!-- Section 3: 背包组件 -->
+  <text x="60" y="625" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、背包组件</text>
+  <rect x="60" y="640" width="1080" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="80" y="668" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">背包组件直接引用背包模板，运行时生成对应的背包实例。仅支持同时选择一个背包模板。</text>
+  <text x="80" y="692" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可挂载在：角色、造物、动态物件上。</text>
+  <text x="80" y="716" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">配置：背包模板（引用一个模板）| 初始物品（默认拥有的物品，玩法初始化时角色默认携带）</text>
+  <rect x="80" y="732" width="180" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="748" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">角色/造物/动态物件可挂载</text>
+  <rect x="270" y="732" width="140" height="22" rx="11" fill="#E8EEFB"/><text x="284" y="748" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">仅选一个背包模板</text>
+  <!-- Section 4: 节点图 -->
+  <text x="60" y="795" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、节点图操作背包数据</text>
+  <rect x="60" y="810" width="340" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="60" y="810" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="80" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">执行节点</text>
+  <text x="80" y="858" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">设置背包掉落道具/货币数量</text>
+  <text x="80" y="878" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">设置背包道具掉落内容</text>
+  <text x="80" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">修改背包道具数量</text>
+  <text x="80" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">修改背包货币数量</text>
+  <text x="80" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">增加背包最大容量</text>
+  <rect x="430" y="810" width="340" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="430" y="810" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="450" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">事件节点</text>
+  <text x="450" y="858" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">背包道具失去时</text>
+  <text x="450" y="878" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">背包道具数量变化时</text>
+  <text x="450" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">背包道具新增时</text>
+  <text x="450" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">背包货币数量变化时</text>
+  <text x="450" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">背包内道具被使用时</text>
+  <rect x="800" y="810" width="340" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="800" y="810" width="340" height="28" rx="14" fill="#2D6BE4"/>
+  <text x="820" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#FFF">查询节点</text>
+  <text x="820" y="858" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取背包道具数量</text>
+  <text x="820" y="878" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取背包容量</text>
+  <text x="820" y="898" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取背包所有基础道具</text>
+  <text x="820" y="918" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取背包所有装备</text>
+  <text x="820" y="938" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取背包所有货币</text>
+  <text x="820" y="958" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获取背包货币数量</text>
+  <!-- Source --><!-- 相关文档 -->
+<text x="48" y="1020" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2cr30yeak0" target="_blank">
+  <text x="48" y="1040" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：货币</text>
+</a>
+<text x="120" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhogfq9bf86q"><text x="135" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：背包</text></a>
+  <text x="200" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh5y5001vqd4"><text x="215" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：背包组件</text></a>
+  <text x="600" y="1235" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

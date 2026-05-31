@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1920">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="1920" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">场景生成模板管理</text>
+<text x="340" y="72" fill="#4A4B65" font-size="16">快速生成大面积场景，灵活自定义生成物参数</text>
+
+<!-- ========== 一、功能简介 ========== -->
+<text x="48" y="148" fill="#2D6BE4" font-size="18" font-weight="700">一、功能简介</text>
+
+<rect x="48" y="166" width="1104" height="56" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="166" width="4" height="56" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#4A4B65" font-size="14">场景生成模板是一种可以让创作者通过简易操作生成大面积场景的工具，支持自定义生成物的种类与数量，灵活创建不同的场景。</text>
+
+<!-- ========== 二、预设模板的使用 ========== -->
+<text x="48" y="258" fill="#2D6BE4" font-size="18" font-weight="700">二、预设模板的使用</text>
+
+<rect x="48" y="276" width="1104" height="300" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="276" width="4" height="300" rx="2" fill="#2D6BE4"/>
+
+<!-- Step 1 -->
+<circle cx="78" cy="322" r="14" fill="#2D6BE4"/>
+<text x="78" y="327" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">1</text>
+<text x="110" y="327" fill="#1A1B2E" font-size="14" font-weight="500">入口</text>
+<text x="110" y="348" fill="#4A4B65" font-size="13">进入"实体摆放"界面，"场景生成模板"-"预设模板"页签，选择具体的模板并确认导入。</text>
+
+<!-- Step 2 -->
+<circle cx="78" cy="374" r="14" fill="#2D6BE4"/>
+<text x="78" y="379" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">2</text>
+<text x="110" y="379" fill="#1A1B2E" font-size="14" font-weight="500">生成实例</text>
+<text x="110" y="400" fill="#4A4B65" font-size="13">在"未分类页签"或自己创建的页签中点击(或拖动)模板，会在场景中创建对应模板的实例。</text>
+
+<!-- Step 3 -->
+<circle cx="78" cy="426" r="14" fill="#2D6BE4"/>
+<text x="78" y="431" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">3</text>
+<text x="110" y="431" fill="#1A1B2E" font-size="14" font-weight="500">调整实例参数</text>
+<text x="110" y="452" fill="#4A4B65" font-size="13">选中实例，在"基础属性"页签调整生成规则、生成范围；进入"资产配置"页签调整详细参数。</text>
+
+<!-- Step 4 -->
+<circle cx="78" cy="478" r="14" fill="#2D6BE4"/>
+<text x="78" y="483" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">4</text>
+<text x="110" y="483" fill="#1A1B2E" font-size="14" font-weight="500">生成场景</text>
+<text x="110" y="504" fill="#4A4B65" font-size="13">调整后点击"随机预览"预览效果，满意后点击"确认生成"将生成物创建在关卡场景中。</text>
+
+<!-- Step 5 -->
+<circle cx="78" cy="530" r="14" fill="#1B4FC0"/>
+<text x="78" y="535" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">5</text>
+<text x="110" y="535" fill="#1A1B2E" font-size="14" font-weight="500">调整生成物</text>
+<text x="110" y="556" fill="#4A4B65" font-size="13">创建后如需一起移动或删除，可点击场景实体组右上角按钮选择"全选"或"删除"。</text>
+
+<!-- ========== 三、场景生成模板的创建 ========== -->
+<text x="48" y="618" fill="#2D6BE4" font-size="18" font-weight="700">三、场景生成模板的创建</text>
+
+<rect x="48" y="636" width="1104" height="240" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="636" width="4" height="240" rx="2" fill="#2D6BE4"/>
+
+<!-- Step 1 -->
+<circle cx="78" cy="682" r="14" fill="#2D6BE4"/>
+<text x="78" y="687" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">1</text>
+<text x="110" y="687" fill="#1A1B2E" font-size="14" font-weight="500">功能入口</text>
+<text x="110" y="708" fill="#4A4B65" font-size="13">进入"实体摆放"界面，"场景生成模板"页签，点击"管理模板"；或打开系统菜单，点击"场景生成模板管理"。</text>
+
+<!-- Step 2 -->
+<circle cx="78" cy="734" r="14" fill="#2D6BE4"/>
+<text x="78" y="739" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">2</text>
+<text x="110" y="739" fill="#1A1B2E" font-size="14" font-weight="500">创建模板</text>
+<text x="110" y="760" fill="#4A4B65" font-size="13">点击"新建场景生成模板"。</text>
+
+<!-- Step 3 -->
+<circle cx="78" cy="786" r="14" fill="#2D6BE4"/>
+<text x="78" y="791" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">3</text>
+<text x="110" y="791" fill="#1A1B2E" font-size="14" font-weight="500">配置参数</text>
+<text x="110" y="812" fill="#4A4B65" font-size="13">点击"资产配置"，配置具体参数。</text>
+
+<!-- Step 4 -->
+<circle cx="78" cy="838" r="14" fill="#1B4FC0"/>
+<text x="78" y="843" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">4</text>
+<text x="110" y="843" fill="#1A1B2E" font-size="14" font-weight="500">完成</text>
+<text x="110" y="864" fill="#4A4B65" font-size="13">保存后可在资产栏"场景生成模板"页签看到新建的模板。</text>
+
+<!-- ========== 四、参数介绍 ========== -->
+<text x="48" y="918" fill="#2D6BE4" font-size="18" font-weight="700">四、参数介绍</text>
+
+<!-- 基础属性面板 Card -->
+<rect x="48" y="936" width="1104" height="180" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="936" width="4" height="180" rx="2" fill="#2D6BE4"/>
+<text x="72" y="966" fill="#1A1B2E" font-size="16" font-weight="500">基础属性面板</text>
+
+<text x="72" y="996" fill="#1A1B2E" font-size="14" font-weight="500">生成规则</text>
+<text x="72" y="1018" fill="#4A4B65" font-size="13">散布规则预设列表：点击"随机预览"预览随机效果，满意可"保存散布规则"，下次可从预设列表选用。</text>
+<text x="72" y="1040" fill="#4A4B65" font-size="13">锁定生成结果：开启后每次生成时都会复制和上次一模一样的结果。</text>
+
+<text x="72" y="1070" fill="#1A1B2E" font-size="14" font-weight="500">生成范围</text>
+<text x="72" y="1092" fill="#4A4B65" font-size="13">生成区形状：影响生成区的形状，提供长方体和圆柱体两种形状。</text>
+
+<!-- 资产配置面板 Card -->
+<rect x="48" y="1136" width="1104" height="510" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1136" width="4" height="510" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1166" fill="#1A1B2E" font-size="16" font-weight="500">资产配置面板</text>
+<text x="72" y="1190" fill="#4A4B65" font-size="14">默认有五层：岩石层、建筑层、树木层、植被层和装饰物层。也可自定义层。</text>
+
+<!-- Sub-section: 层参数 -->
+<text x="72" y="1222" fill="#1A1B2E" font-size="14" font-weight="500">层参数</text>
+
+<!-- Table 1 Header -->
+<rect x="72" y="1238" width="1056" height="34" rx="8" fill="#2D6BE4"/>
+<text x="178" y="1260" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">参数</text>
+<text x="588" y="1260" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">说明</text>
+<text x="1000" y="1260" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">适用层</text>
+<line x1="280" y1="1246" x2="280" y2="1266" stroke="#fff" stroke-opacity="0.3"/>
+<line x1="870" y1="1246" x2="870" y2="1266" stroke="#fff" stroke-opacity="0.3"/>
+
+<!-- Row 1 -->
+<rect x="72" y="1272" width="1056" height="34" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="178" y="1294" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">生成密度</text>
+<text x="280" y="1294" fill="#4A4B65" font-size="13">控制生成物的生成密度。数字越小越稀疏，越大越稠密。</text>
+<text x="1000" y="1294" fill="#4A4B65" font-size="13" text-anchor="middle">全部</text>
+<line x1="280" y1="1280" x2="280" y2="1300" stroke="#E8E4DA"/>
+<line x1="870" y1="1280" x2="870" y2="1300" stroke="#E8E4DA"/>
+
+<!-- Row 2 -->
+<rect x="72" y="1306" width="1056" height="34" rx="0" fill="#F4F1EA"/>
+<text x="178" y="1328" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">生成随机性</text>
+<text x="280" y="1328" fill="#4A4B65" font-size="13">控制生成物采样点的震动幅度。0趋近均匀分布，1趋近杂乱分布。</text>
+<text x="1000" y="1328" fill="#4A4B65" font-size="13" text-anchor="middle">全部</text>
+<line x1="280" y1="1314" x2="280" y2="1334" stroke="#E8E4DA"/>
+<line x1="870" y1="1314" x2="870" y2="1334" stroke="#E8E4DA"/>
+
+<!-- Row 3 -->
+<rect x="72" y="1340" width="1056" height="34" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="178" y="1362" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">是否基于地形生成</text>
+<text x="280" y="1362" fill="#4A4B65" font-size="13">控制岩石层是否基于场景地形生成。</text>
+<text x="1000" y="1362" fill="#4A4B65" font-size="13" text-anchor="middle">仅岩石层</text>
+<line x1="280" y1="1348" x2="280" y2="1368" stroke="#E8E4DA"/>
+<line x1="870" y1="1348" x2="870" y2="1368" stroke="#E8E4DA"/>
+
+<!-- Row 4 -->
+<rect x="72" y="1374" width="1056" height="34" rx="0" fill="#F4F1EA"/>
+<text x="178" y="1396" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">伴生范围</text>
+<text x="280" y="1396" fill="#4A4B65" font-size="13">定义生成物以植被层内目标对象为圆心的生成距离，超过则不生成。</text>
+<text x="1000" y="1396" fill="#4A4B65" font-size="13" text-anchor="middle">仅植被层</text>
+<line x1="280" y1="1382" x2="280" y2="1402" stroke="#E8E4DA"/>
+<line x1="870" y1="1382" x2="870" y2="1402" stroke="#E8E4DA"/>
+
+<!-- Sub-section: 层的详细编辑 -->
+<text x="72" y="1446" fill="#1A1B2E" font-size="14" font-weight="500">层的详细编辑</text>
+<text x="72" y="1470" fill="#4A4B65" font-size="13">在对应层中点击"详情编辑"可编辑资产类型、权重、生成间隔距离和变换区间。</text>
+
+<!-- Table 2 Header -->
+<rect x="72" y="1488" width="1056" height="34" rx="8" fill="#2D6BE4"/>
+<text x="178" y="1510" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">参数</text>
+<text x="600" y="1510" fill="#fff" font-size="13" text-anchor="middle" font-weight="500">说明</text>
+<line x1="280" y1="1496" x2="280" y2="1516" stroke="#fff" stroke-opacity="0.3"/>
+
+<!-- Row 1 -->
+<rect x="72" y="1522" width="1056" height="34" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="178" y="1544" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">权重</text>
+<text x="286" y="1544" fill="#4A4B65" font-size="13">影响同一层中不同模型的生成权重。</text>
+<line x1="280" y1="1530" x2="280" y2="1550" stroke="#E8E4DA"/>
+
+<!-- Row 2 -->
+<rect x="72" y="1556" width="1056" height="34" rx="0" fill="#F4F1EA"/>
+<text x="178" y="1578" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">生成间隔距离</text>
+<text x="286" y="1578" fill="#4A4B65" font-size="13">影响下一层生成物与该模型的间隔距离。</text>
+<line x1="280" y1="1564" x2="280" y2="1594" stroke="#E8E4DA"/>
+
+<!-- Row 3 -->
+<rect x="72" y="1590" width="1056" height="34" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="178" y="1612" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">模型资产</text>
+<text x="286" y="1612" fill="#4A4B65" font-size="13">点击"添加资产"可添加更多资产，在"模型资产库"中选择需要的资产类型。</text>
+<line x1="280" y1="1598" x2="280" y2="1618" stroke="#E8E4DA"/>
+
+<!-- Row 4 -->
+<rect x="72" y="1624" width="1056" height="34" rx="0" fill="#F4F1EA"/>
+<text x="178" y="1646" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">变换区间</text>
+<text x="286" y="1646" fill="#4A4B65" font-size="13">控制资产的位置、旋转和缩放的抖动范围。</text>
+<line x1="280" y1="1632" x2="280" y2="1652" stroke="#E8E4DA"/>
+
+<!-- ========== 五、特殊说明 ========== -->
+<text x="48" y="1700" fill="#2D6BE4" font-size="18" font-weight="700">五、特殊说明</text>
+
+<rect x="48" y="1718" width="1104" height="130" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1718" width="4" height="130" rx="2" fill="#2D6BE4"/>
+
+<text x="72" y="1750" fill="#4A4B65" font-size="13">1. 层依次生成：岩石层 → 建筑层 → 树木层 → 植被层 → 装饰物层。除岩石层外，所有层都遵循</text>
+<text x="72" y="1772" fill="#4A4B65" font-size="13">   "剔除规则"——剔除上一层生成物后在空处生成下一层。若上一层过密，可能导致后面层无处生成。</text>
+<text x="72" y="1802" fill="#4A4B65" font-size="13">2. 植被层是特殊层，遵循"伴生规则"——植被层会伴生树木层。如果树木层不生成，则植被层也不会生成。</text>
+
+<!-- Source links -->
+<text x="48" y="1864" fill="#8B8DA0" font-size="12">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhjk3t996oiy" target="_blank">
+  <text x="48" y="1886" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：场景生成模板</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1904" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+</svg>

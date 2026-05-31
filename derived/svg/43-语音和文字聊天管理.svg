@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1648">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
+  </defs>
+  <rect width="1200" height="1648" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+
+  <!-- Title Card -->
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="76" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="700" fill="#1A1B2E">语音和文字聊天管理</text>
+
+  <!-- Section 1: 语音和文字聊天功能 -->
+  <text x="40" y="142" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、语音和文字聊天功能</text>
+  <rect x="40" y="162" width="1120" height="108" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="64" y="194" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">提供贴合玩法的聊天功能，支持根据玩法需要配置多个针对不同玩家或阵营的专属聊天频道。</text>
+  <text x="64" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">同一玩家可同时在不同聊天频道中发言。</text>
+  <text x="64" y="250" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持利用节点图实时切换玩家聊天频道的权限。</text>
+
+  <!-- Section 2: 语音和文字聊天功能管理 -->
+  <text x="40" y="318" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、语音和文字聊天功能管理</text>
+  <rect x="40" y="338" width="1120" height="206" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="64" y="374" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过【系统菜单】→【语音和文字聊天管理】管理当前关卡聊天频道</text>
+  <text x="64" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">全局设置：</text>
+  <text x="64" y="434" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">对语音和文字聊天功能进行全局控制</text>
+
+  <circle cx="72" cy="454" r="4" fill="#2D6BE4"/>
+  <text x="84" y="462" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">是否开启实时语音</text>
+  <text x="196" y="462" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">：决定语音聊天功能是否开启</text>
+
+  <circle cx="72" cy="482" r="4" fill="#2D6BE4"/>
+  <text x="84" y="490" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">局内是否允许组队语音聊天</text>
+  <text x="212" y="490" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">：决定组队语音聊天功能是否开启</text>
+
+  <circle cx="72" cy="510" r="4" fill="#2D6BE4"/>
+  <text x="84" y="518" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">是否开启文字聊天</text>
+  <text x="196" y="518" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">：决定文字聊天功能是否开启</text>
+
+  <!-- Section 3: 聊天频道的编辑 -->
+  <text x="40" y="576" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、聊天频道的编辑</text>
+  <rect x="40" y="596" width="1120" height="608" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+
+  <!-- 添加聊天频道 -->
+  <rect x="64" y="624" width="120" height="28" rx="14" fill="#E8EEFB"/>
+  <text x="79" y="643" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">添加聊天频道</text>
+  <text x="64" y="672" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">通过【添加频道】按键，可新增聊天频道。</text>
+  <text x="64" y="696" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">关卡默认带有应用于全部玩家的全局频道，支持修改配置/改名，但无法删除。</text>
+
+  <!-- 基础信息 Table -->
+  <rect x="64" y="728" width="80" height="28" rx="14" fill="#E8EEFB"/>
+  <text x="79" y="747" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">基础信息</text>
+
+  <!-- Table header -->
+  <rect x="64" y="764" width="1072" height="34" rx="8" fill="#2D6BE4"/>
+  <text x="149" y="786" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">参数</text>
+  <text x="640" y="786" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">说明</text>
+
+  <!-- Table data rows -->
+  <!-- Row 1: 索引 -->
+  <rect x="64" y="798" width="1072" height="32" fill="#F4F1EA"/>
+  <text x="80" y="819" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">索引</text>
+  <text x="256" y="819" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">对应聊天频道的唯一标识</text>
+
+  <!-- Row 2 -->
+  <rect x="64" y="830" width="1072" height="32" fill="#FFFFFF"/>
+  <text x="80" y="851" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">文字聊天初始生效</text>
+  <text x="256" y="851" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制该频道文字聊天功能在关卡初始时的生效情况</text>
+
+  <!-- Row 3 -->
+  <rect x="64" y="862" width="1072" height="32" fill="#F4F1EA"/>
+  <text x="80" y="883" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">频道应用方式</text>
+  <text x="256" y="883" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持按玩家/按阵营应用。当频道按阵营应用时，仅可通过切换玩家阵营调整所属聊天频道</text>
+
+  <!-- Row 4 -->
+  <rect x="64" y="894" width="1072" height="32" fill="#FFFFFF"/>
+  <text x="80" y="915" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">应用玩家/阵营</text>
+  <text x="256" y="915" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制频道在关卡内的初始覆盖对象，可多选</text>
+
+  <!-- Row 5 -->
+  <rect x="64" y="926" width="1072" height="32" fill="#F4F1EA"/>
+  <text x="80" y="947" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">显示优先级</text>
+  <text x="256" y="947" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制频道在关卡内聊天系统的显示顺序，数字越大越靠前</text>
+
+  <!-- Row 6 -->
+  <rect x="64" y="958" width="1072" height="32" fill="#FFFFFF"/>
+  <text x="80" y="979" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">选择图标</text>
+  <text x="256" y="979" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制频道在关卡内聊天系统的图标与颜色</text>
+
+  <!-- Row 7 -->
+  <rect x="64" y="990" width="1072" height="32" fill="#F4F1EA"/>
+  <text x="80" y="1011" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">语音聊天初始生效</text>
+  <text x="256" y="1011" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制该频道语音聊天功能在关卡初始时的生效情况</text>
+
+  <!-- Row 8 -->
+  <rect x="64" y="1022" width="1072" height="32" fill="#FFFFFF"/>
+  <text x="80" y="1043" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">限制语音范围</text>
+  <text x="256" y="1043" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制该频道是否限制语音为范围生效</text>
+
+  <!-- Row 9 -->
+  <rect x="64" y="1054" width="1072" height="32" fill="#F4F1EA"/>
+  <text x="80" y="1075" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">收听范围半径(m)</text>
+  <text x="256" y="1075" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制该频道的语音收听范围半径，范围1~100m</text>
+
+  <!-- 快捷消息 -->
+  <rect x="64" y="1118" width="80" height="28" rx="14" fill="#E8EEFB"/>
+  <text x="79" y="1137" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#2D6BE4">快捷消息</text>
+  <text x="64" y="1166" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">控制对应频道在关卡内的快捷聊天内容。点击可添加快捷文本，点击可删除文本。</text>
+  <text x="64" y="1190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个频道至少需要保留1条默认文本。</text>
+
+  <!-- Section 4: 以节点图控制聊天频道 -->
+  <text x="40" y="1236" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、以节点图控制聊天频道</text>
+  <rect x="40" y="1256" width="1120" height="136" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+
+  <!-- Pill row 1 -->
+  <rect x="142" y="1292" width="200" height="36" rx="18" fill="#E8EEFB"/>
+  <text x="242" y="1315" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4" text-anchor="middle">设置聊天频道开关</text>
+
+  <rect x="499" y="1292" width="200" height="36" rx="18" fill="#E8EEFB"/>
+  <text x="599" y="1315" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4" text-anchor="middle">设置玩家当前频道</text>
+
+  <rect x="856" y="1292" width="240" height="36" rx="18" fill="#E8EEFB"/>
+  <text x="976" y="1315" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4" text-anchor="middle">修改玩家聊天文字权限</text>
+
+  <!-- Pill row 2 -->
+  <rect x="142" y="1340" width="220" height="36" rx="18" fill="#E8EEFB"/>
+  <text x="252" y="1363" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4" text-anchor="middle">设置玩家语音聊天范围</text>
+
+  <rect x="499" y="1340" width="220" height="36" rx="18" fill="#E8EEFB"/>
+  <text x="609" y="1363" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4" text-anchor="middle">设置玩家聊天语音权限</text>
+
+  <rect x="856" y="1340" width="240" height="36" rx="18" fill="#E8EEFB"/>
+  <text x="976" y="1363" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#2D6BE4" text-anchor="middle">设置玩家频道权限</text>
+
+  <!-- Section 5: 额外说明 -->
+  <text x="40" y="1424" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、额外说明</text>
+  <rect x="40" y="1444" width="1120" height="116" rx="10" fill="#E8EEFB"/>
+  <rect x="40" y="1444" width="4" height="116" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="1474" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">在当前版本中，添加了语音聊天相关功能，同时在界面布局中也增加了局内可以控制语音功能的按钮。</text>
+  <text x="64" y="1498" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">部分界面控件可能遮挡语音功能按钮，建议适当调整界面控件的位置，以免影响该功能的正常使用。</text>
+  <text x="64" y="1522" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">语音功能按钮在PC端和手机端的具体位置有所不同。</text>
+
+  <!-- Footer -->
+  <text x="40" y="1596" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">相关文档：</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhaneb9qnvay" target="_blank">
+    <text x="40" y="1616" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" text-decoration="underline" fill="#2D6BE4">奇匠学院文档：语音和文字聊天</text>
+  </a>
+  <text x="600" y="1633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" text-anchor="middle" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+</svg>

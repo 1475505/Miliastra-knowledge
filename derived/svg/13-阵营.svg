@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2000">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+</style>
+
+<rect width="1200" height="2000" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title Card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold">阵营</text>
+<text x="160" y="70" fill="#4A4B65" font-size="16">对抗性玩法的群体划分 -- 阵营定义、关系配置与经典模式限制</text>
+
+<!-- ========== Section 一: 定义 ========== -->
+<text x="48" y="150" fill="#2D6BE4" font-size="18" font-weight="700">一、阵营的定义</text>
+
+<rect x="48" y="168" width="1104" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="168" width="4" height="140" rx="2" fill="#2D6BE4"/>
+<text x="72" y="198" fill="#1A1B2E" font-size="16" font-weight="500">核心概念</text>
+
+<text x="72" y="226" fill="#4A4B65" font-size="14">为构建对抗性玩法而将实体划分为不同的群体，归属于同一群体内的玩家有着相同的游戏目标，这个群体被称为阵营。</text>
+
+<text x="72" y="256" fill="#4A4B65" font-size="14">在组队竞技类型的游戏中，阵营可以作为结算目标或得分的判断依据。</text>
+
+<rect x="72" y="276" width="1056" height="24" rx="8" fill="#E8EEFB"/>
+<text x="84" y="293" fill="#2D6BE4" font-size="12" font-weight="500">阵营是实体的属性，可在基础信息面板中设置</text>
+
+<!-- ========== Section 二: 全局定义 ========== -->
+<text x="48" y="350" fill="#2D6BE4" font-size="18" font-weight="700">二、阵营的全局定义</text>
+
+<rect x="48" y="368" width="1104" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="368" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="72" y="398" fill="#1A1B2E" font-size="16" font-weight="500">关卡设置 > 阵营页签</text>
+
+<text x="72" y="426" fill="#4A4B65" font-size="14">在基础信息上选择阵营之前，需要先在关卡设置的阵营页签定义玩法所需的阵营。</text>
+
+<rect x="72" y="444" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="462" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">阵营名称</text>
+<text x="204" y="462" fill="#4A4B65" font-size="13">该阵营的命名</text>
+
+<rect x="72" y="478" width="140" height="26" rx="13" fill="#2D6BE4"/>
+<text x="142" y="496" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">默认阵营对象</text>
+<text x="224" y="496" fill="#4A4B65" font-size="13">新创建的玩家/物件/造物将被归类到对应的默认阵营中</text>
+
+<rect x="72" y="512" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="530" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">包含的玩家</text>
+<text x="204" y="530" fill="#4A4B65" font-size="13">玩家列表，代表初始有哪些玩家归属于该阵营</text>
+
+<rect x="72" y="546" width="120" height="26" rx="13" fill="#2D6BE4"/>
+<text x="132" y="564" fill="#fff" font-size="12" text-anchor="middle" font-weight="500">包含的实体</text>
+<text x="204" y="564" fill="#4A4B65" font-size="13">物件和造物的列表，代表初始有哪些归属于该阵营</text>
+
+<rect x="72" y="586" width="1056" height="28" rx="8" fill="#FFF3E0"/>
+<text x="84" y="605" fill="#E65100" font-size="13" font-weight="500">默认阵营对象：当实体创建时阵营值为0（默认），会被分配至该实体类型的默认阵营</text>
+
+<!-- ========== Section 三: 阵营关系 ========== -->
+<text x="48" y="670" fill="#2D6BE4" font-size="18" font-weight="700">三、阵营关系</text>
+
+<rect x="48" y="688" width="1104" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="688" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="72" y="718" fill="#1A1B2E" font-size="16" font-weight="500">关系配置（关卡设置 > 阵营关系）</text>
+
+<text x="72" y="746" fill="#4A4B65" font-size="14">任意两个阵营之间都一定存在敌对和友善两种关系。</text>
+
+<rect x="72" y="766" width="1056" height="44" rx="8" fill="#FDE8E6"/>
+<text x="84" y="786" fill="#C62828" font-size="13" font-weight="500">阵营关系是单向的！</text>
+<text x="84" y="804" fill="#4A4B65" font-size="12">阵营1对阵营2敌对，不代表阵营2对阵营1也敌对。可能阵营2对阵营1友善，此时仅阵营1可攻击阵营2</text>
+
+<text x="72" y="836" fill="#4A4B65" font-size="14">其他系统中，阵营相关的配置均以关卡配置的阵营关系生效。</text>
+<text x="72" y="858" fill="#4A4B65" font-size="14">例如：能力单元会正确命中敌对阵营的目标。</text>
+
+<rect x="72" y="878" width="1056" height="52" rx="8" fill="#E8EEFB"/>
+<text x="84" y="898" fill="#2D6BE4" font-size="12" font-weight="500">示例：初始玩家阵营与初始物件阵营和初始造物阵营均为敌对</text>
+<text x="84" y="918" fill="#4A4B65" font-size="12">因此可以直接攻击阵营为这两个阵营的实体（角色、造物或物件）</text>
+
+<!-- ========== Section 四: 节点图控制 ========== -->
+<text x="48" y="990" fill="#2D6BE4" font-size="18" font-weight="700">四、使用节点图控制玩家阵营</text>
+
+<rect x="48" y="1008" width="1104" height="140" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1008" width="4" height="140" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1038" fill="#1A1B2E" font-size="16" font-weight="500">阵营相关节点</text>
+
+<rect x="72" y="1054" width="200" height="26" rx="13" fill="#E5F2E9"/>
+<text x="172" y="1072" fill="#2E7D32" font-size="12" text-anchor="middle" font-weight="500">实体阵营变化事件</text>
+<text x="284" y="1072" fill="#4A4B65" font-size="13">实体阵营发生变化时触发</text>
+
+<rect x="72" y="1088" width="200" height="26" rx="13" fill="#FFF3E0"/>
+<text x="172" y="1106" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">修改实体阵营</text>
+<text x="284" y="1106" fill="#4A4B65" font-size="13">动态修改实体的阵营归属</text>
+
+<rect x="72" y="1122" width="200" height="26" rx="13" fill="#E8EEFB"/>
+<text x="172" y="1140" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500">查询实体阵营</text>
+<text x="284" y="1140" fill="#4A4B65" font-size="13">获取实体当前的阵营信息</text>
+
+<!-- ========== Section 五: 经典模式限制 ========== -->
+<text x="48" y="1190" fill="#2D6BE4" font-size="18" font-weight="700">五、经典模式中的阵营限制</text>
+
+<rect x="48" y="1208" width="1104" height="260" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1208" width="4" height="260" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1238" fill="#1A1B2E" font-size="16" font-weight="500">经典模式限制条件</text>
+
+<text x="72" y="1266" fill="#4A4B65" font-size="14">1. 所有玩家和角色为【玩家阵营】，不可修改</text>
+<text x="72" y="1290" fill="#4A4B65" font-size="14">2. 所有造物为【造物阵营】，不可修改</text>
+<text x="72" y="1314" fill="#4A4B65" font-size="14">3. 物件可配置为：玩家阵营 / 造物阵营 / 物件阵营1 / 物件阵营2 / 物件阵营3</text>
+<text x="72" y="1338" fill="#4A4B65" font-size="14">4. 所有实体不可动态修改阵营，无法使用阵营修改相关节点</text>
+<text x="72" y="1362" fill="#4A4B65" font-size="14">5. 阵营间的关系不可修改</text>
+
+<rect x="72" y="1386" width="1056" height="68" rx="8" fill="#FFF3E0"/>
+<text x="84" y="1406" fill="#E65100" font-size="12" font-weight="500">物件阵营3：通常用于与玩家阵营友善且可辅助角色攻击造物的物件</text>
+<text x="84" y="1424" fill="#E65100" font-size="12" font-weight="500">物件阵营1：用于常规物件</text>
+<text x="84" y="1442" fill="#E65100" font-size="12" font-weight="500">物件阵营2：用于需要与物件阵营1敌对的物件</text>
+
+<!-- ========== Section 六: 经典模式阵营关系表 ========== -->
+<text x="48" y="1510" fill="#2D6BE4" font-size="18" font-weight="700">六、经典模式阵营关系表（横列=发起方，纵列=接受方）</text>
+
+<rect x="48" y="1528" width="1104" height="380" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="1528" width="4" height="380" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1558" fill="#1A1B2E" font-size="16" font-weight="500">敌对/友善关系矩阵</text>
+
+<!-- Table header -->
+<text x="200" y="1586" fill="#1A1B2E" font-size="12" font-weight="700" text-anchor="middle">玩家阵营</text>
+<text x="360" y="1586" fill="#1A1B2E" font-size="12" font-weight="700" text-anchor="middle">造物阵营</text>
+<text x="520" y="1586" fill="#1A1B2E" font-size="12" font-weight="700" text-anchor="middle">物件阵营1</text>
+<text x="680" y="1586" fill="#1A1B2E" font-size="12" font-weight="700" text-anchor="middle">物件阵营2</text>
+<text x="840" y="1586" fill="#1A1B2E" font-size="12" font-weight="700" text-anchor="middle">物件阵营3</text>
+
+<!-- Row 1: 玩家阵营 -->
+<text x="80" y="1616" fill="#1A1B2E" font-size="12" font-weight="700">玩家阵营</text>
+<rect x="160" y="1600" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="200" y="1617" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="320" y="1600" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="360" y="1617" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="480" y="1600" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="520" y="1617" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="640" y="1600" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="680" y="1617" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="800" y="1600" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="840" y="1617" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+
+<!-- Row 2: 造物阵营 -->
+<text x="80" y="1652" fill="#1A1B2E" font-size="12" font-weight="700">造物阵营</text>
+<rect x="160" y="1636" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="200" y="1653" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="320" y="1636" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="360" y="1653" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="480" y="1636" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="520" y="1653" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="640" y="1636" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="680" y="1653" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="800" y="1636" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="840" y="1653" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+
+<!-- Row 3: 物件阵营1 -->
+<text x="80" y="1688" fill="#1A1B2E" font-size="12" font-weight="700">物件阵营1</text>
+<rect x="160" y="1672" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="200" y="1689" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="320" y="1672" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="360" y="1689" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="480" y="1672" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="520" y="1689" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="640" y="1672" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="680" y="1689" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="800" y="1672" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="840" y="1689" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+
+<!-- Row 4: 物件阵营2 -->
+<text x="80" y="1724" fill="#1A1B2E" font-size="12" font-weight="700">物件阵营2</text>
+<rect x="160" y="1708" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="200" y="1725" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="320" y="1708" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="360" y="1725" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="480" y="1708" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="520" y="1725" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="640" y="1708" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="680" y="1725" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="800" y="1708" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="840" y="1725" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+
+<!-- Row 5: 物件阵营3 -->
+<text x="80" y="1760" fill="#1A1B2E" font-size="12" font-weight="700">物件阵营3</text>
+<rect x="160" y="1744" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="200" y="1761" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="320" y="1744" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="360" y="1761" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="480" y="1744" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="520" y="1761" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+<rect x="640" y="1744" width="80" height="24" rx="4" fill="#FDE8E6"/>
+<text x="680" y="1761" fill="#C62828" font-size="11" text-anchor="middle">敌对</text>
+<rect x="800" y="1744" width="80" height="24" rx="4" fill="#E5F2E9"/>
+<text x="840" y="1761" fill="#2E7D32" font-size="11" text-anchor="middle">友善</text>
+
+<rect x="72" y="1790" width="1056" height="100" rx="8" fill="#E8EEFB"/>
+<text x="84" y="1810" fill="#2D6BE4" font-size="12" font-weight="500">关系解读：</text>
+<text x="84" y="1830" fill="#4A4B65" font-size="12">玩家阵营 vs 造物阵营：双向敌对（玩家攻击造物，造物攻击玩家）</text>
+<text x="84" y="1850" fill="#4A4B65" font-size="12">玩家阵营 vs 物件阵营3：双向友善（物件阵营3辅助玩家，玩家不攻击物件阵营3）</text>
+<text x="84" y="1870" fill="#4A4B65" font-size="12">物件阵营1 vs 物件阵营2：双向敌对（用于需要互相攻击的物件组）</text>
+
+<!-- Source links -->
+<text x="48" y="1940" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="1940" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhe1ixri46ta" target="_blank">
+  <text x="48" y="1960" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：阵营</text>
+</a>
+<!-- Footer -->
+<text x="600" y="1970" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+<!-- Bottom color band -->
+
+</svg>

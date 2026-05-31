@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1050">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
+    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+  </defs>
+  <rect width="1200" height="1050" fill="#F9F7F2"/>
+  <rect width="1200" height="6" fill="url(#topGrad)"/>
+  
+
+  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
+  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">界面控件组库与管理</text>
+  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">统一管理界面布局与界面控件组 | 模板复用 | 组合与状态管理</text>
+
+  <rect x="40" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、管理工具入口</text>
+  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">左上角系统菜单 -【界面控件组管理】打开管理界面。</text>
+  <text x="60" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">分为：菜单栏、库窗口、详情窗口、预览窗口、</text>
+  <text x="60" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">编辑按键处、参数配置窗口。</text>
+  <rect x="60" y="260" width="160" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="75" y="277" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">统一管理平台</text>
+
+  <rect x="620" y="130" width="540" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、界面布局管理</text>
+  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">默认包含「默认布局」，含关卡运行必要界面控件。</text>
+  <text x="640" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">界面布局库不可为空，最少包含一个界面布局。</text>
+  <text x="640" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">右键支持复制、粘贴、重命名操作。</text>
+  <text x="640" y="269" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">参数配置窗口可跳转到职业配置界面。</text>
+
+  <rect x="40" y="310" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、界面布局详情</text>
+  <text x="60" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">以界面控件为基础枚举列出当前布局包含的内容。</text>
+
+  <text x="60" y="398" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">固有内容</text>
+  <text x="60" y="421" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">流程/功能必要控件，不可移除/移动/调节尺寸</text>
+  <text x="60" y="444" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">仅支持修改表现状态，默认生效不可更改</text>
+
+  <text x="60" y="474" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">自定义</text>
+  <text x="60" y="497" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">通过【添加界面控件】增加，可调整位置/大小</text>
+
+  <rect x="620" y="310" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="340" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、界面控件组管理</text>
+
+  <text x="640" y="368" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">自定义模板</text>
+  <text x="640" y="391" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">保存为自定义模板的界面控件组罗列在此</text>
+  <text x="640" y="414" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">右键支持重命名、删除模板</text>
+  <text x="640" y="437" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">删除模板时所有引用一并删除</text>
+
+  <text x="640" y="467" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">界面控件组详情</text>
+  <text x="640" y="490" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">只有此窗口的控件组才可编辑，支持覆盖保存模板</text>
+
+  <rect x="40" y="530" width="540" height="220" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="560" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、编辑按键操作</text>
+
+  <text x="60" y="590" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">多界面控件组：</text>
+  <text x="60" y="613" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">创建组合：将选中控件组打包为一个组合</text>
+  <text x="60" y="636" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">解散组合：拆散为单独控件组并删除组合</text>
+  <text x="60" y="659" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">保存修改：内容调整后覆盖保存</text>
+  <text x="60" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">另存为模板：保存为新的控件组模板</text>
+
+  <text x="60" y="712" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">单界面控件组：</text>
+  <text x="60" y="735" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">删除 / 保存修改 / 另存为模板</text>
+
+  <rect x="620" y="530" width="540" height="220" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="640" y="560" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">六、参数配置窗口</text>
+
+  <rect x="640" y="580" width="500" height="36" rx="8" fill="#E8EEFB"/>
+  <text x="660" y="603" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">配置参数</text>
+  <text x="880" y="603" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="700" fill="#2D6BE4">说明</text>
+
+  <text x="660" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">初始可见</text>
+  <text x="880" y="633" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">激活时的默认表现状态</text>
+
+  <text x="660" y="659" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">位置</text>
+  <text x="880" y="659" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">界面布局上的位置</text>
+
+  <text x="660" y="685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">大小</text>
+  <text x="880" y="685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">不可修改，代表控件组最大范围</text>
+
+  <text x="660" y="711" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#1A1B2E">层级</text>
+  <text x="880" y="711" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">代表控件组的显示层级</text>
+
+  <rect x="40" y="770" width="1120" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="60" y="800" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">七、界面控件组状态体系</text>
+
+  <text x="60" y="830" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">控件组状态：激活 / 未激活</text>
+  <text x="60" y="855" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">激活：存在于界面布局，可通过节点图管理表现状态</text>
+  <text x="60" y="878" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">未激活：不存在于界面布局，不可操作表现状态</text>
+
+  <text x="60" y="908" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">表现状态：开启 / 关闭 / 隐藏</text>
+  <text x="60" y="933" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">开启：可见 | 关闭：不可见且不保留动态信息(重新初始化) | 隐藏：不可见但保留动态信息</text>
+  <text x="60" y="956" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">关闭后开启：表现和数据都会初始化 | 隐藏后开启：表现和数据与隐藏前一致</text>
+
+  <text x="600" y="1020" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
+<text x="48" y="1020" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhewyi0fjfvs" target="_blank">
+  <text x="48" y="1040" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：界面控件组管理</text>
+</a>
+</svg>
