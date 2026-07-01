@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 780">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="780" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光标碰撞盒</text>
+<text x="288" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">挂载于实体的光标射线碰撞检测组件</text>
+
+<!-- Section 1: 功能 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、功能与组件添加</text>
+
+<rect x="48" y="170" width="1104" height="100" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="100" rx="2" fill="#2D6BE4"/>
+<text x="72" y="204" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">光标碰撞盒的功能与添加</text>
+
+<circle cx="88" cy="236" r="12" fill="#2D6BE4"/>
+<text x="88" y="241" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1</text>
+<text x="108" y="241" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">打开实体/元件编辑界面，进入组件编辑页签</text>
+
+<circle cx="88" cy="260" r="12" fill="#2D6BE4"/>
+<text x="88" y="265" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2</text>
+<text x="108" y="265" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击「添加通用组件」→ 选择「光标碰撞盒」→ 点击「详细编辑」</text>
+
+<!-- Section 2: 参数 -->
+<text x="48" y="310" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、组件参数配置</text>
+
+<rect x="48" y="328" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+<rect x="48" y="360" width="1104" height="12" fill="#2D6BE4"/>
+<text x="280" y="362" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配置参数</text>
+<text x="840" y="362" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">说明</text>
+
+<rect x="48" y="372" width="1104" height="60" rx="0" fill="#fff" filter="url(#card)"/>
+<text x="160" y="400" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">初始生效光标碰撞</text>
+<text x="800" y="400" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">下拉菜单提供光标碰撞盒枚举，修改勾选框可控制生效情况</text>
+<line x1="420" y1="382" x2="420" y2="422" stroke="#E8E4DA"/>
+
+<rect x="48" y="434" width="1104" height="44" rx="0" fill="#F4F1EA"/>
+<text x="160" y="462" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">*光标碰撞体列表</text>
+<text x="800" y="462" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">枚举实体配置的所有光标碰撞体</text>
+<line x1="420" y1="444" x2="420" y2="468" stroke="#E8E4DA"/>
+
+<!-- Section 3: 碰撞体编辑 -->
+<text x="48" y="516" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、光标碰撞体编辑</text>
+
+<rect x="48" y="534" width="540" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="564" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">添加碰撞体</text>
+<text x="72" y="590" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">通过「+」按钮可添加多个光标碰撞体，</text>
+<text x="72" y="614" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">每个碰撞体初始生效默认开启。</text>
+<text x="72" y="646" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">序号用 X 标识，作为节点输入项</text>
+<text x="72" y="668" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可调整该碰撞体是否激活。</text>
+
+<rect x="612" y="534" width="540" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="636" y="564" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">碰撞区域配置</text>
+<text x="636" y="590" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">单个光标碰撞可通过「添加碰撞区域」</text>
+<text x="636" y="614" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">添加多个区域。</text>
+<text x="636" y="646" fill="#1A1B2E" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">触发区形状可选：</text>
+<rect x="636" y="660" width="80" height="24" rx="12" fill="#E8EEFB"/>
+<text x="676" y="677" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">长方体</text>
+<rect x="724" y="660" width="72" height="24" rx="12" fill="#E8EEFB"/>
+<text x="760" y="677" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">球体</text>
+<rect x="804" y="660" width="96" height="24" rx="12" fill="#E8EEFB"/>
+<text x="852" y="677" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">胶囊体</text>
+
+<!-- 相关文档 -->
+<text x="48" y="726" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhso200yz3h4" target="_blank">
+  <text x="48" y="746" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：光标碰撞盒</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="768" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之八</text>
+</svg>

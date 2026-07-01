@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhjwjrr5n73i
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-04-30T13:41:55.268Z
+crawledAt: 2026-07-01T08:29:41.066Z
 ---
 
 # 一、节点图功能概述
@@ -18,6 +18,8 @@ crawledAt: 2026-04-30T13:41:55.268Z
 如下图所示，就是一个典型的实体节点图
 
 它描述了一个炸药桶的逻辑：这个炸药桶受到攻击时，会使攻击者玩家积分+1（以_自定义变量_的方式），之后会 **播放特效**、 **发起攻击** 并销毁自身
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/0c5f91d1-a6c8-4438-88c7-a58a1b71899c.png)
 
 通常来说，每张节点图都会包含以下两个要素
 
@@ -108,6 +110,8 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 入口位于：实体或元件的详情编辑页-节点图页签
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/b61605af-0959-4113-aa6a-9256f390768d.png)
+
 (1)实体或元件编辑页面切换到节点图页签，图中A
 
 (2)点击新增节点图，图中B
@@ -116,6 +120,8 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 入口位于：单位状态详情编辑页-通用信息-状态节点图
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/102b6032-f578-4e02-a9d4-2fc8f8c8450e.png)
+
 ## 3.职业节点图
 
 仅支持超限模式使用
@@ -123,6 +129,8 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 入口位于：自定义职业详情编辑页-节点图页签
 
 可以切换配置玩家节点图或角色节点图，两者分别在玩家换上该职业时，对玩家实体和角色实体生效
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/9832b495-f7bf-4f3c-b10a-a4f73c1fb211.png)
 
 (1)切换到职业配置的节点图页签，图中A
 
@@ -133,6 +141,8 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 ## 4.道具节点图
 
 入口位于：战斗预设-道具页签-基础设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/713f5542-ca3d-4465-b664-3a100d21c136.png)
 
 (1)切换到战斗预设页签，图中A
 
@@ -148,7 +158,11 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 入口位于：角色自定义技能编辑页-动画编辑-时间轴
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/ca695049-b717-455d-878e-21b602eb5de8.png)
+
 进入动画编辑页面
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/3e633201-08ad-4986-9429-b1d26110a33e.png)
 
 在节点图事件轨道上右键点击添加事件，后在框内选择要添加的节点图
 
@@ -158,7 +172,11 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 入口位于：造物自定义技能编辑页-动画编辑-时间轴
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/ec0bd017-15b4-40b7-94e6-32f6c32236cd.png)
+
 进入动画编辑页面
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/7eba75dc-1403-406d-90d6-c76a8ec1b8eb.png)
 
 在节点图事件轨道上右键点击添加事件，后在框内选择要添加的节点图
 
@@ -168,13 +186,19 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 ### (1)布尔过滤器节点图
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/4378969f-83cc-4294-b8c0-df2753bc7e23.png)
+
 此类型的节点图，最终输出结果为布尔类型，当结果为TRUE时，引用节点图的业务生效，为FALSE则不生效
 
 以下以命中检测组件为例
 
 入口：命中检测组件-命中规则页-本地过滤器节点图
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/0fec3df2-3923-442e-8db7-33bd2dd7f255.png)
+
 ### (2)整数过滤器节点图
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/a1c4e1d2-5528-4ed3-8521-75d9ab670bfc.png)
 
 此类型的节点图，最终输出结果为整数，同时引用该类型节点图的业务，支持配置整数列表。
 
@@ -182,14 +206,28 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 以下以选项卡组件为例
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/e3f69841-4bba-45ea-9e6e-e6087ecc8af8.png)
+
 ## 7.造物状态决策节点图
 
 根据不同的条件或优先级，造物将切换为不同的自主逻辑状态
 
 入口位于：复杂造物-特化配置-造物状态决策节点图
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/da27ff0d-1115-408b-a48b-11db501dcaa8.png)
+
 ## 8.造物状态节点图
 
 造物处于当前自主逻辑状态时，所具体执行的行为
 
 入口位于：造物状态决策节点图-切换自身执行状态节点-状态节点图配置ID
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/a30cd62d-125c-43fc-a610-1d1b4940dae5.png)
+
+## 9.角色操控技能节点图
+
+角色操控技能为操控状态下才可以使用的特殊类别角色技能，配置方式与角色技能类似，但释放期间角色无技能动画表现
+
+具体介绍可以参考[角色操控技能](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhj4a0rzu4pi)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/60bab979-fbb0-4e15-8327-dfd15f563961.png)

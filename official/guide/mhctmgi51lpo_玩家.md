@@ -6,12 +6,12 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhctmgi51lpo
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T20:46:19.166Z
+crawledAt: 2026-07-01T08:28:15.723Z
 ---
 
 # 一、玩家的概念
 
-_玩家_一种特殊的抽象实体类型，用于描述游戏中“角色的从属概念”，如：
+_玩家_是一种特殊的抽象实体类型，用于描述游戏中“角色的从属概念”，如：
 
 在提瓦特上，玩家队伍中可以编入多个角色。
 
@@ -21,9 +21,13 @@ _玩家_一种特殊的抽象实体类型，用于描述游戏中“角色的从
 
 玩家的具体配置通过玩家模板进行引用，模板配置入口如下：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/648d7a1f-70a1-4bf1-812c-547d384e5cf0.png)
+
 点击_新建模版_即可创建一个新的玩家模板
 
 ## 1.基础信息
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/b416981d-f77e-4c82-a9d4-8c607905f9f9.png)
 
 基础信息页签：可配置所有可用的玩家基础信息
 
@@ -41,6 +45,8 @@ _特殊被击倒损伤_：当角色因为溺水、摔伤等特殊原因被击倒
 
 ## 2.组件
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/82bcdd15-3123-4366-aeb5-e0da6834be9a.png)
+
 组件页签，可在此页签给玩家实体添加组件，或查看已添加的组件
 
 玩家实体的可用组件概览
@@ -52,6 +58,8 @@ _特殊被击倒损伤_：当角色因为溺水、摔伤等特殊原因被击倒
 [单位状态](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhd7nxrfa8im)
 
 ## 3.节点图
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/aa58af34-bf27-4107-b4c3-e94f738426b1.png)
 
 节点图配置页签，可在此页签给玩家实体添加节点图，或查看已添加的节点图
 
@@ -70,3 +78,29 @@ _特殊被击倒损伤_：当角色因为溺水、摔伤等特殊原因被击倒
 玩家实体的生命周期随关卡初始化创建，随关卡销毁而移除
 
 当用户主动退出返回大厅时，玩家实体会被移除
+
+# 四、常驻光标
+
+常驻光标功能主要用于屏幕点击相关的功能实现
+
+## 1.功能入口
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/fe56a8f0-9d94-45d4-89fa-17be515d358b.png)
+
+玩家模板 \- 玩家编辑 \- 光标配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/684b5c6b-2a28-45ac-8cca-cf8cd99828e0.png)
+
+_光标常驻_：关闭时光标系统及相关功能无效，开启时该玩家的光标会常驻显示
+
+_可点击层级_：场景/受击盒/物件碰撞/光标碰撞
+
+_光标最多可选目标数_：光标最多可选目标数量
+
+_点击可穿透UI控件_：关闭时，光标点击穿过UI控件后不再打到场景
+
+## 2.特殊说明
+
+在移动端使用常驻光标功能时，必须要使用单位状态效果【光标点击释放技能】来补充PC端鼠标点击选中的额外逻辑
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/aa783136-f821-4b1c-aa1b-b789ca6f5e3f.png)

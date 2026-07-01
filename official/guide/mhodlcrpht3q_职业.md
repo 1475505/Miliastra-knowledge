@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhodlcrpht3q
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:42:00.848Z
+crawledAt: 2026-07-01T08:29:04.920Z
 ---
 
 # 一、职业的定义
@@ -25,13 +25,23 @@ _职业_是玩家的一个属性，但主要的影响单位是玩家的角色。
 
 职业的编辑入口在战斗预设下的职业页签下，进入方式如图所示：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/0c8da5e9-3e2d-4745-bf8f-16217c074a18.png)
+
 ## 2.新建职业模板
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/2d1c7ee8-30b7-4df2-b6c0-15ea0865cc16.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/cb6f76a4-b969-405b-96a1-16683347703c.png)
 
 点击【新建职业】按钮，并在弹出的窗口中点击确认，即可新增一份职业模板配置
 
 # 四、职业的参数设置
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/40c38247-47c5-4305-a146-2725679d48ce.png)
+
 ## 1.基础设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/04709032-7444-4fff-b323-8c9c603a5494.png)
 
 _选择镜头_：选中一个镜头模板，当玩家切换为该职业时，镜头会被替换为此处配置的模板
 
@@ -67,6 +77,8 @@ _允许滑翔_：该职业的角色是否可以打开风之翼并在空中滑翔
 
 在玩家模板上可以覆写一次玩家初始职业的创建等级，该等级会在关卡初始化时设置到玩家上
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/e528af71-1236-4ab6-9fbd-7d303e36f04a.png)
+
 等级模块定义该职业的等级上限，以及每升一级所需要的经验值配置
 
 _等级_：在一次游玩过程中，玩家首次切换为该职业时，玩家的职业等级
@@ -79,9 +91,13 @@ _线性公式_：提供了一个固定公式即：该等级的升级所需经验
 
 _列表配置_：使用一张二维表来精确定义每一级所需经验，如下图
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/9660f307-bf11-4379-a9b8-f44f21889ba6.png)
+
 ## 3.基础战斗属性
 
 职业的属性会直接作用到对应玩家的角色上，相对的，玩家模板上不可配置基础战斗属性信息
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/685cc9ae-7678-4591-a42c-aa66c281244b.png)
 
 _基础生命值_：在不叠加属性成长时的默认生命值
 
@@ -99,6 +115,8 @@ _无成长_：属性随等级无成长，即无论等级是多少，属性都为
 
 _默认成长曲线_：使用默认的成长曲线，可以通过查看成长曲线进行预览，但无法修改
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/4ca24582-345d-471c-a648-2e5136ed14f7.png)
+
 曲线成长的公式如下：
 
 最终生命值=基础生命值\*等级对应的生命值倍率
@@ -115,11 +133,17 @@ _体力值上限_：该职业的体力值所能达到的最大值
 
 ## 4.仇恨配置
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/798d5ab5-7ce0-4b60-afe1-62bce8e11eb7.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/6712c000-afcf-4255-960b-55a7332e9978.png)
+
 如果关卡设置中的仇恨类型选择为自定义，则可以配置仇恨倍率
 
 ## 5.单位状态
 
 职业附加的_单位状态_，作用机制是当玩家切换到该职业时，自动帮对应角色上配置好的单位状态，单位状态的详情和相关配置见[单位状态](https://act.mihoyo.com/ys/ugc/tutorial//detail/mh6rh59iil2i)说明文档
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/d75783e2-0560-48d4-9118-ccc2b8c8f609.png)
 
 ## 6.抗打断相关配置
 
@@ -161,6 +185,8 @@ _体力值上限_：该职业的体力值所能达到的最大值
 
 受保护状态结束后，进入抗打断状态，然后开始新的一轮抗打断状态循环
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/ad005444-14b3-4267-a639-e08f9fb249e6.png)
+
 _受打断值上限_：决定了受到多少打断值伤害后会进入易受打断状态
 
 _受打断值衰减速度_：抗打断状态下受打断值的每秒衰减值
@@ -173,20 +199,64 @@ _受保护时间_：受保护状态的持续时间，结束后会进入抗打断
 
 职业附加的职业技能，当玩家切换到该职业时，角色的技能会被自动切换为该职业所配置的技能
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/5654952b-fd40-4a35-8efa-2acecde02c48.png)
+
 需要特殊注意的是，职业模板上配置的技能会被视为职业的默认技能，虽然职业切换后，后续仍可以通过节点图节点替换别的技能，但在使用“初始化角色技能”这个节点时，角色技能会被还原成职业模板配置的技能
 
-# 六、职业节点图
+
+
+冲刺技能
+
+冲刺技能支持可自定义配置，默认冲刺为提瓦特中的冲刺。自定义为玩家可配置自定义技能作为冲刺技能
+
+注意：对于PC端，冲刺技能可同时被鼠标右键与左Shift触发，且按键关系不可更改
+
+
+
+空中技能
+
+当角色满足一定空中条件时（高于地面一定距离），指定槽位的技能将被强制替换为空中技能，空中技能默认可在空中释放
+
+# 六、职业组件
+
+为了使职业角色间的的编辑更加便捷，职业新增组件作为可添加数据
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/3357672e-cd4b-4bd8-a3e0-b7a74e3d0cc5.png)
+
+玩家实体可添加组件：自定义变量、单位状态
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/accc4d91-fa75-4d20-a479-3cbe58ca4dcb.png)
+
+角色实体可添加组件：自定义变量、单位状态、小地图标识、铭牌、自定义挂接点
+
+# 七、职业节点图
 
 职业附加的节点图，当玩家切换到该职业时，会根据模板配置自动帮玩家和角色添加配置的节点图，编辑入口在节点图页签下：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/81b9acf4-7e9c-4072-9a0a-8f972f2e19d9.png)
+
 职业节点图施加单位支持玩家和角色
 
-# 七、使用节点图修改职业
+# 八、使用节点图修改职业
 
 相关事件节点
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/47bdfc50-44c5-422d-be6e-8742e95ea16d.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/4fa37b0d-5197-4ba6-b77e-b1a3f5a0a476.png)
+
 修改职业经验
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/f581e15d-c1cc-4d3e-87ed-fabb9de5899f.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/695984e4-9319-4f24-89bc-da9648c23666.png)
 
 修改玩家职业
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/5b8bf406-35ca-4cde-a696-5a4731b953f7.png)
+
 查询职业
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/2cf96a7e-7d8c-4cc4-93da-2d9132343ed8.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/744baa7a-438a-4b64-9c00-fddc069eaff5.png)

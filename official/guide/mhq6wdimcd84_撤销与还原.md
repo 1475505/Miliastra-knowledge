@@ -6,20 +6,24 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhq6wdimcd84
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:38:21.555Z
+crawledAt: 2026-07-01T08:25:57.820Z
 ---
 
 # 一、入口所在位置
 
 ## 1.编辑界面内
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhq6wdimcd84/87ed0079-054f-41d1-86db-d13601fe1cff.png)
+
 ## 2.千星沙箱内
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhq6wdimcd84/6f14d19e-8bce-472a-b9a2-68e09e5f957f.png)
 
 # 二、具体功能介绍
 
 ## 1.编辑界面内
 
-可点击撤销和还原按钮对近期的操作撤销和还原
+可点击撤销和还原按钮对近期的操作进行撤销和还原
 
 撤销的记录上限为50步，超出的部分将无法被记录
 

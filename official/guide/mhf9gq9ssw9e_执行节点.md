@@ -1,145 +1,19 @@
 ---
-id: mhz064iplia4
+id: mhf9gq9ssw9e
 title: 执行节点
-url: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhz064iplia4
-sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhz064iplia4
+url: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhf9gq9ssw9e
+sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhf9gq9ssw9e
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:25:15.229Z
+crawledAt: 2026-07-01T08:25:28.564Z
 ---
 
-# **一、技能**
+# **一、角色技能**
 
-## **1\. 造物的技能冷却清零**
+## **1\. 遍历实体列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/a8ced283-afd0-4053-9c4e-6be888decb6d.undefined)
-
-**节点功能**
-
-技能冷却清零，若满足条件，技能可立即释放
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 技能序号 | 整数 |  |
-
-## **2\. 设置造物技能的当前冷却时间**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/dd978155-985e-4715-b12e-c6b6144649c8.undefined)
-
-**节点功能**
-
-仅调整本次造物技能的冷却时间，只影响一次，不会记录
-
-需要注意：该节点执行时，若目标技能正在施放且配置为技能结束时触发冷却时间，会在技能结束时被重新设置为技能配置的冷却时间。虽然该节点成功设置了当前冷却时间，但会被技能结束时触发的冷却时间覆盖掉
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 技能序号 | 整数 |  |
-| 入参 | 当前冷却时间 | 浮点数 |  |
-
-## **3\. 设置造物技能的冷却时间**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/f6d05a61-0389-44e2-a27e-1df374171674.undefined)
-
-**节点功能**
-
-在关卡本次运行期间内，永久更改造物的技能冷却时间
-
-需要注意：
-
-1.
-
-该节点执行时，不会改变目标技能当前剩余的冷却时间，只会影响下一次技能进入冷却时的冷却时间
-
-2.
-
-若目标技能正在施放且配置为技能结束时触发冷却时间，则技能结束时进入的冷却时间即该节点设置后的时间
-
-3.
-
-瞬发技能由于没有持续时间，总是会在技能开始时计算冷却时间
-
-例如：
-
-1.
-
-技能A剩余冷却5秒，此时该节点设置冷却时间为10秒。造物会在5秒后可以使用该技能，使用后进入10秒的冷却
-
-2.
-
-技能A配置为技能结束时触发冷却时间，冷却5秒。造物正在施放A的过程中，被该节点改为了10秒，则技能结束后直接进入10秒冷却
-
-3.
-
-技能A为瞬发技能，冷却5秒。造物施放技能A的蓝图逻辑中使用该节点改为了10秒，则类似例1，会在5秒后可以使用该技能A，使用后进入10秒的冷却
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 技能序号 | 整数 |  |
-| 入参 | 冷却时间 | 浮点数 |  |
-| 入参 | 冷却时间上浮范围 | 浮点数 |  |
-
-## **4\. 设置造物冷却组的当前时间**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/6cc907aa-86d0-49dd-b38d-ab95df263e6e.undefined)
-
-**节点功能**
-
-仅调整本次造物的技能组冷却时间，不会记录
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 冷却时间组序号 | 整数 |  |
-| 入参 | 当前冷却时间 | 浮点数 |  |
-
-## **5\. 设置造物冷却组的时间**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/36485dfa-6b16-4a6a-afc0-ab6664a836e1.undefined)
-
-**节点功能**
-
-在关卡本次运行期间内，永久更改造物的技能组冷却时间
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 冷却时间组序号 | 整数 |  |
-| 入参 | 冷却时间 | 浮点数 |  |
-| 入参 | 冷却时间上浮范围 | 浮点数 |  |
-
-## **6\. 设置造物的公共冷却时间**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/14aa9251-d80f-48ea-9551-6d72b729461c.undefined)
-
-**节点功能**
-
-在关卡本次运行期间内，永久更改造物的公共冷却时间
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 冷却时间 | 浮点数 |  |
-
-## **7\. 遍历实体列表**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/fc7732b8-f983-40c0-bd3b-8f9771b5906e.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/b9832f36-96c4-44d8-af70-931f9aa9d937.undefined)
 
 **节点功能**
 
@@ -153,9 +27,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 实体列表 | 实体列表 |  |
 | 出参 | 当前实体 | 实体 |  |
 
-## **8\. 播放限时特效**
+## **2\. 播放限时特效**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/b2c279e0-d8de-4fd9-85b0-eb43daa36af1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/7cf81cb5-bdab-4d9a-b58c-c1e9b4cb957d.undefined)
 
 **节点功能**
 
@@ -172,9 +46,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 缩放倍率 | 浮点数 |  |
 | 入参 | 是否播放默认音效 | 布尔值 |  |
 
-## **9\. 定点发射投射物**
+## **3\. 定点发射投射物**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/b4eeb570-07cc-40eb-a4f3-358cc70d6b77.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/9770af70-8411-4e8e-89bd-c8c8bce6c1d4.undefined)
 
 **节点功能**
 
@@ -191,9 +65,66 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 追踪目标 | 实体 |  |
 | 入参 | 投射物阵营 | 阵营 |  |
 
-## **10\. 添加单位状态**
+## **4\. 定点位移**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/1f92f6a2-a45a-40c1-834f-b86b526b8e29.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/5847419e-d1f6-4674-878b-18eef282f111.undefined)
+
+**节点功能**
+
+定点位移，从当前位置向目标位置位移
+
+可配置位移时长与位移速度，当这二者都比较小时，可能无法位移到目标位置
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 位移时长 | 浮点数 |  |
+| 入参 | 位移衰减时长 | 浮点数 |  |
+| 入参 | 位移速度 | 浮点数 |  |
+| 入参 | 位移目标位置 | 三维向量 |  |
+| 入参 | 碰撞是否终止位移 | 布尔值 |  |
+
+## **5\. 镜头朝向检测数据**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/95dc0590-b6a6-42d9-bcd9-84d8017f1e78.undefined)
+
+**节点功能**
+
+镜头朝向检测数据，从镜头向出射位置打射线，返回路线上合法目标的旋转与位置
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标类型 | 枚举 |  |
+| 入参 | 出射位置 | 三维向量 |  |
+| 入参 | 最近距离 | 浮点数 |  |
+| 入参 | 最远距离 | 浮点数 |  |
+| 出参 | 目标旋转 | 三维向量 |  |
+| 出参 | 目标位置 | 三维向量 |  |
+
+## **6\. 设置自身攻击目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/7df14591-8116-4616-a3cb-b2f78351de6d.undefined)
+
+**节点功能**
+
+将目标实体设置为自身的攻击目标
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标实体 | 实体 |  |
+| 入参 | 是否立即转向 | 布尔值 |  |
+
+## **7\. 添加单位状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/d4a035e1-a22f-45ec-b713-51983a4173d8.undefined)
 
 **节点功能**
 
@@ -208,9 +139,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 层数 | 整数 |  |
 | 入参 | 单位状态配置ID | 配置ID |  |
 
-## **11\. 特定位置打攻击盒**
+## **8\. 特定位置打攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/1cd22092-ca5d-4400-b4f8-47723d18473a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/c2a4b325-439f-4d8a-985b-6a4822859c16.undefined)
 
 **节点功能**
 
@@ -260,9 +191,59 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
+## **9\. 通知服务器节点图**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/4b8b2901-17d8-4bb5-84b7-d9dde00510d5.undefined)
+
+**节点功能**
+
+通知服务器节点图，支持携带三个字符串参数
+
+该节点运行时可以将逻辑传到服务器节点图上，在服务器节点图上会触发【技能节点调用时】事件
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 字符串1 | 字符串 |  |
+| 入参 | 字符串2 | 字符串 |  |
+| 入参 | 字符串3 | 字符串 |  |
+
+## **10\. 玩家转向**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/e167d0a7-e70b-4f7a-a25a-627bd89ad02d.undefined)
+
+**节点功能**
+
+可以让玩家按照配置的转向模式转向
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 转向模式 | 枚举 | 分为先目标后输入、输入朝向、目标朝向、先目标后镜头、镜头朝向、先输入后目标 |
+
+## **11\. 设置攻击权重**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/240cec15-4fa5-4c57-818d-42c702eeead9.undefined)
+
+**节点功能**
+
+可以设置当前攻击目标的权重
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 当前攻击目标的权重 | 浮点数 |  |
+| 入参 | 是否强制选一次目标 | 布尔值 |  |
+
 ## **12\. 移除单位状态**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/3ed6ac9e-0c92-4de6-9b24-881aae29262a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/5099a065-60ac-441c-8a96-f1f0c25fa863.undefined)
 
 **节点功能**
 
@@ -278,7 +259,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **13\. 移除指定角色扰动装置**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/3b3d4101-70a9-4e6a-9083-64cccb761e29.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/d7ea00e9-92b7-4331-8eb8-a2bb01728b96.undefined)
 
 **节点功能**
 
@@ -293,7 +274,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **14\. 指定挂接点打攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/4c901f84-766e-4ec8-95f2-e67699d52ee6.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/c8bceaaf-71d5-4c10-b9c0-fe15a616faf8.undefined)
 
 **节点功能**
 
@@ -344,9 +325,73 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **15\. 特定位置打球形攻击盒**
+## **15\. 角色恢复生命值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/ab221675-b4f9-46cc-957d-7fe23e6fe2d4.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/c3eb7285-18b7-40dd-8ad0-40f91d973e1a.undefined)
+
+**节点功能**
+
+为目标实体发起一次恢复生命值
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标实体 | 实体 |  |
+| 入参 | 恢复量 | 浮点数 |  |
+| 入参 | 是否忽略恢复调整效果 | 布尔值 |  |
+| 入参 | 本次治疗的仇恨倍率 | 浮点数 |  |
+| 入参 | 本次治疗的仇恨增量 | 整数 |  |
+
+## **16\. 玩家转向指定朝向**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/2830879f-b670-41ee-af47-d64d8bf2bc31.undefined)
+
+**节点功能**
+
+玩家转向三维向量配置的方向
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 朝向 | 三维向量 |  |
+
+## **17\. 重置技能目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/6f5e8af0-e863-4f56-a812-1f513f7f7857.undefined)
+
+**节点功能**
+
+重置技能目标，重新运行一次技能选取逻辑，选择一个新的目标
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+|  |  |  |  |
+
+## **18\. 强制退出瞄准状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/f13b5597-bfde-46e1-8543-fe5ac488a767.undefined)
+
+**节点功能**
+
+当角色处于瞄准状态时，会强制退出瞄准状态
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+|  |  |  |  |
+
+## **19\. 特定位置打球形攻击盒**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/57ea32ed-ea50-424b-8d2a-4c906c59b39e.undefined)
 
 **节点功能**
 
@@ -389,9 +434,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **16\. 特定位置打矩形攻击盒**
+## **20\. 特定位置打矩形攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/72bf56fe-3f63-43f3-b543-13c47732a3e7.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/30b15185-6f55-4507-89e5-67afc7fb2960.undefined)
 
 **节点功能**
 
@@ -434,9 +479,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **17\. 特定位置打扇形攻击盒**
+## **21\. 特定位置打扇形攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/6da81f52-769c-4448-8c35-d2860949d87b.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/a2bf5fe0-5da3-4a42-866b-6d6e24fb0d08.undefined)
 
 **节点功能**
 
@@ -483,9 +528,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **18\. 指定挂接点打球形攻击盒**
+## **22\. 指定挂接点打球形攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/35324e4f-b1dc-4016-8c12-c189d63be651.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/5e079758-522f-4788-952d-f0d9d144c4a8.undefined)
 
 **节点功能**
 
@@ -529,9 +574,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **19\. 指定挂接点打矩形攻击盒**
+## **23\. 指定挂接点打矩形攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/864a2858-5905-479c-a31b-81b95aaa4cd6.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/ba68b659-8cfe-438c-ae2d-f416a1b96c98.undefined)
 
 **节点功能**
 
@@ -575,9 +620,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **20\. 指定挂接点打扇形攻击盒**
+## **24\. 指定挂接点打扇形攻击盒**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/e96e0b80-6e2c-4873-9e28-d55ef4ca4184.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/277e31ae-79de-4cc1-8e00-7ef57be945c2.undefined)
 
 **节点功能**
 
@@ -625,60 +670,24 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 命中水平冲量 | 浮点数 |  |
 | 入参 | 命中垂直冲量 | 浮点数 |  |
 
-## **21\. 造物转向指定朝向**
+## **25\. 打断当前技能**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/eadb9c40-0c02-4248-8b6c-e15680e4125f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/0668d0e8-a282-417f-8ee3-efc52c43aba9.undefined)
 
 **节点功能**
 
-造物转向指定三维向量的朝向
+打断角色当前正在施放的技能
 
 **节点参数**
 
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 朝向 | 三维向量 |  |
+|  |  |  |  |
 
-## **22\. 复杂造物瞬移**
+## **26\. 设置技能变量**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/3b16ee1e-9930-4bfe-bd8e-31b4e543a331.undefined)
-
-**节点功能**
-
-从当前位置瞬移到目标位置
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 目标位置 | 三维向量 |  |
-| 入参 | 目标旋转 | 三维向量 |  |
-
-## **23\. 复杂造物定点位移**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/66bc66ae-103d-423d-873e-b2cebc4b5497.undefined)
-
-**节点功能**
-
-定点位移，从当前位置向目标位置位移
-
-可配置最大距离，当该值较小时，可能无法位移到目标位置
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 目标位置 | 三维向量 |  |
-| 入参 | 位移时长 | 浮点数 |  |
-| 入参 | 最大距离 | 浮点数 |  |
-| 入参 | 是否忽视碰撞 | 布尔值 |  |
-
-## **24\. 设置技能变量**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/c31b353b-cb2f-4d4f-95be-e52fc1790dc0.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/0f9d6270-8c9b-4478-bb02-cfb34c812696.undefined)
 
 **节点功能**
 
@@ -692,9 +701,9 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 技能变量配置ID | 配置ID |  |
 | 入参 | 设置值 | 浮点数 | 修改后的值 |
 
-## **25\. 增加技能变量值**
+## **27\. 增加技能变量值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/235f217b-f2fe-4d64-9ab5-648e3fb2a76a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/a739c838-0454-4d35-b9ac-ec7fba68407b.undefined)
 
 **节点功能**
 
@@ -708,28 +717,93 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 技能变量配置ID | 配置ID |  |
 | 入参 | 增加值 | 浮点数 | 修改后的值=修改前的值+增加值 |
 
-## **26\. 造物恢复生命值**
+## **28\. 角色闪现**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/41b065e1-87e4-43d5-bf7a-cd01e323ed2b.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/33d33ba4-20e1-4dae-a827-e18604519927.undefined)
 
 **节点功能**
 
-为目标实体发起一次恢复生命值
+使角色朝目标位置闪现，可以调整闪现后的朝向。可闪现的最大距离为200m
 
 **节点参数**
 
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 目标实体 | 实体 |  |
-| 入参 | 恢复量 | 浮点数 |  |
-| 入参 | 是否忽略恢复调整效果 | 布尔值 |  |
+| 入参 | 目标位置 | 三维向量 |  |
+| 入参 | 目标朝向 | 三维向量 |  |
+
+## **29\. 添加关键行为**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/05be9946-e9f5-4646-9705-1d99a255b016.undefined)
+
+**节点功能**
+
+给关键行为记录板上添加一个对应ID的关键行为，并会将此刻的时间一同记录。可记录的关键行为最大数量为20
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 关键行为ID | 整数 |  |
+
+## **30\. 清空关键行为记录板**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/c3fd41d0-ef21-48e0-aed3-0d2007433b98.undefined)
+
+**节点功能**
+
+清空关键行为记录板上已记录的关键行为
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+|  |  |  |  |
+
+## **31\. 施放指定技能实例**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/51df5c30-25d7-43c6-a360-28923713b4ae.undefined)
+
+**节点功能**
+
+使角色施放指定技能实例ID对应的技能
+
+按键可用需要满足该技能被绑定到了一个按钮上且当前处于前台
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 技能实例ID | 整数 |  |
+| 入参 | 是否校验按键可用 | 布尔值 | 是：当前按键可用时该技能才会被施放<br>否：无论当前按键是否可用该技能都会被施放 |
+
+## **32\. 施放指定槽位的技能**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/41557238-fb5d-4a3a-8cd3-69f6605cc054.undefined)
+
+**节点功能**
+
+使角色施放其对应技能槽位当前处于前台的技能
+
+按键可用需要满足该技能被绑定到了一个按钮上且当前处于前台
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 技能槽位 | 枚举 |  |
+| 入参 | 是否校验按键可用 | 布尔值 | 是：当前按键可用时该技能才会被施放<br>否：无论当前按键是否可用该技能都会被施放 |
 
 # **二、通用**
 
 ## **1\. 有限循环**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/0f93e59a-ea53-4a53-b0d6-6b19f9fe318b.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/416ddebf-d442-404d-bc6b-2be3305f5097.undefined)
 
 **节点功能**
 
@@ -748,7 +822,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **2\. 跳出循环**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/4b31b08d-ab47-41d1-8afa-00526d19e31d.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/ede139a9-1909-4352-91a9-37a8392c95c1.undefined)
 
 **节点功能**
 
@@ -763,7 +837,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **3\. 设置局部变量**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/59686756-dbbe-4e2c-ae59-b006fe20b763.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/d210af16-a9b5-4b68-a46c-46a42e4efc8d.undefined)
 
 **节点功能**
 
@@ -777,47 +851,11 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | 入参 | 变量名 | 字符串 |  |
 | 入参 | 变量值 | 泛型 |  |
 
-## **4\. 通知服务器节点图**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/ad2cece1-f82e-4ad3-9a9b-a0dd877fcaca.undefined)
-
-**节点功能**
-
-通知服务器节点图，支持携带三个字符串参数
-
-该节点运行时可以将逻辑传到服务器节点图上，在服务器节点图上会触发【技能节点调用时】事件
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 字符串1 | 字符串 |  |
-| 入参 | 字符串2 | 字符串 |  |
-| 入参 | 字符串3 | 字符串 |  |
-
-# **三、信号**
-
-## **1\. 向服务器节点图发送信号**
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/ccc660cc-e54b-47db-99b9-f3785dc9e03e.undefined)
-
-**节点功能**
-
-在技能节点图中，可以向服务器节点图发送信号，所有服务器节点图都可以监听到该信号
-
-**节点参数**
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| **参数类型** | **参数名** | **类型** | **说明** |
-| 入参 | 信号名 | 字符串 |  |
-
-# **四、自定义仇恨**
+# **三、自定义仇恨**
 
 ## **1\. 设置指定实体的仇恨值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/391001c3-fd3a-40c0-bbe1-1c736aec1fd7.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/d06903b1-8d6c-45a1-bf3b-ae5082e0e978.undefined)
 
 **节点功能**
 
@@ -836,7 +874,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **2\. 增加指定实体的仇恨值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/9e7f0165-4b72-4bba-ae48-04d296f09a8c.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/0efcd014-ee23-48de-a7e2-fc8cc72e4c67.undefined)
 
 **节点功能**
 
@@ -855,7 +893,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **3\. 按比例设置指定实体的仇恨值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/7af92e26-9b74-457e-8b88-d5f32cb312ee.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/2b7a08fa-7f05-4203-9a3f-c7df59a41d74.undefined)
 
 **节点功能**
 
@@ -874,7 +912,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **4\. 按比例转移指定实体的仇恨值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/95ae3e3f-6356-4e7d-9708-efdea7c73134.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/67e56758-6784-4ea3-b75b-8c32da141da6.undefined)
 
 **节点功能**
 
@@ -894,7 +932,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **5\. 清空指定实体的仇恨列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/f218681a-1129-43ed-9fc8-842a5edfb00a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/cfd16c7b-b3ea-4db7-ae6e-e6dea25bd879.undefined)
 
 **节点功能**
 
@@ -911,7 +949,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **6\. 将目标实体移除出仇恨列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/33ea2345-ec6d-4de8-8ccc-0b52eebbe320.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/4c4beb9a-38e3-4e9b-b82f-33a658cb9fd5.undefined)
 
 **节点功能**
 
@@ -929,7 +967,7 @@ crawledAt: 2026-07-01T08:25:15.229Z
 
 ## **7\. 嘲讽目标**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhz064iplia4/08f5d4d7-9d3b-4658-90f2-948f1cce78f5.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/67c278b4-c0e3-4b98-a025-d68470a040e1.undefined)
 
 **节点功能**
 
@@ -944,3 +982,115 @@ crawledAt: 2026-07-01T08:25:15.229Z
 | **参数类型** | **参数名** | **类型** | **说明** |
 | 入参 | 嘲讽者实体 | 实体 |  |
 | 入参 | 目标实体 | 实体 |  |
+
+# **四、信号**
+
+## **1\. 向服务器节点图发送信号**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/50cebe43-c0fd-46f2-ad77-a310f6645a36.undefined)
+
+**节点功能**
+
+在技能节点图中，可以向服务器节点图发送信号，所有服务器节点图都可以监听到该信号
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 信号名 | 字符串 |  |
+
+# **五、预瞄准**
+
+## **1\. 完成当前预瞄准**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/bbc8b00a-fbaa-4664-a854-28aab4333a1c.undefined)
+
+**节点功能**
+
+可以让玩家提前完成当前预瞄准
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+|  |  |  |  |
+
+# **六、操控运动器**
+
+## **1\. 添加临时运动参数值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/86c89d5f-d84d-4ab1-8d6d-c7194f24236f.undefined)
+
+**节点功能**
+
+添加临时运动参数值。该值将在下一帧生效，因此无法在当前执行流中通过获取节点查到值的变化。
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 操控运动器 | 实体 |  |
+| 入参 | 前进加速度 | 浮点数 |  |
+| 入参 | 后退加速度 | 浮点数 |  |
+| 入参 | 转向速率 | 浮点数 |  |
+| 入参 | 基础阻力减速度 | 浮点数 |  |
+| 入参 | 阻力系数 | 浮点数 |  |
+| 入参 | 最大前进速度 | 浮点数 |  |
+| 入参 | 最大后退速度 | 浮点数 |  |
+
+## **2\. 添加速度**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/64eccb8a-139e-4853-8748-9bc5add17d2a.undefined)
+
+**节点功能**
+
+添加临时加速度，若载具处于接地状态，则只会添加地面所在平面的速度（在平面上的分量）
+
+添加的速度会在持续时间结束后仍然继承
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标操控运动器 | 实体 |  |
+| 入参 | 速度值 | 浮点数 |  |
+| 入参 | 朝向 | 三维向量 |  |
+| 入参 | 持续时间 | 浮点数 |  |
+
+## **3\. 添加临时加速度**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/96921968-201d-4a3b-b043-8555191c972b.undefined)
+
+**节点功能**
+
+添加临时加速度，若载具处于接地状态，则只会受到地面所在平面的加速度（在平面上的分量）。
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标操控运动器 | 实体 |  |
+| 入参 | 加速度值 | 浮点数 |  |
+| 入参 | 朝向 | 三维向量 |  |
+| 入参 | 持续时间 | 浮点数 |  |
+
+## **4\. 使操控运动器转换至非接地状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhf9gq9ssw9e/2a8bb682-51a3-4e71-b10c-a3b8435be53c.undefined)
+
+**节点功能**
+
+接地状态下的操控运动器将持续找到地面并贴合。若希望通过添加速度实现离地运动（跳跃等效果），可以使用该节点短暂脱离接地状态。
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标操控运动器 | 实体 |  |
+| 入参 | 持续时间 | 浮点数 |  |

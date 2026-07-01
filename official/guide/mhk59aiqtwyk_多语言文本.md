@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhk59aiqtwyk
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:35:11.882Z
+crawledAt: 2026-07-01T08:24:14.512Z
 ---
 
 # 一、多语言文本的功能
@@ -17,15 +17,23 @@ crawledAt: 2025-10-30T19:35:11.882Z
 
 ## 1.入口
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/cfe15754-6bce-4b3a-b13f-2d7ff86ee53f.png)
+
 点击左上角系统菜单按钮可打开菜单界面
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/fadbb652-dd46-428a-949d-a088c9d34be4.png)
 
 点击【多语言文本管理】即可进入多语言文本管理界面，用于为游戏配置不同的语言包，适配更多的语言
 
 ## 2.具体介绍
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/e936a2bb-09c3-4f05-8016-41198712be29.png)
+
 _搜索_：用于搜索对应的文本，搜索内容为原始语言对应的文本
 
 _来源_：用于展示该文本的来源，展示其使用的位置，可进行筛选
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/7a7c3d67-07c1-469a-9642-1d56a231ddfe.png)
 
 _是否需要翻译_：用于标识该文本是否需要翻译
 
@@ -34,6 +42,8 @@ _是否需要翻译_：用于标识该文本是否需要翻译
 否：该文本被标记为无需翻译
 
 后续列中展示内容为该存档原始语言+支持语言，点击右下方【支持语言】可选择该存档可支持的多语言
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/3064e7ee-2ab1-43d4-b746-e48ae6a4b84e.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/56601155-b384-4d71-8809-ced215f20d01.png)
 
 _刷新列表_：再次提取存档中的文本内容
 

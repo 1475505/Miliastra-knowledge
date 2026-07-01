@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1150">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1150" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">技能预瞄准</text>
+<text x="288" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">类 MOBA 英雄技能的瞄准阶段配置</text>
+
+<!-- Section 1: 概览 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、什么是技能预瞄准</text>
+
+<rect x="48" y="170" width="1104" height="100" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="100" rx="2" fill="#2D6BE4"/>
+<text x="72" y="204" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配置类 MOBA 英雄技能的瞄准阶段，结果可通过节点图查询</text>
+<text x="72" y="228" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">预瞄准分为两种类型：开始前预瞄准、技能过程中预瞄准</text>
+
+<rect x="72" y="244" width="180" height="24" rx="12" fill="#E8EEFB"/>
+<text x="162" y="261" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">开始前预瞄准</text>
+<text x="268" y="261" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">瞬发/普通/连段技能支持</text>
+<rect x="468" y="244" width="180" height="24" rx="12" fill="#FFF3E0"/>
+<text x="558" y="261" fill="#E65100" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">技能过程中预瞄准</text>
+<text x="664" y="261" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">普通/长按技能支持</text>
+
+<!-- Section 2: 开始前预瞄准 -->
+<text x="48" y="310" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、开始前预瞄准</text>
+
+<rect x="48" y="328" width="360" height="56" rx="24" fill="#2D6BE4"/>
+<text x="228" y="362" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">技能右侧面板 → 开启预瞄准</text>
+<text x="426" y="362" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
+<text x="450" y="362" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">长按技能按键触发预瞄准，松开时触发技能</text>
+
+<!-- 基础设置 -->
+<rect x="48" y="400" width="1104" height="160" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="430" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">基础设置</text>
+
+<rect x="72" y="446" width="1056" height="36" rx="8" fill="#E8EEFB"/>
+<text x="300" y="470" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">配置参数</text>
+<text x="750" y="470" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">说明</text>
+<line x1="500" y1="451" x2="500" y2="477" stroke="#E8E4DA"/>
+
+<text x="180" y="500" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">基准对象</text>
+<text x="660" y="500" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">技能持有者或指定实体</text>
+<text x="180" y="524" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">半径/高度</text>
+<text x="660" y="524" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">最大范围圆柱的半径与高度</text>
+<text x="180" y="548" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">射线命中层</text>
+<text x="660" y="548" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">光标射线只命中勾选的命中层</text>
+
+<!-- 瞄准结果 -->
+<rect x="48" y="576" width="1104" height="80" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="606" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">瞄准结果设置</text>
+<text x="72" y="632" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">限制瞄准时间 → 超时时执行对应结果类型（超时/取消/完成）</text>
+<text x="72" y="654" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">完成预瞄准时可通过过滤器判断是否触发技能</text>
+
+<!-- Section 3: 瞄准区域 -->
+<rect x="48" y="676" width="1104" height="200" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="706" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">瞄准区域与目标筛选</text>
+<text x="72" y="732" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">目标需有受击盒才能纳入瞄准区域筛选。合法目标排序第一的为最优目标。</text>
+
+<rect x="72" y="748" width="1056" height="36" rx="8" fill="#F4F1EA"/>
+<text x="300" y="772" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">配置项</text>
+<text x="750" y="772" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">说明</text>
+<line x1="500" y1="753" x2="500" y2="779" stroke="#E8E4DA"/>
+
+<text x="200" y="800" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">瞄准区域形状</text>
+<text x="660" y="800" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">圆柱体，可配置半径、高度、挂载对象、Y轴旋转</text>
+<text x="200" y="826" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">目标优先级</text>
+<text x="660" y="826" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">区域内的合法目标按所选优先级排列</text>
+<text x="200" y="852" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">阵营/标签筛选</text>
+<text x="660" y="852" fill="#4A4B65" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">按阵营敌对关系 + 单位标签（白名单/黑名单）筛选</text>
+
+<!-- Section 4: 技能过程中预瞄准 -->
+<text x="48" y="916" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、技能过程中预瞄准</text>
+
+<rect x="48" y="934" width="1104" height="88" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="934" width="4" height="88" rx="2" fill="#2D6BE4"/>
+<text x="72" y="964" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">配置方式</text>
+<text x="72" y="992" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">在普通/长按技能时间轴的状态轨道中添加「技能瞄准」状态，可配置限制瞄准最大成功次数、中断消耗次数、角色技能节点图等。</text>
+
+<!-- 相关文档 -->
+<text x="48" y="1072" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhr3pdi50u1g" target="_blank">
+  <text x="48" y="1092" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：技能预瞄准</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhj4a0rzu4pi" target="_blank">
+  <text x="48" y="1112" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：角色操控技能</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1138" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之八</text>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1150">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1150" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">角色操控技能</text>
+<text x="328" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控状态下才可使用的特殊角色技能</text>
+
+<!-- Section 1: 定义 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、定义与特性</text>
+
+<rect x="48" y="170" width="1104" height="72" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="72" rx="2" fill="#2D6BE4"/>
+<text x="72" y="202" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控状态下才可使用，配置方式类似角色技能，但释放期间角色无技能动画表现</text>
+<text x="72" y="228" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">仍属于角色技能子类，释放主体为角色，添加/移除方式与角色技能完全相同。</text>
+
+<rect x="48" y="254" width="352" height="72" rx="14" fill="#E8EEFB"/>
+<text x="72" y="284" fill="#2D6BE4" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义槽位时长</text>
+<text x="72" y="308" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可自由定义单个槽位的具体时间</text>
+
+<rect x="424" y="254" width="352" height="72" rx="14" fill="#E8EEFB"/>
+<text x="448" y="284" fill="#2D6BE4" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">触发客户端节点图</text>
+<text x="448" y="308" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">节点图事件轨道打点触发</text>
+
+<rect x="800" y="254" width="352" height="72" rx="14" fill="#E8EEFB"/>
+<text x="824" y="284" fill="#2D6BE4" font-size="15" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">复用角色技能功能</text>
+<text x="824" y="308" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可用节点图节点、单位状态、槽位</text>
+
+<!-- Section 2: 编辑入口与技能类型 -->
+<text x="48" y="366" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、编辑入口与技能类型</text>
+
+<rect x="48" y="384" width="1104" height="52" rx="24" fill="#2D6BE4"/>
+<text x="600" y="416" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">战斗预设页签 → 技能页签 → 添加角色操控技能 → 设置名称/所属页签/预览对象 → 确认创建</text>
+
+<rect x="48" y="448" width="352" height="96" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="478" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">瞬发技能</text>
+<text x="72" y="504" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">无动画槽位，接受输入的</text>
+<text x="72" y="526" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">瞬间立即触发逻辑</text>
+
+<rect x="424" y="448" width="352" height="96" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="448" y="478" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">普通技能</text>
+<text x="448" y="504" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">基础技能类型，含一个可填</text>
+<text x="448" y="526" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">自定义时长的操控状态空动画</text>
+
+<rect x="800" y="448" width="352" height="96" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="824" y="478" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">长按技能</text>
+<text x="824" y="504" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提供长按槽位，按长按时间</text>
+<text x="824" y="526" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进行不同分支响应</text>
+
+<!-- Section 3: 关键参数 -->
+<text x="48" y="584" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、技能关键参数</text>
+
+<rect x="48" y="602" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+<rect x="48" y="634" width="1104" height="12" fill="#2D6BE4"/>
+<text x="260" y="636" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">参数</text>
+<text x="780" y="636" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">说明</text>
+
+<rect x="48" y="646" width="1104" height="40" fill="#fff" filter="url(#card)"/>
+<text x="200" y="671" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">配置ID</text>
+<text x="720" y="671" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">技能唯一标识，节点图修改技能配置时引用</text>
+<line x1="380" y1="656" x2="380" y2="676" stroke="#E8E4DA"/>
+
+<rect x="48" y="686" width="1104" height="40" fill="#F4F1EA"/>
+<text x="200" y="711" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">技能属性组</text>
+<text x="720" y="711" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">仅支持通过属性组调整冷却时间倍率</text>
+<line x1="380" y1="696" x2="380" y2="716" stroke="#E8E4DA"/>
+
+<rect x="48" y="726" width="1104" height="40" fill="#fff" filter="url(#card)"/>
+<text x="200" y="751" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">生命周期管理</text>
+<text x="720" y="751" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">可配置次数上限，达上限后技能自动移除</text>
+<line x1="380" y1="736" x2="380" y2="756" stroke="#E8E4DA"/>
+
+<rect x="48" y="766" width="1104" height="40" fill="#F4F1EA"/>
+<text x="200" y="791" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">技能预瞄准</text>
+<text x="720" y="791" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">瞬发/普通技能类型支持配置技能预瞄准</text>
+<line x1="380" y1="776" x2="380" y2="796" stroke="#E8E4DA"/>
+
+<!-- Section 4: 动画编辑 -->
+<text x="48" y="846" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、动画编辑（事件轨道）</text>
+
+<rect x="48" y="864" width="1104" height="130" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="894" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">角色操控技能本身不关联动画，仅含可填自定义时长的操控状态空动画槽位</text>
+
+<circle cx="88" cy="924" r="12" fill="#2D6BE4"/>
+<text x="88" y="929" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1</text>
+<text x="108" y="929" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开始事件轨道：技能开始释放时立即触发的时点</text>
+
+<circle cx="88" cy="952" r="12" fill="#2D6BE4"/>
+<text x="88" y="957" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2</text>
+<text x="108" y="957" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">结束事件轨道：技能动作全部播放完成后触发的时点</text>
+
+<circle cx="88" cy="980" r="12" fill="#1B4FC0"/>
+<text x="88" y="985" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">3</text>
+<text x="108" y="985" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">节点图事件轨道：按进度打点，仅支持添加「角色操控技能节点图」，支持配置循环节</text>
+
+<!-- 提示 -->
+<rect x="48" y="1006" width="1104" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="1006" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="1036" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">长按技能含长按状态与长按结束两个空动画，按松开时机落在分支轨道的响应段落转入对应分支；预览对象可选择挂载操控运动器组件的元件。</text>
+
+<!-- 相关文档 -->
+<text x="48" y="1086" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhj4a0rzu4pi" target="_blank">
+  <text x="48" y="1106" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：角色操控技能</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh1ytk9631fm" target="_blank">
+  <text x="318" y="1106" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控运动器</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1132" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之八</text>
+</svg>

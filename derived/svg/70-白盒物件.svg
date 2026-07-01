@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="900" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">白盒物件</text>
+<text x="248" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">验证关卡设计的基础几何体集合，用于空间验证与设计原型搭建</text>
+
+<!-- Section 1: 功能定义 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、什么是白盒物件</text>
+
+<rect x="48" y="170" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<text x="72" y="204" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">用于验证关卡设计的基础几何体集合</text>
+<text x="72" y="232" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提供多种标准形状和材质显示模式，支持在编辑阶段进行空间验证和设计原型搭建。</text>
+<text x="72" y="256" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可正常当做一个模型资产使用，支持以下操作：</text>
+<rect x="72" y="268" width="112" height="24" rx="12" fill="#E8EEFB"/>
+<text x="128" y="285" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">缩放</text>
+<rect x="192" y="268" width="112" height="24" rx="12" fill="#E8EEFB"/>
+<text x="248" y="285" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">换色</text>
+<rect x="312" y="268" width="112" height="24" rx="12" fill="#E8EEFB"/>
+<text x="368" y="285" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">换材质</text>
+<rect x="432" y="268" width="152" height="24" rx="12" fill="#E8EEFB"/>
+<text x="508" y="285" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">挂载逻辑组件</text>
+<rect x="592" y="268" width="152" height="24" rx="12" fill="#E8EEFB"/>
+<text x="668" y="285" fill="#2D6BE4" font-size="12" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">挂载节点图</text>
+
+<!-- Section 2: 编辑入口 -->
+<text x="48" y="330" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、编辑入口</text>
+
+<rect x="48" y="348" width="352" height="56" rx="24" fill="#2D6BE4"/>
+<text x="224" y="382" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">实体编辑页签 → 预制</text>
+<text x="414" y="382" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">›</text>
+<rect x="436" y="348" width="300" height="56" rx="24" fill="#2D6BE4"/>
+<text x="586" y="382" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">动态单位 → 其他</text>
+<text x="750" y="382" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">›</text>
+<rect x="772" y="348" width="380" height="56" rx="24" fill="#1B4FC0"/>
+<text x="962" y="382" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">将白盒物件拖入场景即可使用</text>
+
+<!-- Section 3: 白盒物件类型 -->
+<text x="48" y="446" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、白盒物件类型</text>
+<text x="228" y="446" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持以下 11 种标准白盒几何体</text>
+
+<rect x="48" y="464" width="1104" height="176" rx="14" fill="#fff" filter="url(#card)"/>
+
+<rect x="72" y="484" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="196" y="510" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">长方体</text>
+<rect x="332" y="484" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="456" y="510" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">球体</text>
+<rect x="592" y="484" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="716" y="510" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">平面</text>
+<rect x="852" y="484" width="276" height="40" rx="10" fill="#F4F1EA"/>
+<text x="990" y="510" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三棱柱</text>
+
+<rect x="72" y="532" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="196" y="558" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五棱柱</text>
+<rect x="332" y="532" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="456" y="558" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三棱锥</text>
+<rect x="592" y="532" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="716" y="558" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五棱锥</text>
+<rect x="852" y="532" width="276" height="40" rx="10" fill="#F4F1EA"/>
+<text x="990" y="558" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">圆柱</text>
+
+<rect x="72" y="580" width="248" height="40" rx="10" fill="#F4F1EA"/>
+<text x="196" y="606" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">圆锥</text>
+<rect x="332" y="580" width="380" height="40" rx="10" fill="#E8EEFB"/>
+<text x="522" y="606" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">线框长方体（常用于区域标注）</text>
+<rect x="724" y="580" width="404" height="40" rx="10" fill="#E8EEFB"/>
+<text x="926" y="606" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">线框圆柱（常用于区域标注）</text>
+
+<!-- Section 4: 额外说明 -->
+<text x="48" y="680" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、额外说明</text>
+
+<rect x="48" y="698" width="1104" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="698" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="728" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">网格线：编辑视图中每个网格的长度为标准 1 米，可用于快速估算尺寸。</text>
+
+<rect x="48" y="758" width="1104" height="48" rx="10" fill="#FDE8E6"/>
+<rect x="48" y="758" width="4" height="48" rx="2" fill="#D93025"/>
+<text x="72" y="788" fill="#D93025" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">注意：线框长方体、线框圆柱体无法更换材质。</text>
+
+<!-- 相关文档 -->
+<text x="48" y="838" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhs4glrkbr32" target="_blank">
+  <text x="48" y="858" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：白盒物件</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="884" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之八</text>
+</svg>

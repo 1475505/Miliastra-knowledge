@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200">
+<defs>
+  <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2D6BE4"/>
+    <stop offset="100%" stop-color="#4A3F6B"/>
+  </linearGradient>
+  <filter id="card">
+    <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+  </filter>
+  <filter id="elevated">
+    <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+  </filter>
+</defs>
+
+<rect width="1200" height="1200" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+
+<!-- Title card -->
+<rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
+<rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控运动器</text>
+<text x="288" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">通过轮盘输入操控元件/实体移动的载具类组件</text>
+
+<!-- Section 1: 功能 -->
+<text x="48" y="152" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、功能与使用须知</text>
+
+<rect x="48" y="170" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="4" height="120" rx="2" fill="#2D6BE4"/>
+<text x="72" y="202" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">运行时通过轮盘输入操控元件/实体移动、施放技能（载具核心组件）</text>
+<text x="72" y="228" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控运动器和其他类型的运动器互斥，一个实体只能使用一种。</text>
+<text x="72" y="252" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">推荐操控实体缩放为等比（如 1:1:1），不等比可能导致斜坡运动形变。</text>
+<text x="72" y="276" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">复杂操控实体推荐用等比空模型主物件 + 装饰物修改缩放的形式制作。</text>
+
+<!-- Section 2: 基础设置 -->
+<text x="48" y="330" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、基础设置</text>
+
+<rect x="48" y="348" width="360" height="150" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="378" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">实体接地位置</text>
+<text x="72" y="404" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">定义运行时操控实体与</text>
+<text x="72" y="426" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">地面接触的位置。</text>
+<text x="72" y="458" fill="#1A1B2E" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">角色退出点</text>
+<text x="72" y="482" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控者离开时的弹出挂接点。</text>
+
+<rect x="420" y="348" width="360" height="150" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="444" y="378" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控实体碰撞</text>
+<text x="444" y="404" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">运行时以操控实体碰撞为准，</text>
+<text x="444" y="426" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">原生碰撞和额外碰撞均不生效。</text>
+<text x="444" y="450" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">默认实体碰撞仅支持胶囊体，</text>
+<text x="444" y="472" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">半径参与物理碰撞，高度判浮空。</text>
+
+<rect x="792" y="348" width="360" height="150" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="816" y="378" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">装饰物运动表现</text>
+<text x="816" y="404" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">定义哪些装饰物部件可以有</text>
+<text x="816" y="426" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">运动动画表现（如车轮滚动）。</text>
+<text x="816" y="450" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">原理：对引用的挂接点进行旋转，</text>
+<text x="816" y="472" fill="#4A4B65" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">使其下的装饰物呈现运动表现。</text>
+
+<!-- 提示 -->
+<rect x="48" y="510" width="1104" height="48" rx="10" fill="#E8EEFB"/>
+<rect x="48" y="510" width="4" height="48" rx="2" fill="#2D6BE4"/>
+<text x="72" y="540" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">推荐碰撞区形状使用胶囊体或球体，位置设在模型上半部分，避免碰撞异常；碰撞不可低于接地位置，否则与地面挤压导致表现异常。</text>
+
+<!-- Section 3: 运动设置 -->
+<text x="48" y="598" fill="#2D6BE4" font-size="18" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、运动设置</text>
+
+<!-- 操控输入 + 运动区域 -->
+<rect x="48" y="616" width="1104" height="120" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="646" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">操控输入 &amp; 运动区域</text>
+<text x="72" y="674" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">方向输入类型：镜头朝向（始终朝镜头移动）/ 操控实体朝向（以自身模型正朝向移动）</text>
+<text x="72" y="698" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">输入前进区范围：轮盘正前方为 0°，落在此区域内向前移动，反之向后；电脑端 W 键为 0°</text>
+<text x="72" y="722" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">运动坡度上限 / 跟随斜坡倾斜：决定可爬坡角度，以及倾斜表面上是否有相符的倾斜表现</text>
+
+<!-- 运动参数表 -->
+<rect x="48" y="752" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+<rect x="48" y="784" width="1104" height="12" fill="#2D6BE4"/>
+<text x="280" y="786" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">运动参数</text>
+<text x="800" y="786" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">说明</text>
+
+<rect x="48" y="796" width="1104" height="40" fill="#fff" filter="url(#card)"/>
+<text x="180" y="821" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">转向速度</text>
+<text x="700" y="821" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">实体按 Y 轴旋转的速度</text>
+<line x1="420" y1="806" x2="420" y2="826" stroke="#E8E4DA"/>
+
+<rect x="48" y="836" width="1104" height="40" fill="#F4F1EA"/>
+<text x="180" y="861" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">前进加速度 / 最大前进速度</text>
+<text x="700" y="861" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">前进区输入提供的加速度与速度上限</text>
+<line x1="420" y1="846" x2="420" y2="866" stroke="#E8E4DA"/>
+
+<rect x="48" y="876" width="1104" height="40" fill="#fff" filter="url(#card)"/>
+<text x="180" y="901" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">区分前进后退速度</text>
+<text x="700" y="901" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">开启后可单独配置后退加速度与最大后退速度</text>
+<line x1="420" y1="886" x2="420" y2="906" stroke="#E8E4DA"/>
+
+<rect x="48" y="916" width="1104" height="40" fill="#F4F1EA"/>
+<text x="180" y="941" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">阻力减速度 / 减速系数</text>
+<text x="700" y="941" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">基础阻力 + 减速系数×速度²；影响实际速度与减速时长</text>
+<line x1="420" y1="926" x2="420" y2="946" stroke="#E8E4DA"/>
+
+<rect x="48" y="956" width="1104" height="40" fill="#fff" filter="url(#card)"/>
+<text x="180" y="981" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">最大速度预览</text>
+<text x="700" y="981" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">综合加速度与阻力计算出的最终最大速度</text>
+<line x1="420" y1="966" x2="420" y2="986" stroke="#E8E4DA"/>
+
+<!-- Section 4: 角色操控技能关系 -->
+<rect x="48" y="1016" width="1104" height="48" rx="10" fill="#FDE8E6"/>
+<rect x="48" y="1016" width="4" height="48" rx="2" fill="#D93025"/>
+<text x="72" y="1046" fill="#D93025" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">注意：角色处于操控状态下时，无法使用普通角色技能，仅可使用「角色操控技能」；阻力系数配置过大可能导致最大速度不为 0 却无法移动。</text>
+
+<!-- 相关文档 -->
+<text x="48" y="1096" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh1ytk9631fm" target="_blank">
+  <text x="48" y="1116" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：操控运动器</text>
+</a>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhj4a0rzu4pi" target="_blank">
+  <text x="48" y="1136" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：角色操控技能</text>
+</a>
+
+<!-- Footer -->
+<text x="600" y="1162" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之八</text>
+</svg>
