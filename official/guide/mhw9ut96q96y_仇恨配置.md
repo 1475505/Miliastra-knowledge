@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhw9ut96q96y
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:30:14.270Z
+crawledAt: 2026-07-31T00:14:41.619Z
 ---
 
 # 一、什么是仇恨
@@ -18,6 +18,8 @@ _仇恨_是实体用来选择自身技能目标的功能。仇恨系统会根据
 # 二、仇恨模式
 
 在关卡配置上，仇恨有两种模式：_默认仇恨模式_和_自定义仇恨模式_。如下图所示
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/155afb4d-d7bb-4f8b-b5cc-7aa4600d91c8.png)
 
 ## **1.默认仇恨模式**
 
@@ -138,6 +140,8 @@ _仇恨对象_：
 
 在关卡配置中，可以配置全局的_仇恨转移倍率_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/ad151bca-3358-4680-881b-33e1ec7ef3fe.png)
+
 当仇恨列表中的某个仇恨对象的 **仇恨值 ≥ 当前仇恨目标的仇恨值 × 仇恨转移倍率** 时，会发生_仇恨转移_，仇恨目标设置为该仇恨对象
 
 以上述案例为例，在执行完上述行动后，角色2为丘丘人的仇恨目标，其仇恨值为40
@@ -227,19 +231,23 @@ _仇恨对象_：
 
 需要注意的是，无法通过【_设置仇恨值_】相关节点将仇恨值设置为0来进行脱战（战斗中的仇恨值至少为1，不能设为0）
 
-# 三、仇恨系统的配置入口
+# 四、仇恨系统的配置入口
 
 ## 1.全局仇恨配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/388e051d-dedd-4b17-bd57-d3f01758f3f3.png)
 
 在关卡设置中，可以配置仇恨相关的全局配置，包括
 
 _仇恨类型_：可切换自定义仇恨模式或默认仇恨模式。需要注意的是，切换为默认仇恨模式后无法使用自定义仇恨相关功能
 
-_仇恨转移倍率_：全局的仇恨转移倍率，默认为1.2（即超过当前仇恨目标1.2倍的仇恨值时会发生仇恨转移）。这个值不能小于等于0
+_仇恨转移倍率_：全局的仇恨转移倍率，默认为1.2（即超过当前仇恨目标1.2倍的仇恨值时会发生仇恨转移）。这个值不能小于等于1
 
 ## 2.仇恨参数配置
 
 ### (1)物件的仇恨配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/f82e261e-3ba9-4162-80f8-2b51ce2f0da5.png)
 
 _产生仇恨的倍率_：该物件通过造成伤害和生命恢复行为产生仇恨的倍率
 
@@ -249,9 +257,13 @@ _是否同步仇恨值_：是否将该实体拥有的仇恨列表中的仇恨值
 
 ### (2)职业的仇恨配置
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/160fc9bb-717d-45ff-b4be-83938bd8047a.png)
+
 _产生仇恨的倍率_：拥有该职业的角色通过攻击和生命恢复行为产生仇恨的倍率
 
 ### (3)造物的仇恨配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/2bf54bae-5bc3-448a-b00c-7acf03bee9eb.png)
 
 _产生仇恨的倍率_：该造物通过造成伤害和生命恢复行为产生仇恨的倍率
 
@@ -259,58 +271,108 @@ _是否同步仇恨值_：是否将该实体拥有的仇恨列表中的仇恨值
 
 需要注意的是，由于仇恨值在服务端进行计算，任意客户端对于仇恨值的直接取值都是不准确的
 
-# 四、仇恨相关节点
+# 五、仇恨相关节点
 
 ## 1.服务端节点
 
 **嘲讽目标**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/65d42ac7-65ad-430f-95f8-049a49a44663.png)
+
 **将目标实体移除出仇恨列表**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/dc6de8b1-1333-4a2f-9dd5-d8f1aa09c868.png)
 
 **清空指定目标的仇恨列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/3841ae0d-0b81-40ca-b03f-3caf0cd74da3.png)
+
 **设置指定实体的仇恨值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/9ee84751-59bc-4228-ae0e-4eb5b6a6f8ad.png)
 
 **仇恨目标变化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/848a767a-cc5b-489e-8199-1f89e2ccc438.png)
+
 **自身入战时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/00b70280-bafd-4600-825b-c318b320aa9c.png)
 
 **自身脱战时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/e5895842-c252-49f0-864e-f4db6f0db7ca.png)
+
 **查询全局仇恨转移倍率**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/7f7367a3-768c-4e8e-a665-0bfdcaae2cee.png)
 
 **查询指定实体的仇恨倍率**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/6960bc2f-c06f-4a13-9887-f60f6ddf4791.png)
+
 **查询指定实体的仇恨值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/1fc08ae6-c72a-4193-b81f-a7c0f2581296.png)
 
 **查询指定实体是否已入战**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/186197bf-d327-4f72-b25f-a21f67eb87a5.png)
+
 **获取目标所在仇恨列表的拥有者列表**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/3065b466-9aee-4a42-9275-f7d397b6458e.png)
 
 **获取以目标为仇恨目标的实体列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/ceef9fe8-8258-444e-8803-8a65d0fa6aa2.png)
+
 **获取指定实体的仇恨列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/efd5bd57-dc03-470e-a713-3f9d2abd90ff.png)
+
 **获取指定实体的仇恨目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/d0a58fc3-561a-475b-8ea7-0af5a824b9a1.png)
 
 ## 2.客户端节点
 
 **按比例修改指定实体的仇恨值**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/f0ff8bdc-697c-400a-8b7d-1d891c98b158.png)
+
 **按比例转移指定实体的仇恨值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/5b12e79b-0cac-4482-a6ec-242cc853266f.png)
 
 **嘲讽目标**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/53565da5-091d-4319-a526-4bceade73a4b.png)
+
 **将目标实体移除出仇恨列表**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/d5c3689c-a96b-450d-954a-f5a802fd46cb.png)
 
 **清空指定实体的仇恨列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/f11a4e07-f562-4a31-a585-b53ed58edfcd.png)
+
 **设置指定实体的仇恨值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/6774aefc-dd44-4aaf-8ef0-4de256264cbe.png)
 
 **修改指定实体的仇恨值**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/c601453e-c6d6-49b3-ade1-959486bdadaf.png)
+
 **查询指定实体是否入战**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/0df1d14c-a9bb-4f02-aadd-7657a94119a7.png)
 
 **获取指定实体的仇恨列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/8b98408b-5acd-4525-a0a0-3cae0d19e0ea.png)
+
 **获取指定实体的仇恨目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw9ut96q96y/fff0242c-045b-4ac7-9fb6-c371e76db8d4.png)

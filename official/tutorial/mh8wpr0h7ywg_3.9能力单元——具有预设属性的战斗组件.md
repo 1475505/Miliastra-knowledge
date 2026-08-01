@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh8wpr0h7ywg
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T19:59:10.536Z
+crawledAt: 2026-07-31T00:24:53.816Z
 ---
 
 # 前言
@@ -47,17 +47,21 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **功能效果：** 制作一个靠近后会造成伤害的荆棘
 
-**效果演示：**
+**效果演示：**![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/215a7914-f02e-4fe8-9341-d057ce50ef92.gif)
 
 ### 3.操作步骤
 
 **1.【局内编辑器】添加能力单元**
 
-创建一个作为造成伤害的机关（教程以荆棘为例），在物件面板中点击>>>进入战斗属性页，找到【能力单元】>>>选择【详细编辑】>>>点击即可添加一个新的能力单元。
+创建一个作为造成伤害的机关（教程以荆棘为例），在物件面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/5c61bf36-0b60-4dbf-9615-f52fa6c1095e.png)>>>进入战斗属性页，找到【能力单元】>>>选择【详细编辑】>>>点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/4ad8d368-5a34-4e7a-a2d4-ad1fc1a76e38.png)即可添加一个新的能力单元。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/fc3c29e6-04f9-4027-9fe8-ad9f01d7a834.png)
 
 **2.【局内编辑器】配置面板数据**
 
-在新建能力单元中，点击名称旁的进行重命名。由于后续节点图中对能力单元的调用依赖的是【名称】，重命名方便后续管理和调用（教学中重命名为“荆棘攻击”，实际使用时根据自身需要灵活调整即可）
+在新建能力单元中，点击名称旁的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/f56e9926-1ad7-4ec0-baee-fa6e8813ba65.png)进行重命名。由于后续节点图中对能力单元的调用依赖的是【名称】，重命名方便后续管理和调用（教学中重命名为“荆棘攻击”，实际使用时根据自身需要灵活调整即可）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/e55a0456-616e-4701-8354-3cc0518961fc.png)
 
 随后可在【能力单元类型】中选择具体的能力单元。教学中以荆棘对玩家造成伤害为例，因此选择“直接攻击”。
 
@@ -70,9 +74,13 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 定义能力单元类型后，即可配置具体的攻击参数，这里教学演示中的配置如下，可根据实际需要对数值进行修改。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/7af74e0a-635d-4a85-af18-ac6c887831f5.png)
+
 **3.【局内编辑器】配置碰撞触发器**
 
 能力单元的触发依赖触发事件，教程中以【玩家靠近特定区域后触发】，使用碰撞触发器为例，在荆棘上配置碰撞触发器。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/d1760b4d-ecfe-46c9-986f-7a8f4e2ade42.png)
 
 **4.【千星沙箱】进入碰撞盒后发起攻击**
 
@@ -85,9 +93,13 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 | 条件 | / | / |
 | 结果 | 对进入者造成伤害 | 【执行节点】：发起攻击<br>_\*\*“是否覆写能力单元配置”为“是”时，节点图配置的“伤害系数”和“伤害增量”会覆盖局内编辑器已经预设的值；反之不覆盖_<br>_\*\*能力单元填写之前给能力单元命名的字符串“荆棘攻击”_ |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/d0aae440-b6fa-48b6-b8df-da13541443dc.png)
+
 **5.【局内编辑器】将节点图挂载到元件中，将其拖入场景，进入试玩。**
 
 至此能力单元调用逻辑也配置完成，把节点图挂载在荆棘元件上保存，将其拖入场景即可体验相应功能。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/215a7914-f02e-4fe8-9341-d057ce50ef92.gif)
 
 # 拓展应用
 
@@ -99,7 +111,9 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **效果演示：**
 
-**思路解析：** 通过定时器的循环来持续调用物件上的能力单元，制作持续伤害效果。
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/82e17250-6d05-4cc8-91cf-f96a1638b7d6.gif)
+
+**思路解析：** 通过定时器的循环来持续调用物件上的能力单元，制作持续恢复效果。
 
 **实现步骤：**
 
@@ -111,7 +125,11 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 4.定时器触发时接入【恢复生命值】节点，配置恢复量和能力单元名称
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/5a4bb771-cb5c-4482-a303-d499d805df3c.png)
+
 5.为了让角色离开平台后不持续回血，还可以增加一个【离开碰撞触发器时】事件，将启动的定时器终止。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/d2fd2e5d-13be-4665-9771-75291a5636a9.png)
 
 6.将制作好的平台放入场景，试玩体验效果。
 
@@ -132,6 +150,8 @@ _\*\*更多相关信息可自行查阅【综合指南-能力单元】_
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-能力单元】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 能力单元.gil
 

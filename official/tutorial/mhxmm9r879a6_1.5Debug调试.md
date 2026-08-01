@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhxmm9r879a6
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T19:51:37.735Z
+crawledAt: 2026-07-31T00:27:48.278Z
 ---
 
 # 前言
@@ -17,7 +17,7 @@ crawledAt: 2025-10-30T19:51:37.735Z
 
 **学习目标：** 了解编辑器和千星沙箱试玩调试的操作流程，掌握基础的调试思路
 
-_\*\*课程中所讲【调试】对象均为节点图功能调试，不涉及面板配置调试（如：配置了面板的坐标/尺寸等参数，表现不符合预期，不在课程所讲范围内）；此外，该课程讲解以【通用】调试思路为主，适用与多数问题情况，如遇到无法自检出的问题，可根据指引进行问题反馈_
+_\*\*课程中所讲【调试】对象均为节点图功能调试，不涉及面板配置调试（如：配置了面板的坐标/尺寸等参数，表现不符合预期，不在课程所讲范围内）；此外，该课程讲解以【通用】调试思路为主，适用于多数问题情况，如遇到无法自检出的问题，可根据指引进行问题反馈_
 
 ## 相关信息：
 
@@ -43,19 +43,27 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 >
 > 在千星沙箱中点击【窗口】>>>选择【日志】
 >
+> ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/0158f0ff-9449-439a-a485-2814613e14e9.png)
+>
 > **2、选择需要检测的节点图**
 >
 > 在【日志】界面中勾选需要检测的节点图>>>点击【确认选择】
 >
+> ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/aa58fbcf-d9ed-4b68-b89b-30a3f495fd81.png)
+>
 > **3、试玩并查看日志运行情况**
 >
 > 进入关卡试玩>>>触发需要检测的节点图事件>>>检查日志运行情况
+>
+> ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/e00ac985-d491-4cd0-8e00-6b422dc93ff0.png)
 >
 > **4、进入调试模式，查看节点图运行情况**
 >
 > 点击日志中已运行的节点图>>>即可进入调试模式，查看运行中传输的数据和运行生效/未生效的节点图逻辑
 >
 > _\*\*如在下方演示中，可以通过调试模式看到触发事件时，【输出的具体参数】（事件源实体、事件源GUID、选项序号、选择者）；还可以看到节点图中【生效的逻辑树】（执行流-橙黄色连线、运行流-蓝色连线），未生效的逻辑树（灰色连线）_
+>
+> ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/1c988e42-f341-441b-af5f-639c80aabce6.png)
 
 _\*\*更多相关信息可自行查阅【综合指南-节点图日志】_
 
@@ -101,6 +109,10 @@ _\*\*更多相关信息可自行查阅【综合指南-节点图日志】_
 
 _\*\*下图以动态元件为例进行演示_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/bcea6215-0099-4b0a-99a8-b927090ede43.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/414a9c43-995e-4322-8c8c-8d1d4fdce832.png)
+
 ### 问题示例2：节点图挂载对象错误
 
 **问题案例：** 制作了一个UI按钮交互后触发执行特定功能的节点图，【界面控件组触发时】执行xxx，但挂载节点图挂给了非玩家的其他单位（该事件仅能被“玩家”监听）
@@ -110,6 +122,10 @@ _\*\*下图以动态元件为例进行演示_
 **检查&修改方式：** 确认所使用的节点图的【事件节点】是什么 → 确认被挂载对象能否监听该事件 → 如果不能，则更换正确的挂载对象
 
 _\*\*该问题类型涉及不同事件节点的监听规则，此处以类型说明为主，不做拓展讲解_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/b58bf1aa-36d7-45ce-be1d-abae6a0a980b.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/03d88648-9304-46b4-9b12-c09255eb3c8f.png)
 
 ### 问题示例3：节点图挂载对象未配置相关组件
 
@@ -121,6 +137,10 @@ _\*\*该问题类型涉及不同事件节点的监听规则，此处以类型说
 
 _\*\*该问题属于面板配置问题，并不涉及节点图改动，此处仅作示意说明_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/80d09b17-e229-40fe-9902-16039a00aa02.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/36f9272e-d655-44d1-9b29-71a814d872dc.png)
+
 ### 问题示例4：使用了错误的事件节点
 
 **问题案例：** 预期实现的功能为【选择选项后，执行xxx】，节点图配置的事件为非【选项卡选中时】的事件节点
@@ -128,6 +148,10 @@ _\*\*该问题属于面板配置问题，并不涉及节点图改动，此处仅
 **问题原因：** 使用的事件节点与实际功能所需的不匹配
 
 **检查&修改方式：** 确认所使用的节点图的【事件节点】是什么 → 确认该事件是否与预期功能的触发事件一致 → 若不一致，则更换对应的事件节点（如：选中选项触发xxx，使用【选项卡选中时】；进入碰撞区触发xxx，使用【进入碰撞触发器时】）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/8c858273-84ac-4fd7-9fd5-eb2969347ed4.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/76934675-e980-49f2-90de-734ed87c0443.png)
 
 ### 问题示例5：试玩时触发事件的操作和配置的事件节点不统一
 
@@ -146,6 +170,8 @@ _\*\*该问题属于个人试玩操作失误（非面板配置/节点图错误�
 **检查&修改方式：** 在日志中选择触发的事件进入调试模式 → 逐一检查运算流中具体输入/输出参数是否符合预期 → 如果出错，修改节点图中相关配置
 
 _\*\*该问题类型与下方课程的输出错误结果相关，将在后续展开讲解，此处仅作简单示例，提供检查思路_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/965f0320-7336-4a5e-9113-03f6f350bf9c.png)
 
 ## 节点图运行了但输出错误结果
 
@@ -169,6 +195,10 @@ _\*\*该问题类型与下方课程的输出错误结果相关，将在后续展
 
 _\*\*节点图是一种【强类型】语言，会严格按照变量类型进行运算和判断，即节点图中的类型与实际面板配置类型不一致就会出错_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/e89453d5-c840-4a53-9bbe-972dc40c2f06.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/2c08b849-eaa6-4e50-ba71-c3e3dc2dbacf.png)
+
 ### 问题示例2：运算存在问题，导致输出错误的结果
 
 **问题案例：** 预期实现的功能为【交互选项后，玩家变量值+1，检查玩家身上的变量=5时，执行xxx】，但连接节点图时选择了错误的入参值，在玩家积分为4时就已经执行
@@ -176,3 +206,9 @@ _\*\*节点图是一种【强类型】语言，会严格按照变量类型进行
 **问题原因：** 节点图编写存在错误，导致运行中输入/输出结果不符合预期
 
 **检查&修改方式：** 在日志中选择触发的事件进入调试模式 → 逐一检查运算流中具体输入/输出参数是否符合预期 → 如果出错，修改节点图中相关配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/bf6c8807-e2e0-4017-996c-f4e0d6ca2769.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/1d905e72-dc3e-4fab-b435-6d88d8136961.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhxmm9r879a6/ddab7f3c-2517-43bd-855f-b2320c00b2b8.png)

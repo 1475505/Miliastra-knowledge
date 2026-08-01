@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhz70x0ra8u8
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T19:58:12.230Z
+crawledAt: 2026-07-31T00:24:27.609Z
 ---
 
 # 前言
@@ -47,11 +47,15 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 _为更直观表现效果，教程以俯视角展示_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/8eb52cde-d7c6-4a96-a76f-df339a3448a4.gif)
+
 ### 3.操作步骤
 
 **1.【局内编辑器】添加组件**
 
-创建一个元件作为交互物（教程以挑战币为例），在面板中点击>>>进入组件页，点击>>>选择【跟随运动器】即可添加
+创建一个元件作为交互物（教程以挑战币为例），在面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/8b0202ed-f80c-41ae-854a-8705904e90ee.png)>>>进入组件页，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/13e6fd36-9be2-42ef-8084-dc7de569b640.png)>>>选择【跟随运动器】即可添加
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/339f189d-6429-4a4f-97a3-3f5d2647ee71.png)
 
 **2.【局内编辑器】添加触发器**
 
@@ -62,6 +66,8 @@ _为更直观表现效果，教程以俯视角展示_
 | 要做的功能 | 对应的配置项 |
 | 道具是以跟随，而不是完全吸附 | 【追踪类型】调整为定速追踪 |
 | 跟随具有一定速度 | 【初始速度】调整大一些<br>\*\*实际配置是可根据自身需要调整初始速度、加速度、加速时长等 |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/c2226794-4fbd-4486-9722-900804a8d864.png)
 
 \*\*由于功能所需的跟随非默认生效而是特定条件“进入一定范围时”，此处初始预设无需进行更多配置，在后续节点图中可调整（会覆盖局内编辑器配置项）
 
@@ -79,6 +85,10 @@ _为更直观表现效果，教程以俯视角展示_
 | 触发器2<br>检测拾取到了让道具销毁 | 仅玩家单位能触发拾取（物件/造物（怪物）进入区域后不会拾取） | 【生效目标】调整为仅角色 |
 | 道具与玩家接触拾取成功 | 【缩放倍率】调整小一些 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/12546e4f-a443-4682-965b-73b9a74828f6.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/00557fae-b943-46c8-9dc0-330d9a02d52f.png)
+
 **4.【千星沙箱】节点图配置**
 
 在实体节点图中，添加并配置该元件的节点图（设置参考见下图），为达到预期的功能效果教程中配置如下：
@@ -93,6 +103,8 @@ _为更直观表现效果，教程以俯视角展示_
 | 条件 | 进入拾取范围 | 【流程控制节点】：使用【多分支】对触发器序号进行判断<br>_\*\*触发器2-范围较小，用于拾取_ |
 | 结果 | 拾取道具 | 【执行节点】：使用【销毁实体】制作拾取效果 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/b518f8bc-c058-4472-b60a-25ec10c622bd.png)
+
 **5.【局内编辑器】挂载节点图**
 
 将配置的节点图挂载在该元件上，保存元件设置
@@ -100,6 +112,8 @@ _为更直观表现效果，教程以俯视角展示_
 **6.【局内编辑器】放置元件，试玩体验**
 
 将制作好的元件放置在场景中，进入试玩即可体验该功能
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhz70x0ra8u8/8eb52cde-d7c6-4a96-a76f-df339a3448a4.gif)
 
 _\*\*更多相关信息可自行查阅【综合指南-跟随运动器组件】_
 
@@ -118,6 +132,8 @@ _\*\*更多相关信息可自行查阅【综合指南-跟随运动器组件】_
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合【教学存档-跟随运动器】对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 跟随运动器.gil
 

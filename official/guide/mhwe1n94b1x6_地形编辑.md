@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhwe1n94b1x6
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-12-03T15:05:51.178Z
+crawledAt: 2026-07-31T00:15:11.261Z
 ---
 
 地形编辑可用于关卡内场景效果的制作。
@@ -15,25 +15,31 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 ## 1.入口
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/17c776e6-c573-4aa5-a41b-99285711e6d1.png)
+
 地形编辑的入口位于顶部页签栏第一个按钮，可通过点击进行切换。
 
 ## 2.初始创生
 
-关卡存档创建时，会自动在世界坐标（0，0，0）的位置创建一个大小为100 x 100的地形。
+关卡存档创建时，会自动在世界坐标(0,-1.25,0)的位置创建一个大小为100x100的地形。
 
 ## 3.操作单位
 
-地形编辑中，最小可操作单位为单层地块，大小：5 x 5，层高：2.5。
+地形编辑中，最小可操作单位为单层地块，大小：5x5，层高：2.5。
 
 ## 4.主界面
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/a6753448-f79c-4b9b-902a-29c3e3d04342.png)
+
 ### (1)资产栏
 
-打开方式：通过左侧上方按钮打开和关闭。
+打开方式：通过左侧上方按钮![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/44f6e425-f305-4e13-aace-7d28377592cc.png)打开和关闭。
 
 功能：用于选择希望创建的资产内容。
 
 资产列表
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/4c7c859a-0c35-40a4-a7ba-9f4e8ca74ac5.png)
 
 
 
@@ -57,27 +63,31 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 ### (2)详情栏
 
-打开方式：通过右侧上方按钮打开和关闭。
+打开方式：通过右侧上方按钮![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/34a88e49-4a48-41a1-ba77-475f5ccaeeed.png)打开和关闭。
 
 功能：用于管理关卡内的地形。
 
 地形列表：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/f9f1e8cc-624e-438d-9350-479142d28385.png)
+
 功能点
 
 
 
-修改名称（双击名称开启） \- 修改选中地形的名称
+修改名称（双击名称![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/f2a19526-d725-4279-9706-ca3d6cc83ee1.png)开启） \- 修改选中地形的名称
 
 
 
-聚焦（点击按钮开启）\- 将镜头定位至地形处
+聚焦（点击按钮![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/e1e640a4-aa64-4829-b37d-ccb7fcdc331b.png)开启）\- 将镜头定位至地形处
 
 
 
-创建地形（点击按钮进入） \- 进入[地形编辑-二、地形创建](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhwe1n94b1x6#NdXA7wklhb_3QyKepWV9Iv)
+创建地形（点击按钮![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/424eb591-cd3b-44ee-adcf-f1d9aa71b05f.png)进入） \- 进入[地形编辑-二、地形创建](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhwe1n94b1x6#NdXA7wklhb_3QyKepWV9Iv)
 
 地形详情：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/77ff953d-cf61-48f0-99b7-cf11d8366fed.png)
 
 开启条件：通过指针或地形列表选中任意地形（多选时无效）。
 
@@ -93,9 +103,13 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 
 
-地块材质（点击按钮打开替换面板） \- 将地形内所选材质替换成其他材质或去除该材质。注：点击按钮，可清除该材质所有地块。
+地块材质（点击按钮![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/86b4674e-8fad-41cf-b4ea-7626d92d0248.png)打开替换面板） \- 将地形内所选材质替换成其他材质或去除该材质。注：点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/d5559097-e899-4859-8e4f-8d60dce91594.png)按钮，可清除该材质所有地块。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/a8392173-8d1e-4da0-9ff3-f456f090e656.png)
 
 ### (3)指针
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/0a76711e-96e5-4ebf-87d9-4564b6c412d8.png)
 
 打开方式：未处于任何编辑模式中。
 
@@ -119,7 +133,7 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 左侧资产栏
 
-进入[地形编辑\-四、地形修改 \- 自由编辑](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhwe1n94b1x6#NPvJ8GZc-Cm4qoP_c5auWx)后，点击右下角【基于格线创建】按钮。
+进入[地形编辑\-四、地形修改 \- 自由编辑](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhwe1n94b1x6#NPvJ8GZc-Cm4qoP_c5auWx)后，点击右下角【基于格线创建】![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/4494fee0-3c9b-420c-966b-b861a248bbc4.png)按钮。
 
 
 
@@ -128,6 +142,8 @@ crawledAt: 2025-12-03T15:05:51.178Z
 处于主界面中，点击详情栏 \- 地形列表 \- 创建地形按钮。
 
 ## 2.创建模式
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/83836792-82ee-43f2-a800-591ac19d2a11.png)
 
 ## 3.创建逻辑
 
@@ -143,25 +159,27 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 切换笔刷材质：点击后，选择笔刷所创建的地块材质（共计7种）
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/7719daef-9a9e-4d88-b39b-037f29f95531.png)
+
 ### (2)高度标尺
 
 功能：控制画布（地形创建用）的高度；
 
 
 
-移动滑块改变画布高度。
+移动滑块![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/4a2d5c9f-b04a-4c7b-a2a7-509c1ca24e48.png)改变画布高度。
 
 
 
-单击输入框输入改变画布高度。
+单击输入框![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/1c803a64-3210-4bae-b24b-c26e02ecdd49.png)输入改变画布高度。
 
 
 
-聚焦于画布所在高度。
+聚焦![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/58e8cae6-f1da-4ccc-baaa-2f75a307b4d3.png)于画布所在高度。
 
 
 
-增加/减少画布高度20。
+增加/减少![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/3b7e9328-f6df-4183-af0c-b6b97bc9dd18.png)画布高度20。
 
 ### (3)底部工具栏
 
@@ -171,7 +189,9 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 地块操作
 
-笔刷层数：调整单次笔刷的层数值。
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/dfacfeb4-3409-46de-be42-83dcccadf0de.png)
+
+笔刷层数：调整![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/89c363ae-39e1-40aa-85cc-02213000add3.png)单次笔刷的层数值。
 
 创建：所选地块增高x层（注：地块被操作后，整栋地块都会根据笔刷材质变成统一的材质）。
 
@@ -182,6 +202,8 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 
 斜坡操作
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/b1a37e86-f5e9-4824-b706-6a69e2dcf303.png)
 
 使用条件：笔刷仅可选中已经创建的地块
 
@@ -197,6 +219,8 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 水体操作
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/6c333acf-9e19-4d0c-ad81-c0a743b4a9c0.png)
+
 使用条件：笔刷仅可选中已经创建的地块/水体。
 
 创建水体：所选地块的顶部一层变为水体。
@@ -206,6 +230,8 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 
 路径操作
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/e32d5a42-e20e-45b2-a23a-3d794f11ae9c.png)
 
 使用条件：笔刷仅可选中已经创建的地块。
 
@@ -225,6 +251,8 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 ### (5)结束绘制
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/8e5165b7-7e7d-4485-8453-5290d377d165.png)
+
 功能：根据本次在画布中创建的内容，创建地形。
 
 地形生成逻辑：所有相连的地块会形成一块地形，当一次创建中存在不相连地块时，会创建成多个地形。
@@ -232,6 +260,8 @@ crawledAt: 2025-12-03T15:05:51.178Z
 # 三、地形修改 \- 指针操作
 
 ## 1.开启方式
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/fb6e010c-efdb-48ae-859c-1e54cf7adf44.png)
 
 未进入任意编辑模式（地形编辑主界面）中。
 
@@ -241,13 +271,21 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 ### (1)单选地形
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/e3b3a8f6-0a35-4d5c-9d27-373dfb72c596.png)
+
 
 
 变换处理工具
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/39abfc32-ecc9-41d4-b297-f26e2743fde8.png)
+
 移动：用于改变地形的移动（X，Y，Z值）的工具。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/a7674b1e-b288-47c0-b04a-3a0700f0fee4.png)
+
 旋转：用于改变地形的旋转（Y值）的工具。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/d4f8e48b-5b5e-4d64-8c9d-5a4b3ab3728f.png)
 
 切换方式：快捷键空格进行切换（切换项：移动变换处理工具，旋转变换处理工具，混合变换处理工具）。
 
@@ -255,25 +293,33 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 层数调整
 
-抬高一层：点击后，将所选地形内所有地块增高一层。
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/9763ea1f-069d-48a5-829f-19ecdd15a4ac.png)
 
-下沉一层：点击后，将所选地形内的所有地块降低一层。
+抬高一层：点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/71b5c9ec-0614-4b30-abd1-9b34ac4346f5.png)后，将所选地形内所有地块增高一层。
+
+下沉一层：点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/f26fbd3f-a5bc-44f0-94bb-8d9f169c863d.png)后，将所选地形内的所有地块降低一层。
 
 
 
 地块选择
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/7c71d41a-d65d-4e55-87c4-2f8aa214da30.png)
+
 操作逻辑：点击后，进入对该地形的“精准编辑”模式，通过指针选择地块，按住Shift，左键点击地块，加入本次选择。
 
-抬升：点击后，本次所选地块增高一层
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/3a0eca93-235b-4b5b-94e9-a2c94867e4e3.png)
 
-下沉：点击后，本次所选地块降低一层;
+抬升：点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/d598f2b3-07ba-4cd2-bc22-fe60327b0ef5.png)后，本次所选地块增高一层
 
-分割：点击后，将选中的所有地块从该地形分割出去，根据分割内容，生成一个/多个新的地形；
+下沉：点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/e60eb5bb-3839-4204-bdb8-a3c14675aba3.png)后，本次所选地块降低一层
+
+分割：点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/408c2210-f81c-415c-8d37-9ab5f7035f89.png)后，将选中的所有地块从该地形分割出去，根据分割内容，生成一个/多个新的地形；
 
 
 
 精准编辑
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/fc595472-9d84-4100-981c-1c1d0f7f6421.png)
 
 进入选中地形的精准编辑模式[地形编辑\-五、地形修改 \- 精准编辑](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhwe1n94b1x6#N2fYcEPsH6pb1jPSSY2sQO)。
 
@@ -281,9 +327,13 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 删除地形
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/a7d0b81e-c037-47c9-a6f0-8386c63b9fca.png)
+
 删除所有选中地形。
 
 ### (2)多选地形
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/f9734749-d3e5-4f34-ab1c-615a423c7416.png)
 
 操作逻辑：同时操作所有选中地形。
 
@@ -293,11 +343,17 @@ crawledAt: 2025-12-03T15:05:51.178Z
 
 变换处理工具
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/6f20e3fb-49f2-44c9-8216-11d771919e54.png)
+
 
 
 删除
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/6a4ea5ef-2406-4ca9-ba11-172eed9dd158.png)
+
 ### (3)右键菜单
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/451a083d-59ed-40b0-bc71-2a7275682e16.png)
 
 
 
@@ -308,6 +364,10 @@ crawledAt: 2025-12-03T15:05:51.178Z
 ## 1.开启方式
 
 处于地形编辑主界面（未进入任意地形编辑模式）时，点击素材栏任意材质按钮。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/eea55480-d0e4-466c-aa76-70741387c055.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/e84f37af-3011-41a0-9b4b-42bb8adafb55.png)
 
 ## 2.操作逻辑
 
@@ -355,6 +415,8 @@ _2X_ 快进中
 ## 1.开启方式
 
 处于指针操作时，选择地形后，通过底部工具栏进入选中地形的精准编辑模式。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhwe1n94b1x6/6d32a66a-7331-4eac-b29c-49d86892ac58.png)
 
 ## 2.操作逻辑
 

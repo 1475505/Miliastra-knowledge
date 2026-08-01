@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhhw2l08o6qo
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-01-16T04:00:19.004Z
+crawledAt: 2026-07-31T00:25:36.210Z
 ---
 
 欢迎各位关卡创作者（奇匠）使用编辑器和千星沙箱！我们为您提供了一系列教学课程，帮助您更快了解或学习上手原神编辑器。
@@ -34,10 +34,6 @@ crawledAt: 2026-01-16T04:00:19.004Z
 
 
 [项目案例实战](https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh281vi67sys)
-
-
-
-[《原神》UGC编辑器FAQ](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhjtk90iodts)
 
 
 

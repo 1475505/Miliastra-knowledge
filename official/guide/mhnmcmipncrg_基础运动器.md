@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhnmcmipncrg
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-12-03T15:06:16.398Z
+crawledAt: 2026-07-31T00:31:34.326Z
 ---
 
 # 一、基础运动器组件的功能
@@ -18,6 +18,8 @@ _基础运动器组件_赋予_物件实体_按规则运动的功能。
 基础运动器组件可支持同时生效多个基础运动器，他们的运动会进行叠加，也有一些基础运动器是互斥的。
 
 # 二、基础运动器组件的编辑
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/c8476575-b0b9-4e19-a2ef-30a8a6b75d64.png)
 
 (1)在实体/元件编辑界面中，打开组件编辑页签
 
@@ -33,6 +35,8 @@ _匀速直线运动器_是描述朝某个固定方向匀速直线运动的运动
 
 匀速直线运动器参数如下图所示：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/8cb048a3-9a43-46c2-af59-cfd8f1689c91.png)
+
 _初始生效_：开启则表示实体创建时立即生效
 
 _生效时长_：运动器在生效时长结束后会自动停止
@@ -45,9 +49,11 @@ _\*相对位置_：运行时无意义，在编辑时会预测该运动器单独�
 
 ## 2.匀速旋转运动器
 
-描述绕某个旋转轴匀速旋转的运动器，旋转轴基于世界坐标系。
+描述绕某个旋转轴匀速旋转的运动器，旋转轴基于相对坐标系。
 
 _匀速旋转运动器_参数如下图所示：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/b8ad3810-c5bd-4879-a777-e465a5c77acf.png)
 
 _初始生效_：开启则表示实体创建时立即生效
 
@@ -63,6 +69,8 @@ _角速度_：单位为角度每秒
 
 _朝向目标旋转运动器_参数如下图所示：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/63ce1d88-b671-4898-a7c3-f7266b2553c0.png)
+
 _初始生效_：开启则表示实体创建时立即生效
 
 _生效时长_：运动器在生效时长结束后会自动停止
@@ -72,6 +80,8 @@ _绝对目标角度_：运动器单独生效时，生效时长结束后，实体
 ## 4.路径运动器
 
 描述让物体沿指定路径运动的运动器，路径通过有序的多个路径点连接组成。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/1c16f2e3-a48d-44e4-b87e-41b85b91e4af.png)
 
 _初始生效_：开启则表示实体创建时立即生效
 
@@ -105,6 +115,8 @@ _到达通知节点图_：勾选时，对象到达对应路点会向自身挂载
 
 描述让物体运动到指定位置与旋转的运动器
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/1511276d-d4c4-45cd-8a92-ce504d98f937.png)
+
 _初始生效_：实体创建时立即生效
 
 _运动方式_：提供了以下两种运动方式
@@ -132,6 +144,8 @@ _跟随旋转_：配置为否则运动时该运动器不会将旋转变化作用
 ## 6.关卡路径运动器
 
 描述让物体沿指定路径运动的运动器，路径通过有序的多个路径点连接组成，区别于路径运动器，关卡路径运动器引用一条路径管理工具内的关卡路径，在开始运动时，物件会先以配置的方式前往路径的第一个点，之后再沿路径运动
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/b582f1b8-08aa-440f-8ed0-4c797d4ed3e3.png)
 
 关卡路径运动器的大部分配置与路径运动器一致，以下着重说明存在差异的配置
 
@@ -217,7 +231,7 @@ _暂停中_ **：** 基础运动器被暂停时的状态，区别于停止，暂
 
 判断基础运动器的冲突时，只会考虑处于运作中或暂停中状态的运动器，而不会考虑未激活的运动器。
 
-当一个新生效的运动器与一个已存在的运动发生冲突时，会先停止（而非暂停）已存在的运动器，之后正常激活新的运动器。
+当一个新生效的运动器与一个已存在的运动器发生冲突时，会先停止（而非暂停）已存在的运动器，之后正常激活新的运动器。
 
 # 七、使用节点图控制基础运动器
 
@@ -225,24 +239,42 @@ _暂停中_ **：** 基础运动器被暂停时的状态，区别于停止，暂
 
 激活基础运动器
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/4a39fc60-c916-44cc-be7c-9a5b2457aaca.png)
+
 
 
 创建运动器
 
 根据不同的运动器类型，有不同的节点
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/381f56b5-7bfa-4e08-b327-c5fed0ad30bb.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/cfc53037-1dfb-4a50-8783-3b9431a74b2a.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/10a7fa9a-1d30-4362-9e78-2980b9ee5f86.png)
+
 
 
 停止并删除基础运动器
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/ddf89b12-eba5-4e57-b5c6-e9caf18e399a.png)
 
 
 
 暂停基础运动器
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/b927713e-cada-47db-8ee3-9da1145b2bb4.png)
+
 
 
 恢复基础运动器
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/b9f2791a-19e2-411e-98f8-4cd4dee903c5.png)
+
 
 
 事件节点
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/457fd003-319b-4dc2-aa4d-32fb216e062a.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnmcmipncrg/1d358ad0-4885-4113-a9ef-cb0dfe21a978.png)

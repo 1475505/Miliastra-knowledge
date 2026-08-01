@@ -6,12 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhn7ko01v3yw
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-05-20T03:30:13.192Z
+crawledAt: 2026-07-31T00:14:28.632Z
 ---
 
 # **一、自定义变量**
 
 ## **1\. 自定义变量变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/85e52abc-ae2a-4b28-972a-96a9bc786119.undefined)
 
 **节点功能**
 
@@ -33,6 +35,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 变化后值 | 泛型 | 变量变化后的值 |
 
 ## **2\. 节点图变量变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/436ecaf3-bcc9-48d1-b30d-aec156027890.undefined)
 
 **节点功能**
 
@@ -57,6 +61,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 预设状态变化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/93794772-457a-4883-bb70-1a1914ea4a79.undefined)
+
 **节点功能**
 
 节点图所关联的实体的预设状态发生变化时，触发该事件
@@ -76,6 +82,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 实体创建时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5bc85e4b-78e8-4eea-b080-c6e59de3ce60.undefined)
+
 **节点功能**
 
 实体被创建时，触发该事件
@@ -92,6 +100,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **2\. 实体移除/销毁时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/28d9cafc-6a7a-4373-888b-3d7413e4b093.undefined)
+
 **节点功能**
 
 关卡内任意实体被移除或销毁时触发该事件，该事件仅在关卡实体上可以触发
@@ -106,6 +116,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 事件源GUID | GUID |  |
 
 ## **3\. 实体销毁时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/87267659-d745-4aaf-af5f-2ad4d8d42e74.undefined)
 
 **节点功能**
 
@@ -128,6 +140,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **4\. 角色移动速度达到条件时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/b1e0113d-ed1d-4e14-9117-9b2888ef82be.undefined)
+
 **节点功能**
 
 为角色实体添加单位状态效果【监听移动速率】，达成条件会触发该事件
@@ -148,6 +162,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 实体阵营变化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f79228e1-6f6d-421f-af3c-a208b5601941.undefined)
+
 **节点功能**
 
 实体的阵营变化时，触发该事件
@@ -166,6 +182,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 角色倒下时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/1dcd0347-359a-4e57-846c-7045a925623f.undefined)
+
 **节点功能**
 
 角色倒下时，角色实体上的节点图可以触发该事件
@@ -181,6 +199,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **2\. 角色复苏时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e7d7843c-8ee3-4d89-9376-642647ac0c6b.undefined)
+
 **节点功能**
 
 角色复苏时，角色实体上的节点图可以触发该事件
@@ -193,6 +213,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 角色实体 | 实体 |  |
 
 ## **3\. 玩家所有角色倒下时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/df2bde06-6149-4ca5-ae0b-bdbd6474cdf4.undefined)
 
 **节点功能**
 
@@ -208,6 +230,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **4\. 玩家异常倒下并复苏时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/9e01de2e-057c-4e48-ba6a-b643802e4a8f.undefined)
+
 **节点功能**
 
 角色因溺水、坠入深渊等原因倒下并复苏时，玩家实体上触发该事件
@@ -220,6 +244,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 玩家实体 | 实体 |  |
 
 ## **5\. 玩家所有角色复苏时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/ed540041-08fd-49e6-aba0-774bad410a67.undefined)
 
 **节点功能**
 
@@ -234,6 +260,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **6\. 玩家传送完成时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/b40b7d44-ef8b-42be-a94c-189cce73de79.undefined)
+
 **节点功能**
 
 玩家传送完成时，在玩家实体的节点图上可以触发该事件
@@ -247,6 +275,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 玩家GUID | GUID |  |
 
 ## **7\. 前台角色变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f69d6868-5b8a-4474-bfd4-94518d031bdc.undefined)
 
 **节点功能**
 
@@ -266,6 +296,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 离开碰撞触发器时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/719c7575-ed19-425d-a4b2-9b2e34faf71a.undefined)
+
 **节点功能**
 
 运行中实体A的“碰撞触发源”范围，离开其他运行中实体B的“碰撞触发器”范围
@@ -284,6 +316,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 触发器序号 | 整数 |  |
 
 ## **2\. 进入碰撞触发器时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/0049b4c5-5591-471b-922c-ea3b30eaeec3.undefined)
 
 **节点功能**
 
@@ -306,6 +340,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 受到攻击时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/dfb52a41-845b-4a1b-9166-86dc5bca7a7a.undefined)
+
 **节点功能**
 
 实体受到攻击时触发该事件
@@ -326,6 +362,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 元素攻击强效 | 浮点数 | 攻击包含的元素含量 |
 
 ## **2\. 攻击命中时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/eeb02bd6-4044-4a63-96f4-098761541de5.undefined)
 
 **节点功能**
 
@@ -348,6 +386,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **3\. 被恢复生命值时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/8c7817a5-3433-4691-b0ea-000d9bfa9e27.undefined)
+
 **节点功能**
 
 实体被恢复生命值时，触发该事件
@@ -364,6 +404,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 恢复标签列表 | 字符串列表 |  |
 
 ## **4\. 发起恢复生命值时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/89c710c2-62cd-4235-91c7-7a8130d7e92a.undefined)
 
 **节点功能**
 
@@ -382,6 +424,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **5\. 进入易受打断状态时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/0b39a15a-5022-429c-94e0-e78ad062b0d5.undefined)
+
 **节点功能**
 
 仅超限模式可用，实体被攻击进入易受打断状态时触发该事件
@@ -399,6 +443,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 基础运动器停止时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/08a735a7-8ee3-4d1f-aeac-80112e09ff04.undefined)
+
 **节点功能**
 
 基础运动器组件上的某个基础运动器完成运动时或被关闭时向组件持有者发送该事件
@@ -413,6 +459,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 运动器名称 | 字符串 |  |
 
 ## **2\. 路径到达路点时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/3303894e-17d4-4b46-a3a0-9fd5867e955c.undefined)
 
 **节点功能**
 
@@ -431,6 +479,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **九、命中判定**
 
 ## **1\. 命中检测触发时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/64a80fab-d495-43e1-82e0-84288453f262.undefined)
 
 **节点功能**
 
@@ -451,6 +501,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 定时器触发时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/2c379f15-8d8d-420e-8a87-b7dd703861a6.undefined)
+
 **节点功能**
 
 定时器运行到指定时间节点时，触发该事件
@@ -469,6 +521,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **十一、全局计时器**
 
 ## **1\. 全局计时器触发时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/7646693d-6241-4cb9-a08b-19777266f9ca.undefined)
 
 **节点功能**
 
@@ -489,6 +543,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 界面控件组触发时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f1ccc898-95db-43e1-9134-7a2efd8c4207.undefined)
+
 **节点功能**
 
 只有交互按钮、道具展示、自定义按钮、自定义开关的界面控件，才会触发本事件
@@ -508,6 +564,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **十三、单位状态**
 
 ## **1\. 单位状态结束时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/18d15b37-6556-4ecd-a3b1-c47b09a26f5b.undefined)
 
 **节点功能**
 
@@ -530,6 +588,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 槽位序号 | 整数 | 发生变化的单位状态槽位的序号 |
 
 ## **2\. 单位状态变更时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/526e53cf-3c4b-4324-94f9-156e52800fe3.undefined)
 
 **节点功能**
 
@@ -554,6 +614,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **3\. 发生元素反应事件时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/47d7c73c-12f1-4bae-85cd-b817e2f2e1ad.undefined)
+
 **节点功能**
 
 为实体添加单位状态效果【监听元素反应】，达成条件会触发该事件
@@ -570,6 +632,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 触发者GUID | GUID |  |
 
 ## **4\. 护盾受到攻击时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/49705e2b-99fe-4869-8bfb-81140648d1cc.undefined)
 
 **节点功能**
 
@@ -594,6 +658,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 选项卡选中时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/2fa1609d-a13b-478c-9062-7540fb702714.undefined)
+
 **节点功能**
 
 生效的选项卡被选中后，会向节点图发送事件
@@ -614,6 +680,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 造物入战时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/da42adf5-54fb-46e7-9b02-2e319e62e837.undefined)
+
 **节点功能**
 
 仅在经典仇恨模式生效
@@ -629,6 +697,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 事件源GUID | GUID |  |
 
 ## **2\. 造物脱战时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/805ba85f-cbb2-4a9e-a519-cc1cd26b372a.undefined)
 
 **节点功能**
 
@@ -648,6 +718,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 玩家职业更改时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/1d5ab18d-fb4c-49b6-9764-7ef638c68c07.undefined)
+
 **节点功能**
 
 玩家职业更改时触发该事件发送给对应玩家，可以在更改后职业的职业节点图里收到
@@ -664,6 +736,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **2\. 玩家职业等级变化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f7c9a17d-8226-47bd-8296-00ccb270bb39.undefined)
+
 **节点功能**
 
 玩家职业等级变化时触发该事件发送给对应玩家，可以在该职业的职业节点图里收到
@@ -679,6 +753,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 变化后等级 | 整数 |  |
 
 ## **3\. 玩家职业解除时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fd8fa829-4f01-4cd8-b84e-e3d513c8eab2.undefined)
 
 **节点功能**
 
@@ -698,6 +774,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 技能节点调用时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/40592ccb-99c8-4cee-ac90-7aeeb746ec15.undefined)
+
 **节点功能**
 
 通过技能节点图的【通知服务器节点图】节点触发，可以传入三个字符串类型的值
@@ -716,6 +794,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **十八、自定义仇恨**
 
 ## **1\. 仇恨目标变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/576cf4d8-98c5-4cdf-9cfe-9ffc6fa0fe95.undefined)
 
 **节点功能**
 
@@ -737,6 +817,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **2\. 自身入战时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/3e6ef56b-a45c-4c9e-9a1a-366414daf3b5.undefined)
+
 **节点功能**
 
 仅自定义仇恨模式可用
@@ -752,6 +834,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 事件源GUID | GUID |  |
 
 ## **3\. 自身脱战时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/6076b18e-3054-4bd4-af3f-3e4381ed6c85.undefined)
 
 **节点功能**
 
@@ -771,6 +855,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 监听信号**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/3dfc0dda-a0f3-416b-9820-5a93e35c4b3b.undefined)
+
 **节点功能**
 
 监听已在信号管理器中定义的信号触发事件
@@ -789,6 +875,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **二十、卡牌选择器**
 
 ## **1\. 卡牌选择器完成时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/0a0d1921-1a75-4be2-89e0-0c97e389f9d5.undefined)
 
 **节点功能**
 
@@ -810,6 +898,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 文本气泡完成时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/7bbea706-5b6a-41fe-b282-915f4d003b10.undefined)
+
 **节点功能**
 
 该事件仅能被挂载文本气泡组件，且完成对话的实体节点图接收
@@ -830,6 +920,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 商店出售自定义商品时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/92af0951-14c4-491d-9453-cd1450f11b9a.undefined)
+
 **节点功能**
 
 商店出售自定义物品时触发，商店组件的持有者可收到
@@ -848,6 +940,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **2\. 商店出售背包物品时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/88276054-399e-4519-8b94-4aa3b5189434.undefined)
+
 **节点功能**
 
 商店出售背包物品时触发，商店组件的持有者可收到
@@ -865,6 +959,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 购买数量 | 整数 |  |
 
 ## **3\. 商店收购道具时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/9938fc6a-6957-4c07-bec1-d3310778a20b.undefined)
 
 **节点功能**
 
@@ -885,6 +981,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 装备的词条数值改变时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/4804b682-2bb3-45d5-bd04-e0ba0c5d7ea7.undefined)
+
 **节点功能**
 
 装备词条数值改变时触发该事件，装备的持有者可以收到，需要配置在道具节点图里
@@ -903,6 +1001,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **2\. 装备初始化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/189399d1-3852-46e7-a174-5f9b1e14a7f5.undefined)
+
 **节点功能**
 
 当装备首次被获取进入背包时，会进行初始化，此时事件出参会返回装备实例的唯一索引，通过此索引即可对装备进行动态修改。装备的持有者可以收到该事件，需要配置在道具节点图里
@@ -917,6 +1017,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 装备索引 | 整数 |  |
 
 ## **3\. 装备被穿戴时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/53c350c7-36d9-470f-9c6d-97b4b0ab0293.undefined)
 
 **节点功能**
 
@@ -933,6 +1035,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **4\. 装备被卸下时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f6782553-afba-4a0e-be1a-681f068b84e4.undefined)
+
 **节点功能**
 
 装备被卸下时触发该事件，装备的持有者可以收到，需要配置在道具节点图里
@@ -947,6 +1051,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 装备索引 | 整数 |  |
 
 ## **5\. 装备买入时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/4cc89e46-b546-4668-b857-665ffaad3358.undefined)
 
 **节点功能**
 
@@ -964,6 +1070,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 装备索引列表 | 整数列表 | 被买入的装备的索引组成的列表 |
 
 ## **6\. 装备卖出时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/88bde748-a09b-47a8-b4f9-a39d8f43851b.undefined)
 
 **节点功能**
 
@@ -984,9 +1092,11 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 背包道具新增时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a4c5eb30-91a3-4769-b1f1-ce3876170717.undefined)
+
 **节点功能**
 
-背包内新增该道具时触发事件，背包组件的持有者可以收到。如果没有新增道具仅有数量变化则不会触发该事件
+背包内新增该道具时触发事件，该道具关联的道具节点图会接收到。如果没有新增道具仅有数量变化则不会触发该事件
 
 **节点参数**
 
@@ -999,6 +1109,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 获得数量 | 整数 |  |
 
 ## **2\. 背包道具失去时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d5b587e4-5a67-4ab0-86e9-00295b0fdda5.undefined)
 
 **节点功能**
 
@@ -1016,9 +1128,11 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **3\. 背包道具数量变化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/2161247e-df32-4049-ab3a-ee0f0b19e338.undefined)
+
 **节点功能**
 
-背包道具数量发生变化时触发该事件，背包组件的持有者可以收到
+背包道具数量发生变化时触发该事件，该道具关联的道具节点图会接收到
 
 **节点参数**
 
@@ -1033,6 +1147,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 变化原因 | 枚举 |  |
 
 ## **4\. 背包货币数量变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/4c247e7f-41c3-4b8d-869b-f94fbbf1a071.undefined)
 
 **节点功能**
 
@@ -1050,9 +1166,11 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **5\. 背包内道具被使用时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/6de3ff0e-fe74-4a2f-92d2-d07cba44e2a0.undefined)
+
 **节点功能**
 
-背包内道具被使用时触发该事件，背包组件的持有者可以收到
+背包内道具被使用时触发该事件，该道具关联的道具节点图会接收到
 
 **节点参数**
 
@@ -1067,6 +1185,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **二十五、造物巡逻**
 
 ## **1\. 造物抵达巡逻路点时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5fbf2fde-f09b-4e03-b80b-680fb6aa6238.undefined)
 
 **节点功能**
 
@@ -1089,6 +1209,8 @@ crawledAt: 2026-05-20T03:30:13.192Z
 # **二十六、造物预设状态**
 
 ## **1\. 复杂造物预设状态变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/b11b2d20-2e14-4046-a06a-1786bf85799f.undefined)
 
 **节点功能**
 
@@ -1113,13 +1235,29 @@ crawledAt: 2026-05-20T03:30:13.192Z
 
 ## **1\. 悬浮交互页操作触发时**
 
-**节点功能**
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5eacac23-326c-4980-b720-ac732d196280.undefined)
 
 **节点功能**
 
 页签/单选项视窗启用了【返回服务器事件】开关时，在确认交互后，对应玩家实体的服务器节点图会收到该事件
 
-在悬浮交互页中配置的交互页关闭按钮、交互按钮、道具展示、自定义按钮，在确认交互后，对应玩家实体的玩家服务器节点图也会收到该事件
+当玩家选中页签/单选项视窗时
+
+交互项索引为对应页签/单选项视窗的索引
+
+列表索引为对应页签/单选项视窗的索引
+
+列表选中项为对应页签/单选项视窗的当前点击项的索引
+
+当玩家用某按钮，关联监听了页签/单选项视窗，则玩家点击按钮时
+
+交互项索引为对应页签/单选项视窗的索引
+
+列表索引为按钮对应的所有页签/单选项视窗的索引列表
+
+列表选中项为对应页签/单选项视窗的当前点击项的索引列表
+
+在悬浮交互页中配置的交互页关闭按钮、交互按钮、道具展示、自定义按钮、自定义开关，在确认交互后，对应玩家实体的玩家服务器节点图也会收到该事件
 
 **节点参数**
 
@@ -1132,3 +1270,57 @@ crawledAt: 2026-05-20T03:30:13.192Z
 | 出参 | 交互项索引 | 整数 | 触发该事件的对应控件的索引 |
 | 出参 | 列表索引 | 整数列表 | 页签/单选项视窗的索引组成的列表，本出参和【列表选中项】出参一一对应 |
 | 出参 | 列表选中项 | 整数列表 | 每个页签/单选项视窗，都至多选中一个项，本出参和【列表索引】出参一一对应 |
+
+# **二十八、操控运动器**
+
+## **1\. 玩家离开操控运动器时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/cc774a2c-6223-4a68-99d9-bdc74cf39b16.undefined)
+
+**节点功能**
+
+玩家离开操控运动器时。受控、传送过程中，将使玩家自动离开操控运动器
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 出参 | 事件源实体 | 实体 |  |
+| 出参 | 事件源GUID | GUID |  |
+| 出参 | 离开操控运动器实体 | 实体 |  |
+
+## **2\. 玩家跟随操控运动器时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/99c120e2-3684-48d2-bbf5-bf0683797f34.undefined)
+
+**节点功能**
+
+玩家跟随操控运动器时
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 出参 | 事件源实体 | 实体 |  |
+| 出参 | 事件源GUID | GUID |  |
+| 出参 | 跟随操控运动器实体 | 实体 |  |
+
+## **3\. 玩家激活操控运动器列表变化时**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/24565041-3591-47ac-aec2-920003a8acae.undefined)
+
+**节点功能**
+
+玩家激活操控运动器列表变化时
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 出参 | 事件源实体 | 实体 |  |
+| 出参 | 事件源GUID | GUID |  |
+| 出参 | 原操控运动器实体列表 | 实体列表 |  |
+| 出参 | 当前激活操控运动器实体列表 | 实体列表 |  |

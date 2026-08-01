@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhsdgyi53pz0
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-12-03T15:15:52.909Z
+crawledAt: 2026-07-31T00:32:35.052Z
 ---
 
 # 前言
@@ -55,11 +55,15 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/dfe9fc52-2933-43b0-8d16-ea26ddb76d95.gif)
+
 ### 3.操作步骤
 
 **1.【局内编辑器】添加组件**
 
-创建一个元件作为子弹（教程以空物件为例），在面板中点击>>>进入组件页，点击>>>选择【命中检测】即可添加。
+创建一个元件作为子弹（教程以空物件为例），在面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/05162e15-5383-497f-bac2-d4bc48cc5c00.png)>>>进入组件页，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/0641d08a-f68d-4c02-957a-e8c54716bc1c.png)>>>选择【命中检测】即可添加。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/97cdb8ab-4704-401a-a409-c15f29d261a1.png)
 
 **2.【局内编辑器】配置面板数据**
 
@@ -67,31 +71,38 @@ _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义
 
 首先我们先设置命中区域，点击“命中区域”页签，点击“添加触发区”即可配置生效区域。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/8ed83f1a-54bf-488b-8380-f67f455687de.png)
+
 其次对命中规则进行配置，点击“命中规则”页签，为达到预期的功能效果，教程中配置如下。
 
 |     |     |
 | --- | --- |
 | 要做的功能 | 对应的配置项 |
-| 命中检测对场景和水面不生效 | 【是否忽略场景和水面】开启 |
 | 对进入区域的实体都触发1次命中 | 【触发类型】选择“不重复触发” |
 | 在创生时命中检测延迟激活 | 【检测延迟时间】调整为“0.50” |
 
 如此配置之后，子弹在命中非场景和水面的实体时，便会触发命中检测事件了。但还不会对命中实体造成伤害，这是由于我们还没有设置“命中时执行能力单元”，因此我们还需要设置子弹的能力单元。
 
-在子弹面板中点击>>>进入战斗属性页，找到【能力单元】>>>选择【详细编辑】>>>点击即可添加一个新的能力单元。
+在子弹面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/e5ac7469-cec3-471b-98d7-769524c19122.png)>>>进入战斗属性页，找到【能力单元】>>>选择【详细编辑】>>>点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/4dd6ec99-03ad-4666-a6f5-a9c067766abe.png)即可添加一个新的能力单元。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/deb88f25-7223-4cd7-ae0e-e4793d4dbc84.png)
 
 其次对能力单元进行配置，为达到预期的功能效果，教程中配置如下。
 
 |     |     |
 | --- | --- |
 | 要做的功能 | 对应的配置项 |
-| 给能力单元命名 | 点击详情页的按钮，将能力单元名改为“子弹造成伤害” |
+| 给能力单元命名 | 点击详情页的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/1a8ee1da-71da-4914-83d2-dcba744a3781.png)按钮，将能力单元名改为“子弹造成伤害” |
 | 对命中的实体造成范围伤害 | 【能力单元类型】设置为攻击盒攻击<br>【目标筛选】“目标阵营筛选”选择“除自身外全部”<br>【攻击参数】伤害系数为“1.00”；伤害增量为“100.00” |
 | 在命中的实体上播放爆炸特效 | 【命中表现】命中场景特效和命中目标特效都选择“爆炸\_地面” |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/89f9d6ab-84af-48fe-8ded-ec29adab06f9.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/1e8b2892-26ee-4b27-9775-573b844abaee.png)
 
 此时命中单元就配置完成了，我们回到“命中检测”组件详情页面，在“命中触发设置”中点击“添加能力单元”，将我们刚刚配置好的能力单元添加即可。
 
 _\*\*命中触发设置可以不依赖节点图，直接在命中检测时调用能力单元；但如制图中有特殊需求，也可以在节点图中继续监听并重复/额外调用能力单元，本教学不涉及。_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/84d41f5f-eda8-46f7-8a6c-3f7b8ba028a7.png)
 
 至此，子弹的战斗能力就已经做好了，在命中非场景和水体的实体时，会触发命中事件且造成伤害。
 
@@ -105,6 +116,8 @@ _\*\*命中触发设置可以不依赖节点图，直接在命中检测时调用
 | 使子弹可见 | 【特效】组件，添加“火箭丘丘人\_炸弹\_拖尾”特效 |
 | 使子弹直线运动 | 【投射运动器】设置为“直线投射物”<br>初始速度为“x=0.00，y=0.00，z=15.00”，速率为“15.00”，加速率为“10.00”，贴地运动为关闭。 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/bacd55e9-d30c-491f-a950-a5af8f1d8abf.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/9d764e17-adaa-4425-9533-53179df109a1.png)
+
 **4.【局内编辑器&千星沙箱】制作可以发射子弹的炮台**
 
 子弹需要被发射出去，因此还需要制作一个可以发射子弹的炮台，炮台的制作方法可以查阅往期教程【投射运动器——制作一个能发射的子弹】，这里仅简单罗列对应配置项。
@@ -115,6 +128,8 @@ _\*\*命中触发设置可以不依赖节点图，直接在命中检测时调用
 | 炮塔模型 | 在元件库中，选择“大炮”，将其作为炮塔元件。 |
 | 炮塔可以交互 | 添加组件【选项卡】，添加选项并重命名为“开炮！” |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/332ece00-a37e-4b19-b284-2271081a3495.png)
+
 进入千星沙箱创建节点图，使选项卡被点击之后，在炮口创建子弹并发射。节点图挂载在炮台上。
 
 |     |     |     |     |
@@ -124,7 +139,11 @@ _\*\*命中触发设置可以不依赖节点图，直接在命中检测时调用
 | 条件 | / | / |
 | 结果 | 在炮台的位置和朝向发射子弹 | 【查询节点】：获取实体位置与旋转，获取炮台的位置和朝向；<br>【运算节点】：三维向量加法，由于模型本身旋转和预期发射位置有偏移，因此需要另外计算。<br>【执行节点】：创建投射物，填入我们刚才制作的子弹元件ID创建出投射物。 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/4bbe7cad-5bbf-46a0-a1b3-93ddcc72b961.png)
+
 **5.【局内编辑器】将物件拖入场景，添加造物（怪物）试玩体验。**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/dfe9fc52-2933-43b0-8d16-ea26ddb76d95.gif)
 
 # 受击盒——使实体可以被攻击
 
@@ -140,21 +159,31 @@ _\*\*命中触发设置可以不依赖节点图，直接在命中检测时调用
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/4561fc92-fa32-4f2f-b8f5-e98532ab1660.gif)
+
 ### 3.操作步骤
 
 **1.【局内编辑器】配置受击盒面板参数**
 
-创建一个元件作为标靶（教程以坏坏法师靶为例），在面板中点击>>>进入战斗预设页>>>找到【受击盒设置】选择“详细编辑”>>>点击后，再点击“添加受击盒”即可配置受击盒区域。
+创建一个元件作为标靶（教程以坏坏法师靶为例），在面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/6278138a-2fab-4aad-aacd-de477f316b0a.png)>>>进入战斗预设页>>>找到【受击盒设置】选择“详细编辑”>>>点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/54afad37-f230-48f2-8cfe-5122503da57a.png)后，再点击“添加受击盒”即可配置受击盒区域。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/5b94a940-23d4-4cf7-8637-fc99d006522e.gif)
 
 **2.【局内编辑器】配置受击效果**
 
 配置好受击盒后，实体就已经可以被攻击了，为了增加受击效果，我们可以给标靶配上受击特效。
 
-在面板中点击>>>进入战斗预设页>>>找到【战斗设置】选择“详细编辑>>>在“受击特效”中选择资产即可。
+在面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/dee08aa6-0aba-491d-950e-c9e9a0daaf3c.png)>>>进入战斗预设页>>>找到【战斗设置】选择“详细编辑>>>在“受击特效”中选择资产即可。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/c76296a2-162d-4913-9d0d-2928c1f2a752.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/0f3dc7f7-4458-4c8b-9ca4-bc79c5c4f98f.png)
 
 **3.【局内编辑器】将物件拖入场景，试玩体验**
 
 将做好的标靶拖入场景当中，即可试玩体验。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhsdgyi53pz0/4561fc92-fa32-4f2f-b8f5-e98532ab1660.gif)
 
 _\*\*更多相关信息可自行查阅【综合指南-能力单元】_
 
@@ -171,6 +200,8 @@ _\*\*更多相关信息可自行查阅【综合指南-能力单元】_
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-命中与受击】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 命中与受击.gil
 

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_from": "mcp/process_docs.py",
-    "total_chunks": 1091,
+    "total_chunks": 1153,
     "node_files": [
       "derived/node/执行节点.md",
       "derived/node/事件节点.md",
@@ -13,8 +13,8 @@
     "faq_file": "derived/faq/faq.md",
     "node_side_summary": {
       "双端": 15,
-      "客户端": 547,
-      "服务端": 502
+      "客户端": 598,
+      "服务端": 513
     }
   },
   "entries": [
@@ -1154,6 +1154,15 @@
     },
     {
       "title": "6\\. 创建元件组",
+      "main_title": "五、实体相关",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "7\\. 修改模型颜色和材质",
       "main_title": "五、实体相关",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
@@ -2692,8 +2701,17 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
+      "title": "1\\. 激活/关闭光标碰撞盒",
+      "main_title": "五十、光标碰撞盒组件",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
       "title": "1\\. 设置复杂造物的预设状态值",
-      "main_title": "五十、造物预设状态",
+      "main_title": "五十一、造物预设状态",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
       "source_doc_title": "执行节点",
@@ -2702,7 +2720,7 @@
     },
     {
       "title": "1\\. 关闭悬浮交互页",
-      "main_title": "五十一、悬浮交互页",
+      "main_title": "五十二、悬浮交互页",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
       "source_doc_title": "执行节点",
@@ -2711,7 +2729,7 @@
     },
     {
       "title": "2\\. 更新悬浮交互页列表数据",
-      "main_title": "五十一、悬浮交互页",
+      "main_title": "五十二、悬浮交互页",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
       "source_doc_title": "执行节点",
@@ -2720,7 +2738,7 @@
     },
     {
       "title": "3\\. 唤起悬浮交互页",
-      "main_title": "五十一、悬浮交互页",
+      "main_title": "五十二、悬浮交互页",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
       "source_doc_title": "执行节点",
@@ -2729,7 +2747,7 @@
     },
     {
       "title": "1\\. 设置任务计数",
-      "main_title": "五十二、关卡任务",
+      "main_title": "五十三、关卡任务",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
       "source_doc_title": "执行节点",
@@ -2738,7 +2756,61 @@
     },
     {
       "title": "2\\. 增加任务计数",
-      "main_title": "五十二、关卡任务",
+      "main_title": "五十三、关卡任务",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "1\\. 设置玩家离开操控运动器",
+      "main_title": "五十四、操控运动器",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "2\\. 设置玩家跟随操控运动器",
+      "main_title": "五十四、操控运动器",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "3\\. 设置玩家激活操控运动器",
+      "main_title": "五十四、操控运动器",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "1\\. 设置玩家光标是否常驻",
+      "main_title": "五十五、光标",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "2\\. 设置玩家光标点击可选取目标",
+      "main_title": "五十五、光标",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "3\\. 设置玩家光标是否穿透UI控件",
+      "main_title": "五十五、光标",
       "side": "server",
       "source_doc": "mhw66orrrfkm_执行节点",
       "source_doc_title": "执行节点",
@@ -3639,6 +3711,33 @@
     {
       "title": "1\\. 悬浮交互页操作触发时",
       "main_title": "二十七、悬浮交互页",
+      "side": "server",
+      "source_doc": "mhn7ko01v3yw_事件节点",
+      "source_doc_title": "事件节点",
+      "local_path": "official/guide/mhn7ko01v3yw_事件节点.md",
+      "output_file": "derived/node/事件节点.md"
+    },
+    {
+      "title": "1\\. 玩家离开操控运动器时",
+      "main_title": "二十八、操控运动器",
+      "side": "server",
+      "source_doc": "mhn7ko01v3yw_事件节点",
+      "source_doc_title": "事件节点",
+      "local_path": "official/guide/mhn7ko01v3yw_事件节点.md",
+      "output_file": "derived/node/事件节点.md"
+    },
+    {
+      "title": "2\\. 玩家跟随操控运动器时",
+      "main_title": "二十八、操控运动器",
+      "side": "server",
+      "source_doc": "mhn7ko01v3yw_事件节点",
+      "source_doc_title": "事件节点",
+      "local_path": "official/guide/mhn7ko01v3yw_事件节点.md",
+      "output_file": "derived/node/事件节点.md"
+    },
+    {
+      "title": "3\\. 玩家激活操控运动器列表变化时",
+      "main_title": "二十八、操控运动器",
       "side": "server",
       "source_doc": "mhn7ko01v3yw_事件节点",
       "source_doc_title": "事件节点",
@@ -7966,6 +8065,429 @@
       "output_file": "derived/node/运算节点.md"
     },
     {
+      "title": "1\\. 是否相等",
+      "main_title": "一、通用",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 数据类型转换",
+      "main_title": "一、通用",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "3\\. 枚举匹配",
+      "main_title": "一、通用",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 加法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 减法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "3\\. 乘法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "4\\. 除法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "5\\. 绝对值运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "6\\. 获取随机数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "7\\. 三维向量夹角",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "8\\. 三维向量模运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "9\\. 三维向量缩放",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "10\\. 三维向量旋转",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "11\\. 三维向量加法",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "12\\. 三维向量减法",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "13\\. 三维向量内积",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "14\\. 三维向量外积",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "15\\. 方向向量转旋转",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "16\\. 朝向转旋转",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "17\\. 拆分三维向量",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "18\\. 正弦函数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "19\\. 余弦函数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "20\\. 正切函数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "21\\. 反正弦函数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "22\\. 反余弦函数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "23\\. 反正切函数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "24\\. 三维向量归一化",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "25\\. 弧度转角度",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "26\\. 角度转弧度",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "27\\. 逻辑与运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "28\\. 逻辑或运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "29\\. 逻辑非运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "30\\. 逻辑异或运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "31\\. 是否大于",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "32\\. 是否小于",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "33\\. 是否小于等于",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "34\\. 是否大于等于",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "35\\. 创建三维向量",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "36\\. 屏幕坐标转视口坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "37\\. 视口坐标转屏幕坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "38\\. 屏幕坐标转世界坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "39\\. 世界坐标转屏幕坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装列表",
+      "main_title": "三、列表",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装结构体",
+      "main_title": "四、结构体",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 拆分结构体",
+      "main_title": "四、结构体",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装字典",
+      "main_title": "五、字典",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 建立字典",
+      "main_title": "五、字典",
+      "side": "client",
+      "source_doc": "mhfmxw9fn6n6_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhfmxw9fn6n6_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
       "title": "1\\. 枚举匹配",
       "main_title": "一、通用",
       "side": "client",
@@ -8310,6 +8832,42 @@
     {
       "title": "36\\. 角度转弧度",
       "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhjyvxrqz2fy_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhjyvxrqz2fy_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装字典",
+      "main_title": "三、字典",
+      "side": "client",
+      "source_doc": "mhjyvxrqz2fy_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhjyvxrqz2fy_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 建立字典",
+      "main_title": "三、字典",
+      "side": "client",
+      "source_doc": "mhjyvxrqz2fy_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhjyvxrqz2fy_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装结构体",
+      "main_title": "四、结构体",
+      "side": "client",
+      "source_doc": "mhjyvxrqz2fy_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhjyvxrqz2fy_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 拆分结构体",
+      "main_title": "四、结构体",
       "side": "client",
       "source_doc": "mhjyvxrqz2fy_运算节点",
       "source_doc_title": "运算节点",

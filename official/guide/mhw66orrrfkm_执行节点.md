@@ -6,12 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhw66orrrfkm
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-05-20T03:31:28.630Z
+crawledAt: 2026-07-31T00:16:54.937Z
 ---
 
 # **一、通用**
 
 ## **1\. 打印字符串**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/eacfd5f4-a198-4393-840e-c26b84833075.undefined)
 
 **节点功能**
 
@@ -27,6 +29,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 字符串 | 字符串 | 所要打印的字符串 |
 
 ## **2\. 有限循环**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/79a5a102-6d28-4fd7-b8c1-ea53c3c6d47c.undefined)
 
 **节点功能**
 
@@ -45,6 +49,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 跳出循环**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5b958020-8a7f-47f7-8f72-b891995d340d.undefined)
+
 **节点功能**
 
 从有限循环或列表迭代循环中跳出。出引脚需要与节点【有限循环】或【列表迭代循环】的【跳出循环】入引脚相连
@@ -57,6 +63,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 |  |  |  |  |
 
 ## **4\. 设置局部变量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e0693873-50ed-4e71-9d9e-82c62bf38b76.undefined)
 
 **节点功能**
 
@@ -71,6 +79,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 值 | 泛型 | 所要覆写该局部变量的值 |
 
 ## **5\. 转发事件**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/90cb0e2c-e851-4890-b48e-f1c27a1dbe62.undefined)
 
 **节点功能**
 
@@ -87,6 +97,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 拼接列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a6ebe0f2-f7ec-4589-b91c-d10dc7e66ebf.undefined)
+
 **节点功能**
 
 将接入列表拼接在目标列表后。例如：目标列表为\[1,2,3\]，接入的列表为\[4,5\]，在执行该节点后，目标列表会变为\[1,2,3,4,5\]
@@ -101,6 +113,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 清除列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5fe01161-7c15-466b-a31d-b4063a09e453.undefined)
+
 **节点功能**
 
 清空指定列表
@@ -113,6 +127,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 列表 | 泛型 | 所要清除的列表 |
 
 ## **3\. 对列表插入值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f73b31bb-a217-4a01-b75f-fa00f2caef02.undefined)
 
 **节点功能**
 
@@ -131,6 +147,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 对列表移除值**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/44ae5463-82b1-4031-b19d-45c252f119b2.undefined)
+
 **节点功能**
 
 移除指定列表的指定序号位置的值。这会导致该序号后的所有值向前移动一位
@@ -144,6 +162,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 移除序号 | 整数 | 需要移除的序号 |
 
 ## **5\. 对列表设置值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/36dcb067-ce65-485a-8c32-573f6eb34c59.undefined)
 
 **节点功能**
 
@@ -160,6 +180,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 列表排序**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0b1f5559-3fdd-4725-8b42-332744c6daeb.undefined)
+
 **节点功能**
 
 将指定列表按照排序方式进行排序
@@ -173,6 +195,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 排序方式 | 枚举 | 顺序（从小到大）或逆序（从大到小）排序 |
 
 ## **7\. 列表迭代循环**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f82473d7-2d8d-4be8-8026-78cefda337ea.undefined)
 
 **节点功能**
 
@@ -190,6 +214,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置自定义变量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/8a318174-e6ed-4796-9379-251e26f770ff.undefined)
+
 **节点功能**
 
 为目标实体上的指定自定义变量设置值
@@ -205,6 +231,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否触发事件 | 布尔值 | 默认为是。选为否时，这次自定义变量修改不会触发自定义变量变化时事件 |
 
 ## **2\. 设置节点图变量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/33825373-46c1-4c8e-8238-53fa7a19e005.undefined)
 
 **节点功能**
 
@@ -223,6 +251,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置预设状态**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4837c57a-756e-4753-824f-ad8f5c7409ee.undefined)
+
 **节点功能**
 
 设置指定目标实体的预设状态
@@ -240,6 +270,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 销毁实体**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/edebf1c2-0b43-4404-bd2d-989b7f737ad4.undefined)
+
 **节点功能**
 
 销毁指定实体，会有销毁表现，也可以触发一些销毁后才会触发的逻辑，比如本地投射物中的生命周期结束时行为、销毁的造物会掉落能量球
@@ -255,6 +287,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 创建实体**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/858aef30-4887-4eff-a352-3df97699e6c4.undefined)
+
 **节点功能**
 
 根据GUID创建实体。要求预先将其布设在场景内
@@ -268,6 +302,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 单位标签索引列表 | 整数列表 | 可决定该实体创建时携带的单位标签 |
 
 ## **3\. 创建元件**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/80bf221a-fc58-463d-a9cc-bf5eb571fc97.undefined)
 
 **节点功能**
 
@@ -289,6 +325,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 激活/关闭模型显示**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7e655f14-ebd2-4510-86fd-bb17d8c9d0ad.undefined)
+
 **节点功能**
 
 更改实体的模型可见性属性设置，从而使实体的模型可见/不可见
@@ -302,6 +340,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否激活 | 布尔值 | “是”为使模型可见 |
 
 ## **5\. 移除实体**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/750e6f2a-2f87-4535-bd49-d6134459bc49.undefined)
 
 **节点功能**
 
@@ -317,6 +357,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 目标实体 | 实体 | 所要移除的实体 |
 
 ## **6\. 创建元件组**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/64c7a8f0-95c4-491c-b0a9-4d14044cabb3.undefined)
 
 **节点功能**
 
@@ -336,9 +378,34 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否覆写等级 | 布尔值 | 为否时，【等级】参数不生效 |
 | 出参 | 创建后实体列表 | 实体列表 | 以该方式创建的实体没有GUID |
 
+## **7\. 修改模型颜色和材质**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5c9ea78c-3c2c-4bd8-99b2-b5f548e2a7db.undefined)
+
+**节点功能**
+
+设置实体模型的【材质】功能、【叠加颜色】功能的开启与关闭，对具体【材质】【颜色叠加方式】【叠加颜色】进行修改
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标实体 | 实体 |  |
+| 入参 | 是否覆写颜色配置 | 布尔值 |  |
+| 入参 | 是否启用自定义颜色 | 布尔值 |  |
+| 入参 | 填充颜色 | 整数 |  |
+| 入参 | 颜色透明度 | 浮点数 |  |
+| 入参 | 颜色叠加类型 | 枚举 |  |
+| 入参 | 是否覆写材质配置 | 布尔值 |  |
+| 入参 | 是否启用自定义材质 | 布尔值 |  |
+| 入参 | 填充材质类型 | 枚举 |  |
+
 # **六、关卡相关**
 
 ## **1\. 结算关卡**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/68e83ae2-8bc2-43ab-b3bd-5e886167febc.undefined)
 
 **节点功能**
 
@@ -352,6 +419,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 |  |  |  |  |
 
 ## **2\. 设置当前环境时间**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/9af0eae5-53d2-4081-ac5b-6624bfa9b76d.undefined)
 
 **节点功能**
 
@@ -368,6 +437,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 设置环境时间流逝速度**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/aeb0331e-0ec4-494b-b252-983e4832803a.undefined)
+
 **节点功能**
 
 每秒流逝分钟数，会被限制在0~60之间（提瓦特速度为1）
@@ -382,6 +453,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **七、阵营相关**
 
 ## **1\. 设置实体阵营**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f9fb898e-7fcf-4c11-b982-a89668bcdac6.undefined)
 
 **节点功能**
 
@@ -399,6 +472,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活复苏点**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/dc8e7880-2b61-4a27-836b-0556d62c88f1.undefined)
+
 **节点功能**
 
 为该玩家激活指定序号的复苏点，此玩家后续触发复苏逻辑时，可以从该复苏点复苏
@@ -412,6 +487,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 复苏点序号 | 整数 | 该复苏点的标识 |
 
 ## **2\. 注销复苏点**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ab5d98e4-2ecb-4a8e-9497-c9887425be23.undefined)
 
 **节点功能**
 
@@ -427,6 +504,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 允许/禁止玩家复苏**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3696e824-8e43-4132-a4d1-3cd0665d54a9.undefined)
+
 **节点功能**
 
 设置指定玩家是否允许复苏
@@ -440,6 +519,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否允许 | 布尔值 | “是”则允许复苏 |
 
 ## **4\. 设置玩家剩余复苏次数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/41110796-87e5-45c2-afcd-72ec67f71015.undefined)
 
 **节点功能**
 
@@ -455,6 +536,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **5\. 设置玩家复苏耗时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/68d6ecbf-d502-42e6-bf70-8b3e7777bb11.undefined)
+
 **节点功能**
 
 设置指定玩家的下一次复苏的时长。如果玩家当前正处于复苏中，不会影响该次复苏的耗时
@@ -469,6 +552,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 复苏角色**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/aace6138-fd18-4f0f-8506-96df13636edb.undefined)
+
 **节点功能**
 
 仅超限模式可用，复苏指定的角色实体
@@ -482,6 +567,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **7\. 击倒玩家所有角色**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f6db57a8-51d2-418a-b89a-22370fa56c6e.undefined)
+
 **节点功能**
 
 击倒指定玩家的所有角色，会导致该玩家进入_玩家所有角色倒下状态_
@@ -494,6 +581,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 玩家实体 | 实体 | 角色归属的玩家实体 |
 
 ## **8\. 复苏玩家所有角色**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/049cb5a9-bb7b-4fda-bb6d-3644eaff69d2.undefined)
 
 **节点功能**
 
@@ -513,6 +602,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **9\. 传送玩家(超限)**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/49404204-062b-4642-b880-1bf70b503dd0.undefined)
+
 **节点功能**
 
 传送指定玩家实体。会根据传送距离的远近决定是否有加载界面
@@ -530,6 +621,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **10\. 设置环境配置**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a3bd3b33-3d7f-4ccf-9fea-3352abc990b9.undefined)
+
 **节点功能**
 
 使指定玩家应用指定的环境配置，运行后会立即生效
@@ -546,6 +639,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **11\. 设置角色元素能量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0d159456-5235-4593-953b-8e328e84f1f5.undefined)
+
 **节点功能**
 
 仅经典模式可用，设置指定角色的元素能量
@@ -559,6 +654,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 元素能量 | 浮点数 |  |
 
 ## **12\. 增加角色元素能量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/de46a0f5-2842-4911-9a79-77ff387b7b8c.undefined)
 
 **节点功能**
 
@@ -574,6 +671,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **13\. 复苏当前场上角色**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3b158b8a-32aa-4ace-9342-bf11ce32e3f4.undefined)
+
 **节点功能**
 
 仅经典模式可用，复苏指定玩家的当前场上倒下的角色实体
@@ -586,6 +685,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 玩家实体 | 实体 |  |
 
 ## **14\. 传送玩家(经典)**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ccc923e2-f52c-4163-9e47-d7570e212500.undefined)
 
 **节点功能**
 
@@ -606,6 +707,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活/关闭原生碰撞**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6910f254-960e-4403-8261-95763b5f6bc3.undefined)
+
 **节点功能**
 
 修改实体自带的碰撞
@@ -619,6 +722,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否激活 | 布尔值 | “是”为激活 |
 
 ## **2\. 激活/关闭原生碰撞可攀爬性**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ee4f04de-e96e-4f64-821b-d2e1930ceccb.undefined)
 
 **节点功能**
 
@@ -634,6 +739,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 激活/关闭额外碰撞**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/685445ca-4feb-4f4a-8c79-cf76f727edd4.undefined)
+
 **节点功能**
 
 修改实体额外碰撞组件内的数据，使额外碰撞开启/关闭
@@ -648,6 +755,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否激活 | 布尔值 | “是”为激活 |
 
 ## **4\. 激活/关闭额外碰撞可攀爬性**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2d3548b7-19f8-4562-98f7-47008b490e94.undefined)
 
 **节点功能**
 
@@ -666,6 +775,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活/关闭碰撞触发器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/15a8b0f4-855d-4837-89fe-1c5074bc3bcf.undefined)
+
 **节点功能**
 
 修改碰撞触发器组件的数据，使某一个序号的触发器激活/关闭
@@ -682,6 +793,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **十一、战斗**
 
 ## **1\. 发起攻击**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3b3434fe-97be-43ea-9f9b-b8b6a7de5b57.undefined)
 
 **节点功能**
 
@@ -709,6 +822,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 恢复生命**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/27de8d44-3568-4725-a5b8-d2468ddec043.undefined)
+
 **节点功能**
 
 通过能力单元为指定目标实体恢复生命
@@ -725,6 +840,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 恢复发起者实体 | 实体 | 决定了该次恢复行为的发起者实体，默认为该节点图所关联的实体。影响【被恢复生命值时】、【发起恢复生命值时】等事件中判定的恢复者 |
 
 ## **3\. 损失生命**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/fdd90484-a9fe-49bd-ab14-6f8a4841031a.undefined)
 
 **节点功能**
 
@@ -743,6 +860,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 伤害跳字类型 | 枚举 | 无跳字<br>普通跳字<br>暴击跳字 |
 
 ## **4\. 直接恢复生命**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6245556c-95f9-4792-9884-883fc9eff05d.undefined)
 
 **节点功能**
 
@@ -765,6 +884,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 添加匀速直线型基础运动器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/16fad63a-73aa-48f7-b09a-4a00cf0536ec.undefined)
+
 **节点功能**
 
 在运行时动态添加一个匀速直线型基础运动器
@@ -780,6 +901,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 速度向量 | 三维向量 | 决定了速度大小和方向 |
 
 ## **2\. 添加匀速旋转型基础运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/c46738e7-e308-4366-a3ca-0be2a78c9bd6.undefined)
 
 **节点功能**
 
@@ -798,6 +921,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 停止并删除基础运动器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/30937a48-6ed6-4d70-9de1-34b4be029817.undefined)
+
 **节点功能**
 
 停止并删除一个运行中的运动器
@@ -813,6 +938,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 暂停基础运动器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a7c6accc-05b6-40a2-8f59-63ea6dfc8852.undefined)
+
 **节点功能**
 
 暂停一个运行中的运动器，之后可使用恢复运动器节点使其恢复运动
@@ -826,6 +953,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 运动器名称 | 字符串 | 该运动器的标识 |
 
 ## **5\. 恢复基础运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/bbef4618-3ce1-44e4-af7f-efd7c8bbb171.undefined)
 
 **节点功能**
 
@@ -841,6 +970,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 激活基础运动器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/d4f94195-3052-4b68-9edb-cbb6615b8bb3.undefined)
+
 **节点功能**
 
 激活一个配置在目标实体基础运动器组件上的运动器
@@ -854,6 +985,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 运动器名称 | 字符串 | 该运动器的标识 |
 
 ## **7\. 添加朝向目标旋转型基础运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/c0965372-53ed-4a34-9271-469baa0fb128.undefined)
 
 **节点功能**
 
@@ -870,6 +1003,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 目标角度 | 三维向量 | 绝对角度 |
 
 ## **8\. 开启定点运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/9d859f88-5c04-4bdd-99dc-dadd3bc1eb61.undefined)
 
 **节点功能**
 
@@ -894,6 +1029,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 以GUID切换跟随运动器的目标**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/34122eaa-9a0c-4d3f-ba70-dded0ab51206.undefined)
+
 **节点功能**
 
 以GUID切换跟随运动器的跟随目标
@@ -913,6 +1050,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 激活/关闭跟随运动器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/41fe79e2-354a-421b-95bf-c252915ae2f1.undefined)
+
 **节点功能**
 
 使目标实体上的跟随运动器组件逻辑激活/关闭
@@ -926,6 +1065,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否激活 | 布尔值 | “是”为激活 |
 
 ## **3\. 以实体切换跟随运动器的目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/23dd79a6-39d6-4106-b03e-d366605f5882.undefined)
 
 **节点功能**
 
@@ -947,6 +1088,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **十四、投射物**
 
 ## **1\. 创建投射物**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f1b99a90-8e3e-4c66-ab08-59bae89a94f9.undefined)
 
 **节点功能**
 
@@ -971,6 +1114,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 播放限时特效**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2d2ddb15-f3f1-4031-9a5b-d32ba9316cd4.undefined)
+
 **节点功能**
 
 以目标实体为基准，播放一个限时特效。需要有合法的目标实体以及挂接点
@@ -991,6 +1136,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否播放自带的音效 | 布尔值 | “是”则会同时播放自带的音效 |
 
 ## **2\. 挂载循环特效**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e169a71a-9f47-4a3c-ac52-6b21e6856827.undefined)
 
 **节点功能**
 
@@ -1016,6 +1163,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 清除循环特效**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/13fe314b-8584-431c-bba8-508e14abb077.undefined)
+
 **节点功能**
 
 根据特效实例ID清除目标实体上的指定循环特效。【挂载循环特效】节点在成功挂载后，会生成一个特效实例ID
@@ -1029,6 +1178,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 目标实体 | 实体 | 生效的实体 |
 
 ## **4\. 根据特效资产清除特效**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/06802951-036b-4130-bc0a-353704008cc0.undefined)
 
 **节点功能**
 
@@ -1045,6 +1196,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **十六、定时器**
 
 ## **1\. 启动定时器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/12d3b6a0-6305-43bf-aaeb-2613747c8009.undefined)
 
 **节点功能**
 
@@ -1070,6 +1223,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 暂停定时器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7eb91f2f-3b1f-4015-a953-72be45240f36.undefined)
+
 **节点功能**
 
 暂停指定目标实体上的指定定时器。之后可以使用【恢复定时器】节点恢复该定时器的计时
@@ -1084,6 +1239,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 恢复定时器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/57815783-a86d-4a10-8acc-8481d130969e.undefined)
+
 **节点功能**
 
 使目标实体上一个处于暂停状态的定时器恢复运行
@@ -1097,6 +1254,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 定时器名称 | 字符串 | 该定时器的标识 |
 
 ## **4\. 终止定时器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/c90c8efe-48e0-45be-8b32-08ec72e22137.undefined)
 
 **节点功能**
 
@@ -1114,6 +1273,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 暂停全局计时器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/db87cbdd-b636-4e2e-a4fe-f06bbee119f5.undefined)
+
 **节点功能**
 
 通过节点图，可以暂停运行中的全局计时器
@@ -1129,6 +1290,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 计时器名称 | 字符串 | 该计时器的标识，只能引用在计时器管理中已经配置好的计时器名称 |
 
 ## **2\. 启动全局计时器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/404098ab-4c46-4cb8-a14e-68e2901c1dee.undefined)
 
 **节点功能**
 
@@ -1148,6 +1311,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 恢复全局计时器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/73372494-e35d-4723-b485-e6c240c1e003.undefined)
+
 **节点功能**
 
 使目标实体上一个处于暂停状态的计时器恢复运行
@@ -1162,6 +1327,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 终止全局计时器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/76337a2d-1554-4a1c-a83a-f1175a95e317.undefined)
+
 **节点功能**
 
 通过节点图，提前结束运行中的全局计时器
@@ -1175,6 +1342,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 计时器名称 | 字符串 | 该计时器的标识，只能引用在计时器管理中已经配置好的计时器名称 |
 
 ## **5\. 增加全局计时器的值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ec1daba4-07c0-4eb3-b4c8-94ffba58ae7f.undefined)
 
 **节点功能**
 
@@ -1201,6 +1370,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 切换主镜头模板**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/363365ae-354e-4e0a-b97d-123bb4aee0ae.undefined)
+
 **节点功能**
 
 使目标玩家列表的镜头模板切换至指定模板
@@ -1214,6 +1385,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 镜头模板名称 | 字符串 | 镜头模板的标识 |
 
 ## **2\. 设置玩家镜头跟随实体**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/c39a7714-d9db-414b-b8de-82be16c03390.undefined)
 
 **节点功能**
 
@@ -1230,6 +1403,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 重置玩家镜头跟随实体**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/65ad88e8-b23e-450a-9784-e9343bb5038d.undefined)
+
 **节点功能**
 
 重置玩家镜头使其跟随玩家实体
@@ -1244,6 +1419,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **十九、角色扰动装置**
 
 ## **1\. 设置角色扰动装置**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/d99171fc-8336-4948-a502-bef867ffdad8.undefined)
 
 **节点功能**
 
@@ -1260,6 +1437,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **二十、单位状态**
 
 ## **1\. 添加单位状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0edd2b87-f6f0-4743-af94-0d74bcef4d18.undefined)
 
 **节点功能**
 
@@ -1280,6 +1459,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 移除单位状态**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/8fc0d550-1467-430f-aec3-d2b2978eadcd.undefined)
+
 **节点功能**
 
 从目标实体上移除指定单位状态。可以选择全部移除，或移除其中一层
@@ -1298,6 +1479,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活/关闭选项卡**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/d0ef7e9e-19a3-4209-b0d5-97adccbd170d.undefined)
+
 **节点功能**
 
 可以修改目标实体的选项卡组件中对应序号的选项卡状态
@@ -1315,6 +1498,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活/关闭碰撞触发源**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7c95d077-1a22-42e4-91cc-2bd4b924d320.undefined)
+
 **节点功能**
 
 可以修改目标实体的碰撞触发源组件状态
@@ -1331,6 +1516,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 更改玩家职业**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f0c6c43f-3042-432e-9ec9-805123943949.undefined)
+
 **节点功能**
 
 修改玩家的当前职业为配置ID对应的职业，并对玩家当前所拥有的技能做出处理
@@ -1346,6 +1533,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 提升玩家当前职业经验**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f428f0ff-945e-4f3f-84bc-c2917861cf7b.undefined)
+
 **节点功能**
 
 提升玩家当前职业经验，超出最大等级的部分会无效
@@ -1359,6 +1548,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 经验值 | 整数 | 所要提升的经验值 |
 
 ## **3\. 更改玩家当前职业等级**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e7e075f9-4c84-47fe-b743-2515f4bded89.undefined)
 
 **节点功能**
 
@@ -1376,6 +1567,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 切换当前界面布局**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/74936873-dbae-4b79-973e-603589bfe03f.undefined)
+
 **节点功能**
 
 可以通过布局索引来切换目标玩家当前的界面布局
@@ -1390,6 +1583,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 激活控件组库内界面控件组**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/88f268b1-6f78-4e8b-a839-4cf5427e4fe4.undefined)
+
 **节点功能**
 
 可以在目标玩家的界面布局上激活处于界面控件组库内的以自定义模板形式存在的界面控件组
@@ -1403,6 +1598,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 界面控件组索引 | 整数 | 界面控件组的标识 |
 
 ## **3\. 设置界面控件(组)状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/94e705d9-cdfc-4c5e-a1b9-a2c19f52b8d8.undefined)
 
 **节点功能**
 
@@ -1419,6 +1616,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 移除控件组库内界面控件组**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/fda1e2c1-1a13-44f3-a112-1eaf66f1f0d3.undefined)
+
 **节点功能**
 
 可以在目标玩家的界面布局上移除已通过节点【激活控件组库内界面控件组】激活的界面控件组
@@ -1433,6 +1632,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **5\. 播放界面动效控件**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4ee09c63-33ac-49ba-b452-b6336462eab8.undefined)
+
 **节点功能**
 
 在玩家实体的界面布局中播放该界面动效控件挂载的特效资产，如果想隐藏或关闭特效可以用【设置界面控件(组)状态】节点。该节点多次执行时特效可以多次播放。
@@ -1446,6 +1647,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 动效控件索引 | 整数 | 界面动效控件/全屏界面动效控件的标识 |
 
 ## **6\. 更新消息队列**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ae7b649a-a124-4cda-a47a-1935f7a96f18.undefined)
 
 **节点功能**
 
@@ -1465,6 +1668,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 增加技能资源量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7ad98e49-5190-4c3d-89dd-ffb2b0c3f49a.undefined)
+
 **节点功能**
 
 修改技能的资源量，会在当前值上加上增加值，增加值可以为负数
@@ -1480,6 +1685,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 设置技能资源量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/48b5d5d1-f0a4-4e28-a464-81c1488c5722.undefined)
+
 **节点功能**
 
 修改角色的技能资源量
@@ -1494,6 +1701,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 目标值 | 浮点数 | 修改后的值为该输入值 |
 
 ## **3\. 添加角色技能**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/c63c4c1d-e0da-41ba-8fab-aa628de4e863.undefined)
 
 **节点功能**
 
@@ -1512,6 +1721,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 以ID删除角色技能**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/74f65b38-f4ea-4138-a832-44398c2c273f.undefined)
+
 **节点功能**
 
 遍历角色的所有槽位，删除所有指定配置ID的技能
@@ -1525,6 +1736,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 技能配置ID | 配置ID | 技能的标识 |
 
 ## **5\. 初始化角色技能**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5a5cfcdb-e473-4eb5-9b21-c4d8f82a092b.undefined)
 
 **节点功能**
 
@@ -1540,6 +1753,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 以槽位删除角色技能**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/385849a5-6c98-4bb2-993e-ede8d9f074cd.undefined)
+
 **节点功能**
 
 删除目标角色指定槽位的技能
@@ -1553,6 +1768,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 角色技能槽位 | 枚举 | 要删除的技能所在的槽位，分为普通攻击、技能1-E、技能2-Q、技能3-R、技能4-T和自定义技能 |
 
 ## **7\. 设置角色技能冷却**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3bbb0f89-7fa9-4cf6-ade2-3cf1fe0d9ddf.undefined)
 
 **节点功能**
 
@@ -1570,6 +1787,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **8\. 增加角色技能冷却**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2f77da64-d407-4127-a316-3609767fcbc5.undefined)
+
 **节点功能**
 
 修改目标角色某个技能槽位的冷却，会在当前冷却时间上加上增加值，增加值可以为负数
@@ -1586,6 +1805,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **9\. 按最大冷却时间比例设置技能冷却**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/55c45de9-c314-4ea9-8aac-000c23951467.undefined)
+
 **节点功能**
 
 通过技能最大冷却时间的比例来修改角色某个技能槽位内的技能
@@ -1601,6 +1822,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否限制最大冷却时间 | 布尔值 | 为“是”可以限制修改后的冷却时间不小于所限制的值 |
 
 ## **10\. 绑定自定义技能实例到指定槽位**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4008b8cb-a000-439b-a468-76544fada354.undefined)
 
 **节点功能**
 
@@ -1619,6 +1842,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **11\. 解绑技能实例**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/8bb48fec-b1c9-4f24-b380-91708907a1f3.undefined)
+
 **节点功能**
 
 解绑角色实体上的指定技能实例
@@ -1632,6 +1857,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 技能实例ID | 整数 | 技能实例的标识 |
 
 ## **12\. 解绑槽位上的所有技能实例**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/127ad2e2-ea55-46d1-bada-8372bd78c346.undefined)
 
 **节点功能**
 
@@ -1648,6 +1875,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **13\. 创建自定义技能实例**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/69087315-84ba-4be2-be0a-0689ce126d4e.undefined)
+
 **节点功能**
 
 用角色实体上指定技能配置ID对应的技能创建其技能实例
@@ -1663,6 +1892,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **14\. 销毁自定义技能实例**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/84d450c8-2339-42da-9edd-4e8ffe1119fe.undefined)
+
 **节点功能**
 
 销毁角色实体上的指定技能实例
@@ -1676,6 +1907,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 技能实例ID | 整数 | 技能实例的标识 |
 
 ## **15\. 施放指定槽位面板技能**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/641d6139-1c1b-4297-98d1-8b863e8f1ff9.undefined)
 
 **节点功能**
 
@@ -1693,6 +1926,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否校验按键可用 | 布尔值 | 是：当前按键可用时该技能才会被施放<br>否：无论当前按键是否可用该技能都会被施放 |
 
 ## **16\. 施放指定技能实例**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/fa471485-0827-4a72-9662-9d278edd3e42.undefined)
 
 **节点功能**
 
@@ -1713,6 +1948,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 关闭指定音效播放器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ebbdeb2c-3a67-4e4e-b849-af4a30d08ce5.undefined)
+
 **节点功能**
 
 关闭指定目标实体上的音效播放器组件对应序号的音效播放器
@@ -1726,6 +1963,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 音效播放器序号 | 整数 |  |
 
 ## **2\. 启动/暂停指定音效播放器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4ddca742-a7a2-41d7-833f-dd254235e232.undefined)
 
 **节点功能**
 
@@ -1742,6 +1981,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 调整指定音效播放器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0bcf3617-583b-4de2-9462-0592f900ad0a.undefined)
+
 **节点功能**
 
 可以调整指定目标实体上的音效播放器组件对应序号的音效播放器的音量和播放速度
@@ -1757,6 +1998,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 播放速度 | 浮点数 |  |
 
 ## **4\. 添加音效播放器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/8f18cbf7-d051-4be2-8d78-7b6264551d28.undefined)
 
 **节点功能**
 
@@ -1782,6 +2025,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **5\. 启动/暂停玩家背景音乐**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6166b4ea-c86d-4ce8-9fa8-d73041334655.undefined)
+
 **节点功能**
 
 修改对应玩家的背景音乐状态
@@ -1796,6 +2041,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 调整玩家背景音乐音量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/838cc607-11fa-40f9-bce0-4232b2ca96e2.undefined)
+
 **节点功能**
 
 调整玩家背景音乐音量
@@ -1809,6 +2056,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 音量 | 整数 |  |
 
 ## **7\. 设置玩家背景音乐**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/26cb5704-7b27-486a-bd88-8b89ed7a2a34.undefined)
 
 **节点功能**
 
@@ -1831,6 +2080,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **8\. 玩家播放单次2D音效**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/03884e55-54fa-4e10-b7ff-d7d16ffe1442.undefined)
+
 **节点功能**
 
 玩家播放单次2D音效
@@ -1849,6 +2100,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 实体添加单位标签**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/892d517f-0898-4f6e-913b-e2702df61043.undefined)
+
 **节点功能**
 
 对指定实体添加单位标签
@@ -1862,6 +2115,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 单位标签索引 | 整数 |  |
 
 ## **2\. 实体移除单位标签**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/82ebbb67-a488-4f0c-af34-58c7a5e174f7.undefined)
 
 **节点功能**
 
@@ -1877,6 +2132,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 实体清空单位标签**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6ab311bb-07ec-4f7a-b8c4-174c75b5150d.undefined)
+
 **节点功能**
 
 对指定实体清空单位标签
@@ -1891,6 +2148,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **二十八、自定义仇恨**
 
 ## **1\. 设置指定实体的仇恨值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ac387eac-7616-49ba-8968-59954a41521c.undefined)
 
 **节点功能**
 
@@ -1909,6 +2168,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 将目标实体移除出仇恨列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7d524a46-574a-47b9-bd5f-ecd7f42a8a97.undefined)
+
 **节点功能**
 
 仅自定义仇恨模式可用
@@ -1925,6 +2186,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 清空指定目标的仇恨列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/73c62883-39e9-4619-8d27-cadc49109500.undefined)
+
 **节点功能**
 
 仅自定义仇恨模式可用
@@ -1939,6 +2202,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 仇恨拥有者 | 实体 |  |
 
 ## **4\. 嘲讽目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/039a575a-ae70-4dac-aeb4-840ad916d8e1.undefined)
 
 **节点功能**
 
@@ -1958,6 +2223,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 发送信号**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/fb914ba3-0212-4762-840f-e98428b0fbde.undefined)
+
 **节点功能**
 
 向关卡全局发送一个自定义信号，使用前需要先选择对应的信号名，然后才能正确的使用该信号的参数
@@ -1972,6 +2239,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **三十、铭牌**
 
 ## **1\. 设置实体生效铭牌**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2b78f9aa-0a0d-436f-8a2e-eef7b103196a.undefined)
 
 **节点功能**
 
@@ -1989,6 +2258,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 切换生效的文本气泡**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/50e3e398-05e1-4cb0-ab98-7d715e52c0a2.undefined)
+
 **节点功能**
 
 目标实体的文本气泡组件中，会以配置ID对应的文本气泡替换当前生效的文本气泡
@@ -2004,6 +2275,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **三十二、卡牌选择器**
 
 ## **1\. 唤起卡牌选择器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e7d942ab-0f22-405b-b0db-7cb2292d7977.undefined)
 
 **节点功能**
 
@@ -2028,6 +2301,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 关闭卡牌选择器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6cf6c49e-dbca-4cc9-95e6-5e98f434117d.undefined)
+
 **节点功能**
 
 关闭指定玩家当前生效的卡牌选择器
@@ -2041,6 +2316,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 卡牌选择器索引 | 整数 |  |
 
 ## **3\. 随机卡牌选择器选择列表**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/bb09fcd6-5a3e-45ea-8b1a-e977bd6c1b52.undefined)
 
 **节点功能**
 
@@ -2057,9 +2334,13 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置玩家结算计分板展示数据**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/b75de58c-f72d-4f7e-9bbf-79688e160185.undefined)
+
 **节点功能**
 
 设置玩家结算计分板展示数据，显示在关卡结算后弹出的计分板内。由于该节点涉及了局外功能的显示，故【数据值】和【数据名称】目前仅在手动输入文本的时候支持多语言翻译，若为连线输入，则不支持多语言翻译
+
+计分板上的数据最多显示三条，多余三条的数据即使成功运行了节点逻辑也会不显示在计分板内
 
 **节点参数**
 
@@ -2072,6 +2353,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 数据值 | 泛型 | 该数据的值，支持整数、浮点数、字符串 |
 
 ## **2\. 设置玩家结算排名数值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/d2ac4837-81a9-44ab-adcb-c38628da5b27.undefined)
 
 **节点功能**
 
@@ -2087,6 +2370,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 设置玩家结算成功状态**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a4885d48-b0ef-4852-8721-12f3e3cb5af5.undefined)
+
 **节点功能**
 
 设置玩家结算成功状态
@@ -2101,6 +2386,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 设置阵营结算排名数值**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2bcc94da-9208-48c4-ade5-ebc38c505c2d.undefined)
+
 **节点功能**
 
 设置阵营结算后的排名数值，再按照【关卡设置】-【结算】中的【排名数值比较顺序】的设置来决定最终的排名顺序
@@ -2114,6 +2401,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 排名数值 | 整数 |  |
 
 ## **5\. 设置阵营结算成功状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/32b9ef1e-7e94-4643-a48a-68dfa0068aed.undefined)
 
 **节点功能**
 
@@ -2130,6 +2419,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **三十四、光源组件**
 
 ## **1\. 开关实体光源**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/b0c54aac-aa54-454b-842c-796cb20af2b1.undefined)
 
 **节点功能**
 
@@ -2148,6 +2439,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 以键对字典移除键值对**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/738dcf88-dcf0-4ffd-84c4-1def1a2f361a.undefined)
+
 **节点功能**
 
 以键移除指定字典中的键值对
@@ -2162,6 +2455,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 清空字典**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6c08bb27-cddb-40c8-ae6d-4ca02c281f67.undefined)
+
 **节点功能**
 
 清空指定字典的键值对
@@ -2174,6 +2469,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 字典 | 泛型 |  |
 
 ## **3\. 对字典设置或新增键值对**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/fecbf87c-25d7-434c-bacb-99d43b2e2f2a.undefined)
 
 **节点功能**
 
@@ -2190,6 +2487,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 对字典按键排序**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/dfe90b1f-1225-42a3-bb74-b41147f044ea.undefined)
+
 **节点功能**
 
 将指定字典按键进行顺序或逆序排序后输出
@@ -2205,6 +2504,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 出参 | 值列表 | 泛型 |  |
 
 ## **5\. 对字典按值排序**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/448d2490-b097-4e37-a1eb-fe2d6d63f5e4.undefined)
 
 **节点功能**
 
@@ -2224,6 +2525,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 修改结构体**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a9805b0e-96ac-4cc3-acb7-2080a81263f9.undefined)
+
 **节点功能**
 
 在选定结构体后，可以修改该结构体的每个参数
@@ -2238,6 +2541,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 # **三十七、商店**
 
 ## **1\. 打开商店**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ec76b653-b311-47ff-85ab-6c718b18c471.undefined)
 
 **节点功能**
 
@@ -2254,6 +2559,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 关闭商店**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e62cce64-0be3-4362-83b8-7b48bbe2bfad.undefined)
+
 **节点功能**
 
 在游戏运行过程中以玩家实体的视角关闭所有已打开的商店
@@ -2266,6 +2573,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 玩家实体 | 实体 |  |
 
 ## **3\. 设置自定义商店商品出售信息**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/bab88e75-c200-4407-a65b-4564ce219e12.undefined)
 
 **节点功能**
 
@@ -2289,6 +2598,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 设置背包商店商品出售信息**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/bc846320-7965-4c58-9437-ad173aad4f68.undefined)
+
 **节点功能**
 
 设置背包商店商品出售信息
@@ -2308,6 +2619,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **5\. 设置物品收购表中道具收购信息**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0d9ba595-9151-4360-af39-febbea5dc929.undefined)
+
 **节点功能**
 
 设置物品收购表中道具收购信息
@@ -2324,6 +2637,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否可收购 | 布尔值 |  |
 
 ## **6\. 向自定义商店出售表中新增商品**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5f2edc34-99eb-4d4b-bec8-ef17e6ab17b2.undefined)
 
 **节点功能**
 
@@ -2347,6 +2662,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **7\. 向背包商店出售表中新增商品**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/04cc4eb7-c00c-4beb-8846-e1a047891989.undefined)
+
 **节点功能**
 
 向背包商店出售表中新增商品
@@ -2366,6 +2683,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **8\. 向物品收购表中新增物品**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/31753295-73c5-40a8-b4d9-67e21d09d251.undefined)
+
 **节点功能**
 
 向物品收购表中新增物品
@@ -2383,6 +2702,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **9\. 从自定义商店出售表中移除商品**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a5bc0f9f-d09f-41e4-af8f-759abc613290.undefined)
+
 **节点功能**
 
 从自定义商店出售表中移除商品
@@ -2398,6 +2719,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **10\. 从背包商店出售表中移除商品**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/9361d496-3e4b-4261-81a2-56ec603a9a52.undefined)
+
 **节点功能**
 
 从背包商店出售表中移除商品
@@ -2412,6 +2735,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 道具配置ID | 配置ID |  |
 
 ## **11\. 从物品收购表中移除物品**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/48036c6f-a735-41f4-9a46-32a416209b96.undefined)
 
 **节点功能**
 
@@ -2430,6 +2755,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 装备添加词条**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/51ed944b-108c-41ed-abab-7f6af0dcf678.undefined)
+
 **节点功能**
 
 对指定装备实例添加一条预先配置好的词条，可以覆写词条的数值
@@ -2446,6 +2773,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 移除装备词条**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4aca4b3b-5dfa-4db6-a860-9cd742a69764.undefined)
+
 **节点功能**
 
 移除指定装备实例的对应词条
@@ -2459,6 +2788,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 词条序号 | 整数 |  |
 
 ## **3\. 设置装备词条值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0dfb9913-7a47-4e93-bc34-d902205f58ae.undefined)
 
 **节点功能**
 
@@ -2474,6 +2805,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 词条数值 | 浮点数 |  |
 
 ## **4\. 装备指定序号添加词条**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ad3b058c-b5db-4dfd-9ddc-4105974f1407.undefined)
 
 **节点功能**
 
@@ -2491,6 +2824,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 词条数值 | 浮点数 | 可以覆写预先配置好的词条上的数值 |
 
 ## **5\. 替换装备到指定栏位**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/990b6c3c-9352-45b8-b2e7-4d490a0ce4ce.undefined)
 
 **节点功能**
 
@@ -2512,6 +2847,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 卸下指定槽位装备**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/42d6f0cf-d023-4385-967b-43b3c4613e87.undefined)
+
 **节点功能**
 
 卸下装备栏指定行列对应的槽位的装备
@@ -2529,6 +2866,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 增加背包最大容量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/befecd24-cfea-4404-8c78-6cee1a14bee8.undefined)
+
 **节点功能**
 
 增加指定背包持有者的背包最大容量
@@ -2542,6 +2881,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 增加容量 | 整数 |  |
 
 ## **2\. 增加背包道具数量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/47c7d2d9-a2bb-4a90-8c0a-b1e65a06429b.undefined)
 
 **节点功能**
 
@@ -2557,6 +2898,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 增加值 | 整数 | 变更后的值=变更前的值+增加值 |
 
 ## **3\. 设置背包掉落道具/货币数量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/6d892204-8970-4de4-8df0-7af92afaa3e4.undefined)
 
 **节点功能**
 
@@ -2574,6 +2917,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **4\. 增加背包货币数量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/02da1613-9791-46c8-807c-801469817e46.undefined)
+
 **节点功能**
 
 修改背包内指定货币的数量，会在当前值上加上增加值，增加值可以为负数
@@ -2588,6 +2933,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 增加值 | 整数 | 变更后的值=变更前的值+增加值 |
 
 ## **5\. 设置背包道具掉落内容**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/14668c9d-c9cb-471e-812e-23dba4f56fac.undefined)
 
 **节点功能**
 
@@ -2604,6 +2951,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **6\. 触发战利品掉落**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e690fc7b-ed05-4803-ae40-f1792111359c.undefined)
+
 **节点功能**
 
 对掉落者实体触发一次战利品掉落，可设置其掉落类型
@@ -2617,6 +2966,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 掉落类型 | 枚举 | 分为全员一份、每人一份 |
 
 ## **7\. 设置战利品掉落内容**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/bd8a9592-c453-4e41-b55a-7152e9d4ab76.undefined)
 
 **节点功能**
 
@@ -2632,6 +2983,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **8\. 增加掉落物组件道具数量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/b43bb126-9cf4-4c76-a9bc-fc8b25e30ad1.undefined)
+
 **节点功能**
 
 修改掉落物元件上掉落物组件内指定道具的数量，会在当前值上加上增加值，增加值可以为负数
@@ -2646,6 +2999,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 增加值 | 整数 | 变更后的值=变更前的值+增加值 |
 
 ## **9\. 增加掉落物组件货币数量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/ed8a4564-5566-4f66-9951-83fbbb634b86.undefined)
 
 **节点功能**
 
@@ -2664,6 +3019,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置小地图缩放**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f0697b49-c3c0-421c-bf46-4856069cfe82.undefined)
+
 **节点功能**
 
 设置目标玩家的小地图界面控件的地图比例
@@ -2677,6 +3034,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 缩放尺寸 | 浮点数 |  |
 
 ## **2\. 设置小地图标识生效状态**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/1f370190-1733-40c2-afb9-8abbd73433a7.undefined)
 
 **节点功能**
 
@@ -2693,6 +3052,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 设置可见小地图标识的玩家列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4a8ea4f0-75fe-49c3-89f9-c193ef9897c5.undefined)
+
 **节点功能**
 
 目标实体的小地图标识组件上对应序号的小地图标识对玩家列表中的玩家可见
@@ -2707,6 +3068,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 玩家列表 | 实体列表 | 目标实体的指定小地图序号，只有输入玩家可见 |
 
 ## **4\. 设置追踪小地图标识的玩家列表**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/4551d8ef-71bf-4972-bbc5-9af2726657ca.undefined)
 
 **节点功能**
 
@@ -2723,6 +3086,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **5\. 设置小地图标识的玩家标记**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7fe3be8a-90a4-4992-8195-60ce23908f83.undefined)
+
 **节点功能**
 
 若小地图标识选择了玩家标记，在节点图输入对应玩家实体后，目标实体在小地图上的显示会变成输入玩家实体的头像
@@ -2737,6 +3102,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 对应玩家实体 | 实体 | 修改后为对应玩家实体的头像 |
 
 ## **6\. 切换自定义地图**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/91c1adf3-8ebe-4e79-be0b-104cffb4f297.undefined)
 
 **节点功能**
 
@@ -2755,6 +3122,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 切换造物巡逻模板**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/612bd4c8-eb50-4f04-8594-3fbf3c2f3b17.undefined)
+
 **节点功能**
 
 造物切换的巡逻模板即刻切换，并按照新的巡逻模板进行移动
@@ -2771,6 +3140,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 以整数设置玩家排行榜分数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/45e83374-a59b-4018-a1ca-ab29552e8efb.undefined)
+
 **节点功能**
 
 以整数设置玩家排行榜分数
@@ -2785,6 +3156,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 排行榜序号 | 整数 | 外围系统管理中指定排行榜对应的序号 |
 
 ## **2\. 以浮点数设置玩家排行榜分数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/dd896359-e5bf-41ea-9e24-34e63d955c2a.undefined)
 
 **节点功能**
 
@@ -2803,6 +3176,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置成就进度计数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/b0c011ab-b10a-4347-ad3e-0bfeb7166fa9.undefined)
+
 **节点功能**
 
 设置指定实体上对应成就序号的成就进度计数
@@ -2817,6 +3192,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 进度计数 | 整数 | 修改后的进度计数为输入的值 |
 
 ## **2\. 增加成就进度计数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/474e3e20-1d47-40eb-bd39-38464bd6a586.undefined)
 
 **节点功能**
 
@@ -2835,6 +3212,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置扫描标签的规则**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3a6bb301-474f-4fac-a93e-34e76cc67f5f.undefined)
+
 **节点功能**
 
 设置扫描标签的规则，会以设置好的规则执行扫描标签的逻辑
@@ -2848,6 +3227,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 规则类型 | 枚举 | 分为视野优先、距离优先 |
 
 ## **2\. 设置扫描组件的生效扫描标签序号**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/f9325174-150c-41cc-aad0-508fb5ea99cf.undefined)
 
 **节点功能**
 
@@ -2865,6 +3246,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置玩家逃跑合法性**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5bc17708-6f2a-4a93-bb3a-4f0dcfab6e72.undefined)
+
 **节点功能**
 
 设置指定玩家逃跑的合法性
@@ -2878,6 +3261,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否合法 | 布尔值 |  |
 
 ## **2\. 设置玩家段位变化分数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/c0964d67-3cd0-4c43-919b-beb8c6da9ba4.undefined)
 
 **节点功能**
 
@@ -2893,6 +3278,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 变化分数 | 整数 |  |
 
 ## **3\. 切换玩家竞技段位生效的计分组**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2a234fe7-2228-46f6-b4f4-b5ecc2b0b52f.undefined)
 
 **节点功能**
 
@@ -2910,6 +3297,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活/关闭实体布设组**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/01838b1c-30ad-40ea-9478-7c798f68a32f.undefined)
+
 **节点功能**
 
 修改实体布设组初始创建开关的状态
@@ -2926,6 +3315,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 设置聊天频道开关**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/45767f8f-07b0-43d4-83e9-39d4bd5a478f.undefined)
+
 **节点功能**
 
 设置聊天频道的语音和文字开关
@@ -2940,6 +3331,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 文字开关 | 布尔值 |  |
 
 ## **2\. 设置玩家频道权限**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/7351bfe9-b980-4f07-b130-f44861b81bdd.undefined)
 
 **节点功能**
 
@@ -2956,6 +3349,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 设置玩家当前频道**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3b9deba2-ce83-4fc8-8328-17f2fe2557d9.undefined)
+
 **节点功能**
 
 设置玩家当前可用的频道，在列表中的频道该玩家可用，不在的该玩家不可用
@@ -2969,6 +3364,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 频道索引列表 | 整数列表 |  |
 
 ## **4\. 设置玩家聊天语音范围**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/9154431d-d579-4654-8d25-d09d9558b569.undefined)
 
 **节点功能**
 
@@ -2986,6 +3383,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **5\. 设置玩家聊天文字权限**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/81eac5e3-5388-464f-83a3-09275ddbea70.undefined)
+
 **节点功能**
 
 设置目标玩家在频道列表中聊天文字的权限
@@ -3000,6 +3399,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 是否限制权限 | 布尔值 | 为是则限制该玩家在对应频道列表的功能 |
 
 ## **6\. 设置玩家聊天语音权限**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/5c6c0729-89a4-4d21-b4d1-f4e8e7e4931c.undefined)
 
 **节点功能**
 
@@ -3019,6 +3420,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 消耗礼盒**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/3d32562c-58ef-4913-8a52-1be4eba551ab.undefined)
+
 **节点功能**
 
 可以消耗指定玩家的奇域礼盒
@@ -3037,6 +3440,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **1\. 激活/关闭寻路阻挡功能**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/9712c538-dafb-4aed-bd39-7f965c24176b.undefined)
+
 **节点功能**
 
 可以修改目标实体的寻路阻挡功能是否激活
@@ -3051,6 +3456,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 激活/关闭寻路阻挡**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/d85e506c-b614-4a0d-a60e-ad01489d41e9.undefined)
+
 **节点功能**
 
 可以修改目标实体的寻路阻挡组件中对应序号的寻路阻挡是否激活
@@ -3064,9 +3471,30 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 寻路阻挡序号 | 整数 |  |
 | 入参 | 是否激活 | 布尔值 |  |
 
-# **五十、造物预设状态**
+# **五十、光标碰撞盒组件**
+
+## **1\. 激活/关闭光标碰撞盒**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/0d0eb236-169b-427a-854e-a34e25dc1d51.undefined)
+
+**节点功能**
+
+可以修改目标实体的点击碰撞组件中对应序号的点击碰撞盒是否激活
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 目标实体 | 实体 | 仅对物件生效 |
+| 入参 | 碰撞盒序号 | 整数 |  |
+| 入参 | 是否激活 | 布尔值 |  |
+
+# **五十一、造物预设状态**
 
 ## **1\. 设置复杂造物的预设状态值**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e5e09f8a-45df-4f17-983c-f6eadc5d84d7.undefined)
 
 **节点功能**
 
@@ -3081,9 +3509,11 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 预设状态索引 | 整数 |  |
 | 入参 | 预设状态值 | 整数 |  |
 
-# **五十一、悬浮交互页**
+# **五十二、悬浮交互页**
 
 ## **1\. 关闭悬浮交互页**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/288c5c50-e3b9-41ce-86d7-e89b42ffa242.undefined)
 
 **节点功能**
 
@@ -3098,6 +3528,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 悬浮交互页索引 | 整数 | 悬浮交互页的唯一标识 |
 
 ## **2\. 更新悬浮交互页列表数据**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/e6234dde-294d-45ae-9036-1ac2cf218e37.undefined)
 
 **节点功能**
 
@@ -3115,6 +3547,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **3\. 唤起悬浮交互页**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/58ea2aaf-83cc-405e-b066-32ae02e5d415.undefined)
+
 **节点功能**
 
 可以在该玩家界面唤起对应索引的悬浮交互页，并支持初始化页签/单选项视窗数据
@@ -3128,9 +3562,11 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 悬浮交互页索引 | 整数 | 悬浮交互页的唯一标识 |
 | 入参 | 初始化列表数据 | 字典 | 键：整数，对应页签/单选项视窗的索引<br>值：整数列表，对应页签的页签项列表/单选项视窗的列表项列表 |
 
-# **五十二、关卡任务**
+# **五十三、关卡任务**
 
 ## **1\. 设置任务计数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/9cbde759-72b4-40dc-a1a6-64dce7a9b058.undefined)
 
 **节点功能**
 
@@ -3149,6 +3585,8 @@ crawledAt: 2026-05-20T03:31:28.630Z
 
 ## **2\. 增加任务计数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/928ba118-8fdd-429b-a167-7c8910ac08ad.undefined)
+
 **节点功能**
 
 仅超限模式可用
@@ -3163,3 +3601,103 @@ crawledAt: 2026-05-20T03:31:28.630Z
 | 入参 | 玩家实体 | 实体 |  |
 | 入参 | 任务索引 | 整数 |  |
 | 入参 | 任务计数增加值 | 整数 | 修改后的值=修改前的值+增加值 |
+
+# **五十四、操控运动器**
+
+## **1\. 设置玩家离开操控运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/42df723a-2faf-455e-8a5f-9c882bc9cff1.undefined)
+
+**节点功能**
+
+设置玩家离开操控运动器
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 玩家实体 | 实体 |  |
+
+## **2\. 设置玩家跟随操控运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/89c3d2cf-af45-4e02-b4a7-d31f9cb9e6b4.undefined)
+
+**节点功能**
+
+设置玩家跟随操控运动器。受控、传送过程中，将无法跟随。
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 玩家实体 | 实体 |  |
+| 入参 | 操控运动器实体 | 实体 |  |
+
+## **3\. 设置玩家激活操控运动器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/a5105ea4-70eb-4b0e-87f2-f854053390ff.undefined)
+
+**节点功能**
+
+设置玩家激活操控运动器。若实体列表为空，则清空玩家所有激活的运动器。
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 玩家实体 | 实体 |  |
+| 入参 | 操控运动器实体列表 | 实体列表 |  |
+
+# **五十五、光标**
+
+## **1\. 设置玩家光标是否常驻**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/2c0dfaf3-a9cf-4bc9-acbd-923af15bf83f.undefined)
+
+**节点功能**
+
+设置指定玩家的光标是否常驻显示
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 玩家实体 | 实体 | 生效的玩家 |
+| 入参 | 是否光标常驻 | 布尔值 | “是”则光标常驻显示 |
+
+## **2\. 设置玩家光标点击可选取目标**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/41ad7b6f-a578-4a04-88df-bde6b5e6b736.undefined)
+
+**节点功能**
+
+设置指定玩家光标点击时可选取的目标层级与最多选取数量
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 玩家实体 | 实体 | 生效的玩家 |
+| 入参 | 光标可点击层级筛选id | 整数 | 光标可点击的层级筛选 id |
+| 入参 | 光标最多可选取目标 | 整数 | 光标最多可同时选取的目标数量 |
+
+## **3\. 设置玩家光标是否穿透UI控件**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw66orrrfkm/480e31cf-30ed-4e1e-9c5e-852a3546a269.undefined)
+
+**节点功能**
+
+设置指定玩家光标点击是否能够穿透UI控件，对UI下方的对象生效
+
+**节点参数**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **参数类型** | **参数名** | **类型** | **说明** |
+| 入参 | 玩家实体 | 实体 | 生效的玩家 |
+| 入参 | 是否穿透UI控件 | 布尔值 | “是”则光标点击穿透UI控件，作用于其下方的对象 |
