@@ -1,147 +1,393 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1900">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 4640">
   <defs>
     <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
     <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
     <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
   </defs>
-  <rect width="1200" height="1900" fill="#F9F7F2"/>
+  <style>
+    .ff{font-family:'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif;}
+    .title{font-size:34px;font-weight:bold;fill:#1A1B2E;}
+    .subtitle{font-size:14px;fill:#8B8DA0;}
+    .section{font-size:18px;font-weight:700;fill:#2D6BE4;}
+    .hdr{font-size:15px;font-weight:500;fill:#FFFFFF;}
+    .name{font-size:14px;font-weight:500;fill:#1A1B2E;}
+    .effect{font-size:13px;fill:#4A4B65;}
+    .formula{font-size:15px;font-weight:500;fill:#1A1B2E;}
+    .hint{font-size:12px;fill:#4A4B65;}
+    .divider{stroke:#E8E4DA;stroke-width:1;}
+    .foot{font-size:11px;fill:#8B8DA0;}
+    .srclabel{font-size:12px;fill:#8B8DA0;}
+    .srclink{font-size:12px;fill:#2D6BE4;}
+  </style>
+  <rect width="1200" height="4640" fill="#F9F7F2"/>
   <rect width="1200" height="6" fill="url(#topGrad)"/>
-  
-  <!-- Title -->
-  <rect x="40" y="30" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
-  <rect x="40" y="30" width="4" height="90" rx="2" fill="#2D6BE4"/>
-  <text x="70" y="72" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">单位状态</text>
-  <text x="70" y="100" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">状态管理模块 -- 定义、叠加规则、计时规则、效果池、节点图操作</text>
-  <!-- Section 1 -->
-  <text x="60" y="155" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">一、单位状态的定义</text>
-  <rect x="60" y="170" width="1080" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="198" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">单位状态是面向关卡运行中各单位实体额外功能与属性的状态管理模块。</text>
-  <text x="80" y="222" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">实体可被施加单位状态，每个状态有明确的施加者实体。每个实体可动态持有若干状态。</text>
-  <text x="80" y="246" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个状态允许存在运行时长，在该时长内赋予实体额外效果与额外节点图功能。</text>
-  <text x="80" y="270" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个运行中的状态具有独立叠加层数，超出运行时长或失去所有叠加层数时终止。</text>
-  <rect x="80" y="284" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="300" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">施加者实体</text>
-  <rect x="190" y="284" width="80" height="22" rx="11" fill="#E8EEFB"/><text x="204" y="300" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">运行时长</text>
-  <rect x="280" y="284" width="80" height="22" rx="11" fill="#E8EEFB"/><text x="294" y="300" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">叠加层数</text>
-  <rect x="370" y="284" width="80" height="22" rx="11" fill="#E8EEFB"/><text x="384" y="300" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">额外效果</text>
-  <rect x="460" y="284" width="100" height="22" rx="11" fill="#E8EEFB"/><text x="474" y="300" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">额外节点图</text>
-  <!-- 额外效果 -->
-  <rect x="60" y="330" width="520" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">额外效果</text>
-  <text x="80" y="382" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">来自预先提供的效果池（功能型/数值型）</text>
-  <text x="80" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">生效目标：仅对角色/造物/物件中一种或几种生效</text>
-  <text x="80" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">生效强度：同类效果有有效范围限制（如速度变更-40%~40%）</text>
-  <text x="80" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">部分效果同状态内互斥，以最后一个为准</text>
-  <rect x="620" y="330" width="520" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="358" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">额外节点图</text>
-  <text x="640" y="382" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">每个状态允许关联一张状态节点图（服务器节点图）</text>
-  <text x="640" y="402" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">持有状态时同步添加节点图，失去状态时一并失去</text>
-  <text x="640" y="422" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">多个状态关联相同节点图视为只关联一次</text>
-  <text x="640" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">直到失去所有相关状态时节点图才失去关联</text>
-  <!-- Section 2: 编辑 -->
-  <text x="60" y="505" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、单位状态的编辑</text>
-  <rect x="60" y="520" width="1080" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="548" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">进入战斗预设页 > 单位状态栏 > 新建状态。命名需全局唯一，自动生成全局唯一配置ID。</text>
-  <text x="80" y="572" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">允许替换图标。可利用复制按钮快速复制配置ID。</text>
-  <!-- 叠加规则 -->
-  <rect x="60" y="610" width="520" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="638" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">叠加规则</text>
-  <text x="80" y="662" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">叠加时新状态计数并入已存在状态，不超过叠加层数上限</text>
-  <text x="80" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">超出上限时可选是否更新过量叠加数据</text>
-  <text x="80" y="702" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">更新：过量数据依次顶替首层 | 不更新：丢弃过量数据</text>
-  <text x="80" y="722" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">叠加数据无变动则视为叠加和施加均无效</text>
-  <rect x="80" y="738" width="200" height="22" rx="11" fill="#FFF3E0"/><text x="94" y="754" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">叠层上限随时长模式变化</text>
-  <!-- 计时规则 -->
-  <rect x="620" y="610" width="520" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="638" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">计时规则</text>
-  <text x="640" y="662" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">启用无限持续时间：不因超时移除，更新不影响持续时间</text>
-  <text x="640" y="682" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">有限时间：初始运行时长 + 可选叠加共享时长</text>
-  <text x="640" y="702" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">不共享：每叠层独立计时，上限最大10</text>
-  <text x="640" y="722" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">共享：统一移除，叠加时延续剩余时长，上限最大1000</text>
-  <text x="640" y="742" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">启用最大延续时长限制后，延续后时长不超最大时长</text>
-  <!-- 状态并存 -->
-  <rect x="60" y="780" width="520" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="808" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">状态并存</text>
-  <text x="80" y="832" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">同一施加者无法对目标施加两份同名状态</text>
-  <text x="80" y="852" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">不同施加者：可选不同施加来源可叠加</text>
-  <text x="80" y="872" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">不可叠加时需注明并存上限及同名状态更新策略：</text>
-  <text x="80" y="892" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">无法更新 | 最短剩余时长 | 最早更新时刻 | 最早施加时刻</text>
-  <!-- 让位与顶替 -->
-  <rect x="620" y="780" width="520" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="808" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="16" font-weight="500" fill="#1A1B2E">让位与顶替</text>
-  <text x="640" y="832" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">让位状态列表：目标已持有任一让位状态则施加失败</text>
-  <text x="640" y="852" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">顶替状态列表：目标已持有的顶替状态会被移除后施加</text>
-  <text x="640" y="872" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">关联节点图：实体持有状态时关联的状态节点图</text>
-  <text x="640" y="892" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">状态节点图中可使用复合节点</text>
-  <!-- Section 3: 运行 -->
-  <text x="60" y="955" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、单位状态的运行方式</text>
-  <rect x="60" y="970" width="250" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="998" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">以组件施加</text>
-  <text x="80" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">单位状态组件配置预设状态</text>
-  <text x="80" y="1038" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">实体创建时由关卡实体施加</text>
-  <text x="80" y="1056" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">可配置初始层数，从上至下顺序施加</text>
-  <rect x="330" y="970" width="250" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="350" y="998" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">以服务器节点管理</text>
-  <text x="350" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">添加/移除单位状态节点</text>
-  <text x="350" y="1038" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">返回施加结果（成功/失败）</text>
-  <text x="350" y="1056" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">支持参数字典动态覆写配置值</text>
-  <rect x="600" y="970" width="250" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="620" y="998" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">以能力单元管理</text>
-  <text x="620" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">本地投射物能力单元中</text>
-  <text x="620" y="1038" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">添加或移除指定单位状态</text>
-  <text x="620" y="1056" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">命中目标时通过能力单元操作</text>
-  <rect x="870" y="970" width="270" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="890" y="998" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">以技能节点图管理</text>
-  <text x="890" y="1020" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">施加/移除状态但无法得知结果</text>
-  <text x="890" y="1038" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">移除时所有同配置ID状态移除</text>
-  <text x="890" y="1056" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">移除者不在场视为无来源移除</text>
-  <!-- Section 4: 施加结果 -->
-  <text x="60" y="1105" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">四、施加结果与移除原因</text>
-  <rect x="60" y="1120" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="1148" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">施加结果枚举</text>
-  <text x="80" y="1170" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">失败：其它异常 | 让位于其它状态 | 超出并存上限 | 附加叠层未成功</text>
-  <text x="80" y="1190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">成功：施加新状态 | 槽位叠层（更新已持有状态）</text>
-  <rect x="80" y="1204" width="180" height="22" rx="11" fill="#E5F2E9"/><text x="94" y="1220" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">支持参数字典覆写标签</text>
-  <rect x="620" y="1120" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="1148" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">移除原因枚举</text>
-  <text x="640" y="1170" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">其它单位状态顶替 | 超出持续时间 | 被驱散</text>
-  <text x="640" y="1190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">状态失效 | 职业变更</text>
-  <text x="640" y="1210" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">移除可选：所有同名并存状态 | 最快丢失叠层的状态</text>
-  <!-- Section 5: 效果池 -->
-  <text x="60" y="1275" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">五、效果池概览（部分）</text>
-  <rect x="60" y="1290" width="1080" height="380" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="1312" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">最终值 =（基础值+变更量）*（1+调整率）* 倍率 + 修正值</text>
-  <text x="80" y="1336" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">数值型效果：攻击力调整率/修正值 | 防御力调整率/修正值 | 最大生命值调整率/修正值</text>
-  <text x="80" y="1356" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">移动速度调整率 | 攻击速度调整率 | 暴击触发变更量 | 抗暴击触发变更量 | 暴击伤害变更量</text>
-  <text x="80" y="1376" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">攻击增伤调整率 | 受击减伤调整率 | 恢复效果调整率 | 受恢复效果调整率</text>
-  <text x="80" y="1396" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">元素增伤调整率 | 元素抗性调整率 | 元素精通修正值 | 体力消耗/恢复调整率</text>
-  <text x="80" y="1416" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">剧变/增幅/激化反应增伤调整率 | 无视防御调整率/修正值 | 技能冷却效率变更量</text>
-  <text x="80" y="1436" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">受打断倍率 | 坠落效率变更量 | 坠落伤害调整率 | 被击退效率 | 仇恨倍率调整率/修正值</text>
-  <text x="80" y="1460" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">功能型效果：挂载特效 | 元素附着 | 元素伤害免疫 | 挂载透视/描边效果 | 护盾/护盾强效调整率</text>
-  <text x="80" y="1480" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">特殊状态：无敌 | 禁止锁定 | 锁定生命值 | 挣扎 | 禁止恢复生命值 | 禁止生命低于指定值</text>
-  <text x="80" y="1500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">行为限制：禁止移动 | 禁用冲刺/跳跃/滑翔/攀爬 | 造物沉默 | 阻止攻击元素附着 | 免疫嘲讽</text>
-  <text x="80" y="1520" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">显示类：其他玩家不可见 | 角色隐藏 | 物件/造物不可见 | 铭牌隐藏 | 隐藏小地图标识</text>
-  <text x="80" y="1540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">高级：攻击伤害调整 | 受击伤害调整 | 覆写扫描标签数据 | 监听元素反应 | 监听移动速率</text>
-  <text x="80" y="1560" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">其他：超级跳 | 始终播放动作 | 冲刺时不关闭受击盒 | 状态显示区添加状态 | 修正小地图方向</text>
-  <text x="80" y="1584" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">攻击/受击伤害调整：攻击标签列表+攻击类型+本地过滤器（与关系），可覆写攻击元素/绝对伤害</text>
-  <text x="80" y="1604" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">角色隐藏：布尔型过滤器判定true=半透明+屏蔽特效音效，false=完全隐藏</text>
-  <text x="80" y="1624" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">禁止移动：限制造物常规移动，不影响技能移动，脱战期间可能产生不稳定状态</text>
-  <!-- Section 6: 节点图 -->
-  <text x="60" y="1710" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">六、节点图操作</text>
-  <rect x="60" y="1725" width="1080" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="80" y="1753" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">执行节点：</text>
-  <text x="80" y="1773" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">添加单位状态（含参数字典覆写） | 移除单位状态（所有同名/最快丢失叠层）</text>
-  <text x="80" y="1797" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">事件节点：</text>
-  <text x="80" y="1817" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">获得/更新单位状态时 | 失去单位状态时（含移除原因枚举）</text>
-  <text x="80" y="1837" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" font-weight="500" fill="#1A1B2E">查询节点：</text>
-  <text x="80" y="1837" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">查询目标实体是否已持有某个状态</text>
-  <!-- Source --><!-- 相关文档 -->
-<text x="48" y="1870" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
-<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh6rh59iil2i" target="_blank">
-  <text x="48" y="1890" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：单位状态</text>
-</a>
-<text x="170" y="1870" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
-  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhd7nxrfa8im"><text x="185" y="1870" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：单位状态组件</text></a>
-  <text x="320" y="1870" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">|</text>
-  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhou93r2pxv2"><text x="335" y="1870" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4" text-decoration="underline">来源：单位状态效果池</text></a>
-  <text x="600" y="1892" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+
+  <!-- 标题卡片 -->
+  <rect x="48" y="32" width="1104" height="88" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="48" y="32" width="4" height="88" rx="2" fill="#2D6BE4"/>
+  <text x="72" y="72" class="ff title">单位状态效果池</text>
+  <text x="72" y="102" class="ff subtitle">效果池全量说明 —— 数值计算公式、基础属性、伤害流程与特殊功能</text>
+
+  <!-- 数值计算公式 -->
+  <rect x="48" y="136" width="1104" height="176" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="162" class="ff formula">最终值 =（基础值 + 变更量）×（1 + 调整率）× 倍率 + 修正值</text>
+  <text x="72" y="190" class="ff effect">「变更量」表示基础数值的变化程度</text>
+  <text x="72" y="212" class="ff effect">「调整率」表示数值额外缩放的系数</text>
+  <text x="72" y="234" class="ff effect">「倍率」表示数值整体缩放的系数</text>
+  <text x="72" y="256" class="ff effect">「修正值」表示数值最终增减的变化程度</text>
+  <rect x="72" y="270" width="1056" height="34" rx="6" fill="#E8EEFB"/>
+  <rect x="72" y="270" width="4" height="34" rx="2" fill="#2D6BE4"/>
+  <text x="88" y="291" class="ff hint">动态版本说明：部分单位状态有动态版本，可用节点动态修改，详见「单位状态」文档 → 三、单位状态的运行 → 2.以服务器节点管理 → 单位状态参数字典的使用</text>
+
+  <!-- 一、基础属性 -->
+  <text x="48" y="348" class="ff section">一、基础属性</text>
+  <rect x="48" y="360" width="1104" height="590" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="48" y="360" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+  <rect x="48" y="386" width="1104" height="18" fill="#2D6BE4"/>
+  <text x="72" y="390" class="ff hdr">单位状态</text>
+  <text x="340" y="390" class="ff hdr">效果</text>
+
+  <line x1="72" y1="404" x2="1128" y2="404" class="divider"/>
+  <text x="72" y="424" class="ff name">受打断倍率</text>
+  <text x="340" y="424" class="ff effect">影响受到攻击时，受打断值增长的倍率。当这个值为0时，说明受到伤害不增加受打断值，即实体霸体</text>
+
+  <line x1="72" y1="452" x2="1128" y2="452" class="divider"/>
+  <text x="72" y="472" class="ff name">坠落效率变更量</text>
+  <text x="340" y="472" class="ff effect">影响坠落时坠落加速度。默认状态下所有角色和造物有200%的坠落效率，</text>
+  <text x="340" y="494" class="ff effect">因此当该值设为-200%时，可以使角色或造物无视重力</text>
+
+  <line x1="72" y1="518" x2="1128" y2="518" class="divider"/>
+  <text x="72" y="538" class="ff name">坠落伤害调整率</text>
+  <text x="340" y="538" class="ff effect">影响角色坠落时受到的坠落伤害。为-100时，使角色完全不受到坠落伤害</text>
+
+  <line x1="72" y1="566" x2="1128" y2="566" class="divider"/>
+  <text x="72" y="586" class="ff name">最大生命值调整率</text>
+  <text x="340" y="586" class="ff effect">影响实体的最大生命值</text>
+
+  <line x1="72" y1="614" x2="1128" y2="614" class="divider"/>
+  <text x="72" y="634" class="ff name">最大生命值修正值</text>
+  <text x="340" y="634" class="ff effect">影响实体的最大生命值</text>
+
+  <line x1="72" y1="662" x2="1128" y2="662" class="divider"/>
+  <text x="72" y="682" class="ff name">移动速度调整率</text>
+  <text x="340" y="682" class="ff effect">影响角色、造物的移动速度</text>
+
+  <line x1="72" y1="710" x2="1128" y2="710" class="divider"/>
+  <text x="72" y="730" class="ff name">攻击速度调整率（暂不生效）</text>
+  <text x="340" y="730" class="ff effect">影响角色的攻击速度</text>
+
+  <line x1="72" y1="758" x2="1128" y2="758" class="divider"/>
+  <text x="72" y="778" class="ff name">被击退效率调整率</text>
+  <text x="340" y="778" class="ff effect">受到攻击时，击退力的大小会受该值影响，从而影响击退距离或高度</text>
+
+  <line x1="72" y1="806" x2="1128" y2="806" class="divider"/>
+  <text x="72" y="826" class="ff name">体力消耗调整率</text>
+  <text x="340" y="826" class="ff effect">影响角色在奔跑、游泳等状态下的体力消耗。设为-100%时可以使这些行为不消耗体力</text>
+
+  <line x1="72" y1="854" x2="1128" y2="854" class="divider"/>
+  <text x="72" y="874" class="ff name">护盾强效调整率</text>
+  <text x="340" y="874" class="ff effect">获得护盾时，按照调整率改变获得的护盾值</text>
+
+  <line x1="72" y1="902" x2="1128" y2="902" class="divider"/>
+  <text x="72" y="922" class="ff name">体力恢复调整率</text>
+  <text x="340" y="922" class="ff effect">影响角色在损失体力后的体力恢复效率。设为-100%时可以使角色无法恢复体力</text>
+
+  <!-- 二、伤害流程 -->
+  <text x="48" y="986" class="ff section">二、伤害流程</text>
+  <rect x="48" y="998" width="1104" height="1214" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="48" y="998" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+  <rect x="48" y="1024" width="1104" height="18" fill="#2D6BE4"/>
+  <text x="72" y="1028" class="ff hdr">单位状态</text>
+  <text x="340" y="1028" class="ff hdr">效果</text>
+
+  <line x1="72" y1="1042" x2="1128" y2="1042" class="divider"/>
+  <text x="72" y="1062" class="ff name">防御力调整率</text>
+  <text x="340" y="1062" class="ff effect">影响实体的防御力</text>
+
+  <line x1="72" y1="1090" x2="1128" y2="1090" class="divider"/>
+  <text x="72" y="1110" class="ff name">防御力修正值</text>
+  <text x="340" y="1110" class="ff effect">影响实体的防御力</text>
+
+  <line x1="72" y1="1138" x2="1128" y2="1138" class="divider"/>
+  <text x="72" y="1158" class="ff name">攻击力调整率</text>
+  <text x="340" y="1158" class="ff effect">影响实体的攻击力</text>
+
+  <line x1="72" y1="1186" x2="1128" y2="1186" class="divider"/>
+  <text x="72" y="1206" class="ff name">攻击力修正值</text>
+  <text x="340" y="1206" class="ff effect">影响实体的攻击力</text>
+
+  <line x1="72" y1="1234" x2="1128" y2="1234" class="divider"/>
+  <text x="72" y="1254" class="ff name">暴击触发变更量</text>
+  <text x="340" y="1254" class="ff effect">影响实体的暴击率</text>
+
+  <line x1="72" y1="1282" x2="1128" y2="1282" class="divider"/>
+  <text x="72" y="1302" class="ff name">绽放反应抗性调整率</text>
+  <text x="340" y="1302" class="ff effect">影响实体的绽放反应抗性</text>
+
+  <line x1="72" y1="1330" x2="1128" y2="1330" class="divider"/>
+  <text x="72" y="1350" class="ff name">抗暴击触发变更量</text>
+  <text x="340" y="1350" class="ff effect">影响受到攻击时，攻击者的暴击率</text>
+
+  <line x1="72" y1="1378" x2="1128" y2="1378" class="divider"/>
+  <text x="72" y="1398" class="ff name">暴击伤害变更量</text>
+  <text x="340" y="1398" class="ff effect">影响实体的暴击伤害</text>
+
+  <line x1="72" y1="1426" x2="1128" y2="1426" class="divider"/>
+  <text x="72" y="1446" class="ff name">攻击增伤调整率</text>
+  <text x="340" y="1446" class="ff effect">影响实体的攻击增伤率</text>
+
+  <line x1="72" y1="1474" x2="1128" y2="1474" class="divider"/>
+  <text x="72" y="1494" class="ff name">受击减伤调整率</text>
+  <text x="340" y="1494" class="ff effect">影响实体的受击减伤率</text>
+
+  <line x1="72" y1="1522" x2="1128" y2="1522" class="divider"/>
+  <text x="72" y="1542" class="ff name">恢复效果调整率</text>
+  <text x="340" y="1542" class="ff effect">影响实体施加的恢复效果</text>
+
+  <line x1="72" y1="1570" x2="1128" y2="1570" class="divider"/>
+  <text x="72" y="1590" class="ff name">受恢复效果调整率</text>
+  <text x="340" y="1590" class="ff effect">影响实体受到的恢复效果</text>
+
+  <line x1="72" y1="1618" x2="1128" y2="1618" class="divider"/>
+  <text x="72" y="1638" class="ff name">元素增伤调整率</text>
+  <text x="340" y="1638" class="ff effect">影响实体造成的元素伤害，包括物理以及七种元素</text>
+
+  <line x1="72" y1="1666" x2="1128" y2="1666" class="divider"/>
+  <text x="72" y="1686" class="ff name">元素抗性调整率</text>
+  <text x="340" y="1686" class="ff effect">影响实体受到的元素伤害，包括物理以及七种元素</text>
+
+  <line x1="72" y1="1714" x2="1128" y2="1714" class="divider"/>
+  <text x="72" y="1734" class="ff name">元素精通修正值</text>
+  <text x="340" y="1734" class="ff effect">影响实体的元素精通值</text>
+
+  <line x1="72" y1="1762" x2="1128" y2="1762" class="divider"/>
+  <text x="72" y="1782" class="ff name">剧变反应增伤调整率</text>
+  <text x="340" y="1782" class="ff effect">影响实体造成的剧变反应的伤害</text>
+  <text x="340" y="1804" class="ff effect">包括以下元素反应：扩散、超导、感电、点燃、冻结、超载、碎冰、绽放、烈绽放、超绽放</text>
+
+  <line x1="72" y1="1828" x2="1128" y2="1828" class="divider"/>
+  <text x="72" y="1848" class="ff name">增幅反应增伤调整率</text>
+  <text x="340" y="1848" class="ff effect">影响实体造成的增幅反应的伤害。包括以下元素反应：蒸发、融化</text>
+
+  <line x1="72" y1="1876" x2="1128" y2="1876" class="divider"/>
+  <text x="72" y="1896" class="ff name">无视防御调整率</text>
+  <text x="340" y="1896" class="ff effect">影响实体造成伤害时无视的防御比例</text>
+
+  <line x1="72" y1="1924" x2="1128" y2="1924" class="divider"/>
+  <text x="72" y="1944" class="ff name">无视防御修正值</text>
+  <text x="340" y="1944" class="ff effect">影响实体造成伤害时无视的防御数值</text>
+
+  <line x1="72" y1="1972" x2="1128" y2="1972" class="divider"/>
+  <text x="72" y="1992" class="ff name">元素伤害免疫</text>
+  <text x="340" y="1992" class="ff effect">设为【是】时，可以免疫特定元素的伤害，包括物理以及七种元素</text>
+
+  <line x1="72" y1="2020" x2="1128" y2="2020" class="divider"/>
+  <text x="72" y="2040" class="ff name">技能冷却效率变更量</text>
+  <text x="340" y="2040" class="ff effect">影响角色技能的冷却时间缩减效率，这个数值越高，角色的技能冷却越快</text>
+
+  <line x1="72" y1="2068" x2="1128" y2="2068" class="divider"/>
+  <text x="72" y="2088" class="ff name">激化反应增伤调整率</text>
+  <text x="340" y="2088" class="ff effect">影响实体造成的激化反应的伤害。包括以下元素反应：超激化、蔓激化</text>
+
+  <line x1="72" y1="2116" x2="1128" y2="2116" class="divider"/>
+  <text x="72" y="2136" class="ff name">仇恨倍率调整率</text>
+  <text x="340" y="2136" class="ff effect">获得仇恨值时的调整率</text>
+
+  <line x1="72" y1="2164" x2="1128" y2="2164" class="divider"/>
+  <text x="72" y="2184" class="ff name">仇恨倍率修正值</text>
+  <text x="340" y="2184" class="ff effect">获得仇恨值时的修正值</text>
+
+  <!-- 三、特殊功能 -->
+  <text x="48" y="2248" class="ff section">三、特殊功能</text>
+  <rect x="48" y="2260" width="1104" height="2282" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <rect x="48" y="2260" width="1104" height="44" rx="14" fill="#2D6BE4"/>
+  <rect x="48" y="2286" width="1104" height="18" fill="#2D6BE4"/>
+  <text x="72" y="2290" class="ff hdr">单位状态</text>
+  <text x="340" y="2290" class="ff hdr">效果</text>
+
+  <line x1="72" y1="2304" x2="1128" y2="2304" class="divider"/>
+  <text x="72" y="2324" class="ff name">造物不可见</text>
+  <text x="340" y="2324" class="ff effect">当布尔型本地过滤器返回TRUE，造物不可见</text>
+
+  <line x1="72" y1="2352" x2="1128" y2="2352" class="divider"/>
+  <text x="72" y="2372" class="ff name">始终播放动作</text>
+  <text x="340" y="2372" class="ff effect">无论是否可见、是否在摄像机画面内，动画都会完整地计算和播放</text>
+  <text x="340" y="2394" class="ff effect">（默认情况下，当不可见或是不在画面内时，动画可能会因为性能优化而停止播放）</text>
+
+  <line x1="72" y1="2418" x2="1128" y2="2418" class="divider"/>
+  <text x="72" y="2438" class="ff name">定时触发技能</text>
+  <text x="340" y="2438" class="ff effect">可以让指定槽位的技能按触发间隔触发</text>
+
+  <line x1="72" y1="2466" x2="1128" y2="2466" class="divider"/>
+  <text x="72" y="2486" class="ff name">调整动画速度</text>
+  <text x="340" y="2486" class="ff effect">可以调整指定属性组的动画速度</text>
+
+  <line x1="72" y1="2514" x2="1128" y2="2514" class="divider"/>
+  <text x="72" y="2534" class="ff name">调整冷却时间</text>
+  <text x="340" y="2534" class="ff effect">可以调整指定属性组的冷却时间</text>
+
+  <line x1="72" y1="2562" x2="1128" y2="2562" class="divider"/>
+  <text x="72" y="2582" class="ff name">状态显示区添加状态</text>
+  <text x="340" y="2582" class="ff effect">选择对应的状态显示区控件，可使该单位状态的信息显示在对应控件所在的位置</text>
+
+  <line x1="72" y1="2610" x2="1128" y2="2610" class="divider"/>
+  <text x="72" y="2630" class="ff name">攻击伤害调整</text>
+  <text x="340" y="2630" class="ff effect">挂载在攻击者实体上，用于对该攻击者发起的、符合特定条件的攻击进行伤害判定前的效果调整</text>
+  <text x="340" y="2652" class="ff effect">注意：三个攻击条件（攻击标签、攻击类型、本地过滤器）为与关系，三项必须均为是才可通过判定</text>
+  <text x="340" y="2674" class="ff effect">攻击标签列表：攻击标签需在列表内。攻击类型：攻击类型需在类型内。布尔型本地过滤器：不配置则此项不生效</text>
+  <text x="340" y="2696" class="ff effect">覆写攻击元素类型：可选择不覆写，多个不同覆写时生效顺序不确定。覆写是否为绝对伤害：同上</text>
+  <text x="340" y="2718" class="ff effect">额外攻击相关参数：额外增伤调整率、额外暴击触发等，用于在伤害判定生效前修改该次伤害的效果</text>
+
+  <line x1="72" y1="2730" x2="1128" y2="2730" class="divider"/>
+  <text x="72" y="2750" class="ff name">受击伤害调整</text>
+  <text x="340" y="2750" class="ff effect">挂载在受击者实体上，用于对受到的、符合特定条件的攻击进行伤害判定前的效果调整</text>
+  <text x="340" y="2772" class="ff effect">注意：三个攻击条件（攻击标签、攻击类型、本地过滤器）为与关系，三项必须均为是才可通过判定</text>
+  <text x="340" y="2794" class="ff effect">攻击标签列表：攻击标签需在列表内。攻击类型：攻击类型需在类型内。布尔型本地过滤器：不配置则此项不生效</text>
+  <text x="340" y="2816" class="ff effect">额外攻击相关参数：额外增伤调整率、额外暴击触发等，用于在伤害判定生效前修改该次伤害的效果</text>
+
+  <line x1="72" y1="2832" x2="1128" y2="2832" class="divider"/>
+  <text x="72" y="2852" class="ff name">光标点击施放技能</text>
+  <text x="340" y="2852" class="ff effect">用于移动端使用常驻光标功能需要补充的额外逻辑</text>
+
+  <line x1="72" y1="2880" x2="1128" y2="2880" class="divider"/>
+  <text x="72" y="2900" class="ff name">操控运动器自动前进</text>
+  <text x="340" y="2900" class="ff effect">单位状态效果添加给操控运动器时，将会在激活时自动向前运动</text>
+
+  <line x1="72" y1="2928" x2="1128" y2="2928" class="divider"/>
+  <text x="72" y="2948" class="ff name">操控运动器运动参数</text>
+  <text x="340" y="2948" class="ff effect">单位状态效果添加给操控运动器时，可使运动参数增加指定值</text>
+
+  <line x1="72" y1="2976" x2="1128" y2="2976" class="divider"/>
+  <text x="72" y="2996" class="ff name">挂载特效</text>
+  <text x="340" y="2996" class="ff effect">在实体上挂载一个循环特效，配置与特效相关配置基本一致</text>
+
+  <line x1="72" y1="3024" x2="1128" y2="3024" class="divider"/>
+  <text x="72" y="3044" class="ff name">元素附着</text>
+  <text x="340" y="3044" class="ff effect">在实体上附着一个特定类型的元素。这个元素不会自然消耗，但会被元素反应消耗</text>
+
+  <line x1="72" y1="3072" x2="1128" y2="3072" class="divider"/>
+  <text x="72" y="3092" class="ff name">特殊状态：无敌</text>
+  <text x="340" y="3092" class="ff effect">使实体进入无敌状态。无敌状态下，无法受到任何伤害，且受到攻击不会触发【受到攻击时】事件</text>
+
+  <line x1="72" y1="3120" x2="1128" y2="3120" class="divider"/>
+  <text x="72" y="3140" class="ff name">特殊状态：禁止锁定</text>
+  <text x="340" y="3140" class="ff effect">使实体进入禁止锁定状态。该状态下，造物自动锁定类的攻击和技能无法锁定该实体</text>
+
+  <line x1="72" y1="3168" x2="1128" y2="3168" class="divider"/>
+  <text x="72" y="3188" class="ff name">特殊状态：锁定生命值</text>
+  <text x="340" y="3188" class="ff effect">使实体进入锁定生命值状态。该状态下，生命无法降低，但受到攻击时会触发【受到攻击时】事件</text>
+
+  <line x1="72" y1="3216" x2="1128" y2="3216" class="divider"/>
+  <text x="72" y="3236" class="ff name">特殊状态：挣扎</text>
+  <text x="340" y="3236" class="ff effect">使实体进入挣扎状态，无法做出任何行动。玩家可通过快速点按挣脱键进行挣脱</text>
+  <text x="340" y="3258" class="ff effect">注意：不是所有造物都可支持该状态</text>
+
+  <line x1="72" y1="3282" x2="1128" y2="3282" class="divider"/>
+  <text x="72" y="3302" class="ff name">特殊状态：禁止恢复生命值</text>
+  <text x="340" y="3302" class="ff effect">使实体进入禁止恢复生命值状态。该状态下，实体无法恢复生命</text>
+
+  <line x1="72" y1="3330" x2="1128" y2="3330" class="divider"/>
+  <text x="72" y="3350" class="ff name">特殊状态：禁止生命低于指定值</text>
+  <text x="340" y="3350" class="ff effect">使实体进入禁止生命低于指定值状态。该状态下，实体的生命禁止低于生命阈值所配置的生命百分比</text>
+
+  <line x1="72" y1="3378" x2="1128" y2="3378" class="divider"/>
+  <text x="72" y="3398" class="ff name">超级跳</text>
+  <text x="340" y="3398" class="ff effect">该状态下角色获得增强跳跃能力。xz倍率为平面上跳跃的距离，超过1即增强平面跳跃距离</text>
+  <text x="340" y="3420" class="ff effect">y倍率为向上跳跃的高度，超过1即增强向上跳跃高度</text>
+
+  <line x1="72" y1="3444" x2="1128" y2="3444" class="divider"/>
+  <text x="72" y="3464" class="ff name">阻止攻击元素附着</text>
+  <text x="340" y="3464" class="ff effect">该状态下，造物造成的元素攻击无法附着元素</text>
+
+  <line x1="72" y1="3492" x2="1128" y2="3492" class="divider"/>
+  <text x="72" y="3512" class="ff name">免疫嘲讽</text>
+  <text x="340" y="3512" class="ff effect">免疫经典仇恨模式和自定义仇恨模式的嘲讽</text>
+
+  <line x1="72" y1="3540" x2="1128" y2="3540" class="divider"/>
+  <text x="72" y="3560" class="ff name">禁止移动</text>
+  <text x="340" y="3560" class="ff effect">限制造物的常规移动，不影响技能过程中的移动，也不影响技能造成的移动效果</text>
+  <text x="340" y="3582" class="ff effect">禁止移动期间会对脱战环节的造物产生影响，可能带来无法脱战或其他不稳定状态阻塞，建议规避或监听脱战状态时进行管理</text>
+
+  <line x1="72" y1="3606" x2="1128" y2="3606" class="divider"/>
+  <text x="72" y="3626" class="ff name">禁用跳跃</text>
+  <text x="340" y="3626" class="ff effect">禁止角色跳跃</text>
+
+  <line x1="72" y1="3654" x2="1128" y2="3654" class="divider"/>
+  <text x="72" y="3674" class="ff name">造物沉默</text>
+  <text x="340" y="3674" class="ff effect">使造物无法释放技能。暂时无法对复杂造物的自定义技能生效，在下个版本中将会支持该功能</text>
+
+  <line x1="72" y1="3702" x2="1128" y2="3702" class="divider"/>
+  <text x="72" y="3722" class="ff name">禁用冲刺</text>
+  <text x="340" y="3722" class="ff effect">禁止角色冲刺</text>
+
+  <line x1="72" y1="3750" x2="1128" y2="3750" class="divider"/>
+  <text x="72" y="3770" class="ff name">禁用滑翔</text>
+  <text x="340" y="3770" class="ff effect">禁止角色滑翔</text>
+
+  <line x1="72" y1="3798" x2="1128" y2="3798" class="divider"/>
+  <text x="72" y="3818" class="ff name">监听元素反应</text>
+  <text x="340" y="3818" class="ff effect">设置事件的发送目标和监听的反应类型，当该实体发生指定元素反应时，</text>
+  <text x="340" y="3840" class="ff effect">可触发目标实体挂载的节点图事件【发生元素反应时】</text>
+
+  <line x1="72" y1="3864" x2="1128" y2="3864" class="divider"/>
+  <text x="72" y="3884" class="ff name">护盾</text>
+  <text x="340" y="3884" class="ff effect">获得护盾，参数引用护盾配置</text>
+
+  <line x1="72" y1="3912" x2="1128" y2="3912" class="divider"/>
+  <text x="72" y="3932" class="ff name">禁用攀爬</text>
+  <text x="340" y="3932" class="ff effect">禁止角色攀爬</text>
+
+  <line x1="72" y1="3960" x2="1128" y2="3960" class="divider"/>
+  <text x="72" y="3980" class="ff name">监听移动速率</text>
+  <text x="340" y="3980" class="ff effect">添加后，条件满足时触发角色挂载的节点图事件【角色移动速度达到条件时】</text>
+  <text x="340" y="4002" class="ff effect">同时可通过【查询角色当前移动速度】节点获取移动速度、方向</text>
+
+  <line x1="72" y1="4026" x2="1128" y2="4026" class="divider"/>
+  <text x="72" y="4046" class="ff name">铭牌隐藏</text>
+  <text x="340" y="4046" class="ff effect">隐藏该单位的铭牌</text>
+
+  <line x1="72" y1="4074" x2="1128" y2="4074" class="divider"/>
+  <text x="72" y="4094" class="ff name">禁用挣扎按钮</text>
+  <text x="340" y="4094" class="ff effect">角色进入挣扎状态时，无法通过挣扎按钮提前挣脱</text>
+
+  <line x1="72" y1="4122" x2="1128" y2="4122" class="divider"/>
+  <text x="72" y="4142" class="ff name">冲刺时不关闭受击盒</text>
+  <text x="340" y="4142" class="ff effect">冲刺时，不关闭受击盒。（默认情况下，角色冲刺会短暂关闭受击盒）</text>
+
+  <line x1="72" y1="4170" x2="1128" y2="4170" class="divider"/>
+  <text x="72" y="4190" class="ff name">挂载描边效果</text>
+  <text x="340" y="4190" class="ff effect">实体边缘会显示配置颜色描边。支持配置布尔型过滤器。当布尔型本地过滤器返回TRUE时，实体会被描边</text>
+
+  <line x1="72" y1="4218" x2="1128" y2="4218" class="divider"/>
+  <text x="72" y="4238" class="ff name">隐藏实体的小地图标识</text>
+  <text x="340" y="4238" class="ff effect">隐藏实体在小地图上的显示</text>
+
+  <line x1="72" y1="4266" x2="1128" y2="4266" class="divider"/>
+  <text x="72" y="4286" class="ff name">挂载透视效果</text>
+  <text x="340" y="4286" class="ff effect">当布尔型本地过滤器返回TRUE，并且挂载实体被遮挡时，该实体会以配置颜色穿透显示</text>
+
+  <line x1="72" y1="4314" x2="1128" y2="4314" class="divider"/>
+  <text x="72" y="4334" class="ff name">角色隐藏</text>
+  <text x="340" y="4334" class="ff effect">半透明、全透明都是隐藏的一种状态。布尔型本地过滤器的判定结果可理解为【本地对挂载角色隐藏的角色是否可见】</text>
+  <text x="340" y="4356" class="ff effect">过滤器判定true：挂载角色虚化半透明，屏蔽特效、屏蔽音效不生效；判定false：挂载角色完全隐藏，屏蔽特效、屏蔽音效生效</text>
+  <text x="340" y="4378" class="ff effect">是否同时屏蔽特效：该单位状态开关优先级高于特效器内特效的开关优先级</text>
+
+  <line x1="72" y1="4398" x2="1128" y2="4398" class="divider"/>
+  <text x="72" y="4418" class="ff name">物件不可见</text>
+  <text x="340" y="4418" class="ff effect">当布尔型本地过滤器返回TRUE，实体不可见</text>
+
+  <line x1="72" y1="4446" x2="1128" y2="4446" class="divider"/>
+  <text x="72" y="4466" class="ff name">覆写扫描标签数据</text>
+  <text x="340" y="4466" class="ff effect">添加后，角色的扫描标签组件数据将按照设置参数生效</text>
+
+  <line x1="72" y1="4494" x2="1128" y2="4494" class="divider"/>
+  <text x="72" y="4514" class="ff name">修正小地图方向</text>
+  <text x="340" y="4514" class="ff effect">可选择以角色朝向为小地图正上方，还是以指定的偏转角度为小地图的正上方</text>
+
+  <!-- 相关文档 + 页脚 -->
+  <text x="48" y="4574" class="ff srclabel">相关文档：</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhou93r2pxv2" target="_blank">
+    <text x="48" y="4598" class="ff srclink" text-decoration="underline">奇匠学院文档：单位状态效果池</text>
+  </a>
+  <text x="600" y="4624" class="ff foot" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.0</text>
 </svg>

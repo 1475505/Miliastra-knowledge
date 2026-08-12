@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhmegu0f0cso
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:28:50.752Z
+crawledAt: 2026-08-12T17:24:28.849Z
 ---
 
 # 一、功能简介
@@ -256,3 +256,33 @@ crawledAt: 2026-07-01T08:28:50.752Z
 在场景层和摆放层，多选内容后，目前可显示位置信息
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmegu0f0cso/2c452a10-1173-495b-a10f-6e988bdc3851.png)
+
+# 八、测距功能
+
+## 1.功能说明
+
+测距工具是内置于编辑器中可以进行距离测量的功能
+
+## 2.工具入口
+
+右键菜单 → 测距线 → 【添加测距线】
+
+点击【添加测距线】进入测距模式，可以用光标左键对地面点击选点，界面上会显示两点之间的距离
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmegu0f0cso/651e3687-0545-4dbe-b51d-a67f55a0ea27.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmegu0f0cso/7fb0351e-481c-4d5f-a915-719eccc6efbe.png)
+
+## 3.去除测距线
+
+方式一：可以对单条线进行删除
+
+方式二：右键菜单 → 测距线 → 【全部删除】，可以删除所有的测距线
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmegu0f0cso/e2ec29cf-5765-41f4-b22e-6c22226131f6.png)
+
+## 4.编辑器设置
+
+可以在设置里调整测距线是否常驻显示
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmegu0f0cso/ed3a68cd-772e-4886-8d10-380d57d86240.png)

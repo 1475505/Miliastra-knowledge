@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mho82r0ip7v4
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:30:58.611Z
+crawledAt: 2026-08-12T17:26:08.856Z
 ---
 
 # **一、通用**

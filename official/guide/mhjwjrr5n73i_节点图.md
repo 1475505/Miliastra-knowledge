@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhjwjrr5n73i
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:29:41.066Z
+crawledAt: 2026-08-12T17:24:58.463Z
 ---
 
 # 一、节点图功能概述
@@ -108,7 +108,7 @@ _技能节点图、造物状态节点图_和_本地过滤器节点图_都是在�
 
 ## 1.实体节点图
 
-入口位于：实体或元件的详情编辑页-节点图页签
+入口位于：实体或元件的详情编辑页-节点图配置页签
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhjwjrr5n73i/b61605af-0959-4113-aa6a-9256f390768d.png)
 

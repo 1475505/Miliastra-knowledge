@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhnapxrumtzy
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-04-30T13:41:26.663Z
+crawledAt: 2026-08-12T17:16:59.923Z
 ---
 
 # 一、界面控件是什么
@@ -46,6 +46,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 部分固有界面控件会在关卡运行时默认存在，部分固有界面会通过业务按需调用
 
 ### **(3)固有界面控件资** 产
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/c0cccc79-7d99-40c8-a03f-9c209c8b5eef.png)
 
 
 
@@ -137,13 +139,19 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 在界面控件组库中，可以利用界面控件资产将其编辑为界面控件组模板，并通过节点图来使用
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/69fd604d-8688-4612-aa5c-57afb0f4c30d.png)
+
 在界面布局中，可以通过【添加界面控件】来引用界面控件资产，随界面布局一同生效
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/d8360ae5-ea7a-4c4e-b1f6-e3e049d81eb0.png)
 
 ### **(3)预制界面控件资** 产
 
 
 
 **交互按钮**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/ac1b5e2a-d907-4113-bd82-fb3f62df9d3a.png)
 
 关卡运行中，点击和外接设备输入，都可以触发该界面控件的交互。
 
@@ -155,6 +163,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **道具展示**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/b7d08dbb-dec1-42a6-aa38-c9efdad6309c.png)
+
 关卡运行中，点击和外接设备输入，都可以触发该界面控件的交互。
 
 支持玩家进行交互，并在交互后向节点图发送：“界面控件组触发时“事件
@@ -164,6 +174,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 **文本框**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/df700f76-9092-486f-970c-d49f2a9d6799.png)
 
 关卡运行中，显示预先编辑的文本内容。
 
@@ -175,6 +187,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **弹窗**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/aa24249e-3283-4e0f-9eca-176e34993593.png)
+
 关卡运行中，一种通过逻辑触发出现的界面，用于向玩家提供重要信息、提示、选项或交互功能。
 
 详见[弹窗界面控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhen7r0djxkg)
@@ -182,6 +196,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 **进度条**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/9f389852-c9ba-4f56-805b-5a531ef03ca5.png)
 
 关卡运行中，可以实时展示需求变量在默认配置范围中占比的图形界面。
 
@@ -191,6 +207,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **计时器**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/d8ab3567-20a3-4772-8a12-0f6aa34ce776.png)
+
 用于显示时间进度的界面，包括倒计时、正计时两种表现方式。
 
 详见[计时器界面控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhnrdor7uyra)
@@ -199,6 +217,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **计分板**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/b84343ac-2797-412a-9ff8-b567aec4caf5.png)
+
 关卡运行时，用于显示玩家自定义变量，并可以根据自定义变量进行排名的信息展示界面
 
 详见[计分板界面控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhesro0hyn5k)
@@ -206,6 +226,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 **卡牌选择器**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/6b0f58ff-d469-4038-9c9b-1a37c9b3befa.png)
 
 选择器面板提供编辑简单的决策交互界面功能
 
@@ -217,6 +239,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **界面动效**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/7f3059c8-a126-4400-8c89-7ed4bc2c7500.png)
+
 可以配置在界面布局中，并在界面布局中显示对应的特效，是用于美化、丰富表现而使用的一种界面控件
 
 详见[界面动效控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mh2iyk9fa4gy)
@@ -224,6 +248,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 **全屏界面动效**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/720185e5-f2e7-487a-b6b2-a0894ad6badc.png)
 
 可以配置在界面布局中，并在界面布局中显示对应的特效，是用于美化、丰富表现而使用的一种界面控件
 
@@ -233,6 +259,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **图片**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/ff9def66-b286-4e35-b050-9c8959742ad9.png)
+
 可以配置在界面布局中，并在界面布局中显示对应的特效，是用于美化、丰富表现而使用的一种界面控件
 
 详见[图片控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mh2oih9jou22)
@@ -240,6 +268,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 **自定义按钮**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/cce1f662-e60e-4109-b760-d696a057d46d.png)
 
 是一种特殊的交互按钮，可以配置其图标和显示的文本
 
@@ -249,6 +279,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **自定义开关**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/4f4ccdce-3db9-46d3-b91b-3a3f83f6250c.png)
+
 可以通过点击或其映射的自定义变量进行开和关的状态切换，并以此来触发不同的功能逻辑
 
 详见[自定义开关控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhkrafr3w6um)
@@ -256,6 +288,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 **悬浮交互页**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/6b86ab20-0d9d-481c-b52d-a156195451e2.png)
 
 提供高级的页签、单选项视窗等一系列配置，便于奇匠配置较为复杂的关联界面。支持添加各种按键、开关，用来丰富功能和表现
 
@@ -265,6 +299,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 **特殊数字**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/138f831a-e9ee-4ad5-9525-f0fdcf19df61.png)
+
 可以配置在界面布局中，支持表现与技能相关的诸多数据
 
 详见[特殊数字控件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhkwucr8awfq)
@@ -272,6 +308,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 ### **(4)预制界面控件通用数据配置**
 
 #### a.索引
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/cb3f2895-536b-487d-94c9-df6711b9e130.png)
 
 当界面控件被保存为界面控件模板时，会赋予其索引，支持在节点图引用
 
@@ -282,6 +320,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 #### b.变换
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/0b833823-4e1a-4b74-a727-b88acaa0788a.png)
+
 |     |     |
 | --- | --- |
 | 配置参数 | 说明 |
@@ -290,8 +330,8 @@ crawledAt: 2026-04-30T13:41:26.663Z
 | _大小_ | 仅有部分界面控件支持配置 |
 | _缩放比例_ | 支持对X，Y轴调整缩放比例 |
 | _旋转_ | 支持镜像、对称，和Z轴的旋转 |
-| _锚点设置_ | 支持点击展开，选择需求的锚点位置，在屏幕分辨率改变时，会以锚点继承相对位置 |
-| _中心_ | 支持配置旋转的中心点位置，旋转操作时，将以此为中心 |
+| _锚点设置_ | 支持点击展开，选择需求的锚点位置，在屏幕分辨率改变时，会以锚点继承相对位置<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/daaeeaae-7b24-4acc-8e72-9cd2923a38c1.png) |
+| _中心_ | 支持配置旋转的中心点位置，旋转操作时，将以此为中心<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/cec0f8aa-d690-4a9f-9c84-93ba05809e49.png) |
 | _层级_ | 数字越大显示层级越高 |
 | _初始可见性_ | 若不勾选，则界面控件激活后不可见<br>支持通过节点【修改界面控件组状态】调整该参数 |
 
@@ -303,11 +343,15 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 ### **(1)素材库控件的概** 述
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/7c59b1d0-87d4-4634-9bc5-363f26534955.png)
+
 素材库支持使用界面控件模板有：文本框、界面动效、图片、特殊数字
 
 素材库使用的文本框和普通文本框略有不同
 
 #### a.素材库特殊控件-文本框
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/61790d2d-688c-4b8e-a4ce-d0b52c805228.png)
 
 文本框的插入变量，支持配置基础的玩家自定义变量，也支持配置悬浮交互页中声明的形式变量
 
@@ -317,17 +361,21 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 素材组支持配置遮罩，仅保留遮罩内的部分进行使用
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/3cb84b13-ef00-4184-928c-6a0c2b4680b9.png)
+
 |     |     |
 | --- | --- |
 | 配置参数 | 说明 |
 | _开启遮罩_ | 开启才会开放其它配置内容，并在使用时，仅有遮罩部分会展示 |
-| _遮罩形状_ | 可选矩形、圆形<br>例如配置圆形，可以配出如下效果 |
+| _遮罩形状_ | 可选矩形、圆形<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/4e7004d6-d361-4cb4-b1df-6886667d9be1.png)<br>例如配置圆形，可以配出如下效果<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/9c574a22-8275-44b5-83d6-371d572feb2f.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/03341b65-e4c9-4957-9941-8f9b8de4842f.png) |
 | _位置_ | 遮罩的中心位置 |
 | _大小_ | 遮罩的大小 |
 
 # 四、界面控件的渲染模式
 
 在月之五及之前的版本中，界面控件的渲染仅和创建时序有关，层级参数并未生效。在月之六版本我们对其进行了修复，并提供了两种渲染模式，分别为【时序渲染(旧)】和【层级渲染(新)】，可以在界面控件组管理中图示位置点击进行切换
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/0b4c23ba-01a6-411c-9773-6c18fe070789.png)
 
 **时序渲染(旧)**：原有的渲染逻辑，该模式下将按照“界面控件”创建时序进行渲染。月之六版本更新前创建的关卡存档、已发布的关卡均默认为该模式。如果需要对控件进行修改，那么新增的控件可能会出现层级显示的问题，建议切换到【层级渲染(新)】模式；如果不需要对控件进行修改，可以保持该模式
 
@@ -344,3 +392,17 @@ crawledAt: 2026-04-30T13:41:26.663Z
 
 
 层级渲染模式下，界面布局中的控件层级低于界面控件库中激活的控件层级，若原先是通过节点的创建时序实现主屏控件显示在控件模板上层的话，推荐都转为控件模板，然后通过层级配置实现
+
+# 五、额外说明
+
+## 1.搜索筛选功能
+
+所有控件支持按控件名称、ID进行搜索，按类型进行筛选
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/b49b7ffe-f48c-4a00-b9ee-46be1e94ac7d.png)
+
+## 2.控件可填入变量迭代
+
+各个控件可填入变量的输入区域支持选列表、字典、结构体内的变量
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnapxrumtzy/55d66ab8-c75c-4aae-ba67-a2bc6e354a07.png)

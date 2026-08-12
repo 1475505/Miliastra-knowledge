@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhctmgi51lpo
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:28:15.723Z
+crawledAt: 2026-08-12T17:24:14.388Z
 ---
 
 # 一、玩家的概念
@@ -47,7 +47,7 @@ _特殊被击倒损伤_：当角色因为溺水、摔伤等特殊原因被击倒
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhctmgi51lpo/82bcdd15-3123-4366-aeb5-e0da6834be9a.png)
 
-组件页签，可在此页签给玩家实体添加组件，或查看已添加的组件
+通用组件页签，可在此页签给玩家实体添加组件，或查看已添加的组件
 
 玩家实体的可用组件概览
 

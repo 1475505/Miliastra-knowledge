@@ -1,74 +1,183 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1100">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2558">
   <defs>
-    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
-    <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D6BE4"/>
+      <stop offset="100%" stop-color="#4A3F6B"/>
+    </linearGradient>
+    <filter id="card">
+      <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/>
+    </filter>
+    <filter id="elevated">
+      <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
+    </filter>
   </defs>
-  <rect width="1200" height="1100" fill="#F9F7F2"/>
+  <style>
+    .f { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+  </style>
+  <rect width="1200" height="2558" fill="#F9F7F2"/>
   <rect width="1200" height="6" fill="url(#topGrad)"/>
-  
 
-  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
-  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">悬浮交互页控件</text>
-  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">高级页签/单选项视窗配置 | 复杂关联界面 | 容器与形式变量</text>
+  <!-- 标题卡片 -->
+  <rect x="48" y="32" width="1104" height="84" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+  <rect x="48" y="32" width="4" height="84" rx="2" fill="#2D6BE4"/>
+  <text x="72" y="72" class="f" font-size="34" font-weight="bold" fill="#1A1B2E">悬浮交互页控件</text>
+  <text x="72" y="98" class="f" font-size="14" fill="#8B8DA0">高级页签 / 单选项视窗 / 形式变量 / 手柄导航（7.0）｜复杂关联界面配置</text>
 
-  <rect x="40" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、悬浮交互页的功能</text>
-  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">提供高级的页签、单选项视窗等一系列配置，</text>
-  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">便于配置较为复杂的关联界面。</text>
-  <text x="60" y="238" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持添加各种按键、开关，丰富功能和表现。</text>
-  <text x="60" y="265" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">展开/关闭时可触发服务器节点图事件。</text>
-  <rect x="60" y="285" width="160" height="24" rx="12" fill="#FDE8E6"/>
-  <text x="75" y="302" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#C62828">断线重连不恢复</text>
+  <!-- 一、悬浮交互页的功能 -->
+  <rect x="48" y="130" width="1104" height="170" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="160" class="f" font-size="18" fill="#2D6BE4">一、悬浮交互页的功能</text>
+  <text x="320" y="160" class="f" font-size="13" fill="#8B8DA0">高级页签与单选项视窗配置</text>
+  <text x="72" y="190" class="f" font-size="14" fill="#4A4B65">提供高级的页签、单选项视窗等配置，便于奇匠配置较为复杂的关联界面，支持添加按键、开关来丰富功能与表现。</text>
+  <text x="72" y="214" class="f" font-size="14" fill="#4A4B65">关卡运行中可通过节点图唤起悬浮交互页；支持玩家进行交互。</text>
+  <text x="72" y="238" class="f" font-size="14" fill="#4A4B65">根据奇匠的静态配置，展开/关闭页签或单选项视窗时，可触发服务器节点图事件。</text>
+  <rect x="72" y="256" width="210" height="26" rx="13" fill="#FDE8E6"/>
+  <text x="88" y="274" class="f" font-size="12" fill="#D93025">断线重连等异常行为不会恢复</text>
 
-  <rect x="620" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、样式配置</text>
-  <text x="640" y="190" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">使用预设背景</text>
-  <text x="640" y="213" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">开启后选择预设背景，关闭使用默认背景</text>
-  <text x="640" y="240" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">页面容器</text>
-  <text x="640" y="263" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">划分悬浮交互页内部控件信息结构，每个容器相当于一个独立页面</text>
-  <text x="640" y="290" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">初始生效</text>
-  <text x="640" y="313" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">决定哪些容器初始生效</text>
+  <!-- 二、悬浮交互页的编辑 · 添加与样式 -->
+  <rect x="48" y="316" width="540" height="270" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="344" class="f" font-size="18" fill="#2D6BE4">二、悬浮交互页的编辑</text>
+  <text x="268" y="344" class="f" font-size="13" fill="#8B8DA0">添加 / 样式设置</text>
+  <text x="72" y="374" class="f" font-size="14" font-weight="500" fill="#1A1B2E">添加悬浮交互页</text>
+  <text x="72" y="396" class="f" font-size="13" fill="#4A4B65">在「界面控件组编辑窗口」添加界面控件模板「悬浮交互页」。</text>
+  <text x="72" y="418" class="f" font-size="13" fill="#4A4B65">点击样式中的【详情编辑】会进入悬浮交互页编辑界面。</text>
+  <text x="72" y="446" class="f" font-size="14" font-weight="500" fill="#1A1B2E">样式设置</text>
+  <text x="72" y="468" class="f" font-size="13" fill="#4A4B65">使用预设背景：开启后可在预设背景中选择一个，关闭则使用默认背景。</text>
+  <text x="72" y="488" class="f" font-size="13" fill="#4A4B65">选择预设样式：从预设的样式中选择一个。</text>
+  <text x="72" y="508" class="f" font-size="13" fill="#4A4B65">页面容器：用于划分页内控件信息结构，每个容器可理解为一个独立页面。</text>
+  <text x="72" y="528" class="f" font-size="13" fill="#4A4B65">初始生效：决定哪些容器初始生效。</text>
+  <text x="72" y="548" class="f" font-size="13" fill="#4A4B65">视窗容器列表：显示当前所有的容器。</text>
 
-  <rect x="40" y="330" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、功能配置</text>
-  <text x="60" y="388" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">单人游玩暂停游戏</text>
-  <text x="60" y="411" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">单人关卡时打开悬浮交互页暂停游戏</text>
-  <text x="60" y="438" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">手柄初始选中控件</text>
-  <text x="60" y="461" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">选择编辑界面内配置的控件</text>
-  <text x="60" y="488" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="700" fill="#1A1B2E">打开/关闭音效</text>
-  <text x="60" y="511" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">打开/关闭时触发的音效资产</text>
+  <!-- 二、功能设置 -->
+  <rect x="612" y="316" width="540" height="270" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="636" y="346" class="f" font-size="16" font-weight="500" fill="#1A1B2E">功能设置</text>
+  <text x="636" y="372" class="f" font-size="13" fill="#4A4B65">单人游玩打开页面时暂停游戏：勾选后，单人关卡打开悬浮交互页操作时会暂停游戏。</text>
+  <rect x="636" y="388" width="492" height="46" rx="8" fill="#FFF3E0"/>
+  <text x="648" y="405" class="f" font-size="12" fill="#B26A00">注意：暂停时环境、生物敌人叫声、角色动作、战斗、物件音效会暂停，</text>
+  <text x="648" y="423" class="f" font-size="12" fill="#B26A00">界面音效不会暂停，会继续播放。</text>
+  <text x="636" y="452" class="f" font-size="13" fill="#4A4B65">手柄初始选中控件：可从悬浮交互页编辑界面配置的控件中选择一个。</text>
+  <text x="636" y="472" class="f" font-size="13" fill="#4A4B65">打开音效：打开该悬浮交互页时触发的音效资产。</text>
+  <text x="636" y="492" class="f" font-size="13" fill="#4A4B65">关闭音效：关闭该悬浮交互页时触发的音效资产。</text>
+  <text x="636" y="512" class="f" font-size="13" fill="#4A4B65">形式变量管理：每个悬浮交互页支持配置一组形式变量。</text>
+  <text x="636" y="532" class="f" font-size="13" fill="#4A4B65">素材库引用对应形式变量时，以当前悬浮交互页形式变量值为准。</text>
+  <rect x="636" y="544" width="222" height="24" rx="12" fill="#E8EEFB"/>
+  <text x="648" y="561" class="f" font-size="12" fill="#2D6BE4">形式变量映射需确保数据类型一致</text>
 
-  <rect x="620" y="330" width="540" height="200" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、形式变量管理</text>
-  <text x="640" y="388" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">每个悬浮交互页都支持配置一组形式变量。</text>
-  <text x="640" y="415" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">素材库中引用形式变量时，以当前悬浮交互页的值为准。</text>
-  <text x="640" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">形式变量的映射关系需确保数据类型一致。</text>
-  <rect x="640" y="460" width="160" height="24" rx="12" fill="#E8EEFB"/>
-  <text x="655" y="477" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">避免重复设置变量</text>
-  <text x="640" y="510" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">暂停时：环境/生物/角色/战斗/物件音效会暂停，</text>
-  <text x="640" y="533" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">界面音效不会暂停，会继续播放。</text>
+  <!-- 三、悬浮交互页编辑界面 -->
+  <rect x="48" y="602" width="1104" height="132" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="632" class="f" font-size="18" fill="#2D6BE4">三、悬浮交互页编辑界面</text>
+  <text x="290" y="632" class="f" font-size="13" fill="#8B8DA0">相当于打开新的「界面布局」</text>
+  <text x="72" y="662" class="f" font-size="14" fill="#4A4B65">悬浮交互页相当于打开了一个新的「界面布局」，在该页面也可以添加对应的界面控件并修改对应配置。</text>
+  <text x="72" y="686" class="f" font-size="14" fill="#4A4B65">有一些界面控件是悬浮交互页专有的：交互页关闭按钮、页签、单选项视窗、文本视窗。</text>
+  <rect x="72" y="700" width="176" height="26" rx="13" fill="#E5F2E9"/>
+  <text x="88" y="717" class="f" font-size="12" fill="#2E7D32">悬浮交互页专有控件</text>
 
-  <rect x="40" y="550" width="1120" height="130" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="580" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">五、悬浮交互页编辑界面</text>
-  <text x="60" y="608" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">相当于打开了一个新的「界面布局」，可添加界面控件并修改配置。</text>
-  <text x="60" y="635" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">有一些界面控件是悬浮交互页专有的：交互页关闭按钮、页签、单选项视窗。</text>
-  <rect x="60" y="655" width="160" height="24" rx="12" fill="#E5F2E9"/>
-  <text x="75" y="672" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">专属界面控件</text>
+  <!-- 1.交互页关闭按钮 -->
+  <rect x="48" y="750" width="1104" height="364" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="84" cy="770" r="12" fill="#2D6BE4"/>
+  <text x="84" y="775" class="f" font-size="13" font-weight="500" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="104" y="776" class="f" font-size="16" font-weight="500" fill="#1A1B2E">交互页关闭按钮</text>
+  <text x="72" y="806" class="f" font-size="13" fill="#4A4B65">悬浮交互页默认携带的界面控件，点击可关闭整个悬浮交互页及其内包含的所有控件；关闭按钮在固有容器中不可删除。</text>
+  <text x="72" y="830" class="f" font-size="13" fill="#4A4B65">若配置固有容器不生效（即不包含关闭按钮时）：PC端使用ESC关闭，手柄端使用退出键关闭，移动端需通过节点图关闭。</text>
+  <text x="72" y="856" class="f" font-size="14" font-weight="500" fill="#1A1B2E">样式</text>
+  <text x="72" y="880" class="f" font-size="13" fill="#4A4B65">支持预设样式/自定义样式。预设样式可选择不同按钮样式，部分预设样式支持自定义图标、颜色、文本。</text>
+  <text x="72" y="900" class="f" font-size="13" fill="#4A4B65">自定义样式：可自由配置默认状态、悬停状态、按下状态的素材。</text>
+  <text x="72" y="928" class="f" font-size="14" font-weight="500" fill="#1A1B2E">功能</text>
+  <text x="72" y="952" class="f" font-size="13" fill="#4A4B65">按键设置：不可修改，对应PC端和手柄端的关闭功能。</text>
+  <text x="72" y="976" class="f" font-size="13" fill="#4A4B65">响应点击区域：仅当配置样式为自定义时支持配置；可在编辑窗口中直接拖动调整，实际触发以点击区域配置的大小为准。</text>
+  <text x="72" y="1000" class="f" font-size="13" fill="#4A4B65">是否可点击（不开启则无点击交互）｜点击区域预览（浅黄色区域为点击区域）｜位置偏移、尺寸（仅自定义按钮，关闭按钮无法改动）。</text>
+  <text x="72" y="1028" class="f" font-size="14" font-weight="500" fill="#1A1B2E">手柄导航</text>
+  <text x="72" y="1052" class="f" font-size="13" fill="#4A4B65">可被手柄摇杆导航选中（开启后手柄悬停时显示提示）；导航提示样式（预制样式）、指向（上下左右）、偏移（X/Y）。</text>
+  <text x="72" y="1076" class="f" font-size="13" fill="#4A4B65">向左/右/上/下：手柄从此处悬停移动时优先吸附指定控件，默认吸附距离最近的控件，支持选择所有已配置容器中的控件。</text>
 
-  <rect x="40" y="700" width="1120" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="730" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">六、交互页关闭按钮</text>
-  <text x="60" y="758" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">默认携带，支持点击关闭整个悬浮交互页及其内包含的所有控件。在固有容器中不可删除。</text>
-  <text x="60" y="785" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">无关闭按钮时：PC端ESC关闭，手柄端退出键关闭，移动端需通过节点图关闭。</text>
+  <!-- 2.页签 -->
+  <rect x="48" y="1130" width="1104" height="372" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="84" cy="1150" r="12" fill="#2D6BE4"/>
+  <text x="84" y="1155" class="f" font-size="13" font-weight="500" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="104" y="1156" class="f" font-size="16" font-weight="500" fill="#1A1B2E">页签</text>
+  <text x="72" y="1186" class="f" font-size="13" fill="#4A4B65">样式：支持预设样式/自定义样式，两种样式都需要配置滚动方向（横向/纵向）。</text>
+  <text x="72" y="1210" class="f" font-size="13" fill="#4A4B65">自定义样式：通过添加样式提前配置多种页签项样式，每种样式可配置默认/悬停/按下/选中状态的素材。</text>
+  <text x="72" y="1238" class="f" font-size="14" font-weight="500" fill="#1A1B2E">页签设置</text>
+  <text x="72" y="1262" class="f" font-size="13" fill="#4A4B65">页签项尺寸（每个页签项的通用配置）、间距（页签项之间）、边距（距边框上下左右）、未撑满时居中（辅助整体居中）。</text>
+  <text x="72" y="1290" class="f" font-size="14" font-weight="500" fill="#1A1B2E">页签项配置</text>
+  <text x="72" y="1314" class="f" font-size="13" fill="#4A4B65">支持提前定制页签项，支持静态配置关联页签项，运行中可通过节点图调整显示内容；点击反馈包括唤起页签、控件状态显隐等，配置随所选样式（预设/自定义）略有不同。</text>
+  <text x="72" y="1338" class="f" font-size="13" fill="#4A4B65">添加页签项：详情编辑中通过加号新增；页签名称、序号（页签项的唯一标识）。</text>
+  <text x="72" y="1362" class="f" font-size="13" fill="#4A4B65">基础设置：页签名称、页签样式（选择上一层页签样式中配置的样式）、预览选中状态（编辑窗显示默认配置）、返回服务器事件（点击触发【悬浮交互页操作触发时】服务器节点图事件）。</text>
+  <text x="72" y="1386" class="f" font-size="13" fill="#4A4B65">形式变量配置：将形式变量与指定数据或玩家自定义变量关联；本页签项内素材引用形式变量时以自定义变量实时数据为准。</text>
+  <text x="72" y="1410" class="f" font-size="13" fill="#4A4B65">容器状态设置/控件状态设置：配置页面容器及控件的显示/隐藏状态，选择当前页签项时按配置显隐。</text>
+  <text x="72" y="1438" class="f" font-size="14" font-weight="500" fill="#1A1B2E">交互设置 / 手柄导航</text>
+  <text x="72" y="1462" class="f" font-size="13" fill="#4A4B65">交互设置：启用对应快捷键时支持通过快捷键对该页签交互；交互该页签时会触发配置的音效。</text>
+  <text x="72" y="1486" class="f" font-size="13" fill="#4A4B65">手柄导航：页签开启手柄快捷键时不能触发手柄导航功能；不开启时参照关闭按钮的配置描述。</text>
 
-  <rect x="40" y="830" width="1120" height="100" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="860" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">七、通过节点图管理</text>
-  <text x="60" y="888" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">唤起悬浮交互页 | 关闭悬浮交互页 | 更新悬浮交互页列表数据 | 悬浮交互页操作触发时</text>
-  <text x="60" y="915" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">页签和单选项视窗统称为「列表」，节点图对其引用和出参管理一致。</text>
+  <!-- 3.单选项视窗 -->
+  <rect x="48" y="1518" width="1104" height="376" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <circle cx="84" cy="1538" r="12" fill="#2D6BE4"/>
+  <text x="84" y="1543" class="f" font-size="13" font-weight="500" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="104" y="1544" class="f" font-size="16" font-weight="500" fill="#1A1B2E">单选项视窗</text>
+  <text x="72" y="1574" class="f" font-size="13" fill="#4A4B65">样式：仅支持自定义样式，通过添加样式提前配置多种页签项样式，每种样式可配置默认/悬停/按下/选中状态的素材。</text>
+  <text x="72" y="1602" class="f" font-size="14" font-weight="500" fill="#1A1B2E">列表设置</text>
+  <text x="72" y="1626" class="f" font-size="13" fill="#4A4B65">滚动方向（横向/纵向）、列表项大小、列表项间距、边距（距边框上下左右）、未撑满时居中、排列限制（自动换行/固定行数）。</text>
+  <text x="72" y="1654" class="f" font-size="14" font-weight="500" fill="#1A1B2E">列表项配置</text>
+  <text x="72" y="1678" class="f" font-size="13" fill="#4A4B65">支持提前定制列表项，支持静态配置关联列表项，运行中可通过节点图调整显示内容；点击反馈包括唤起页签、控件状态显隐等。</text>
+  <text x="72" y="1702" class="f" font-size="13" fill="#4A4B65">添加列表项：详情编辑中通过加号新增；列表项名称、序号（列表项的唯一标识）。</text>
+  <text x="72" y="1726" class="f" font-size="13" fill="#4A4B65">基础设置：列表项名称、列表项样式（选择上一层列表样式中配置的样式）、预览选中状态、返回服务器事件（点击触发【悬浮交互页操作触发时】服务器节点图事件）。</text>
+  <text x="72" y="1750" class="f" font-size="13" fill="#4A4B65">形式变量配置：将形式变量与指定数据或玩家自定义变量关联；本列表项内素材引用形式变量时以自定义变量实时数据为准。</text>
+  <text x="72" y="1774" class="f" font-size="13" fill="#4A4B65">容器状态设置/控件状态设置：配置页面容器及控件的显示/隐藏状态，选择当前列表项时按配置显隐。</text>
+  <text x="72" y="1802" class="f" font-size="14" font-weight="500" fill="#1A1B2E">交互设置 / 手柄导航</text>
+  <text x="72" y="1826" class="f" font-size="13" fill="#4A4B65">交互设置：交互该单选项视窗时会触发配置的音效。</text>
+  <text x="72" y="1850" class="f" font-size="13" fill="#4A4B65">手柄导航：可被手柄摇杆导航选中、手柄选中规则（切换焦点时选中/按下确认后选中）、导航提示样式（预制）、指向（上下左右）、偏移（X/Y）。</text>
+  <text x="72" y="1870" class="f" font-size="13" fill="#4A4B65">向左/右/上/下：优先吸附指定控件，默认距离最近的控件，支持选择所有已配置的容器。</text>
 
-  <text x="600" y="1070" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
-<text x="48" y="1070" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
-<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2u2e9o3jn6" target="_blank">
-  <text x="48" y="1090" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：悬浮交互页控件</text>
-</a>
+  <!-- 四、通过节点图管理悬浮交互页 -->
+  <rect x="48" y="1910" width="1104" height="132" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="1940" class="f" font-size="18" fill="#2D6BE4">四、通过节点图管理悬浮交互页</text>
+  <text x="72" y="1970" class="f" font-size="13" fill="#4A4B65">页签和单选项视窗的功能较相似、参数管理一致；节点图对它们的引用和出参统称为【列表】。</text>
+  <rect x="72" y="1988" width="240" height="30" rx="15" fill="#E8EEFB"/>
+  <text x="192" y="2008" class="f" font-size="14" fill="#2D6BE4" text-anchor="middle">唤起悬浮交互页</text>
+  <rect x="344" y="1988" width="240" height="30" rx="15" fill="#E8EEFB"/>
+  <text x="464" y="2008" class="f" font-size="14" fill="#2D6BE4" text-anchor="middle">关闭悬浮交互页</text>
+  <rect x="616" y="1988" width="240" height="30" rx="15" fill="#E8EEFB"/>
+  <text x="736" y="2008" class="f" font-size="14" fill="#2D6BE4" text-anchor="middle">更新悬浮交互页列表数据</text>
+  <rect x="888" y="1988" width="240" height="30" rx="15" fill="#E8EEFB"/>
+  <text x="1008" y="2008" class="f" font-size="14" fill="#2D6BE4" text-anchor="middle">悬浮交互页操作触发时</text>
+
+  <!-- 五、悬浮交互页控件与手柄导航（7.0 新增） -->
+  <rect x="48" y="2058" width="1104" height="412" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+  <text x="72" y="2088" class="f" font-size="18" fill="#2D6BE4">五、悬浮交互页控件与手柄导航</text>
+  <text x="392" y="2088" class="f" font-size="13" fill="#8B8DA0">7.0 新增章节</text>
+
+  <circle cx="84" cy="2113" r="10" fill="#2D6BE4"/>
+  <text x="84" y="2117" class="f" font-size="11" font-weight="500" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="104" y="2118" class="f" font-size="14" font-weight="500" fill="#1A1B2E">支持手柄导航的控件</text>
+  <text x="104" y="2142" class="f" font-size="13" fill="#4A4B65">交互按钮、道具展示、自定义按钮、自定义开关等可交互控件加入悬浮交互页后，会额外提供【手柄导航】配置。</text>
+  <text x="104" y="2162" class="f" font-size="13" fill="#4A4B65">页签、单选项视窗、文本视窗等仅限悬浮交互页使用的控件，同样支持【手柄导航】配置。</text>
+
+  <circle cx="84" cy="2189" r="10" fill="#2D6BE4"/>
+  <text x="84" y="2193" class="f" font-size="11" font-weight="500" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="104" y="2194" class="f" font-size="14" font-weight="500" fill="#1A1B2E">手柄导航提示</text>
+  <text x="104" y="2218" class="f" font-size="13" fill="#4A4B65">开启「可被手柄导航选中」开关后，控件可被手柄摇杆导航选中，并显示箭头提示。</text>
+  <text x="104" y="2238" class="f" font-size="13" fill="#4A4B65">可配置导航提示箭头的样式、朝向以及位置偏移。</text>
+
+  <circle cx="84" cy="2265" r="10" fill="#2D6BE4"/>
+  <text x="84" y="2269" class="f" font-size="11" font-weight="500" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="104" y="2270" class="f" font-size="14" font-weight="500" fill="#1A1B2E">手柄导航的规则</text>
+  <text x="104" y="2294" class="f" font-size="13" fill="#4A4B65">通过向左/向右/向上/向下参数，指定手柄导航焦点位于当前控件时，推动摇杆后希望焦点移动到的目标控件。</text>
+  <text x="104" y="2314" class="f" font-size="13" fill="#4A4B65">默认规则为移动到当前摇杆方向上中心点距离最近的控件；可通过控件列表指定跳转对象，或不进行跳转。</text>
+
+  <circle cx="84" cy="2341" r="10" fill="#2D6BE4"/>
+  <text x="84" y="2345" class="f" font-size="11" font-weight="500" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="104" y="2346" class="f" font-size="14" font-weight="500" fill="#1A1B2E">导航焦点与按键</text>
+  <text x="104" y="2370" class="f" font-size="13" fill="#4A4B65">除页签、文本视窗外，成为手柄导航对象的控件均可响应固定确认按键（取决于玩家的系统按键设置）。</text>
+  <text x="104" y="2390" class="f" font-size="13" fill="#4A4B65">若控件自身额外配置了快捷键，则可同时响应手柄快捷键。</text>
+
+  <circle cx="84" cy="2417" r="10" fill="#2D6BE4"/>
+  <text x="84" y="2421" class="f" font-size="11" font-weight="500" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="104" y="2422" class="f" font-size="14" font-weight="500" fill="#1A1B2E">手柄端界面适配设计教学</text>
+  <text x="104" y="2446" class="f" font-size="13" fill="#4A4B65">关于手柄端玩法界面设计的更多说明，可参考教程「界面控件——手柄适配引导」。</text>
+
+  <!-- 相关文档 -->
+  <text x="48" y="2500" class="f" font-size="12" fill="#8B8DA0">相关文档：</text>
+  <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2u2e9o3jn6" target="_blank">
+    <text x="48" y="2522" class="f" font-size="12" fill="#2D6BE4" text-decoration="underline">奇匠学院文档：悬浮交互页控件</text>
+  </a>
+  <text x="600" y="2544" class="f" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.0</text>
 </svg>

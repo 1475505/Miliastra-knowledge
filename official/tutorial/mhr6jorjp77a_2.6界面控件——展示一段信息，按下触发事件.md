@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhr6jorjp77a
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-12-03T15:15:37.864Z
+crawledAt: 2026-08-12T17:26:17.677Z
 ---
 
 # 前言
@@ -57,15 +57,21 @@ _\*\*教程中将以【文本框】进行讲解_
 
 _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/8379e838-bf5d-45c7-bd9d-c79e5e8c54fe.gif)
+
 ### 3.操作步骤
 
 **1.【局内编辑器】添加自定义变量**
 
 在【玩家】上添加一个自定义变量（命名可自由配置），类型为整数，初始值为0
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/069d2773-93bb-4d92-b6ef-c2a6dc014b30.png)
+
 **2.【局内编辑器】制作控件**
 
-点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>进入界面控件编辑界面，在【界面控件组库】中添加界面控件模版>>>选择【文本框】
+点击局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/9abe2559-4a16-4d5a-a3f0-cc12c764d9ac.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/b284c18e-bab0-425d-aa1f-e649945ec986.png)>>>进入界面控件编辑界面，在【界面控件组库】中添加界面控件模版>>>选择【文本框】
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/158c15df-c119-44e8-9ef5-c2c368c9ecda.gif)
 
 **3.【局内编辑器】配置控件参数**
 
@@ -80,7 +86,11 @@ _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义
 | 动态显示信息为玩家自身的积分值变化 | 【文本内容】插入变量为玩家自身-积分值（步骤1添加的自定义变量） |
 | 让信息看着显眼一些 | 调整【字号】、【位置】、【对齐】等参数 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/feebadd5-5504-4387-8f87-563f921e5bf8.png)
+
 _\*\*当前局内编辑器界面布局与各机型相关，需要进行逐一配置（教程中以移动端和PC端为例）_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/40cff23c-60ce-4e05-9a1f-d361613b4d60.gif)
 
 **4.【局内编辑器】添加控件到界面布局**
 
@@ -88,11 +98,15 @@ _\*\*当前局内编辑器界面布局与各机型相关，需要进行逐一配
 
 \*\*界面控件组库中制作的类似元件库中制作的元件，实际游玩时并不显示，需要添加至界面布局中才会显示
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/a0aeaaed-ce93-439e-9b3f-c8aec4b5b520.png)
+
 **5.【局内编辑器】绑定界面控件到具体玩家**
 
 在战斗预设-职业中，选择布局
 
 _\*\*此处教程中无玩家展示信息差异化（如：玩家A展示信息A，玩家B展示信息B），直接使用默认配置；如有特殊需要，可对不同职业进行独立配置_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/e64cb785-4495-4227-9110-9ed15b3ded03.png)
 
 **6.【局内编辑器】制作可拾取的金币**
 
@@ -112,6 +126,8 @@ _\*\*该功能在前置课程-碰撞与交互中已使用，此处不再列举�
 | 结果-1 | 拾取后增加1积分 | 【执行节点】：使用设置自定义变量设置【拾取后积分值=当前积分值+1】 |
 | 结果-2 | 拾取金币 | 【执行节点】：使用【销毁实体】制作拾取效果 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/68027f21-9cf8-4821-8cf3-3f16199bfa7b.png)
+
 **8.【局内编辑器】挂载节点图**
 
 将配置的节点图挂载在金币元件上，保存元件设置
@@ -119,6 +135,8 @@ _\*\*该功能在前置课程-碰撞与交互中已使用，此处不再列举�
 **9.【局内编辑器】放置元件，试玩体验**
 
 将制作好的金币元件放置在场景中，进入试玩即可体验该功能
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/8379e838-bf5d-45c7-bd9d-c79e5e8c54fe.gif)
 
 _\*\*更多相关信息可自行查阅【综合指南-文本框界面控件】_
 
@@ -138,6 +156,8 @@ _\*\*实际用法与【碰撞触发器】、【选项卡】类似，都是用于
 
 _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/ae9a4932-8bad-4b7f-830f-eaf8892e9241.gif)
+
 ### 3.操作步骤
 
 功能示例中的积分值UI和变量设置与功能示例-1完全一致，此处仅说明，不额外赘述，以讲解【交互按钮】特殊配置为主
@@ -148,13 +168,15 @@ _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义
 
 **2.【局内编辑器】制作控件**
 
-点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>进入界面控件编辑界面，在【界面控件组库】中添加界面控件模版>>>选择【文本框】和【交互按钮】
+点击局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/ef05337a-330d-4315-a67c-f0833f734e36.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/68ed3ecb-1b26-4036-bdf1-5e3ae63d06b7.png)>>>进入界面控件编辑界面，在【界面控件组库】中添加界面控件模版>>>选择【文本框】和【交互按钮】
 
 **3.【局内编辑器】配置控件参数**
 
 配置【文本框】和【交互按钮】参数
 
-_\*\*【交换按钮】延用了默认参数未进行额外配置，实际使用时可根据需要调整【按钮位置】、【触发按键】、【使用间隔】、【使用次数限制】等参数_
+_\*\*【交互按钮】延用了默认参数未进行额外配置，实际使用时可根据需要调整【按钮位置】、【触发按键】、【使用间隔】、【使用次数限制】等参数_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/98afbdf5-3fb2-4325-91cb-8da96b76d2b8.png)
 
 **4.【局内编辑器】添加控件到界面布局**
 
@@ -179,6 +201,8 @@ _\*\*特殊：交互按钮对应的事件节点【界面控件组触发时】仅
 | 条件 | / | / |
 | 结果 | 拾取后增加1积分 | 【执行节点】：使用设置自定义变量设置【拾取后积分值=当前积分值+1】 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/cc101539-986c-45da-b777-703b95f09d45.png)
+
 **7.【局内编辑器】挂载节点图**
 
 将配置的节点图挂载在【玩家】上，保存元件设置
@@ -186,6 +210,8 @@ _\*\*特殊：交互按钮对应的事件节点【界面控件组触发时】仅
 **8.【局内编辑器】试玩体验**
 
 直接进入试玩即可体验该功能
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/ae9a4932-8bad-4b7f-830f-eaf8892e9241.gif)
 
 _\*\*更多相关信息可自行查阅【综合指南-交互按钮界面控件】_
 
@@ -201,6 +227,8 @@ _\*\*更多相关信息可自行查阅【综合指南-交互按钮界面控件�
 
 _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/4a7b2758-2d59-4f88-9d3e-bc68d51fdca6.gif)
+
 **实现步骤：**
 
 1.在【玩家】上，添加3个自定义变量，分别对应占点进度的【最大值】、【最小值】、【当前值】
@@ -211,13 +239,19 @@ _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义
 
 变量3，命名：【占点当前值】（命名可自由配置）；类型：整数；初始值：0
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/9c180379-e0ed-41c3-a806-6c6c0f66630c.png)
+
 2.制作进度条控件，选择合适的【类型】、【大小】、【样式】、【颜色】等参数；配置当前值、最大值、最小值，对应【玩家自身】对应的变量值，保存设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/8172fdf8-d541-4787-9e9b-fe5b4958ad13.png)
 
 3.将制作完成的控件添加到界面布局中，并绑定给对应的职业（玩家）
 
 4.创建一个元件，作为占点平台
 
 5.在该元件上，添加【组件-碰撞触发器】，选择合适的类型并配置能覆盖平台的触发范围，生效目标设置为仅角色
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/caa86e26-e18d-4b63-96fd-d8854bd5da64.png)
 
 6.配置该元件和玩家的节点图（设置参考见下图），为达到预期的功能效果教程中配置如下：
 
@@ -235,6 +269,8 @@ _\*\*由于占点是一个持续增加的进度状态，并且随时间变化而
 | 条件 | / | / |
 | 结果 | 不再增加积分 | 【执行节点】：终止定时器，终止之前挂载的定时器即可 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/e9526216-7b92-444f-a04f-4b8db7231b7d.png)
+
 **玩家节点图**
 
 |     |     |     |     |
@@ -243,6 +279,8 @@ _\*\*由于占点是一个持续增加的进度状态，并且随时间变化而
 | 功能<br>按时间增加占点值，如果占点值满则胜利 | 触发场景 | 一定时间频率<br>教程中以每隔0.5s变动一次为例 | 【事件节点】：定时器触发时<br>根据之前设计，0.5s/次进行触发 |
 | 条件 | / | / |
 | 结果 | 增加占点值 | 【执行节点】：使用增加自定义变量改变当前值<br>由于最大值=100，5s可达到满值，因此占点值0.5s涨幅10（新值=当前值+10） |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhr6jorjp77a/55eb432f-4475-4cdf-be92-8f43161222af.png)
 
 7.将节点图挂载在元件和玩家上，保存设置；将元件放置在场景中，进入试玩，即可体验该功能
 
@@ -263,6 +301,8 @@ _\*\*更多相关信息可自行查阅【综合指南-进度条界面控件】_
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-界面控件】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 界面控件.gil
 

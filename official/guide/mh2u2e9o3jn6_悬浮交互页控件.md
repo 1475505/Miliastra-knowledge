@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2u2e9o3jn6
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:24:57.772Z
+crawledAt: 2026-08-12T17:22:43.930Z
 ---
 
 # 一、悬浮交互页的功能
@@ -53,7 +53,7 @@ _视窗容器列表_：会显示当前所有的容器
 
 点击【详情编辑】会进入_悬浮交互页编辑界面_
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/dae13a79-c2ac-4de0-9d39-e7f49b2b7b83.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/43e55e81-75ef-4b92-988c-4427d6123faf.png)
 
 ### (3)功能
 
@@ -79,7 +79,7 @@ _形式变量管理_：每个悬浮交互页都支持配置一组形式变量，
 
 # 三、悬浮交互页编辑界面
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/8c753386-cfe5-4522-b60f-5d5e1f1701d5.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/ed4941f7-924e-44cd-ad69-e980586c3fb2.png)
 
 悬浮交互页相当于打开了一个新的“界面布局”，在该页面也可以添加对应的界面控件并修改对应配置
 
@@ -87,7 +87,7 @@ _形式变量管理_：每个悬浮交互页都支持配置一组形式变量，
 
 ## 1.交互页关闭按钮
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/59e34f19-0591-4492-a996-2196707bd24a.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/a5aa5195-f83d-44be-b41a-c93cd9c1ba59.png)
 
 交互页关闭按钮是悬浮交互页默认携带的界面控件，支持点击关闭整个悬浮交互页及其内包含的所有控件
 
@@ -312,7 +312,7 @@ _样式_：支持选择_预设样式、自定义_
 
 不开启手柄快捷键时，可参考交互页关闭按钮中对应的配置描述
 
-## (3)单选项视窗
+## 3.单选项视窗
 
 ### (1)基础
 
@@ -451,3 +451,37 @@ _样式_：支持选择_预设样式、自定义_
 悬浮交互页操作触发时
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/7098a31b-1a3b-47f6-a509-2fe0cb265600.png)
+
+# 五、悬浮交互页控件与手柄导航
+
+## 1.支持手柄导航的控件
+
+交互按钮，道具展示，自定义按钮，自定义开关这类可交互的界面控件被添加至悬浮交互页内时，会额外提供【手柄导航】的配置，此外：页签，单选项视窗，文本视窗这些仅能在悬浮交互页中使用的控件，也支持【手柄导航】的配置。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/89a0acf5-675a-4e05-a906-1d7f124e7ead.png)
+
+## 2.手柄导航提示
+
+如图所示，在悬浮交互页控件中，左下框内类型的控件可以被设置为手柄导航的对象，若希望控件能够被手柄摇杆导航选中，可开启“可被手柄导航选中”开关。
+
+控件在成为手柄导航对象后，会以图中的箭头提示，可以选择导航提示箭头的样式，朝向以及位置偏移。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/bfa4adc6-36ea-4439-9dd9-34532f0b212f.png)
+
+## 3.手柄导航的规则
+
+可以通过图示中 向左/向右/向上/向下 的参数，指定当手柄导航焦点位于当前控件时，玩家向左/向右/向上/向下推动摇杆后，希望焦点移动到的目标控件对象。
+
+默认导航规则为：移动到当前摇杆方向上中心点距离最近的控件。
+
+可通过控件列表指定希望跳转到的控件对象，或者不进行跳转。![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/63f45ad4-4737-42d4-aae4-67ef39f1c0d1.png)
+
+## 4.导航焦点与按键
+
+除页签，文本视窗外的控件在成为手柄导航的对象时，均能够响应固定确认按键![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/a07b6d6d-dcb9-4f5c-a411-954ffd94a336.png)或![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2u2e9o3jn6/2d79fc16-6041-42ef-86c2-eb752d090f0d.png)（取决于玩家的系统按键设置），若控件自身额外配置了快捷键，则还能同时响应手柄快捷键。
+
+## 5.手柄端界面适配设计教学
+
+关于手柄端玩法界面设计的更多说明，可参考教程：
+
+[界面控件——手柄适配引导](https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhjobxrdykym)

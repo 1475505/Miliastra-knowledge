@@ -1,49 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 680">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1122">
   <defs>
     <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
     <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
+    <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
   </defs>
-  <rect width="1200" height="680" fill="#F9F7F2"/>
+  <rect width="1200" height="1122" fill="#F9F7F2"/>
   <rect width="1200" height="6" fill="url(#topGrad)"/>
-  
 
-  <rect x="40" y="30" width="1120" height="80" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <rect x="40" y="30" width="4" height="80" rx="2" fill="#2D6BE4"/>
-  <text x="64" y="62" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="34" font-weight="bold" fill="#1A1B2E">道具展示界面控件</text>
-  <text x="64" y="90" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#8B8DA0">展示道具信息 | 点击与外接设备触发交互 | 发送节点图事件</text>
+  <g font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">
 
-  <rect x="40" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">一、道具展示的功能</text>
-  <text x="60" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">关卡运行中，点击和外接设备输入都可以触发</text>
-  <text x="60" y="211" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">该界面控件的交互。</text>
-  <text x="60" y="238" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持玩家进行交互，并在交互后向节点图发送</text>
-  <text x="60" y="261" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">「界面控件组触发时」事件。</text>
-  <rect x="60" y="280" width="160" height="24" rx="12" fill="#E8EEFB"/>
-  <text x="75" y="297" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2D6BE4">界面控件组触发时</text>
+    <rect x="48" y="32" width="1104" height="80" rx="14" fill="#FFFFFF" filter="url(#elevated)"/>
+    <rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
+    <text x="72" y="72" font-size="34" font-weight="bold" fill="#1A1B2E">道具展示界面控件</text>
+    <text x="368" y="72" font-size="16" fill="#4A4B65">点击与外接设备触发交互 发送节点图事件</text>
 
-  <rect x="620" y="130" width="540" height="180" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="640" y="160" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">二、控件定位</text>
-  <text x="640" y="188" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">道具展示属于预制界面控件。</text>
-  <text x="640" y="215" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">可直接配置在界面布局默认生效，</text>
-  <text x="640" y="242" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">也可编辑为界面控件组模板使用。</text>
-  <text x="640" y="269" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">运行显示依赖界面布局。</text>
-  <rect x="640" y="285" width="120" height="24" rx="12" fill="#E5F2E9"/>
-  <text x="655" y="302" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#2E7D32">预制界面控件</text>
+    <text x="48" y="148" font-size="18" font-weight="700" fill="#2D6BE4">一、道具展示的功能</text>
+    <rect x="48" y="156" width="1104" height="132" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+    <text x="72" y="188" font-size="14" fill="#4A4B65">关卡运行中，点击和外接设备输入都可以触发该界面控件的交互。</text>
+    <text x="72" y="212" font-size="14" fill="#4A4B65">支持玩家进行交互；当选择类型为「玩家当前装备」或「模板道具」时，</text>
+    <text x="72" y="236" font-size="14" fill="#4A4B65">交互后向节点图发送「界面控件组触发时」事件。</text>
+    <rect x="72" y="252" width="140" height="26" rx="13" fill="#E8EEFB"/>
+    <text x="142" y="269" font-size="12" fill="#2D6BE4" text-anchor="middle">界面控件组触发时</text>
 
-  <rect x="40" y="330" width="1120" height="160" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="360" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">三、与交互按钮的关系</text>
-  <text x="60" y="388" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">道具展示与交互按钮类似，都支持点击和外接设备输入触发交互。</text>
-  <text x="60" y="415" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">交互后同样向节点图发送「界面控件组触发时」事件。</text>
-  <text x="60" y="442" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">道具展示专注于道具信息的展示与交互，交互按钮则更通用。</text>
-  <text x="60" y="469" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">两者都属于预制界面控件，可通过界面控件组模板统一管理。</text>
+    <text x="48" y="320" font-size="18" font-weight="700" fill="#2D6BE4">二、道具展示的编辑</text>
+    <rect x="48" y="328" width="1104" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+    <text x="72" y="358" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">是否可交互</tspan>　开启时可以配置交互的方式</text>
+    <text x="72" y="384" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">按键映射-键鼠</tspan>　提供PC按键供选择，作为输入交互项；选择后显示在编辑窗口按键下方</text>
+    <text x="72" y="410" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">按键映射-手柄</tspan>　提供手柄按键供选择，作为输入交互项；选择后显示在编辑窗口按键下方</text>
+    <text x="72" y="436" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">类型</tspan>　分为「玩家当前装备」「模板道具」「背包内道具」三种</text>
 
-  <rect x="40" y="510" width="1120" height="90" rx="14" fill="#FFFFFF" filter="url(#card)"/>
-  <text x="60" y="540" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#2D6BE4">四、事件触发说明</text>
-  <text x="60" y="570" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">只有交互按钮、道具展示、自定义按钮、自定义开关的界面控件，才会触发「界面控件组触发时」事件。</text>
+    <rect x="48" y="492" width="540" height="244" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+    <text x="72" y="522" font-size="16" font-weight="500" fill="#1A1B2E">玩家当前装备</text>
+    <text x="72" y="552" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">装备配置ID变量</tspan>　可选取玩家自身的变量</text>
+    <text x="72" y="578" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">无装备时表现</tspan>　分为显示空白槽位和隐藏两种</text>
+    <text x="72" y="604" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">栏位冷却时间(s)</tspan>　可选取玩家自身、玩家1-8、</text>
+    <text x="96" y="630" font-size="14" fill="#4A4B65">关卡上的浮点数类型的自定义变量</text>
+    <text x="72" y="656" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">栏位使用次数</tspan>　开启后可以配置无次数时隐藏和次数</text>
+    <text x="72" y="682" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">无次数时隐藏</tspan>　开启后若无使用次数则隐藏该控件</text>
+    <text x="72" y="708" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">次数</tspan>　可选取玩家自身、玩家1-8、关卡上的自定义变量</text>
 
-  <text x="600" y="650" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：月之七</text><!-- 相关文档 -->
-<text x="48" y="650" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
-<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhjja1ipq9ck" target="_blank">
-  <text x="48" y="670" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：道具展示界面控件</text>
-</a>
+    <rect x="612" y="492" width="540" height="244" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+    <text x="636" y="522" font-size="16" font-weight="500" fill="#1A1B2E">模板道具</text>
+    <text x="636" y="552" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">道具配置ID变量</tspan>　可选取玩家自身、玩家1-8、关卡上的自定义变量</text>
+    <text x="636" y="578" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">道具数量展示</tspan>　开启后图标正下方会显示当前道具数量（如 00）</text>
+    <text x="636" y="604" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">数量为零时隐藏</tspan>　开启后若道具数量为零则隐藏该控件</text>
+    <text x="636" y="630" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">道具数量变量</tspan>　可选取玩家自身、玩家1-8、关卡上的自定义变量</text>
+    <text x="636" y="656" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">栏位冷却时间(s)</tspan>　可选取玩家自身、玩家1-8、</text>
+    <text x="660" y="682" font-size="14" fill="#4A4B65">关卡上的自定义变量</text>
+    <text x="636" y="708" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">事件</tspan>　交互后向节点图发送「界面控件组触发时」事件</text>
+
+    <rect x="48" y="752" width="1104" height="110" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+    <text x="72" y="782" font-size="16" font-weight="500" fill="#1A1B2E">背包内道具</text>
+    <text x="72" y="812" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">道具配置ID变量</tspan>　可选取玩家自身上的某个自定义变量</text>
+    <text x="72" y="838" font-size="14" fill="#4A4B65"><tspan fill="#1A1B2E" font-weight="500">无道具时表现</tspan>　当前没有道具时该控件的表现形式，分为显示空白槽位和隐藏两种</text>
+
+    <text x="48" y="894" font-size="18" font-weight="700" fill="#2D6BE4">三、通过节点图管理道具展示</text>
+    <rect x="48" y="902" width="1104" height="140" rx="14" fill="#FFFFFF" filter="url(#card)"/>
+    <text x="72" y="930" font-size="16" font-weight="500" fill="#1A1B2E">界面控件组触发时</text>
+    <text x="72" y="960" font-size="14" fill="#4A4B65">在关卡运行中，通过按钮界面控件制作的界面控件组被执行交互操作，</text>
+    <text x="72" y="984" font-size="14" fill="#4A4B65">会发送节点图事件「界面控件组触发时」，此事件只有触发交互的玩家节点图可以获取。</text>
+    <rect x="72" y="1000" width="660" height="36" rx="8" fill="#E8EEFB"/>
+    <rect x="72" y="1000" width="4" height="36" rx="2" fill="#2D6BE4"/>
+    <text x="88" y="1023" font-size="12" fill="#2D6BE4">仅触发交互的玩家节点图可以获取该事件</text>
+
+    <text x="48" y="1070" font-size="12" fill="#8B8DA0">相关文档：</text>
+    <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhjja1ipq9ck" target="_blank">
+      <text x="48" y="1088" font-size="12" fill="#2D6BE4" text-decoration="underline">奇匠学院文档：道具展示界面控件</text>
+    </a>
+    <text x="600" y="1108" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.0</text>
+
+  </g>
 </svg>

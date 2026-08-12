@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhrutdio6904
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:27:29.900Z
+crawledAt: 2026-08-12T17:23:44.451Z
 ---
 
 表示该单位模型包含的一些功能，包括_预设状态_、_单位挂接点_和_装饰物_
@@ -149,6 +149,10 @@ _颜色与材质_可以在元件或实体的基础颜色和材质上叠加/替�
 | _颜色_ | 可通过选色器或修改颜色代码，选取需要更改的颜色，也可以修改当前使用的自定义颜色的透明度<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhrutdio6904/7847efa6-7c24-4c21-9bbc-7b0a024fd476.png) |
 | _节点图颜色码_ | 当前使用的颜色对应的10进制代码，用于在节点图中进行调用 |
 | _颜色叠加模式_ | 可选覆盖和整篇叠底<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhrutdio6904/aecbd8e2-8e0b-4f22-ba88-672a5f0c3ba4.png)<br>覆盖：自定义颜色将完全替换实体或物件的原生颜色<br>正片叠底：自定义颜色将叠加在原生颜色上 |
+
+注意：组件中的透明度参数取值范围为0-100的整数，而对于节点【修改模型颜色和材质】中的【颜色透明度】参数，取值范围也为0-100的整数，如果输入或传入的是浮点数，则会在实际生效时将该浮点数向下取整生效
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhrutdio6904/374fe98e-3af1-4c2f-a1de-cf0502b965f1.undefined)
 
 ## 2.自定义材质
 

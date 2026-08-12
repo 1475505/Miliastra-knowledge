@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhb5tu05hgfc
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:30:42.845Z
+crawledAt: 2026-08-12T17:25:38.865Z
 ---
 
 # **一、通用**

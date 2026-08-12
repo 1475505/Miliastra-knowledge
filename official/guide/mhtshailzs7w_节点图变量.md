@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhtshailzs7w
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:44:25.275Z
+crawledAt: 2026-08-12T17:18:33.978Z
 ---
 
 # 一、节点图变量是什么
@@ -21,7 +21,7 @@ crawledAt: 2025-10-30T19:44:25.275Z
 
 节点图变量的生命周期跟随节点图。以实体节点图为例，当节点图挂载在实体上时，该实体就持有了这些变量，可以通过相关的节点设置、获取以及监听事件
 
-节点图变量仅在节点图所在的节点图内可以进行访问（设置、获取以及监听事件）
+节点图变量仅在节点图变量所在的节点图内可以进行访问（设置、获取以及监听事件）
 
 # 二、与自定义变量的异同
 
@@ -73,19 +73,31 @@ crawledAt: 2025-10-30T19:44:25.275Z
 
 在节点图编辑页面-快捷菜单栏，可以打开节点图变量页签
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/d0f36483-30a2-4fb9-a1d3-fbf1384819ad.png)
+
 ## 2.新建节点图变量
 
 页签操作与[自定义变量](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhso1b9wjica)类似，可以新增、修改已配置的节点图变量
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/2ae56233-0f5f-4eea-a64e-fa394c1caefe.png)
 
 ## 3.在节点图中使用节点图变量
 
 在节点图中，可以使用以下节点图相关节点（与自定义变量相关节点用法基本一致）
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/f35420d6-ba71-406d-8e28-efc948f3461c.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/35a1cb3f-cf51-4241-aeee-1b7885c38a0e.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/4d8b8258-1500-4a4e-bac2-273fc142865e.png)
+
 此外，可以通过拖拽节点图变量中的变量到编辑区域来创建节点图变量的操作节点
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/6c504cdf-21fb-45aa-8668-2b504adb0c44.png)
 
 松开后，会显示快捷创建选单，允许选择设置和获取该节点图变量
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/48626acd-612f-435d-9a90-242ec82b9f9c.png)
+
 选择后，会快速新建一个节点图变量的设置或获取节点
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/1a34b258-699b-416a-9e45-b603a93f0998.png)
 
 ## 4.向关卡暴露节点图变量
 
@@ -107,6 +119,12 @@ crawledAt: 2025-10-30T19:44:25.275Z
 
 点击节点图变量前的对外暴露按钮后保存节点图，可以将该节点图变量对关卡暴露
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/3b2469f2-a1bb-4c6f-a0e5-0fb3f7e84c25.png)
+
 在关卡的节点图上，可以看到目前已对外暴露的节点图变量数。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/84cd7095-2a83-4809-8650-c4f0acdb4f39.png)
+
 点击编辑变量数，即可编辑该节点图变量在该实体上的覆写值
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhtshailzs7w/83e8c38b-a90b-4a7a-9b7f-93004f074008.png)

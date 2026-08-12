@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh99bn93wjzu
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T19:53:12.182Z
+crawledAt: 2026-08-12T17:37:43.343Z
 ---
 
 # 前言
@@ -15,7 +15,7 @@ crawledAt: 2025-10-30T19:53:12.182Z
 
 **课程内容：** 阵营系统介绍与使用
 
-**学习目标：** 学会如果配置阵营关系，用于攻击时的标签判断与默认攻击逻辑使用（如：默认造物都属于同阵营，可划分部分造物至玩家阵营，做成召唤物的效果；或根据不同玩家划分造物和玩家阵营，制作自走棋/宝可梦等玩法）
+**学习目标：** 学会如何配置阵营关系，用于攻击时的标签判断与默认攻击逻辑使用（如：默认造物都属于同阵营，可划分部分造物至玩家阵营，做成召唤物的效果；或根据不同玩家划分造物和玩家阵营，制作自走棋/宝可梦等玩法）
 
 _\*\*该课程中涉及【局内编辑器面板配置】和【千星沙箱节点图】两个模块内容，并且相互关联，阅读时建议按照课程顺序完整阅读_
 
@@ -45,19 +45,25 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/398fd4c1-19ac-403e-94f4-172dbdd5f7ff.gif)
+
 _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常等问题，可以尝试使用【关卡设置-地形导航-烘焙网格体】_
 
 ### 3.操作步骤
 
 **1.【局内编辑器】进入阵营配置页**
 
-点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>在关卡设置中点击【阵营】
+点击局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/a16c8b49-90ac-4809-9024-154782326882.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/ee58bf2b-ac13-43e1-bffb-057ce4585ead.png)>>>在关卡设置中点击【阵营】
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/5b093c3f-bdf1-4066-b865-6bfb2f37cf23.gif)
 
 **2.【局内编辑器】配置面板参数**
 
 按需配置阵营与阵营关系
 
 _\*\*教程中沿用了默认未进行更改，仅做概念说明_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/1b4431a7-fa4f-48ac-9022-eda3a80dae57.png)
 
 _\*\*配置项说明：_
 
@@ -71,9 +77,13 @@ _阵营关系：分为【敌对】和【友善】2种，可配置其他阵营对
 
 _\*\*教程中无额外功能需求，玩家为同一阵营，此处选择初始玩家阵营即可；如果玩家分为不同阵营，则需要额外考虑造物（怪物）具体归属是哪个阵营_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/07cae318-f58c-43ac-b751-56a89f72f717.png)
+
 **4.【局内编辑器】放置造物（怪物），试玩体验**
 
 将我们创建的造物（怪物）和常规造物（怪物）放置在场景中，进入试玩即可体验该功能
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/398fd4c1-19ac-403e-94f4-172dbdd5f7ff.gif)
 
 _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常等问题，可以尝试使用【关卡设置-地形导航-烘焙网格体】_
 
@@ -91,7 +101,9 @@ _\*\*更多相关信息可自行查阅【综合指南-阵营】_
 
 演示中放置了一个造物（怪物），根据造物（怪物）是否攻击玩家判断阵营切换是否成功
 
-_\*\*演示中的文本显示，需达到Lv.3后解锁【自定义文本外显】功能，教程中以效果展示为主_
+_\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/831873ea-e16e-40bd-92de-c8856ae066a9.gif)
 
 **实现步骤：**
 
@@ -108,6 +120,8 @@ _\*\*演示中的文本显示，需达到Lv.3后解锁【自定义文本外显�
 | 条件 | 具体选了哪个选项 | 【流程控制节点】：判断选项序号 |
 | 结果-1 | 切换为造物（怪物）阵营 | 【执行节点】：修改实体阵营为造物（怪物）阵营 |
 | 结果-2 | 切换为玩家阵营 | 【执行节点】：修改实体阵营为玩家阵营 |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh99bn93wjzu/23d119a1-0ce7-417a-b874-00e9b358c3ce.png)
 
 4.将节点图挂载在元件上，保存设置
 
@@ -126,6 +140,8 @@ _\*\*演示中的文本显示，需达到Lv.3后解锁【自定义文本外显�
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-阵营设置】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 阵营设置.gil
 

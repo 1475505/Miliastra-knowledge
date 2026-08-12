@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1360">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1106">
 <defs>
   <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#2D6BE4"/>
@@ -11,135 +11,364 @@
     <feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/>
   </filter>
 </defs>
+<style>
+.t{font-family:'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif;}
+</style>
 
-<rect width="1200" height="1360" fill="#F9F7F2"/>
+<rect width="1200" height="1106" fill="#F9F7F2"/>
 <rect width="1200" height="6" fill="url(#topGrad)"/>
 
-<!-- Title card -->
+<!-- 标题卡片 -->
 <rect x="48" y="32" width="1104" height="80" rx="14" fill="#fff" filter="url(#elevated)"/>
 <rect x="48" y="32" width="4" height="80" rx="2" fill="#2D6BE4"/>
-<text x="72" y="72" fill="#1A1B2E" font-size="34" font-weight="bold" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">经典模式</text>
-<text x="248" y="72" fill="#4A4B65" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">经典模式与超限模式的差异及完整创建流程</text>
+<text x="72" y="72" class="t" fill="#1A1B2E" font-size="34" font-weight="bold">经典模式角色编号一览</text>
+<text x="448" y="72" class="t" fill="#4A4B65" font-size="16">经典模式角色编号对照表 · 7.0 版本</text>
 
-<!-- Section 1: 模式对比 -->
-<text x="48" y="152" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">一、经典模式与超限模式对比</text>
+<!-- 一、角色编号对照表 -->
+<text x="48" y="152" class="t" fill="#2D6BE4" font-size="18" font-weight="700">一、经典模式角色编号对照表</text>
+<text x="292" y="152" class="t" fill="#8B8DA0" font-size="13">全量 122 位角色 · 编号与角色名一一对应 · 7.0 新增角色以绿色标注</text>
 
-<!-- Comparison table -->
-<rect x="48" y="170" width="1104" height="44" rx="14" fill="#2D6BE4"/>
-<rect x="48" y="202" width="1104" height="12" fill="#2D6BE4"/>
-<text x="222" y="198" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">功能</text>
-<text x="600" y="198" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">经典模式</text>
-<text x="960" y="198" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">超限模式</text>
+<!-- 对照表卡片 -->
+<rect x="48" y="170" width="1104" height="604" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="170" width="1104" height="40" rx="14" fill="#2D6BE4"/>
+<rect x="48" y="190" width="1104" height="20" fill="#2D6BE4"/>
+<text x="114" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="118" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="252" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="256" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="390" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="394" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="528" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="532" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="666" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="670" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="804" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="808" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="942" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="946" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
+<text x="1080" y="196" class="t" fill="#fff" font-size="13" text-anchor="end" font-weight="500">编号</text>
+<text x="1084" y="196" class="t" fill="#fff" font-size="13" font-weight="500">角色名</text>
 
-<rect x="48" y="214" width="1104" height="44" rx="0" fill="#fff" filter="url(#card)"/>
-<text x="222" y="242" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">游玩人数</text>
-<text x="600" y="242" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">最多 4 人</text>
-<text x="960" y="242" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">最多 8 人</text>
-<line x1="392" y1="224" x2="392" y2="248" stroke="#E8E4DA"/>
-<line x1="780" y1="224" x2="780" y2="248" stroke="#E8E4DA"/>
+<!-- 行背景（奇数行交替色） -->
+<rect x="48" y="244" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="312" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="380" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="448" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="516" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="584" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="652" width="1104" height="34" fill="#F4F1EA"/>
+<rect x="48" y="720" width="1104" height="34" fill="#F4F1EA"/>
 
-<rect x="48" y="260" width="1104" height="44" rx="0" fill="#F4F1EA"/>
-<text x="222" y="288" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提瓦特角色</text>
-<text x="600" y="288" fill="#34A853" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可进入</text>
-<text x="960" y="288" fill="#D93025" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">不可进入</text>
-<line x1="392" y1="270" x2="392" y2="294" stroke="#E8E4DA"/>
-<line x1="780" y1="270" x2="780" y2="294" stroke="#E8E4DA"/>
+<!-- 行 1 -->
+<text x="114" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000002</text>
+<text x="118" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">神里绫华</text>
+<text x="252" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000003</text>
+<text x="256" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">琴</text>
+<text x="390" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000005</text>
+<text x="394" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">旅行者(男)</text>
+<text x="528" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000006</text>
+<text x="532" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">丽莎</text>
+<text x="666" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000007</text>
+<text x="670" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">旅行者(女)</text>
+<text x="804" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000014</text>
+<text x="808" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">芭芭拉</text>
+<text x="942" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000015</text>
+<text x="946" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">凯亚</text>
+<text x="1080" y="227" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000016</text>
+<text x="1084" y="227" class="t" fill="#1A1B2E" font-size="13" font-weight="500">迪卢克</text>
 
-<rect x="48" y="306" width="1104" height="44" rx="0" fill="#fff" filter="url(#card)"/>
-<text x="222" y="334" fill="#1A1B2E" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇偶</text>
-<text x="600" y="334" fill="#34A853" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可进入</text>
-<text x="960" y="334" fill="#34A853" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可进入</text>
-<line x1="392" y1="316" x2="392" y2="340" stroke="#E8E4DA"/>
-<line x1="780" y1="316" x2="780" y2="340" stroke="#E8E4DA"/>
+<!-- 行 2 -->
+<text x="114" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000020</text>
+<text x="118" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">雷泽</text>
+<text x="252" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000021</text>
+<text x="256" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">安柏</text>
+<text x="390" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000022</text>
+<text x="394" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">温迪</text>
+<text x="528" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000023</text>
+<text x="532" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">香菱</text>
+<text x="666" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000024</text>
+<text x="670" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">北斗</text>
+<text x="804" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000025</text>
+<text x="808" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">行秋</text>
+<text x="942" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000026</text>
+<text x="946" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">魈</text>
+<text x="1080" y="261" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000027</text>
+<text x="1084" y="261" class="t" fill="#1A1B2E" font-size="13" font-weight="500">凝光</text>
 
-<!-- Warning -->
-<rect x="48" y="366" width="1104" height="48" rx="10" fill="#FDE8E6"/>
-<rect x="48" y="366" width="4" height="48" rx="2" fill="#D93025"/>
-<text x="72" y="396" fill="#D93025" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">注意：经典模式与超限模式的存档（gil）无法互相转换，导出的资产文件（gia）也无法互相导入。</text>
+<!-- 行 3 -->
+<text x="114" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000029</text>
+<text x="118" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">可莉</text>
+<text x="252" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000030</text>
+<text x="256" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">钟离</text>
+<text x="390" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000031</text>
+<text x="394" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">菲谢尔</text>
+<text x="528" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000032</text>
+<text x="532" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">班尼特</text>
+<text x="666" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000033</text>
+<text x="670" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">达达利亚</text>
+<text x="804" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000034</text>
+<text x="808" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">诺艾尔</text>
+<text x="942" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000035</text>
+<text x="946" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">七七</text>
+<text x="1080" y="295" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000036</text>
+<text x="1084" y="295" class="t" fill="#1A1B2E" font-size="13" font-weight="500">重云</text>
 
-<!-- Section 2: 创建经典模式存档 -->
-<text x="48" y="456" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">二、创建经典模式存档</text>
+<!-- 行 4 -->
+<text x="114" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000037</text>
+<text x="118" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">甘雨</text>
+<text x="252" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000038</text>
+<text x="256" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">阿贝多</text>
+<text x="390" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000039</text>
+<text x="394" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">迪奥娜</text>
+<text x="528" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000041</text>
+<text x="532" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">莫娜</text>
+<text x="666" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000042</text>
+<text x="670" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">刻晴</text>
+<text x="804" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000043</text>
+<text x="808" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">砂糖</text>
+<text x="942" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000044</text>
+<text x="946" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">辛焱</text>
+<text x="1080" y="329" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000045</text>
+<text x="1084" y="329" class="t" fill="#1A1B2E" font-size="13" font-weight="500">罗莎莉亚</text>
 
-<rect x="48" y="476" width="1104" height="76" rx="14" fill="#fff" filter="url(#card)"/>
-<rect x="48" y="476" width="4" height="76" rx="2" fill="#2D6BE4"/>
-<text x="72" y="506" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建流程</text>
-<text x="72" y="530" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入存档界面 → 点击右下角【新建存档】→ 选择「经典模式」→ 点击确定 → 进入编辑器界面</text>
+<!-- 行 5 -->
+<text x="114" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000046</text>
+<text x="118" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">胡桃</text>
+<text x="252" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000047</text>
+<text x="256" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">枫原万叶</text>
+<text x="390" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000048</text>
+<text x="394" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">烟绯</text>
+<text x="528" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000049</text>
+<text x="532" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">宵宫</text>
+<text x="666" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000050</text>
+<text x="670" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">托马</text>
+<text x="804" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000051</text>
+<text x="808" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">优菈</text>
+<text x="942" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000052</text>
+<text x="946" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">雷电将军</text>
+<text x="1080" y="363" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000053</text>
+<text x="1084" y="363" class="t" fill="#1A1B2E" font-size="13" font-weight="500">早柚</text>
 
-<rect x="48" y="562" width="1104" height="44" rx="10" fill="#E8EEFB"/>
-<rect x="48" y="562" width="4" height="44" rx="2" fill="#2D6BE4"/>
-<text x="72" y="590" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">提示：创建后进入编辑器界面，操作与超限模式并无差异，仅参数设置和角色选择有所不同。</text>
+<!-- 行 6 -->
+<text x="114" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000054</text>
+<text x="118" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">珊瑚宫心海</text>
+<text x="252" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000055</text>
+<text x="256" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">五郎</text>
+<text x="390" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000056</text>
+<text x="394" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">九条裟罗</text>
+<text x="528" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000057</text>
+<text x="532" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">荒泷一斗</text>
+<text x="666" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000058</text>
+<text x="670" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">八重神子</text>
+<text x="804" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000059</text>
+<text x="808" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">鹿野院平藏</text>
+<text x="942" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000060</text>
+<text x="946" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">夜兰</text>
+<text x="1080" y="397" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000061</text>
+<text x="1084" y="397" class="t" fill="#1A1B2E" font-size="13" font-weight="500">绮良良</text>
 
-<!-- Section 3: 关卡基础参数设置 -->
-<text x="48" y="644" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">三、关卡基础参数设置</text>
-<text x="280" y="644" fill="#8B8DA0" font-size="13" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">ESC → 系统菜单 → 关卡设置 → 基础系统预设</text>
+<!-- 行 7 -->
+<text x="114" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000062</text>
+<text x="118" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">埃洛伊</text>
+<text x="252" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000063</text>
+<text x="256" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">申鹤</text>
+<text x="390" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000064</text>
+<text x="394" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">云堇</text>
+<text x="528" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000065</text>
+<text x="532" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">久岐忍</text>
+<text x="666" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000066</text>
+<text x="670" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">神里绫人</text>
+<text x="804" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000067</text>
+<text x="808" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">柯莱</text>
+<text x="942" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000068</text>
+<text x="946" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">多莉</text>
+<text x="1080" y="431" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000069</text>
+<text x="1084" y="431" class="t" fill="#1A1B2E" font-size="13" font-weight="500">提纳里</text>
 
-<!-- Card: 可出战角色数量 -->
-<rect x="48" y="664" width="1104" height="160" rx="14" fill="#fff" filter="url(#card)"/>
-<rect x="48" y="664" width="4" height="160" rx="2" fill="#2D6BE4"/>
-<text x="72" y="694" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可出战角色数量</text>
-<text x="72" y="718" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">调整玩家最多编入队伍的角色数量，默认规则如下：</text>
+<!-- 行 8 -->
+<text x="114" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000070</text>
+<text x="118" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">妮露</text>
+<text x="252" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000071</text>
+<text x="256" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">赛诺</text>
+<text x="390" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000072</text>
+<text x="394" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">坎蒂丝</text>
+<text x="528" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000073</text>
+<text x="532" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">纳西妲</text>
+<text x="666" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000074</text>
+<text x="670" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">莱依拉</text>
+<text x="804" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000075</text>
+<text x="808" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">流浪者</text>
+<text x="942" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000076</text>
+<text x="946" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">珐露珊</text>
+<text x="1080" y="465" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000077</text>
+<text x="1084" y="465" class="t" fill="#1A1B2E" font-size="13" font-weight="500">瑶瑶</text>
 
-<rect x="72" y="734" width="1056" height="36" rx="8" fill="#E8EEFB"/>
-<text x="192" y="758" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">玩家数量</text>
-<text x="600" y="758" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">每名玩家最多编入角色数</text>
-<text x="960" y="758" fill="#1A1B2E" font-size="13" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">备注</text>
+<!-- 行 9 -->
+<text x="114" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000078</text>
+<text x="118" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">艾尔海森</text>
+<text x="252" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000079</text>
+<text x="256" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">迪希雅</text>
+<text x="390" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000080</text>
+<text x="394" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">米卡</text>
+<text x="528" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000081</text>
+<text x="532" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">卡维</text>
+<text x="666" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000082</text>
+<text x="670" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">白术</text>
+<text x="804" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000083</text>
+<text x="808" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">琳妮特</text>
+<text x="942" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000084</text>
+<text x="946" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">林尼</text>
+<text x="1080" y="499" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000085</text>
+<text x="1084" y="499" class="t" fill="#1A1B2E" font-size="13" font-weight="500">菲米尼</text>
 
-<text x="192" y="792" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1 位玩家</text>
-<text x="600" y="792" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">4 个角色</text>
-<text x="960" y="792" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">可修改</text>
-<text x="192" y="816" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2 位玩家</text>
-<text x="600" y="816" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">每人 2 个角色</text>
-<text x="960" y="816" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">前两个数字可修改</text>
+<!-- 行 10 -->
+<text x="114" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000086</text>
+<text x="118" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">莱欧斯利</text>
+<text x="252" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000087</text>
+<text x="256" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">那维莱特</text>
+<text x="390" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000088</text>
+<text x="394" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">夏洛蒂</text>
+<text x="528" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000089</text>
+<text x="532" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">芙宁娜</text>
+<text x="666" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000090</text>
+<text x="670" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">夏沃蕾</text>
+<text x="804" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000091</text>
+<text x="808" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">娜维娅</text>
+<text x="942" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000092</text>
+<text x="946" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">嘉明</text>
+<text x="1080" y="533" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000093</text>
+<text x="1084" y="533" class="t" fill="#1A1B2E" font-size="13" font-weight="500">闲云</text>
 
-<!-- Card: 角色限制 -->
-<rect x="48" y="844" width="1104" height="140" rx="14" fill="#fff" filter="url(#card)"/>
-<rect x="48" y="844" width="4" height="140" rx="2" fill="#2D6BE4"/>
-<text x="72" y="874" fill="#1A1B2E" font-size="16" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">角色限制</text>
+<!-- 行 11 -->
+<text x="114" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000094</text>
+<text x="118" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">千织</text>
+<text x="252" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000095</text>
+<text x="256" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">希格雯</text>
+<text x="390" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000096</text>
+<text x="394" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">阿蕾奇诺</text>
+<text x="528" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000097</text>
+<text x="532" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">赛索斯</text>
+<text x="666" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000098</text>
+<text x="670" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">克洛琳德</text>
+<text x="804" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000099</text>
+<text x="808" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">艾梅莉埃</text>
+<text x="942" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000100</text>
+<text x="946" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">卡齐娜</text>
+<text x="1080" y="567" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000101</text>
+<text x="1084" y="567" class="t" fill="#1A1B2E" font-size="13" font-weight="500">基尼奇</text>
 
-<circle cx="88" cy="902" r="12" fill="#2D6BE4"/>
-<text x="88" y="907" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">1</text>
-<text x="108" y="907" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">将角色限制从「无限制」改为「部分角色可用」</text>
+<!-- 行 12 -->
+<text x="114" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000102</text>
+<text x="118" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">玛拉妮</text>
+<text x="252" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000103</text>
+<text x="256" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">希诺宁</text>
+<text x="390" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000104</text>
+<text x="394" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">恰斯卡</text>
+<text x="528" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000105</text>
+<text x="532" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">欧洛伦</text>
+<text x="666" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000106</text>
+<text x="670" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">玛薇卡</text>
+<text x="804" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000107</text>
+<text x="808" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">茜特菈莉</text>
+<text x="942" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000108</text>
+<text x="946" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">蓝砚</text>
+<text x="1080" y="601" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000109</text>
+<text x="1084" y="601" class="t" fill="#1A1B2E" font-size="13" font-weight="500">梦见月瑞希</text>
 
-<circle cx="88" cy="930" r="12" fill="#2D6BE4"/>
-<text x="88" y="935" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">2</text>
-<text x="108" y="935" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">点击加号图标，选择可以进入关卡的角色</text>
+<!-- 行 13 -->
+<text x="114" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000110</text>
+<text x="118" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">伊安珊</text>
+<text x="252" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000111</text>
+<text x="256" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">瓦雷莎</text>
+<text x="390" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000112</text>
+<text x="394" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">爱可菲</text>
+<text x="528" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000113</text>
+<text x="532" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">伊法</text>
+<text x="666" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000114</text>
+<text x="670" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">丝柯克</text>
+<text x="804" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000115</text>
+<text x="808" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">塔利雅</text>
+<text x="942" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000116</text>
+<text x="946" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">伊涅芙</text>
+<text x="1080" y="635" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000117</text>
+<text x="1084" y="635" class="t" fill="#1A1B2E" font-size="13" font-weight="500">奇偶·男性</text>
 
-<circle cx="88" cy="958" r="12" fill="#1B4FC0"/>
-<text x="88" y="963" fill="#fff" font-size="11" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">3</text>
-<text x="108" y="963" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持按元素力/武器类型筛选，支持一键全选或全部取消</text>
+<!-- 行 14 -->
+<text x="114" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000118</text>
+<text x="118" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">奇偶·女性</text>
+<text x="252" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000119</text>
+<text x="256" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">菈乌玛</text>
+<text x="390" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000120</text>
+<text x="394" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">菲林斯</text>
+<text x="528" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000121</text>
+<text x="532" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">爱诺</text>
+<text x="666" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000122</text>
+<text x="670" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">奈芙尔</text>
+<text x="804" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000123</text>
+<text x="808" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">杜林</text>
+<text x="942" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000124</text>
+<text x="946" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">雅珂达</text>
+<text x="1080" y="669" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000125</text>
+<text x="1084" y="669" class="t" fill="#1A1B2E" font-size="13" font-weight="500">哥伦比娅</text>
 
-<!-- Section 4: 试玩 -->
-<text x="48" y="1020" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">四、试玩经典模式关卡</text>
+<!-- 行 15 -->
+<text x="114" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000126</text>
+<text x="118" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">兹白</text>
+<text x="252" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000127</text>
+<text x="256" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">叶洛亚</text>
+<text x="390" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000128</text>
+<text x="394" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">法尔伽</text>
+<text x="528" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000129</text>
+<text x="532" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">洛恩</text>
+<text x="666" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000130</text>
+<text x="670" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">莉奈娅</text>
+<text x="804" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000131</text>
+<text x="808" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">尼可</text>
+<text x="942" y="703" class="t" fill="#8B8DA0" font-size="12" text-anchor="end">10000132</text>
+<text x="946" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">布伦妮</text>
 
-<rect x="48" y="1040" width="340" height="48" rx="24" fill="#2D6BE4"/>
-<text x="218" y="1070" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">ESC → 系统菜单 → 试玩</text>
-<text x="406" y="1070" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
-<rect x="438" y="1040" width="300" height="48" rx="24" fill="#2D6BE4"/>
-<text x="588" y="1070" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">选择编入角色进队</text>
-<text x="756" y="1070" fill="#8B8DA0" font-size="16" font-family="'HYWenHei 85W','Noto Sans SC','Roboto',sans-serif">›</text>
-<rect x="788" y="1040" width="364" height="48" rx="24" fill="#1B4FC0"/>
-<text x="970" y="1070" fill="#fff" font-size="15" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">进入关卡体验</text>
+<!-- 行 16（7.0 新增：绿色高亮） -->
+<rect x="1014" y="689" width="138" height="28" rx="6" fill="#E5F2E9"/>
+<text x="1080" y="703" class="t" fill="#34A853" font-size="12" text-anchor="end" font-weight="500">10000133</text>
+<text x="1084" y="703" class="t" fill="#1A1B2E" font-size="13" font-weight="500">桑多涅</text>
+<rect x="48" y="723" width="138" height="28" rx="6" fill="#E5F2E9"/>
+<text x="114" y="737" class="t" fill="#34A853" font-size="12" text-anchor="end" font-weight="500">10000148</text>
+<text x="118" y="737" class="t" fill="#1A1B2E" font-size="13" font-weight="500">阿罗夏</text>
+<rect x="186" y="723" width="138" height="28" rx="6" fill="#E5F2E9"/>
+<text x="252" y="737" class="t" fill="#34A853" font-size="12" text-anchor="end" font-weight="500">10000150</text>
+<text x="256" y="737" class="t" fill="#1A1B2E" font-size="13" font-weight="500">奥黛塔</text>
 
-<rect x="48" y="1104" width="1104" height="44" rx="10" fill="#E8EEFB"/>
-<rect x="48" y="1104" width="4" height="44" rx="2" fill="#2D6BE4"/>
-<text x="72" y="1132" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启角色限制后，仅允许选中的角色进入关卡。例如限制为旅行者时，只能编入旅行者。</text>
+<!-- 二、版本 7.0 更新说明 -->
+<text x="48" y="814" class="t" fill="#2D6BE4" font-size="18" font-weight="700">二、版本 7.0 更新说明</text>
+<text x="260" y="814" class="t" fill="#8B8DA0" font-size="13">新增角色已在上方对照表中以绿色高亮标注</text>
 
-<!-- Section 5: 拓展应用 -->
-<text x="48" y="1186" fill="#2D6BE4" font-size="18" font-weight="700" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">五、拓展：通过节点图修改角色能量</text>
+<rect x="48" y="832" width="1104" height="196" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="832" width="4" height="196" rx="2" fill="#2D6BE4"/>
+<text x="72" y="866" class="t" fill="#1A1B2E" font-size="16" font-weight="500">版本 7.0 新增角色</text>
 
-<rect x="48" y="1204" width="1104" height="44" rx="10" fill="#E8EEFB"/>
-<rect x="48" y="1204" width="4" height="44" rx="2" fill="#2D6BE4"/>
-<text x="72" y="1232" fill="#2D6BE4" font-size="14" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">创建元件 → 添加选项卡组件 → 配置节点图（设置能量为 100/0、添加/减少 10）→ 挂载节点图 → 放置场景 → 试玩</text>
+<rect x="72" y="888" width="56" height="24" rx="12" fill="#E5F2E9"/>
+<text x="100" y="904" class="t" fill="#34A853" font-size="11" text-anchor="middle" font-weight="500">新增</text>
+<text x="148" y="904" class="t" fill="#8B8DA0" font-size="13">10000133</text>
+<text x="290" y="904" class="t" fill="#1A1B2E" font-size="14" font-weight="500">桑多涅</text>
+
+<rect x="72" y="924" width="56" height="24" rx="12" fill="#E5F2E9"/>
+<text x="100" y="940" class="t" fill="#34A853" font-size="11" text-anchor="middle" font-weight="500">新增</text>
+<text x="148" y="940" class="t" fill="#8B8DA0" font-size="13">10000148</text>
+<text x="290" y="940" class="t" fill="#1A1B2E" font-size="14" font-weight="500">阿罗夏</text>
+
+<rect x="72" y="960" width="56" height="24" rx="12" fill="#E5F2E9"/>
+<text x="100" y="976" class="t" fill="#34A853" font-size="11" text-anchor="middle" font-weight="500">新增</text>
+<text x="148" y="976" class="t" fill="#8B8DA0" font-size="13">10000150</text>
+<text x="290" y="976" class="t" fill="#1A1B2E" font-size="14" font-weight="500">奥黛塔</text>
+
+<text x="72" y="1006" class="t" fill="#8B8DA0" font-size="12">以上 3 位角色为 7.0 版本新增，已在上方编号对照表中以绿色高亮标注；编号与角色名一一对应，旅行者区分男女双版本。</text>
 
 <!-- 相关文档 -->
-<text x="48" y="1274" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
-<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhvoc3rviq32" target="_blank">
-  <text x="48" y="1294" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：1.7经典模式</text>
-</a>
+<text x="48" y="1054" class="t" fill="#8B8DA0" font-size="12">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh4imrrhzdzi" target="_blank">
-  <text x="48" y="1314" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：经典模式角色编号一览</text>
+  <text x="48" y="1072" class="t" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：经典模式角色编号一览</text>
 </a>
 
-<!-- Footer -->
-<text x="600" y="1336" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<!-- 页脚 -->
+<text x="600" y="1090" class="t" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.0</text>
 </svg>

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhn4nsiz7k18
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-12-03T15:17:07.712Z
+crawledAt: 2026-08-12T17:39:52.271Z
 ---
 
 # 前言
@@ -55,17 +55,21 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **效果演示：**
 
-_\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
+_\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/d0388ea6-15ec-4de2-af47-5b657ef7b46b.gif)
 
 ### 3.操作步骤
 
 **1.【局内编辑器】添加组件**
 
-创建一个元件作为子弹（教程以空物件为例），在面板中点击>>>进入组件页，点击>>>选择【投射运动器】即可添加。
+创建一个元件作为子弹（教程以空物件为例），在面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/7b6672bb-d716-4a66-912d-be82743c56a5.png)>>>进入组件页，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/8ee8fc73-dfad-43ef-8925-184139d49788.png)>>>选择【投射运动器】即可添加。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/0458f876-0eff-497d-ba83-e5cdc1ba5ef6.png)
 
 **2.【局内编辑器】配置投射物面板参数**
 
 打开【组件-投射运动器】基础设置，选择投射物类型，这里我们选择【抛物线投射物】。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/7b69d067-35dc-429b-b4e7-cf251a247770.png)
 
 定义投射物类型之后，可以鼠标拖动预览中的旋转轴或手动输入参数来对运动配置进行详细设置。为达到预期的功能效果教程中配置如下：
 
@@ -76,7 +80,11 @@ _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义
 | 子弹发射速度较慢。 | 【速率】不做调整<br>_\*\*速率会根据初始速度的调整来自动换算， 如果仅调整速率，那么初始速度也会自动换算，在配置时根据自身需要调整即可。_ |
 | 【重力加速度】不做调整<br>_\*\*重力加速度会影响在同一初始速度/速率下物体的抛物线轨迹和距离，在配置时根据自身需要调整即可。_ |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/463c40d3-c502-4e0e-bb07-6506aeca0c10.png)
+
 配置完成后，可以点击【预览当前运动】直接预览运动效果。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/e3f18c57-4168-4acd-b7bf-0a8daf788e9f.gif)
 
 _\*\*配置项注意_
 
@@ -87,6 +95,8 @@ _②投射运动器的其他投射物类型（直线投射物和跟随投射物�
 **3.【局内编辑器】增加子弹的效果表现**
 
 由于我们使用的物件是空物件，因此需要配置一些循环特效来使子弹可见。关于【特效】具体配置方法可以参考往期【特效】相关课程，这里仅做配置参数展示。实际制作时可根据需要自行选择所需元件或特效配置。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/12008d6e-f7ba-4f69-8939-7264974c5110.png)
 
 **4.【千星沙箱】点击选项卡后创建子弹**
 
@@ -100,6 +110,8 @@ _②投射运动器的其他投射物类型（直线投射物和跟随投射物�
 | 功能<br>玩家交互后，炮台发射子弹 | 触发场景 | 选项卡被选中 | 【事件节点】：选项卡选中时 |
 | 条件 | “开炮！”选项卡被选中 | 【流程控制节点】：双分支&【运算节点】：是否相等，来判断选中的选项序号是否为1 |
 | 结果 | 在炮台的位置和朝向发射子弹 | 【查询节点】：获取实体位置与旋转，获取炮台的位置和朝向；<br>【运算节点】：三维向量加法，由于模型本身旋转和预期发射位置有偏移，因此需要另外计算。<br>【执行节点】：创建投射物，填入我们刚才制作的元件ID创建出投射物。 |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/5a307417-6d14-4780-83f1-6cc564ca5980.png)
 
 **5.【局内编辑器】放置元件，试玩体验**
 
@@ -121,17 +133,21 @@ _为方便区分，我们可以将“本地投射物称”为【客户端子弹�
 
 **功能效果：** 制作一个可以发射刀波的技能
 
-**效果演示：**
+**效果演示：**![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/bbcdff33-4026-4c11-807a-7fcbc5f3282e.gif)
 
 ### 3.操作步骤
 
 **1.【局内编辑器】新建投射物**
 
-创建一个元件作为子弹（教程以空物件为例），在战斗面板中点击>>>进入本地投射物，点击即可添加。
+创建一个元件作为子弹（教程以空物件为例），在![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/10bb915a-76d4-4584-9d04-39a9876b01aa.png)战斗面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/05727092-96ce-4af9-8df5-c81c4323f858.png)>>>进入本地投射物，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/1eddf7fe-55df-4c99-8f9c-5026ed882f65.png)即可添加。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/b8f9bfde-dea8-440f-b7b9-96be8c64377c.png)
 
 **2.【局内编辑器】配置面板参数**
 
 在右侧可以看到本地投射物的基础设置面板，首先我们选择投射物基础模型，教程演示使用的刀波是特效，因此这里我们选择【空模型】。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/afc469d1-92b2-4abc-9bb9-cd1fce860a07.png)
 
 设置好基础模型之后，我们需要定义投射物的相关参数，具体的功能和对应配置项见下表：
 
@@ -145,7 +161,7 @@ _为方便区分，我们可以将“本地投射物称”为【客户端子弹�
 
 **3.【局内编辑器】配置投射物面板参数**
 
-随后点击进入组件编辑页面，我们可以看到本地投射物已经默认带有【特效】【投射运动器】和【命中检测】，其配置逻辑和上文功能示例-1一致，故不再详细讲解；这里仅做配置展示。
+随后点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/b435ecff-0273-4c76-baab-bcced1002310.png)进入组件编辑页面，我们可以看到本地投射物已经默认带有【特效】【投射运动器】和【命中检测】，其配置逻辑和上文功能示例-1一致，故不再详细讲解；这里仅做配置展示。
 
 |     |     |
 | --- | --- |
@@ -155,7 +171,15 @@ _为方便区分，我们可以将“本地投射物称”为【客户端子弹�
 | 子弹有命中判定，对进入判定区的每个对象发起命中事件，子弹创建时不立即检测，以免将自身纳入判定范围。 | 【命中检测】-配置和特效宽度一致的命中区域；<br>【触发类型】调整为不重复触发；<br>【延迟检测】调整为“0.5” |
 | 子弹命中其他对象后，调用能力单元发起攻击 | 【能力单元】创建“直接攻击”能力单元，配置伤害数值。 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/f7c91f49-7b08-4de1-b069-2379fc92a493.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/3c39d3a5-d3bd-4575-a215-dcb63e110a42.png)
+
 _\*\*建议速度配置不宜过快，如果子弹运行速度过快可能会导致穿过造物（怪物）而不造成伤害。_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/114b7645-88af-4cee-9a39-179724588308.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/20676864-e1ec-4112-99f4-e54a6e5cb478.png)
 
 **4.【局内编辑器】制作技能动画**
 
@@ -168,6 +192,8 @@ _\*\*建议速度配置不宜过快，如果子弹运行速度过快可能会导
 | 技能需要攻击动作 | 【动画编辑】-在动画槽位1里选择“单手剑普通攻击”。 |
 | 攻击时角色手持武器 | 【状态轨道】添加“特效播放”，将特效设置为“单手剑“”； |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/148e02ed-85b5-44a1-a8d5-64d13bed8988.png)
+
 **5.【千星沙箱】编辑技能节点图**
 
 技能节点图的编辑逻辑和功能示例-1基本相同，使用【定点发射投射物】节点即可创建我们做好的本地投射物。
@@ -179,13 +205,21 @@ _\*\*建议速度配置不宜过快，如果子弹运行速度过快可能会导
 | 条件 | - | - |
 | 结果 | 在角色前特定挂点位置和朝向发射子弹 | 【查询节点】：获取挂接点位置与旋转，获取角色挂接点的位置和朝向 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/73d7bb5d-d229-4686-9250-57f91b3f1f10.png)
+
 需要注意的是，在教程演示中我们使用了【自定义挂接点】组件，创建了一个在角色正前方的挂点“出射点”。演示中的子弹的生成的位置和旋转都是使用这个自定义挂点。这样设置是保证子弹在射出时，能够一直朝向玩家的面向。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/328e5145-88f7-48b5-af7c-115cc18b8536.png)
+
 节点图编辑好后，直接在动画时间轴内，在对应帧的节点图事件轨道中插入逻辑，保存即可。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/cfcd79ee-4352-43b8-8c26-9c7936b1b7a2.png)
 
 **6.【局内编辑器】装配技能，试玩体验。**
 
 随后在职业界面中将刚制作好的技能进行装配，便可以进行试玩体验了。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/7bebdfc5-87b3-4fc8-b647-5e88f9e42e85.gif)
 
 * * *
 
@@ -199,19 +233,23 @@ _\*\*建议速度配置不宜过快，如果子弹运行速度过快可能会导
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/adb77999-a6dd-4fca-9f39-dee0bffdbbad.gif)
+
 **思路解析：** 本质上是通过投射物A命中物体的事件来获取投射物掉落到地面上的坐标，从而在地面上生成一个新的实体B，但由于两者外观一致，因此在观感上可以实现抛物线掉落物品的效果。
 
 **实现步骤：**
 
 1\. 创建一个元件A，添加投射物组件，配置抛射物运动——目的是制作物体抛物线的效果
 
-2\. 为元件配置命中检测，关闭忽略场景和水面——目的是获取投射物命中场景时的坐标
+2\. 创建一个新元件B，配置拾取逻辑。其中A和B的外观表现是一致的，但逻辑不同——目的是玩家可以拾取该道具，具体道具效果可以根据实际需要自行设计，这里不做展示。
 
-3\. 创建一个新元件B，配置拾取逻辑。其中A和B的外观表现是一致的，但逻辑不同——目的是玩家可以拾取该道具，具体道具效果可以根据实际需要自行设计，这里不做展示。
+3\. 配置宝箱逻辑，使进入碰撞盒后，生成6个元件A
 
-4\. 配置宝箱逻辑，使进入碰撞盒后，生成5个元件A
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/f91bd4c9-de56-49f0-b495-1f67db8c4c0c.png)
 
 5\. 在元件A的节点图中，使用【命中检测触发时】来获取命中位置，同时判断命中实体是否是场景。——目的是在元件A落地位置生成一个外观一致的元件B
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhn4nsiz7k18/55566f35-00c3-4286-b415-d13e89029328.png)
 
 6\. 将制作好的宝箱放入场景，试玩体验效果。
 
@@ -232,6 +270,8 @@ _\*\*更多相关信息可自行查阅【综合指南-投射运动器组件】�
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-投射运动器】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 投射运动器.gil
 

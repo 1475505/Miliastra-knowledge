@@ -209,7 +209,7 @@ font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif"
 每张 SVG 底部页脚文字：
 
 ```
-由 AI 基于官方奇匠学院文档生成。版本：月之八
+由 AI 基于官方奇匠学院文档生成。版本：7.0
 ```
 
 格式：`fill="#8B8DA0" font-size="11" text-anchor="middle"`，居中于 x=600。
@@ -240,7 +240,7 @@ font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif"
 - [ ] 卡片使用阴影，无 stroke
 - [ ] 来源链接在页面底部（页脚上方），蓝色可点击（`<a xlink:href>`）
 - [ ] 「相关文档：」标签单独一行（灰色 #8B8DA0），链接文字另起一行（蓝色 #2D6BE4），两者不在同一行
-- [ ] 底部有页脚：「由 AI 基于官方奇匠学院文档生成。版本：月之八」
+- [ ] 底部有页脚：「由 AI 基于官方奇匠学院文档生成。版本：7.0」
 - [ ] viewBox 高度贴合内容，无底部大段空白
 - [ ] 顶部色带（6px，蓝→深紫渐变），无底部色带
 - [ ] 源文档每个独立子专题至少一行呈现

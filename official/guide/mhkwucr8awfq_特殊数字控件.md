@@ -6,8 +6,22 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhkwucr8awfq
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:27:59.389Z
+crawledAt: 2026-08-12T17:24:03.175Z
 ---
+
+经典模式也可以配置特殊数字控件了
+
+在数据来源为单位状态时，可选择监听模式
+
+
+
+监听实体变量：显示指定实体的指定单位状态的数据
+
+
+
+监听父级：需要与状态显示区控件配合使用，显示状态显示区分配的的对应单位状态（可以实现不同来源的单位状态区分显示在不同槽位）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhkwucr8awfq/e3e8209d-78f6-455b-9da0-9eb3116defb2.png)特殊数字控件
 
 # 一、特殊数字的功能
 
@@ -45,3 +59,19 @@ _特殊数字_可以配置在界面布局中，支持表现与技能相关的诸
 当特殊数字的数据来源为单位状态时，如果在玩家身上，对应的同一个单位状态存在多个（在不同槽位中），则特殊数字这里，【单位状态层数】会显示为当前的总层数，【单位状态剩余可持续时间】会显示为剩余可持续时间最大的值
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhkwucr8awfq/43e85a83-d50f-4b26-ba2f-c7397578be0d.png)
+
+# **三、额外说明**
+
+经典模式也可以配置特殊数字控件了
+
+在数据来源为单位状态时，可选择监听模式
+
+
+
+监听实体变量：显示指定实体的指定单位状态的数据
+
+
+
+监听父级：需要与状态显示区控件配合使用，显示状态显示区分配的的对应单位状态（可以实现不同来源的单位状态区分显示在不同槽位）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhkwucr8awfq/26548fab-679b-41cc-9d66-096687e8e14a.png)

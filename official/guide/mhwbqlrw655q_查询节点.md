@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhwbqlrw655q
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:26:46.517Z
+crawledAt: 2026-08-12T17:23:14.092Z
 ---
 
 # **一、通用**

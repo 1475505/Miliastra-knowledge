@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh65asiyhv2k
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:27:15.813Z
+crawledAt: 2026-08-12T17:23:29.042Z
 ---
 
 # **一、列表相关**
