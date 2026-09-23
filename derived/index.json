@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_from": "mcp/process_docs.py",
-    "total_chunks": 1153,
+    "total_chunks": 1315,
     "node_files": [
       "derived/node/执行节点.md",
       "derived/node/事件节点.md",
@@ -12,9 +12,9 @@
     ],
     "faq_file": "derived/faq/faq.md",
     "node_side_summary": {
-      "双端": 15,
-      "客户端": 598,
-      "服务端": 513
+      "双端": 11,
+      "客户端": 704,
+      "服务端": 573
     }
   },
   "entries": [
@@ -415,6 +415,15 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
+      "title": "1\\. 完成当前预瞄准",
+      "main_title": "五、预瞄准",
+      "side": "client",
+      "source_doc": "mh6obvipqv1g_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mh6obvipqv1g_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
       "title": "1\\. 执行技能",
       "main_title": "一、通用",
       "side": "client",
@@ -505,7 +514,7 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
-      "title": "9\\. 战术：脱战后返回出生点",
+      "title": "9\\. 战术：脱战后返回出生点\\",
       "main_title": "二、战术",
       "side": "client",
       "source_doc": "mhb09x012qu8_执行节点",
@@ -514,7 +523,7 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
-      "title": "10\\. 战术：地面对峙",
+      "title": "10\\. 战术：地面对峙\\",
       "main_title": "二、战术",
       "side": "client",
       "source_doc": "mhb09x012qu8_执行节点",
@@ -523,7 +532,7 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
-      "title": "11\\. 战术：执行巡逻",
+      "title": "11\\. 战术：执行巡逻\\",
       "main_title": "二、战术",
       "side": "client",
       "source_doc": "mhb09x012qu8_执行节点",
@@ -532,7 +541,52 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
-      "title": "12\\. 战术：旋转朝向目标实体",
+      "title": "12\\. 战术：旋转朝向目标实体\\",
+      "main_title": "二、战术",
+      "side": "client",
+      "source_doc": "mhb09x012qu8_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhb09x012qu8_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "13\\. 战术：空中降落\\",
+      "main_title": "二、战术",
+      "side": "client",
+      "source_doc": "mhb09x012qu8_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhb09x012qu8_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "14\\. 战术：空中追击\\",
+      "main_title": "二、战术",
+      "side": "client",
+      "source_doc": "mhb09x012qu8_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhb09x012qu8_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "15\\. 战术：空中逃跑\\",
+      "main_title": "二、战术",
+      "side": "client",
+      "source_doc": "mhb09x012qu8_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhb09x012qu8_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "16\\. 战术：空中对峙\\",
+      "main_title": "二、战术",
+      "side": "client",
+      "source_doc": "mhb09x012qu8_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhb09x012qu8_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
+      "title": "17\\. 战术：空中闲逛\\",
       "main_title": "二、战术",
       "side": "client",
       "source_doc": "mhb09x012qu8_执行节点",
@@ -2683,6 +2737,15 @@
       "output_file": "derived/node/执行节点.md"
     },
     {
+      "title": "2\\. 打开礼盒界面",
+      "main_title": "四十八、奇域礼盒相关",
+      "side": "server",
+      "source_doc": "mhw66orrrfkm_执行节点",
+      "source_doc_title": "执行节点",
+      "local_path": "official/guide/mhw66orrrfkm_执行节点.md",
+      "output_file": "derived/node/执行节点.md"
+    },
+    {
       "title": "1\\. 激活/关闭寻路阻挡功能",
       "main_title": "四十九、寻路阻挡",
       "side": "server",
@@ -3766,6 +3829,51 @@
       "title": "1\\. 双分支",
       "main_title": "一、通用",
       "side": "both",
+      "source_doc": "mhe8yn9bysd6_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhe8yn9bysd6_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "2\\. 多分支",
+      "main_title": "一、通用",
+      "side": "both",
+      "source_doc": "mhe8yn9bysd6_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhe8yn9bysd6_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "1\\. 双分支",
+      "main_title": "一、通用",
+      "side": "both",
+      "source_doc": "mhk9zrrzshm6_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhk9zrrzshm6_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "2\\. 多分支",
+      "main_title": "一、通用",
+      "side": "both",
+      "source_doc": "mhk9zrrzshm6_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhk9zrrzshm6_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "1\\. 双分支",
+      "main_title": "一、通用",
+      "side": "both",
+      "source_doc": "mhq1k3rzp6oe_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhq1k3rzp6oe_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "1\\. 双分支",
+      "main_title": "一、通用",
+      "side": "both",
       "source_doc": "mhxc8ord091y_流程控制节点",
       "source_doc_title": "流程控制节点",
       "local_path": "official/guide/mhxc8ord091y_流程控制节点.md",
@@ -3778,6 +3886,24 @@
       "source_doc": "mhxc8ord091y_流程控制节点",
       "source_doc_title": "流程控制节点",
       "local_path": "official/guide/mhxc8ord091y_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "1\\. 双分支",
+      "main_title": "一、通用",
+      "side": "both",
+      "source_doc": "mhxppurzujfq_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhxppurzujfq_流程控制节点.md",
+      "output_file": "derived/node/流程控制节点.md"
+    },
+    {
+      "title": "2\\. 多分支",
+      "main_title": "一、通用",
+      "side": "both",
+      "source_doc": "mhxppurzujfq_流程控制节点",
+      "source_doc_title": "流程控制节点",
+      "local_path": "official/guide/mhxppurzujfq_流程控制节点.md",
       "output_file": "derived/node/流程控制节点.md"
     },
     {
@@ -4024,6 +4150,15 @@
       "output_file": "derived/node/查询节点.md"
     },
     {
+      "title": "28\\. 实体是否携带指定单位状态",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mh1w3z96rpne_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
       "title": "1\\. 查询阵营是否敌对",
       "main_title": "二、阵营相关",
       "side": "server",
@@ -4053,7 +4188,7 @@
     {
       "title": "2\\. 获取列表长度",
       "main_title": "三、列表相关",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4071,7 +4206,7 @@
     {
       "title": "4\\. 获取列表最大值",
       "main_title": "三、列表相关",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4080,7 +4215,16 @@
     {
       "title": "5\\. 获取列表最小值",
       "main_title": "三、列表相关",
-      "side": "both",
+      "side": "server",
+      "source_doc": "mh1w3z96rpne_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取实体类型列表",
+      "main_title": "三、列表相关",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4089,7 +4233,7 @@
     {
       "title": "1\\. 以键查询字典值",
       "main_title": "四、字典",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4098,7 +4242,7 @@
     {
       "title": "2\\. 查询字典是否包含特定键",
       "main_title": "四、字典",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4107,7 +4251,7 @@
     {
       "title": "3\\. 查询字典是否包含特定值",
       "main_title": "四、字典",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4116,7 +4260,7 @@
     {
       "title": "4\\. 查询字典长度",
       "main_title": "四、字典",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4125,7 +4269,7 @@
     {
       "title": "5\\. 获取字典中值组成的列表",
       "main_title": "四、字典",
-      "side": "both",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4134,7 +4278,25 @@
     {
       "title": "6\\. 获取字典中键组成的列表",
       "main_title": "四、字典",
-      "side": "both",
+      "side": "server",
+      "source_doc": "mh1w3z96rpne_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取射线检测结果",
+      "main_title": "五、射线",
+      "side": "server",
+      "source_doc": "mh1w3z96rpne_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取射线筛选类型列表",
+      "main_title": "五、射线",
+      "side": "server",
       "source_doc": "mh1w3z96rpne_查询节点",
       "source_doc_title": "查询节点",
       "local_path": "official/guide/mh1w3z96rpne_查询节点.md",
@@ -4150,7 +4312,34 @@
       "output_file": "derived/node/查询节点.md"
     },
     {
+      "title": "2\\. 获取列表长度",
+      "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
       "title": "3\\. 列表是否包含该值",
+      "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取列表最大值",
+      "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取列表最小值",
       "main_title": "一、列表相关",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
@@ -4510,8 +4699,116 @@
       "output_file": "derived/node/查询节点.md"
     },
     {
+      "title": "1\\. 获取指定预瞄准的基准对象",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取预瞄结果",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取预瞄持续时长",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取当前生效的预瞄准序号",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取预瞄碰撞检测结果数量",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取预瞄射线命中信息",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "7\\. 获取预瞄准摇杆是否处于死区",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "8\\. 查询预瞄准结束原因",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取光标是否激活",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取光标命中结果",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取光标屏幕坐标",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取光标视口坐标",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
       "title": "1\\. 获取目标挂接点旋转",
-      "main_title": "七、挂接点",
+      "main_title": "九、挂接点",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4520,7 +4817,7 @@
     },
     {
       "title": "1\\. 获取碰撞触发器内所有实体",
-      "main_title": "八、触发器",
+      "main_title": "十、触发器",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4529,7 +4826,7 @@
     },
     {
       "title": "1\\. 获取射线检测结果",
-      "main_title": "九、射线",
+      "main_title": "十一、射线",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4538,7 +4835,7 @@
     },
     {
       "title": "1\\. 获取扫描组件当前扫描到的实体",
-      "main_title": "十、扫描",
+      "main_title": "十二、扫描",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4547,7 +4844,7 @@
     },
     {
       "title": "2\\. 获取扫描组件可扫描的所有合法对象",
-      "main_title": "十、扫描",
+      "main_title": "十二、扫描",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4556,7 +4853,7 @@
     },
     {
       "title": "3\\. 获取实体扫描状态",
-      "main_title": "十、扫描",
+      "main_title": "十二、扫描",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4565,7 +4862,61 @@
     },
     {
       "title": "4\\. 获取实体当前生效的扫描标签",
-      "main_title": "十、扫描",
+      "main_title": "十二、扫描",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 以键查询字典值",
+      "main_title": "十三、字典",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 查询字典是否包含特定键",
+      "main_title": "十三、字典",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 查询字典是否包含特定值",
+      "main_title": "十三、字典",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 查询字典长度",
+      "main_title": "十三、字典",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取字典中值组成的列表",
+      "main_title": "十三、字典",
+      "side": "client",
+      "source_doc": "mh2crq9jzueq_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mh2crq9jzueq_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取字典中键组成的列表",
+      "main_title": "十三、字典",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -4574,7 +4925,7 @@
     },
     {
       "title": "1\\. 实体是否携带指定单位状态",
-      "main_title": "十二、单位状态",
+      "main_title": "十四、单位状态",
       "side": "client",
       "source_doc": "mh2crq9jzueq_查询节点",
       "source_doc_title": "查询节点",
@@ -5302,6 +5653,420 @@
       "output_file": "derived/node/查询节点.md"
     },
     {
+      "title": "1\\. 获取自身当前执行状态",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 查询自身距离目标的水平角度",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 查询自身距离目标的垂直角度",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 查询自身距离目标的水平距离",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 查询自身距离目标的垂直距离",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 查询自身距离目标的距离",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "7\\. 查询目标点是否寻路可达",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "8\\. 查询自身是否正在释放技能",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "9\\. 查询自身是否处于交战中",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "10\\. 查询自身是否在领地中",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "11\\. 查询入战时的坐标点",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "12\\. 获取出生点位置信息",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "13\\. 获取自身实体",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "14\\. 获取目标实体",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "15\\. 获取关卡实体",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "16\\. 查询实体是否在场",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "17\\. 获取实体的类型",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "18\\. 获取实体位置",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "19\\. 获取实体旋转",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "20\\. 获取物件预设状态",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "21\\. 获取自定义变量",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "22\\. 获取目标生命值",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "23\\. 获取目标等级",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "24\\. 获取目标攻击力",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "25\\. 获取自身预设状态值",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "26\\. 获取前一帧执行状态",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "27\\. 获取前一帧执行战术",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "28\\. 实体是否携带指定单位状态",
+      "main_title": "一、通用",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 查询阵营是否敌对",
+      "main_title": "二、阵营相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 查询实体阵营",
+      "main_title": "二、阵营相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取列表对应值",
+      "main_title": "三、列表相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取列表长度",
+      "main_title": "三、列表相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 列表是否包含该值",
+      "main_title": "三、列表相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取列表最大值",
+      "main_title": "三、列表相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取列表最小值",
+      "main_title": "三、列表相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取实体类型列表",
+      "main_title": "三、列表相关",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 以键查询字典值",
+      "main_title": "四、字典",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 查询字典是否包含特定键",
+      "main_title": "四、字典",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 查询字典是否包含特定值",
+      "main_title": "四、字典",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 查询字典长度",
+      "main_title": "四、字典",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取字典中值组成的列表",
+      "main_title": "四、字典",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取字典中键组成的列表",
+      "main_title": "四、字典",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取射线检测结果",
+      "main_title": "五、射线",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取射线筛选类型列表",
+      "main_title": "五、射线",
+      "side": "server",
+      "source_doc": "mhk4furvds12_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mhk4furvds12_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取列表对应值",
+      "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取列表长度",
+      "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
       "title": "3\\. 获取列表最大值",
       "main_title": "一、列表相关",
       "side": "client",
@@ -5331,6 +6096,78 @@
     {
       "title": "6\\. 列表是否包含该值",
       "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "7\\. 获取射线筛选类型列表",
+      "main_title": "一、列表相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取自定义变量",
+      "main_title": "二、自定义变量",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取预设状态",
+      "main_title": "三、预设状态",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 以GUID查询实体",
+      "main_title": "四、实体相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取实体位置",
+      "main_title": "四、实体相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取实体旋转",
+      "main_title": "四、实体相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取自身实体",
+      "main_title": "四、实体相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取目标实体",
+      "main_title": "四、实体相关",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -5410,8 +6247,296 @@
       "output_file": "derived/node/查询节点.md"
     },
     {
+      "title": "1\\. 查询实体阵营",
+      "main_title": "五、阵营相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 查询阵营是否敌对",
+      "main_title": "五、阵营相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取指定玩家的角色实体",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取角色归属的玩家实体",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取在场玩家实体列表",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 以实体查询GUID",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 查询自身是否已入战",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取当前角色",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "7\\. 获得玩家客户端输入设备类型",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "8\\. 获取玩家移动输入",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "9\\. 查询技能变量对应值",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "10\\. 获取当前关键行为",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "11\\. 获取当前关键行为（高精度）",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "12\\. 获取当前客户端时间",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "13\\. 获取当前客户端时间（高精度）",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "14\\. 查询玩家是否正在语音聊天",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "15\\. 根据技能实例ID获取技能配置ID",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "16\\. 查询指定槽位的技能实例列表",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "17\\. 查询指定槽位当前生效的技能实例",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "18\\. 以技能槽位和技能配置ID查询技能实例ID",
+      "main_title": "六、玩家与角色相关",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取指定预瞄准的基准对象",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取预瞄结果",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取预瞄持续时长",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取当前生效的预瞄准序号",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取预瞄碰撞检测结果数量",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取预瞄射线命中信息",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "7\\. 获取预瞄准摇杆是否处于死区",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "8\\. 查询预瞄准结束原因",
+      "main_title": "七、预瞄准",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取光标是否激活",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取光标命中结果",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取光标屏幕坐标",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取光标视口坐标",
+      "main_title": "八、光标",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
       "title": "1\\. 获取实体的单位标签列表",
-      "main_title": "七、标签",
+      "main_title": "九、标签",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -5420,7 +6545,7 @@
     },
     {
       "title": "2\\. 获取单位标签的实体列表",
-      "main_title": "七、标签",
+      "main_title": "九、标签",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -5429,7 +6554,7 @@
     },
     {
       "title": "1\\. 获取局部变量",
-      "main_title": "八、通用",
+      "main_title": "十、通用",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -5438,7 +6563,7 @@
     },
     {
       "title": "1\\. 获取指定实体的仇恨目标",
-      "main_title": "九、自定义仇恨",
+      "main_title": "十一、自定义仇恨",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -5447,7 +6572,7 @@
     },
     {
       "title": "2\\. 获取指定实体的仇恨列表",
-      "main_title": "九、自定义仇恨",
+      "main_title": "十一、自定义仇恨",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -5456,7 +6581,124 @@
     },
     {
       "title": "3\\. 查询指定实体是否入战",
-      "main_title": "九、自定义仇恨",
+      "main_title": "十一、自定义仇恨",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取碰撞触发器内所有实体",
+      "main_title": "十二、触发器",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取射线检测结果",
+      "main_title": "十三、射线",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 获取扫描组件当前扫描到的实体",
+      "main_title": "十四、扫描",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 获取扫描组件可扫描的所有合法对象",
+      "main_title": "十四、扫描",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 获取实体扫描状态",
+      "main_title": "十四、扫描",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 获取实体当前生效的扫描标签",
+      "main_title": "十四、扫描",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 以键查询字典值",
+      "main_title": "十五、字典",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "2\\. 查询字典是否包含特定键",
+      "main_title": "十五、字典",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "3\\. 查询字典是否包含特定值",
+      "main_title": "十五、字典",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "4\\. 查询字典长度",
+      "main_title": "十五、字典",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "5\\. 获取字典中值组成的列表",
+      "main_title": "十五、字典",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "6\\. 获取字典中键组成的列表",
+      "main_title": "十五、字典",
+      "side": "client",
+      "source_doc": "mholjx05ji8w_查询节点",
+      "source_doc_title": "查询节点",
+      "local_path": "official/guide/mholjx05ji8w_查询节点.md",
+      "output_file": "derived/node/查询节点.md"
+    },
+    {
+      "title": "1\\. 实体是否携带指定单位状态",
+      "main_title": "十六、单位状态",
       "side": "client",
       "source_doc": "mholjx05ji8w_查询节点",
       "source_doc_title": "查询节点",
@@ -7633,6 +8875,42 @@
       "output_file": "derived/node/运算节点.md"
     },
     {
+      "title": "36\\. 屏幕坐标转视口坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mh7ys59fhtvu_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mh7ys59fhtvu_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "37\\. 视口坐标转屏幕坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mh7ys59fhtvu_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mh7ys59fhtvu_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "38\\. 屏幕坐标转世界坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mh7ys59fhtvu_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mh7ys59fhtvu_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "39\\. 世界坐标转屏幕坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mh7ys59fhtvu_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mh7ys59fhtvu_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
       "title": "1\\. 拼装列表",
       "main_title": "三、列表",
       "side": "client",
@@ -7662,7 +8940,7 @@
     {
       "title": "1\\. 拼装字典",
       "main_title": "五、字典",
-      "side": "both",
+      "side": "client",
       "source_doc": "mh7ys59fhtvu_运算节点",
       "source_doc_title": "运算节点",
       "local_path": "official/guide/mh7ys59fhtvu_运算节点.md",
@@ -7671,7 +8949,7 @@
     {
       "title": "2\\. 建立字典",
       "main_title": "五、字典",
-      "side": "both",
+      "side": "client",
       "source_doc": "mh7ys59fhtvu_运算节点",
       "source_doc_title": "运算节点",
       "local_path": "official/guide/mh7ys59fhtvu_运算节点.md",
@@ -9397,6 +10675,24 @@
       "output_file": "derived/node/运算节点.md"
     },
     {
+      "title": "1\\. 拼装字典",
+      "main_title": "三、字典",
+      "side": "server",
+      "source_doc": "mhnd4l069tk0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhnd4l069tk0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 建立字典",
+      "main_title": "三、字典",
+      "side": "server",
+      "source_doc": "mhnd4l069tk0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhnd4l069tk0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
       "title": "1\\. 拼装结构体",
       "main_title": "四、结构体",
       "side": "server",
@@ -9838,6 +11134,87 @@
       "output_file": "derived/node/运算节点.md"
     },
     {
+      "title": "1\\. 是否相等",
+      "main_title": "一、通用",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 数据类型转换",
+      "main_title": "一、通用",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "3\\. 枚举匹配",
+      "main_title": "一、通用",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 加法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 减法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "3\\. 乘法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "4\\. 除法运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "5\\. 绝对值运算",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "6\\. 获取随机数",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
       "title": "7\\. 三维向量内积",
       "main_title": "二、数学",
       "side": "client",
@@ -10092,6 +11469,87 @@
     {
       "title": "35\\. 是否大于等于",
       "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "36\\. 屏幕坐标转视口坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "37\\. 视口坐标转屏幕坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "38\\. 屏幕坐标转世界坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "39\\. 世界坐标转屏幕坐标",
+      "main_title": "二、数学",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装列表",
+      "main_title": "三、列表",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装结构体",
+      "main_title": "四、结构体",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 拆分结构体",
+      "main_title": "四、结构体",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "1\\. 拼装字典",
+      "main_title": "五、字典",
+      "side": "client",
+      "source_doc": "mhte5piu3it0_运算节点",
+      "source_doc_title": "运算节点",
+      "local_path": "official/guide/mhte5piu3it0_运算节点.md",
+      "output_file": "derived/node/运算节点.md"
+    },
+    {
+      "title": "2\\. 建立字典",
+      "main_title": "五、字典",
       "side": "client",
       "source_doc": "mhte5piu3it0_运算节点",
       "source_doc_title": "运算节点",

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 4640">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 4840">
   <defs>
     <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
     <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
@@ -19,7 +19,7 @@
     .srclabel{font-size:12px;fill:#8B8DA0;}
     .srclink{font-size:12px;fill:#2D6BE4;}
   </style>
-  <rect width="1200" height="4640" fill="#F9F7F2"/>
+  <rect width="1200" height="4840" fill="#F9F7F2"/>
   <rect width="1200" height="6" fill="url(#topGrad)"/>
 
   <!-- 标题卡片 -->
@@ -384,10 +384,17 @@
   <text x="72" y="4514" class="ff name">修正小地图方向</text>
   <text x="340" y="4514" class="ff effect">可选择以角色朝向为小地图正上方，还是以指定的偏转角度为小地图的正上方</text>
 
+  <!-- 7.1 新增效果 -->
+  <text x="48" y="4550" class="ff" fill="#2D6BE4" font-size="18">7.1 · 新增单位状态效果</text>
+  <rect x="48" y="4565" width="1104" height="145" rx="14" fill="#fff" filter="url(#card)"/>
+  <text x="72" y="4600" class="ff name">造物浮空</text>
+  <text x="340" y="4600" class="ff effect">仅对复杂造物生效；不受重力影响，可执行空中战术，不能执行地面战术。</text>
+  <text x="72" y="4640" class="ff name">角色禁止移动</text>
+  <text x="340" y="4640" class="ff effect">禁止玩家通过方向键或摇杆移动所操控的角色。</text>
   <!-- 相关文档 + 页脚 -->
-  <text x="48" y="4574" class="ff srclabel">相关文档：</text>
+  <text x="48" y="4774" class="ff srclabel">相关文档：</text>
   <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhou93r2pxv2" target="_blank">
-    <text x="48" y="4598" class="ff srclink" text-decoration="underline">奇匠学院文档：单位状态效果池</text>
+    <text x="48" y="4798" class="ff srclink" text-decoration="underline">奇匠学院文档：单位状态效果池</text>
   </a>
-  <text x="600" y="4624" class="ff foot" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.0</text>
+  <text x="600" y="4824" class="ff foot" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.1</text>
 </svg>

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh4imrrhzdzi
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-08-12T17:17:15.416Z
+crawledAt: 2026-09-23T18:00:32.828Z
 ---
 
 |     |     |
@@ -132,5 +132,7 @@ crawledAt: 2026-08-12T17:17:15.416Z
 | 10000131 | 尼可 |
 | 10000132 | 布伦妮 |
 | 10000133 | 桑多涅 |
+| 10000140 | 沃雅妮莎 |
+| 10000143 | 薇斯纳 |
 | 10000148 | 阿罗夏 |
 | 10000150 | 奥黛塔 |

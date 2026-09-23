@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhc5uurnzzt2
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T19:58:41.963Z
+crawledAt: 2026-09-23T18:06:57.101Z
 ---
 
 # 前言
@@ -51,6 +51,8 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/16c3ad8b-1dfc-4d30-bbd9-b109b21207ef.gif)
+
 ### 3.操作步骤
 
 **1.【局内编辑器】制作开关和机关元件**
@@ -59,13 +61,17 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 同时创建三个元件作为被触发的机关（教程以柱子为例），不用做额外配置。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/1cda8fc9-1d19-4764-add8-1cdc6adc9e4b.png)
+
 **2.【千星沙箱】进入碰撞触发器后，发出全局信号**
 
 在教学演示中，角色进入开关物件的碰撞触发器之后，需要通知其他机关这一事件，机关才能做出相应反应。
 
 这里我们使用【信号】来做全局通信，信号的制作方法为：
 
-打开千星沙箱>>>新建节点图>>>节点图工具栏中点击“服务器信号管理器”>>>点击“添加信号”>>>将信号名进行修改（教学中将其重名为“激活”）>>>点击“应用修改”。
+打开千星沙箱>>>新建节点图>>>节点图工具栏中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/7df74ca8-2b10-4935-ab03-fcdfde8467ab.png)“服务器信号管理器”>>>点击“添加信号”>>>将信号名进行修改（教学中将其重名为“激活”）>>>点击“应用修改”。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/bd45bafc-7885-4375-9a97-f3ff69dc544c.png)
 
 此时一个自定义信号就做好了。
 
@@ -78,6 +84,8 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 | 条件 | / | / |
 | 结果 | 全局发送信号 | 【执行节点】：发送信号，信号名选择我们刚刚做好的信号 “激活” |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/a3afa35f-c543-41fd-bec0-666c12a732d3.png)
+
 **3.【千星沙箱】在其他物件上监听信号，执行不同行为。**
 
 其次对被触发的机关上进行接收信号的配置（教程演示中机关接收到信号后播放不同的特效，在实际制作中可以选择制作更丰富的执行行为），具体逻辑和节点图连接方法见下，新建3张节点图，节点图分别挂载在3个被触发的机关上。演示中3张节点图的节点完全一致，只有特效资产有区分。
@@ -89,9 +97,13 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 | 条件 | / | / |
 | 结果 | 在机关自身播放特效 | 【执行节点】：挂载循环特效；3张节点图的特效资产分别选择不同的特效，以做区分。<br>【查询节点】：获取自身实体 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/859c283d-ae7f-4068-9713-3cb462a1148e.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/c4002a6d-67f2-47db-af3a-d438a4a6ed45.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/35df2c27-01db-4856-9326-6b59aa300a5f.png)
+
 **4.【局内编辑器】将物件拖入场景，试玩体验。**
 
 将配置好节点图的元件拖入场景，点击试玩即可体验。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/16c3ad8b-1dfc-4d30-bbd9-b109b21207ef.gif)
 
 # 拓展应用
 
@@ -103,6 +115,8 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/01f8b7e6-97d1-4f9f-99bc-74414c66d015.gif)
+
 **实现步骤：**
 
 **1.【局内编辑器】制作开关和机关元件**
@@ -111,15 +125,19 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 创建一个元件作为被触发的机关（教程以建造值吸收器为例），配置跟随运动器组件，教程中跟随具体参数配置见下：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/f96b1908-0cf9-4e3c-8dbc-53a7affd2c02.png)
+
 **2.【千星沙箱】进入碰撞触发器后，发出全局信号**
 
 与功能示例-1一致，我们需要制作一个信号：
 
-打开千星沙箱>>>新建节点图>>>节点图工具栏中点击“服务器信号管理器”>>>点击“添加信号”>>>将信号名进行修改（教学中将其重名为“发出跟随目标”）
+打开千星沙箱>>>新建节点图>>>节点图工具栏中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/1e37694c-9e44-4ff5-b766-0b5735b6e4be.png)“服务器信号管理器”>>>点击“添加信号”>>>将信号名进行修改（教学中将其重名为“发出跟随目标”）
 
 信号除了可以向全局广播一个自定义事件同时，还可以携带多个自定义参数，在这个案例里面，除了发出信号事件，我们还需要通过信号来告知机关需要跟随的目标：
 
 在“发出跟随目标”信号中，点击“添加参数”>>>修改参数名称为“进入玩家guid”>>>修改参数数据类型为“GUID”>>>点击“应用修改”
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/8a427c4d-0ecc-415f-9ca7-1a92c9e7a511.png)
 
 此时我们就可以发现，在【发送信号】执行节点选择“发出跟随目标”后，会多出一个我们配置的“进入玩家guid”的引脚。这样我们就可以通过这个引脚进行传参和通信了。
 
@@ -132,6 +150,8 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 | 条件 | / | / |
 | 结果 | 全局发送信号，带上玩家guid参数 | 【执行节点】：发送信号，信号名选择我们刚刚做好的信号 “发出跟随目标”<br>【查询节点】：获取角色归属的玩家实体，以实体查询GUID；通过获取进入角色归属的玩家实体，并且获取其guid |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/6d300695-5896-4b38-85fe-e3fbdd39c87e.png)
+
 **3.【千星沙箱】在机关物件上监听信号，根据参数执行跟随行为。**
 
 其次对被触发的机关上进行接收信号的配置（教程演示中机关接收到信号后根据参数进行指定跟踪，在实际制作中可以选择制作更丰富的执行行为），具体逻辑和节点图连接方法见下，新建1张节点图挂载在被触发的机关上。
@@ -142,6 +162,8 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 | 触发场景 | 接收全局信号 | 【事件节点】：监听信号，信号选择我们刚刚做好的信号“发出跟随目标” |
 | 条件 | / | / |
 | 结果 | 在激活机关跟随，让其跟随指定角色 | 【执行节点】：激活/关闭跟随运动器-是否激活-是；<br>【执行节点】：切换跟随运动器目标；将“跟随目标GUID”引脚与我们制作的“进入玩家guid”引脚进行连接 |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhc5uurnzzt2/744c90e9-c811-4b22-810c-f4c5922a6421.png)
 
 **4.【局内编辑器】将物件拖入场景，试玩体验。**
 
@@ -162,6 +184,8 @@ _\*\*更多相关信息可自行查阅【综合指南-节点图】_
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-信号通信】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 信号通信.gil
 

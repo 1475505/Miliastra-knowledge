@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 798">
+<defs><linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient><filter id="card"><feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#2D6BE4" flood-opacity="0.07"/></filter></defs>
+<style>.t{font-family:"HYWenHei 85W","Noto Sans SC","PingFang SC","Roboto",sans-serif}</style>
+<rect width="1200" height="798" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+<rect x="48" y="32" width="1104" height="90" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="32" width="4" height="90" rx="2" fill="#2D6BE4"/>
+<text x="74" y="77" class="t" fill="#1A1B2E" font-size="34" font-weight="bold">ID 修改</text>
+<text x="75" y="103" class="t" fill="#8B8DA0" font-size="14">7.1 新增 · 编辑器数据管理</text>
+<rect x="48" y="154" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="173" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="192" class="t" fill="#fff" font-size="14" text-anchor="middle">1</text>
+<text x="110" y="193" class="t" fill="#1A1B2E" font-size="18" font-weight="500">适用对象与入口</text>
+<text x="78" y="228" class="t" fill="#4A4B65" font-size="15">支持实体 GUID、元件 ID、配置 ID 等包含 ID 引用的数据。</text>
+<text x="78" y="258" class="t" fill="#4A4B65" font-size="15">在详情栏找到 ID，点击复制按钮旁的修改入口。</text>
+<rect x="48" y="288" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="307" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="326" class="t" fill="#fff" font-size="14" text-anchor="middle">2</text>
+<text x="110" y="327" class="t" fill="#1A1B2E" font-size="18" font-weight="500">修改流程</text>
+<text x="78" y="362" class="t" fill="#4A4B65" font-size="15">点击 ID 修改按钮 → 输入新 ID → 确认。</text>
+<text x="78" y="392" class="t" fill="#4A4B65" font-size="15">修改后，其他内容对该对象的引用关系会丢失，需要逐一检查。</text>
+<rect x="48" y="422" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="441" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="460" class="t" fill="#fff" font-size="14" text-anchor="middle">3</text>
+<text x="110" y="461" class="t" fill="#1A1B2E" font-size="18" font-weight="500">提交前的四项校验</text>
+<text x="78" y="496" class="t" fill="#4A4B65" font-size="15">新 ID 不得与现有 ID 重复，也不得为空。</text>
+<text x="78" y="526" class="t" fill="#4A4B65" font-size="15">不得超过位数上限，且必须属于当前业务类型。</text>
+<rect x="48" y="556" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="575" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="594" class="t" fill="#fff" font-size="14" text-anchor="middle">4</text>
+<text x="110" y="595" class="t" fill="#1A1B2E" font-size="18" font-weight="500">32 位 ID 的组成</text>
+<text x="78" y="630" class="t" fill="#4A4B65" font-size="15">编辑器显示十进制 ID；内部按 32 位二进制处理。</text>
+<text x="78" y="660" class="t" fill="#4A4B65" font-size="15">第 22–28 位是类型 ID，第 16–21 位是协作部分 ID，第 0–15 位是递增 ID。</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhsd6lrx3voe" target="_blank"><text x="48" y="737" class="t" fill="#2D6BE4" font-size="14">来源：千星奇域官方综合指南 · 查看原文</text></a>
+<text x="600" y="768" class="t" fill="#8B8DA0" font-size="12" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.1</text>
+</svg>

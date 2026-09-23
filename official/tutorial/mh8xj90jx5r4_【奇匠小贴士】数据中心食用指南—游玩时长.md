@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh8xj90jx5r4
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-05-20T03:38:53.147Z
+crawledAt: 2026-09-23T18:16:41.872Z
 ---
 
 我们看到 [【奇匠小贴士】灵感激励一页流>>](https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh76jr0msx4g?tk=course_chosen_8) 收到了许多奇匠的好评，因此【奇匠小贴士】专栏正式启动啦，奇匠小助手将和奇匠们共同成长，一起在千星奇域中打造更多好玩、有趣的奇域关卡！
@@ -90,6 +90,8 @@ crawledAt: 2026-05-20T03:38:53.147Z
 **设置阶段性小目标**：在关卡前期增加一些短平快的小目标或奖励节点，让玩家在每完成一个小步骤时都能获得即时的成就感，形成持续游玩的正向循环。
 
 Tip：我们已经根据奇匠们的奇域游玩时长优先匹配了合适的时长分布展示区间，大家也可以根据自己奇域的特点自由切换时长分布区间展示~
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8xj90jx5r4/0d6f9874-65ac-4882-b425-d1ad7fbcae1b.png)
 
 * * *
 

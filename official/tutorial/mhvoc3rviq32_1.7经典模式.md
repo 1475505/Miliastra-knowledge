@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhvoc3rviq32
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-05-20T03:39:07.575Z
+crawledAt: 2026-09-23T18:05:42.054Z
 ---
 
 # 前言
@@ -56,15 +56,23 @@ _\*\*特别说明：经典模式与超限模式的存档（gil）无法互相转
 
 进入存档界面后点击右下角【新建存档】>>>选择经典模式>>>点击确定即可创建。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/36069ed2-bd54-4aae-8c51-3150a2eed858.png)
+
 创建后会进入到编辑器的界面，在该界面的操作与超限模式无异。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/d752f0a2-01d9-41e0-95b8-1456bfa5b30e.png)
 
 ## 二、设置经典模式关卡基础参数
 
-点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>即可进入。
+点击局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/b64080fb-4bcf-4ea7-a4f3-39fb50d0dcfe.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/51990128-d31a-4288-aa87-0c3b48fc4a51.png)>>>即可进入。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/ece15315-77da-487b-8684-a676b9779897.png)
 
 ### 功能简述
 
 在基础系统预设中新增了 **角色设置**，主要包含 **可出战角色数量** 和 **角色限制** 两个功能。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/6d68d3e6-bc58-4002-bed4-22a3f75f2d3e.png)
 
 #### 1.可出战角色数量
 
@@ -74,21 +82,39 @@ _\*\*特别说明：经典模式与超限模式的存档（gil）无法互相转
 
 将限制从无限制改为部分角色可用。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/90de437c-561a-42a3-9ff5-2832ba7352b2.png)
+
 点击加号图标，选择可以进入关卡的角色。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/bd4e75c0-8bdc-4872-a21c-603802efc665.png)
 
 在这个界面你能选择可以进入关卡的角色，现在以旅行者为例。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/ae2d31b6-15d7-4b13-9b8a-59e5f9e1f8dd.png)
+
 退出界面后即可看到可用角色里添加了旅行者作为可用角色，这意味着只有旅行者能进入到对应的关卡中，该功能具体将由下面的试玩部分展示。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/7d34aa41-cf23-44c6-bc4e-486233a70bf6.png)
 
 此外也可以通过左上角筛选选择你需要的使用相应元素力/武器的角色，并通过一键全选，选择筛选后所有的结果，或者全部取消选择来去掉筛选的结果。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/0412dc98-ad49-44a0-b21a-9f5103731420.gif)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/d04497d0-7415-4072-94a7-005d58b52aa3.gif)
+
 ## 三、试玩经典模式关卡
 
-点击局内编辑器左上角（或直接按ESC键）>>>呼出左侧面板-系统菜单，点击>>>进行试玩
+点击局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/14b0113e-ca74-4230-a2c2-200b45424bb3.png)（或直接按ESC键）>>>呼出左侧面板-系统菜单，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/1f1a8dcf-a530-4338-822c-53492250f70e.png)>>>进行试玩
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/545c7ef2-ff25-42df-aa9c-bb350aa090cc.gif)
 
 进入到试玩界面后，可以需要选择你要进队的角色。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/bb97b22b-2dfd-432c-a8ec-b8e4b32f8d63.gif)
+
 当开启关卡设置的角色限制时，只能编入旅行者进入关卡中。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/8b771822-39f7-4b3c-bdeb-6e188e38d629.gif)
 
 # 拓展应用
 
@@ -104,19 +130,33 @@ _\*\*特别说明：经典模式与超限模式的存档（gil）无法互相转
 
 _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义文本外显】功能，教程中以效果展示为主_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/38ff0c64-e7d5-4088-b104-6e231be1edde.gif)
+
 **实现步骤：**
 
 1.创建一个元件，作为交互物
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/2823d38c-2bf2-4a56-a14c-accbbbd14535.png)
+
 2.添加【组件-选项卡】，并配置选项和触发区
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/7d8c859b-68f5-4f79-a298-ac3898bd35f8.png)
 
 3.节点图配置（设置参考见下图）
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/4497d2d3-8103-4881-bcf9-af6a45326d40.png)
+
 4.将节点图挂载在元件上，保存设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/7da580b3-8698-4e1c-81e1-1153e9d47d5e.png)
 
 5.将元件放置在场景中
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/b7bbef82-b4da-4f98-a925-7ebaf1df9f6e.png)
+
 6.进入试玩，即可体验该功能
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhvoc3rviq32/0b9eaff2-e0f3-4668-8153-2df7da5c15d3.gif)
 
 * * *
 
@@ -131,6 +171,8 @@ _\*\*演示中的文本显示，需达到特定奇匠等级后解锁【自定义
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-经典模式】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 经典模式.gil
 

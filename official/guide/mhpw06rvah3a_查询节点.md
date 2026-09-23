@@ -6,14 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhpw06rvah3a
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:26:59.853Z
+crawledAt: 2026-09-23T17:56:02.705Z
 ---
 
 # **一、技能**
 
 ## **1\. 获取复杂造物当前施放的技能**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/c15efbc2-f465-4421-88b0-0cf9537fc3da.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/785a4fb2-01ad-4aaa-b704-d2cdf4b1a50e.undefined)
 
 **节点功能**
 
@@ -28,7 +28,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 查询技能变量对应值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/1d1ee005-4431-43de-be77-19248a27aeef.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/06d75da1-d747-4f27-9a5f-7aca3cfa5b89.undefined)
 
 **节点功能**
 
@@ -46,7 +46,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取列表对应值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/272bd385-33cf-4baf-83ef-0de18be61490.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/4d18c3a7-435d-47ca-9b44-8b70be083db2.undefined)
 
 **节点功能**
 
@@ -63,7 +63,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 获取列表长度**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/3e78b6f1-cba4-4438-92e4-75f3961d00d6.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/258275d6-c93a-49ec-ab35-c78cb8706728.undefined)
 
 **节点功能**
 
@@ -79,7 +79,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **3\. 获取列表最大值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/2d7a2f1e-ef3b-4c9e-8aa2-95eac387d062.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/357d5f58-4c36-4ee4-bbc6-b157f7e1dde3.undefined)
 
 **节点功能**
 
@@ -95,7 +95,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **4\. 获取列表最小值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/83394376-4bc9-48f4-98ed-e9182670438f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/b224cec0-e5a4-4231-9eca-e2f4b6ee5cd4.undefined)
 
 **节点功能**
 
@@ -111,7 +111,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **5\. 获取实体类型列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/45ad4934-8592-4f8e-bbd6-a125e1df165e.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/1e9bea85-bcd9-4d4d-a697-bd52f58ddfc2.undefined)
 
 **节点功能**
 
@@ -126,7 +126,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **6\. 列表是否包含该值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/4716df92-1c5f-4039-b6d4-976d3344f48a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/8bf772ac-d6fc-4917-a3b0-e19fd90471ce.undefined)
 
 **节点功能**
 
@@ -143,7 +143,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **7\. 获取射线筛选类型列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/9a56b6dc-7dda-41d8-8b7d-13b6d121be4d.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/c12566c1-c319-419c-803b-d8e1efc051e4.undefined)
 
 **节点功能**
 
@@ -160,7 +160,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取自定义变量**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/2a5f0948-5352-4b0e-8d64-8ffbd24ecb4a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/cd113ed2-fcbc-4950-b7b4-b019e4cc37dc.undefined)
 
 **节点功能**
 
@@ -181,7 +181,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取预设状态**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/bf9f6ce2-983b-4209-b48b-ea1562418dae.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/5be5811f-0764-4097-983f-7dead7fee60a.undefined)
 
 **节点功能**
 
@@ -200,7 +200,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 以GUID查询实体**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/521e76c4-4222-40ba-a485-cf88a851f5cb.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/3fd0ad7b-58ec-401e-9c6b-ec6230763437.undefined)
 
 **节点功能**
 
@@ -216,7 +216,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 获取实体位置**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/bf38b0df-2a6b-4e6e-a4df-55127a7aa692.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/ae701f22-28c7-465f-99ce-61f57ca84ff8.undefined)
 
 **节点功能**
 
@@ -232,7 +232,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **3\. 获取实体旋转**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/01a17176-b1be-4536-8942-8a102447a496.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/9fde0f16-dac2-4927-b86a-f80621929051.undefined)
 
 **节点功能**
 
@@ -248,7 +248,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **4\. 获取自身实体**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/23587cff-ed11-4b3d-a743-8814631e54d8.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/416f53ce-d46c-4e39-9ac4-184e22eda6b3.undefined)
 
 **节点功能**
 
@@ -263,7 +263,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **5\. 获取单位攻击目标**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/470d29af-2153-4ae2-8f86-07dab3099308.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/90cd6ab2-229c-4dcc-b43e-fa25f939e4c4.undefined)
 
 **节点功能**
 
@@ -279,7 +279,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **6\. 获取目标挂接点位置**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/6e6f4d79-94d3-4abb-ab1b-d7f7f98e615c.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/6dca90cb-b88f-4f46-8f07-e3a2cea125c0.undefined)
 
 **节点功能**
 
@@ -296,7 +296,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **7\. 获取目标挂接点旋转**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/62f27382-907d-4560-82ad-eac1353dda45.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/aa302f3b-1540-4eb8-977d-46a52ba05e15.undefined)
 
 **节点功能**
 
@@ -313,7 +313,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **8\. 获取实体的类型**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/4f84f668-6388-48d4-a9cb-b7591c71cb67.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/dd1f4c06-5a49-426d-94fe-10a8bdd44b89.undefined)
 
 **节点功能**
 
@@ -329,7 +329,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **9\. 筛选球体范围内的实体列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/e4959e3f-f76d-40ae-b05a-a80f8bb47f6f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/76b81299-6884-4660-bcc9-a8f76008fd01.undefined)
 
 **节点功能**
 
@@ -348,7 +348,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **10\. 筛选方形范围内的实体列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/a0dc8016-aa0d-4d3a-911b-f5dca8dcd4c8.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/b6b94667-d928-46f8-960f-08d2779b331d.undefined)
 
 **节点功能**
 
@@ -369,7 +369,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **11\. 查询实体是否在场**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/51f4ea3d-f722-4d5c-957f-ba6f675ba650.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/2db39142-9538-419c-862b-0ca5642fbea9.undefined)
 
 **节点功能**
 
@@ -387,7 +387,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **12\. 获取子实体列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/9d5791b4-48c8-4766-a82c-ef2a990585e4.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/32354880-316f-4389-adc8-348bb5cde915.undefined)
 
 **节点功能**
 
@@ -403,7 +403,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **13\. 获取造物当前目标**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/7053fa80-ed7c-4cf2-a1a2-e0332843d5f8.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/4b43f0ae-7918-4ddf-b32a-82dfcb36f666.undefined)
 
 **节点功能**
 
@@ -419,7 +419,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **14\. 查询复杂造物的预设状态值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/f789caa2-b37b-4de3-9f02-e34877defddc.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/c6aaa4ee-f2c0-4437-a0a4-693e7e834263.undefined)
 
 **节点功能**
 
@@ -436,7 +436,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **15\. 获取角色归属的玩家实体**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/fc78d83a-4d28-4609-ae26-38969aebfa78.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/53cd7981-45f1-43bb-890a-c82dca0fde85.undefined)
 
 **节点功能**
 
@@ -452,7 +452,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **16\. 获取在场玩家实体列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/3027fd4d-06b4-4514-b560-4b0a3369dc87.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/555d8a74-8b1c-44e9-87bf-68f7a71c57e9.undefined)
 
 **节点功能**
 
@@ -467,7 +467,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **17\. 以实体查询GUID**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/2a7b7913-3824-4871-98a8-6f5b75bec9bf.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/03693d09-69d5-481f-b174-1fe8c71a2b78.undefined)
 
 **节点功能**
 
@@ -483,7 +483,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **18\. 获取玩家的角色列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/1c64c902-009f-4887-8885-6a2187e3e4f8.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/c3cafb1e-2946-46e7-9755-aab577af3d87.undefined)
 
 **节点功能**
 
@@ -499,7 +499,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **19\. 获取指定玩家的前台角色**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/895e422c-7153-4568-b52a-1536792de9c2.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/9cab2684-c795-4c7c-9bf7-29cd84336f30.undefined)
 
 **节点功能**
 
@@ -515,7 +515,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **20\. 查询经典模式角色编号**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/76726e9b-7afa-4f83-b0c1-4cf218a92752.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/28cefac5-0a97-4363-a7be-dde084d40848.undefined)
 
 **节点功能**
 
@@ -533,7 +533,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 查询实体阵营**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/6acb5a4f-32a6-4524-8f84-cf1851766eb2.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/f82ca772-f072-4088-9ab5-6eda67a0761f.undefined)
 
 **节点功能**
 
@@ -549,7 +549,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 查询阵营是否敌对**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/0bed06a7-0795-4d40-99ea-d8d6b27a36a2.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/19c4f99c-5a58-4fec-9a33-2959f79c516e.undefined)
 
 **节点功能**
 
@@ -568,7 +568,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取光标是否激活**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/5d6870a4-5817-4eda-a269-594d89d8a600.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/930c14e4-94d3-4a22-ada8-76fbfce43de3.undefined)
 
 **节点功能**
 
@@ -583,7 +583,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 获取光标命中结果**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/0db98f04-1aae-4ca8-88f5-89c09ea91961.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/b99487d1-32e5-414f-acd9-7360733dc143.undefined)
 
 **节点功能**
 
@@ -600,7 +600,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **3\. 获取光标屏幕坐标**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/dc9a8cd7-ebbf-4daa-9fd6-9017e1e25078.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/3a28df23-df3e-4531-8153-12a19f883c4c.undefined)
 
 **节点功能**
 
@@ -616,7 +616,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **4\. 获取光标视口坐标**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/9a7ab878-2e31-4b05-94c4-8b839544335f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/775f7ebc-7b6f-46d9-b05e-3a915db6d2d6.undefined)
 
 **节点功能**
 
@@ -634,7 +634,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取实体的单位标签列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/97d473c4-177a-46ae-999c-2f8ba6aec65f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/27386486-ac5d-4508-b527-512b48319c8c.undefined)
 
 **节点功能**
 
@@ -650,7 +650,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 获取单位标签的实体列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/a0850936-6866-4656-902e-758431a07ad1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/8fd7418c-374e-46e6-a75b-3fafbc2a5cbb.undefined)
 
 **节点功能**
 
@@ -668,7 +668,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取局部变量**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/3405c0a1-63a7-4896-9bbf-b82f2604326e.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/cb23a0d7-b02e-4e97-9522-04d7fe120018.undefined)
 
 **节点功能**
 
@@ -686,7 +686,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取指定实体的仇恨目标**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/77ccadc8-436b-4447-bab8-fc469609fd43.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/be0e0b23-6251-4d6b-a1bb-dc753398ea96.undefined)
 
 **节点功能**
 
@@ -704,7 +704,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 获取指定实体的仇恨列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/0d49014b-4d36-4f1d-a6d3-49823036c019.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/0b8a1238-b7f8-4853-bb73-eb354e1b539a.undefined)
 
 **节点功能**
 
@@ -722,7 +722,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **3\. 查询指定实体是否入战**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/c9439eb6-e73e-499b-b2a1-9ff1d921747a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/777076e1-56f2-44df-939a-ce0301d610aa.undefined)
 
 **节点功能**
 
@@ -742,7 +742,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取碰撞触发器内所有实体**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/a1c1627d-35ef-42e3-b0a5-db7a9e64044d.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/94409351-447b-4a5e-9c41-b5cb904919a7.undefined)
 
 **节点功能**
 
@@ -761,7 +761,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 获取射线检测结果**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/040d856f-d7cf-4a2a-843c-81dbf33c2a15.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/54c25eb5-2bb9-445e-840c-f82d785cdc65.undefined)
 
 **节点功能**
 
@@ -786,7 +786,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 以键查询字典值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/23538a7e-3afc-4e9b-b940-d92f16dd493b.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/e8256fa0-9fc4-4c91-a655-dba14b2869ee.undefined)
 
 **节点功能**
 
@@ -803,7 +803,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **2\. 查询字典是否包含特定键**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/22572e4c-0564-430f-bf0d-5777440467aa.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/a43a32aa-8046-4917-813f-9323fe3c7d5b.undefined)
 
 **节点功能**
 
@@ -820,7 +820,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **3\. 查询字典是否包含特定值**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/a7e66586-dd9e-4f56-aeec-18a41cd8400e.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/df0c4108-4bfb-42bb-81af-81d5a3c1cadc.undefined)
 
 **节点功能**
 
@@ -837,7 +837,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **4\. 查询字典长度**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/04a168af-c5ca-41b8-9881-0dd175243bb3.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/d1dab92c-92fa-498e-8bcd-664890c7505e.undefined)
 
 **节点功能**
 
@@ -853,7 +853,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **5\. 获取字典中值组成的列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/a9e3d43f-108c-4422-ac7f-15590c2125fa.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/2ce40d1c-75b0-4aff-bd71-bc1a8bad1d27.undefined)
 
 **节点功能**
 
@@ -869,7 +869,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **6\. 获取字典中键组成的列表**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/7bc1970f-f37a-4b60-b495-8b727ba6d2c1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/0df76f21-3c39-46f1-8e91-d7fd2124eba7.undefined)
 
 **节点功能**
 
@@ -887,7 +887,7 @@ crawledAt: 2026-07-01T08:26:59.853Z
 
 ## **1\. 实体是否携带指定单位状态**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/bbb9d561-b8f0-4fb8-916a-bb4bf65ee74c.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhpw06rvah3a/851ef7d6-5291-40bd-af05-ccb14d3a377d.undefined)
 
 **节点功能**
 

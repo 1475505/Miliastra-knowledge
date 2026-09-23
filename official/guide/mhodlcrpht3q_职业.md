@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhodlcrpht3q
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:29:04.920Z
+crawledAt: 2026-09-23T18:00:42.740Z
 ---
 
 # 一、职业的定义
@@ -199,7 +199,7 @@ _受保护时间_：受保护状态的持续时间，结束后会进入抗打断
 
 职业附加的职业技能，当玩家切换到该职业时，角色的技能会被自动切换为该职业所配置的技能
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/5654952b-fd40-4a35-8efa-2acecde02c48.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhodlcrpht3q/da763e06-5ef9-4d75-b74c-d32c0afb322d.png)
 
 需要特殊注意的是，职业模板上配置的技能会被视为职业的默认技能，虽然职业切换后，后续仍可以通过节点图节点替换别的技能，但在使用“初始化角色技能”这个节点时，角色技能会被还原成职业模板配置的技能
 
@@ -210,6 +210,14 @@ _受保护时间_：受保护状态的持续时间，结束后会进入抗打断
 冲刺技能支持可自定义配置，默认冲刺为提瓦特中的冲刺。自定义为玩家可配置自定义技能作为冲刺技能
 
 注意：对于PC端，冲刺技能可同时被鼠标右键与左Shift触发，且按键关系不可更改
+
+
+
+跳跃技能
+
+跳跃技能支持可自定义配置，默认跳跃为提瓦特的跳跃，空中技能中默认跳跃技能为开启风之翼，自定义为玩家可配置自定义技能作为跳跃技能。
+
+注意：1.自定义空中技能配置为空时角色可以使用默认跳跃。2.允许跳跃/滑翔开关仅可影响默认跳跃技能。
 
 
 

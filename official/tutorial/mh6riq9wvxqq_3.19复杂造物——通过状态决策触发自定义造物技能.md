@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh6riq9wvxqq
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-01-16T03:41:20.925Z
+crawledAt: 2026-09-23T18:06:13.726Z
 ---
 
 # 前言
@@ -45,11 +45,15 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 **在编辑器和千星沙箱中，复杂造物由造物技能管理（自定义造物技能），自主逻辑参数设置，造物状态决策节点图，巡逻设置4部分组成，这几部分的功能环环相扣，请务必按照顺序学习！**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/1f1580af-fb95-49fd-95be-feaba843c39e.png)
+
 ### 2.教学内容
 
 **功能效果：** 制作丘丘霜铠王普通攻击效果，并在造物靠近玩家时持续触发施放。
 
 **效果演示：**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/7bc5b2c3-3eb2-42d8-9b4d-b5027257e675.gif)
 
 _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常等问题，可以尝试使用【关卡设置-地形导航-烘焙网格体】_
 
@@ -73,19 +77,27 @@ _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常
 
 **1.【局内编辑器】创建复杂造物>>>丘丘霜铠王**
 
-进入元件库>>>选择左边的图标>>>找到复杂造物的页签>>>选择丘丘部族>>>找到丘丘霜铠王点击后创建。
+进入元件库>>>选择左边的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/28874ad7-e507-42cd-8a10-7fddc75342d0.png)图标>>>找到复杂造物的页签>>>选择丘丘部族>>>找到丘丘霜铠王点击后创建。
 
-在新增造物的左边信息栏内的能预览到四个新增的模块，后续会对四个模块功能分别进行讲解。
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/c9676d8d-7ba2-49f1-ac85-dd281c0c2085.gif)
+
+在新增造物的左边信息栏内的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/86b7b868-5d77-43e8-b44a-311274f957c1.png)能预览到四个新增的模块，后续会对四个模块功能分别进行讲解。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/88b8d7f8-1ef0-4cee-92c4-73bff9d7a331.png)
 
 **2.【局内编辑器】添加自定义技能**
 
-进入【战斗预设】，选择>>>进入技能页，点击造物自定义技能页签>>>新建技能>>>设置技能名称与造物技能归属模型后，即可添加（教学中直接命名为普通攻击，实际可自由配置）
+进入【战斗预设】，选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b845885b-ef17-4d81-9d47-33c9775c181c.png)>>>进入技能页，点击造物自定义技能页签>>>新建技能![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/d315a78c-d305-492f-9047-f7c6983a201a.png)>>>设置技能名称与造物技能归属模型后，即可添加（教学中直接命名为普通攻击，实际可自由配置）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/be01dc5c-6c66-4ade-8deb-8601b76aa110.gif)
 
 **3.【局内编辑器】配置【技能基础设置】**
 
 可在该页面中配置技能的【归属模型】、【技能打断】、【施放方式】等参数
 
 \*\*教程中全部使用默认参数，未进行修改，此处仅示意，实际使用时可根据技能效果调整
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/6cfcb1e9-b082-444c-bcda-78824cf94f92.png)
 
 _\*\*配置项说明：_
 
@@ -122,9 +134,15 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 
 打开客户端节点图资源管理器—并且新建一个造物技能节点图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/167a1b67-dc40-46c6-bb86-846b867aa6c1.gif)
+
 配置需要的造物技能节点图内容：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/5dd26cc5-5641-4770-999a-387c64235f22.png)
+
 此外，还可以使用其他技能节点制作功能（如：回血、转向、发射子弹等）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/e70d2c86-aac3-4b8d-afb2-040d8f92b064.png)
 
 **5.【局内编辑器】配置【造物动画】**
 
@@ -137,11 +155,17 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 | 挥剑中途才造成伤害（即拔剑时没有伤害，挥出时才造成伤害） | 【节点图事件轨道】找到需要的动画对应的具体帧，添加步骤4中配置的技能节点图 |
 | 造物有挥击动画 | 【状态轨道】添加特效，配置挂接点【GI\_WeaponR】<br>挂点可在【造物】-【添加通用组件-自定义挂接点】查看 |
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/a7278d8f-804f-4c30-8a4d-5659a9061a52.png)
+
 配置完成后，可在当前界面直接预览技能动画和伤害范围效果
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/94f8bd6f-b9f8-41a3-83e0-9996d6a608ba.gif)
 
 **6.【局内编辑器】造物技能配置【技能触发】**
 
-进入【元件库】，选择新建的丘丘霜铠王>>>选择>>>打开造物技能管理>>>新增造物技能，点击选择造物技能添加制作好的普通攻击技能。
+进入【元件库】，选择新建的丘丘霜铠王>>>选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b635508e-ad11-402b-bf90-ec1096c66939.png)>>>打开造物技能管理>>>![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/ce7654c6-085d-4043-b9f3-717d846e114f.png)新增造物技能，点击选择造物技能添加制作好的普通攻击技能。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/e07345a7-07d1-4be5-83a0-b5e18358ecc4.gif)
 
 #### ②配置造物状态节点图
 
@@ -160,7 +184,11 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 
 打开【客户端节点图资源管理器>>>造物状态节点图】—并且新建一个造物状态节点图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/38ff590e-2a4e-4a53-9fbd-a92a5aba28f4.gif)
+
 配置需要的造物状态节点图内容：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/a7dab3fd-06ad-41fb-bd43-7f29010c26eb.png)
 
 #### ③配置造物状态决策节点图
 
@@ -168,11 +196,15 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 
 **1.【局内编辑器】自主逻辑参数设置**
 
-进入【元件库】，选择新建的丘丘霜铠王>>>选择>>>打开自主逻辑参数设置>>>新增，并将自主参数设置为初始生效。
+进入【元件库】，选择新建的丘丘霜铠王>>>选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b635508e-ad11-402b-bf90-ec1096c66939.png)>>>打开自主逻辑参数设置>>>![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/ce7654c6-085d-4043-b9f3-717d846e114f.png)新增，并将自主参数设置为初始生效。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b5269462-d1c3-4f99-a649-1971e9cc10cf.gif)
 
 可在该页面中配置技能的【入战设置】、【脱战设置】、【领地设置】等参数
 
 \*\*教程中全部使用默认参数，未进行修改，此处仅示意，实际使用时可根据技能效果调整
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/39c62ac7-a13d-4623-a520-e0fe184d3d8d.png)
 
 **2.【千星沙箱】造物状态决策节点图配置【自主逻辑绑定】**
 
@@ -187,7 +219,11 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 
 打开【客户端节点图资源管理器——造物状态决策节点图】—并且新建一个造物状态决策节点图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/e03714f6-5042-455f-ad99-cb7dd996e1cb.gif)
+
 配置需要的造物状态决策节点图内容：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/21f82998-24a3-44cd-8f37-a59bf32dffd2.png)
 
 #### ④绑定决策节点图并试玩查看效果
 
@@ -195,9 +231,13 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 
 **1.【局内编辑器】造物状态决策节点图绑定到对应造物上**
 
-进入【元件库】，选择新建的丘丘霜铠王>>>选择>>>打开造物状态决策节点图>>>选择配置好的状态决策节点图，并且保存。
+进入【元件库】，选择新建的丘丘霜铠王>>>选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b635508e-ad11-402b-bf90-ec1096c66939.png)>>>打开造物状态决策节点图>>>![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/250cad0e-ee14-4602-bf41-11576076dcff.png)选择配置好的状态决策节点图，并且保存。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/18c41a72-229c-4ed0-80ef-3a16a69329b1.gif)
 
 **2.【局内编辑器】将造物放置到场景内并试玩查看效果。**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/5ed069ca-0c69-42ce-b47b-636819aa9d4b.gif)
 
 ## 功能示例-2：如何为复杂造物添加巡逻机制
 
@@ -207,19 +247,27 @@ _\*\*攻击盒配置项逻辑说明（更多详细说明可自行查阅__【综�
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/0d107f52-7809-49d8-a748-cc5353a1e054.gif)
+
 _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常等问题，可以尝试使用【关卡设置-地形导航-烘焙网格体】_
 
 ### 2.操作步骤
 
 **1.【局内编辑器】创建复杂造物>>>打手丘丘人**
 
-进入元件库>>>选择左边的图标>>>找到复杂造物的页签>>>选择丘丘部族>>>找到打手丘丘人点击后创建。
+进入元件库>>>选择左边的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/28874ad7-e507-42cd-8a10-7fddc75342d0.png)图标>>>找到复杂造物的页签>>>选择丘丘部族>>>找到打手丘丘人点击后创建。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/26153ecc-24e9-40ee-909b-19858d74037d.gif)
 
 **2.【局内编辑器】巡逻设置**
 
-进入【元件库】，选择新建的丘丘霜铠王>>>选择>>>打开巡逻设置>>>新增巡逻模板，并为其添加巡逻路径，通过路点设置添加寻路路径。
+进入【元件库】，选择新建的打手丘丘人>>>选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b635508e-ad11-402b-bf90-ec1096c66939.png)>>>打开巡逻设置>>>![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/ce7654c6-085d-4043-b9f3-717d846e114f.png)新增巡逻模板，并为其添加巡逻路径，通过路点设置添加寻路路径。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/a8c8013b-0817-4ebd-921c-17f6282193ca.gif)
 
 可在该页面中配置循环类型和巡逻起始点位置等参数。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/80eb9c90-660a-4956-8860-5331007144ab.png)
 
 **3.【千星沙箱】造物状态节点图配置【巡逻触发】**
 
@@ -234,11 +282,17 @@ _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常
 
 打开【客户端节点图资源管理器>>>造物状态节点图】—并且新建一个造物状态节点图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/38ff590e-2a4e-4a53-9fbd-a92a5aba28f4.gif)
+
 配置需要的造物状态节点图内容：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/0dc72d15-6549-473b-a670-76c972286ca8.png)
 
 **3.【局内编辑器】自主逻辑参数设置**
 
-进入【元件库】，选择新建的打手丘丘人>>>选择>>>打开自主逻辑参数设置>>>新增，并将自主参数设置为初始生效。
+进入【元件库】，选择新建的打手丘丘人>>>选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b635508e-ad11-402b-bf90-ec1096c66939.png)>>>打开自主逻辑参数设置>>>![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/ce7654c6-085d-4043-b9f3-717d846e114f.png)新增，并将自主参数设置为初始生效。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/38bec400-9753-4a4a-98e5-5f7b71c2fa7b.gif)
 
 **4.【千星沙箱】造物状态决策节点图配置【自主逻辑绑定】**
 
@@ -253,13 +307,21 @@ _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常
 
 打开【客户端节点图资源管理器——造物状态决策节点图】—并且新建一个造物状态决策节点图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/e03714f6-5042-455f-ad99-cb7dd996e1cb.gif)
+
 配置需要的造物状态决策节点图内容：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/c2ab57c6-af45-43a0-bc41-b8536cf2817b.png)
 
 **5.【局内编辑器】造物状态决策节点图绑定到对应造物上**
 
-进入【元件库】，选择新建的打手丘丘人>>>选择>>>打开造物状态决策节点图>>>选择配置好的状态决策节点图，并且保存。
+进入【元件库】，选择新建的打手丘丘人>>>选择![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/b635508e-ad11-402b-bf90-ec1096c66939.png)>>>打开造物状态决策节点图>>>![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/250cad0e-ee14-4602-bf41-11576076dcff.png)选择配置好的状态决策节点图，并且保存。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/8de20d16-086d-4e78-a022-da7319e5811f.gif)
 
 **6.【局内编辑器】将丘丘人置入场景并进入试玩查看**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/0d107f52-7809-49d8-a748-cc5353a1e054.gif)
 
 ## 功能示例-3：如何在造物寻路/巡逻时自动绕开动态物件
 
@@ -269,21 +331,29 @@ _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常
 
 **效果演示：**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/65ee7f06-5d7e-47d3-8573-1519969dc294.gif)
+
 _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常等问题，可以尝试使用【关卡设置-地形导航-烘焙网格体】_
 
 ### 2.操作步骤
 
 **1.【局内编辑器】添加组件**
 
-创建一个元件作为交互物（教程以石质功能平台为例），在面板中点击>>>进入组件页，点击>>>选择【寻路阻挡】>>>修改对应参数即可
+创建一个元件作为交互物（教程以石质功能平台为例），在面板中点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/40b76732-1d76-4f6c-8a5e-ef5868a39cc4.png)>>>进入组件页，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/2d5fc8ce-0835-4985-a717-cb3d896da622.png)>>>选择【寻路阻挡】>>>修改对应参数即可
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/8bbeeb32-5855-4a32-8c92-a742b5b4d5b3.gif)
 
 **2.【局内编辑器】将动态物件添加到场景中**
 
 将对应物件放置到功能示例-2制作的路径中间，并添加一个没有寻路阻挡的石质功能平台作为对照。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/63596855-8075-46bb-92a6-be497254f234.png)
+
 **3.【局内编辑器】试玩体验**
 
 将制作好的元件放置在场景中，进入试玩即可体验该功能
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh6riq9wvxqq/65ee7f06-5d7e-47d3-8573-1519969dc294.gif)
 
 * * *
 
@@ -300,6 +370,8 @@ _\*\*如果在试玩时遇到造物（怪物）无法正常攻击、巡逻异常
 ### 辅助课件
 
 我们提供了上述课程内容相关的工程文件，可结合 **【教学存档-复杂造物】** 对照学习
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 复杂造物.gil
 

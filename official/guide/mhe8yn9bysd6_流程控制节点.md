@@ -6,12 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhe8yn9bysd6
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-05-20T03:33:41.663Z
+crawledAt: 2026-09-23T17:57:27.101Z
 ---
 
 # **一、通用**
 
 ## **1\. 双分支**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe8yn9bysd6/db88e187-610e-47b4-b438-44993cdbb637.undefined)
 
 **节点功能**
 
@@ -27,6 +29,8 @@ crawledAt: 2026-05-20T03:33:41.663Z
 | 入参 | 条件 | 布尔值 |  |
 
 ## **2\. 多分支**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe8yn9bysd6/b9ad6431-1ae4-4fed-8d51-ab1d75303209.undefined)
 
 **节点功能**
 

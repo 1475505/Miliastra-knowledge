@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1720">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1880">
   <defs>
     <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient>
     <filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter>
     <filter id="elevated"><feDropShadow dx="0" dy="4" stdDeviation="14" flood-color="#000" flood-opacity="0.07"/></filter>
   </defs>
-  <rect width="1200" height="1720" fill="#F9F7F2"/>
+  <rect width="1200" height="1880" fill="#F9F7F2"/>
   <rect width="1200" height="6" fill="url(#topGrad)"/>
   
   <!-- Title -->
@@ -115,10 +115,16 @@
   <rect x="80" y="1548" width="120" height="22" rx="11" fill="#E8EEFB"/><text x="94" y="1564" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#2D6BE4">节点图动态切换</text>
   <rect x="210" y="1548" width="140" height="22" rx="11" fill="#FFF3E0"/><text x="224" y="1564" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">目标为玩家实体列表</text>
   <rect x="360" y="1548" width="140" height="22" rx="11" fill="#FDE8E6"/><text x="374" y="1564" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#1A1B2E">运行时不可改参数</text>
-  <!-- Source --><!-- 相关文档 -->
-<text x="48" y="1630" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+  <!-- 7.1 镜头忽略碰撞 -->
+<text x="60" y="1615" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#2D6BE4" font-size="18">7.1 · 镜头忽略碰撞</text>
+<rect x="60" y="1630" width="1080" height="125" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="80" y="1664" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#1A1B2E" font-size="16">主镜头可配置忽略镜头碰撞；物件实体也可设置可被镜头忽略碰撞。</text>
+<text x="80" y="1698" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#4A4B65" font-size="14">启用后可避免碰撞推挤导致的卡顿或镜头突变，但镜头可能进入模型内部。</text>
+<text x="80" y="1732" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#4A4B65" font-size="14">需按具体玩法场景选择配置。</text>
+<!-- Source --><!-- 相关文档 -->
+<text x="48" y="1790" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhfua005zpeg" target="_blank">
-  <text x="48" y="1650" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：主镜头管理</text>
+  <text x="48" y="1810" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：主镜头管理</text>
 </a>
-<text x="600" y="1690" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="1850" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.1</text>
 </svg>

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhou93r2pxv2
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-08-12T17:15:41.890Z
+crawledAt: 2026-09-23T17:52:21.221Z
 ---
 
 最终值=（基础值+变更量）\*（1+调整率）\* 倍率 + 修正值
@@ -86,6 +86,8 @@ crawledAt: 2026-08-12T17:15:41.890Z
 | 光标点击施放技能 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/7a166959-33be-4e32-afff-72e11782bdee.png) | 用于移动端使用常驻光标功能需要补充的额外逻辑 |
 | 操控运动器自动前进 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/040cf0c6-e74a-4174-8a9f-3d2877f58c7f.png) | 单位状态效果添加给操控运动器时，将会在激活时自动向前运动 |
 | 操控运动器运动参数 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/5dbdbe37-ec36-4b01-8254-22b9647b5cf9.png) | 单位状态效果添加给操控运动器时，可使运动参数增加指定值 |
+| 造物浮空（仅对复杂造物生效） | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/8b6e80c6-eb12-4555-8902-1d45038a2573.png) | 使复杂造物进入不受重力影响的浮空状态，不会改变动画表现<br>该状态下，造物可以执行空中类型战术，无法执行地面类型战术 |
+| 角色禁止移动 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/c035e6f3-7ef1-4757-ae68-97d48df8caad.png) | 使玩家操控的角色无法通过方向键或推摇杆的形式进行移动 |
 | 挂载特效 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/2b508ac0-12a9-4868-b57a-d757ff2fcd16.png) | 在实体上挂载一个循环特效，配置与特效相关配置基本一致 |
 | 元素附着 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/8e82f7dc-db08-4cef-8fe5-80c0f7221718.png) | 在实体上附着一个特定类型的元素。这个元素不会自然消耗，但会被元素反应消耗 |
 | 特殊状态：无敌 | ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhou93r2pxv2/903801d6-1539-4ce1-803a-afedd736556f.png) | 使实体进入无敌状态<br>无敌状态下，无法受到任何伤害，且受到攻击不会触发【受到攻击时】事件 |

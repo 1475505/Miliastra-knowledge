@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 932">
+<defs><linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient><filter id="card"><feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#2D6BE4" flood-opacity="0.07"/></filter></defs>
+<style>.t{font-family:"HYWenHei 85W","Noto Sans SC","PingFang SC","Roboto",sans-serif}</style>
+<rect width="1200" height="932" fill="#F9F7F2"/>
+<rect width="1200" height="6" fill="url(#topGrad)"/>
+<rect x="48" y="32" width="1104" height="90" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="48" y="32" width="4" height="90" rx="2" fill="#2D6BE4"/>
+<text x="74" y="77" class="t" fill="#1A1B2E" font-size="34" font-weight="bold">协作编辑</text>
+<text x="75" y="103" class="t" fill="#8B8DA0" font-size="14">7.1 新增 · 多人分部分编辑关卡</text>
+<rect x="48" y="154" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="173" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="192" class="t" fill="#fff" font-size="14" text-anchor="middle">1</text>
+<text x="110" y="193" class="t" fill="#1A1B2E" font-size="18" font-weight="500">协作存档的结构</text>
+<text x="78" y="228" class="t" fill="#4A4B65" font-size="15">一个关卡包含 64 个可独立编辑的协作部分，以及一个核心部分。</text>
+<text x="78" y="258" class="t" fill="#4A4B65" font-size="15">各协作部分拥有独立 ID 段（第 16–21 位）。</text>
+<rect x="48" y="288" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="307" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="326" class="t" fill="#fff" font-size="14" text-anchor="middle">2</text>
+<text x="110" y="327" class="t" fill="#1A1B2E" font-size="18" font-weight="500">创建与切换</text>
+<text x="78" y="362" class="t" fill="#4A4B65" font-size="15">新建存档时可直接创建协作存档；普通存档也可另建协作存档。</text>
+<text x="78" y="392" class="t" fill="#4A4B65" font-size="15">在关卡设置的协作模式中查看、筛选并切换当前编辑部分。</text>
+<rect x="48" y="422" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="441" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="460" class="t" fill="#fff" font-size="14" text-anchor="middle">3</text>
+<text x="110" y="461" class="t" fill="#1A1B2E" font-size="18" font-weight="500">状态与文件</text>
+<text x="78" y="496" class="t" fill="#4A4B65" font-size="15">使用状态包括已使用、未使用、当前编辑；归属标记仅在本地显示。</text>
+<text x="78" y="526" class="t" fill="#4A4B65" font-size="15">核心文件为 .gilh；64 个关卡切片使用 .gis 文件。</text>
+<rect x="48" y="556" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="575" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="594" class="t" fill="#fff" font-size="14" text-anchor="middle">4</text>
+<text x="110" y="595" class="t" fill="#1A1B2E" font-size="18" font-weight="500">导入导出要点</text>
+<text x="78" y="630" class="t" fill="#4A4B65" font-size="15">可复制 .gis 协作部分，再在同一协作关卡中加载。</text>
+<text x="78" y="660" class="t" fill="#4A4B65" font-size="15">覆盖保存会替换对应部分的全部原有内容；不能跨关卡导入。</text>
+<rect x="48" y="690" width="1104" height="116" rx="14" fill="#fff" filter="url(#card)"/>
+<rect x="68" y="709" width="26" height="26" rx="13" fill="#2D6BE4"/>
+<text x="81" y="728" class="t" fill="#fff" font-size="14" text-anchor="middle">5</text>
+<text x="110" y="729" class="t" fill="#1A1B2E" font-size="18" font-weight="500">保存规则</text>
+<text x="78" y="764" class="t" fill="#4A4B65" font-size="15">协作部分的数据变化在存档保存后才会生效。</text>
+<text x="78" y="794" class="t" fill="#4A4B65" font-size="15">基础数据可能提示重新分配到其他部分，不影响存档本身。</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhj3gr0ye4wg" target="_blank"><text x="48" y="871" class="t" fill="#2D6BE4" font-size="14">来源：千星奇域官方综合指南 · 查看原文</text></a>
+<text x="600" y="902" class="t" fill="#8B8DA0" font-size="12" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.1</text>
+</svg>

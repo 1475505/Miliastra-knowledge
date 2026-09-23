@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhfua005zpeg
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:23:16.268Z
+crawledAt: 2026-09-23T17:51:34.657Z
 ---
 
 _镜头_是游戏中用于呈现玩家视角的工具。它决定了玩家在游戏中看到的画面。
@@ -85,11 +85,11 @@ _默认生效目标_：镜头模板作为玩家身上的参数，在运行时可
 
 详细设置如下图：
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/38278c8f-84fa-43f5-a853-89d0914c37e3.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/37b24c93-fe51-4dc4-9a4a-7a12446402c8.png)
 
 _镜头视野检测_：视场角，即视锥范围，如下图，修改FOV时会改变白色视锥的范围
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/fef7690d-0e07-436b-94e7-9ffeee169c08.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/f5f4c56a-f984-4c75-bb99-e1a6870e2ded.png)_忽略镜头碰撞_：为“否”时，镜头可能会被场景内的实体碰撞所推挤，产生卡顿或镜头突变等问题。为“是”时，镜头将会忽略其他碰撞，但与之相对的，镜头位置可能会移动到模型的内部，导致表现不佳，因此需要创作者(奇匠)根据实际的玩法场景进行定制
 
 _视点偏移_：镜头看向目标后，在世界坐标系下额外叠加的位置偏移，下图红框内即为看点
 
@@ -115,8 +115,6 @@ _俯仰角度范围_：玩家通过操作输入上下移动镜头时，镜头可
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/58953f31-b54c-45b1-9bbd-8f052ff135cb.png)
 
-_忽略镜头碰撞_：为“否”时，镜头可能会被场景内的实体碰撞所推挤，产生卡顿或镜头突变等问题。为“是”时，镜头将会忽略其他碰撞，但与之相对的，镜头位置可能会移动到模型的内部，导致表现不佳，因此需要创作者(奇匠)根据实际的玩法场景进行定制
-
 其他属性：在前文已有说明，不再赘述
 
 ### (4)第一人称镜头
@@ -127,7 +125,7 @@ _忽略镜头碰撞_：为“否”时，镜头可能会被场景内的实体碰
 
 详细设置如下图：
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/bc2b5d0e-e7f3-46ec-8252-9019ca183cda.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/fd446b72-7c2c-48c7-96c3-344176d6e269.png)
 
 ### (5)第三人称镜头
 
@@ -137,7 +135,7 @@ _忽略镜头碰撞_：为“否”时，镜头可能会被场景内的实体碰
 
 详细设置如下图：
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/1a469995-379b-497f-a0cf-a58b0105e7dd.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/1ae6d9bf-fa43-45c0-9f44-69c9f8010024.png)
 
 # 四、镜头模板切换
 
@@ -157,7 +155,7 @@ _移动模式_：区分镜头模板类型的重要参数，模式决定了镜头
 
 ## 2.详细设置
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/2d08e765-7202-4f72-b609-9b4cfc3ff8c8.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/1458ea92-f1fa-4365-8d2a-33086793948a.png)
 
 与角色镜头参数配置逻辑相同
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2730">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2930">
 <defs>
   <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#2D6BE4"/>
@@ -15,7 +15,7 @@
   text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
 </style>
 
-<rect width="1200" height="2730" fill="#F9F7F2"/>
+<rect width="1200" height="2930" fill="#F9F7F2"/>
 <rect width="1200" height="6" fill="url(#topGrad)"/>
 
 <!-- Title Card -->
@@ -288,14 +288,20 @@
 <rect x="72" y="2596" width="492" height="24" rx="8" fill="#FFF3E0"/>
 <text x="84" y="2613" fill="#E65100" font-size="12">提升玩家当前职业经验 / 更改玩家当前职业等级</text>
 
+<!-- 7.1 跳跃技能 -->
+<text x="48" y="2650" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#2D6BE4" font-size="18">7.1 · 跳跃技能配置</text>
+<rect x="48" y="2664" width="1104" height="145" rx="14" fill="#fff" filter="url(#card)"/>
+<text x="72" y="2697" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#1A1B2E" font-size="16">职业支持配置自定义跳跃技能。</text>
+<text x="72" y="2731" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#4A4B65" font-size="14">默认跳跃沿用提瓦特跳跃；空中默认跳跃技能为开启风之翼。</text>
+<text x="72" y="2765" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#4A4B65" font-size="14">自定义空中技能留空时仍可使用默认跳跃；允许跳跃/滑翔开关仅影响默认跳跃技能。</text>
 <!-- Source links -->
-<text x="48" y="2670" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
-<text x="48" y="2670" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<text x="48" y="2850" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="2850" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhodlcrpht3q" target="_blank">
-  <text x="48" y="2690" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：职业</text>
+  <text x="48" y="2870" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：职业</text>
 </a>
 <!-- Footer -->
-<text x="600" y="2700" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="2900" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.1</text>
 
 <!-- Bottom color band -->
 

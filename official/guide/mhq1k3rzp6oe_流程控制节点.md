@@ -6,12 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhq1k3rzp6oe
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-05-20T03:34:12.217Z
+crawledAt: 2026-09-23T17:58:31.333Z
 ---
 
 # **一、通用**
 
 ## **1\. 双分支**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhq1k3rzp6oe/ba2065ab-ee34-4ca4-9cb0-564d1cf9ef60.undefined)
 
 **节点功能**
 

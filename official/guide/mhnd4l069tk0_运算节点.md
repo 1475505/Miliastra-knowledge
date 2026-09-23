@@ -6,12 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhnd4l069tk0
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-05-20T03:36:29.989Z
+crawledAt: 2026-09-23T18:00:57.283Z
 ---
 
 # **一、通用**
 
 ## **1\. 是否相等**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/002a2386-8f2c-4065-87cf-f9459f6308d7.undefined)
 
 **节点功能**
 
@@ -34,6 +36,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **2\. 拼装列表**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/1c2fd289-386c-4da9-a4f6-1f6860161d40.undefined)
+
 **节点功能**
 
 将多个类型相同的入参(至多100个)拼装为一个列表
@@ -47,6 +51,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 入参 | 0~99 | 泛型 | 将至多100个参数拼装为一个列表 |
 
 ## **3\. 数据类型转换**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/d0ac457f-14b9-4aec-aa20-0a892601e7c2.undefined)
 
 **节点功能**
 
@@ -63,6 +69,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 输出 | 泛型 |  |
 
 ## **4\. 枚举是否相等**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/e9db5b26-5f93-4963-a50d-c13bf0c5be1c.undefined)
 
 **节点功能**
 
@@ -81,6 +89,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **1\. 拆分三维向量**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/0a325275-c329-4fb2-b666-f46b4c11d4a8.undefined)
+
 **节点功能**
 
 将三维向量的x、y、z分量输出为三个浮点数
@@ -97,6 +107,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **2\. 三维向量加法**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/cb016905-efbc-41b5-b69f-fde63b650498.undefined)
+
 **节点功能**
 
 计算两个三维向量的加法
@@ -111,6 +123,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 三维向量 |  |
 
 ## **3\. 三维向量减法**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/24fc494f-43d8-4188-bbae-c55050406700.undefined)
 
 **节点功能**
 
@@ -127,6 +141,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **4\. 三维向量缩放**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/004ce4e5-17d3-4f72-aac9-bc150bbbe27c.undefined)
+
 **节点功能**
 
 将输入的三维向量缩放后输出（三维向量数乘）
@@ -141,6 +157,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 三维向量 |  |
 
 ## **5\. 三维向量夹角**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/2c006ec3-44ba-44ca-8b8a-e5dd37d4edd6.undefined)
 
 **节点功能**
 
@@ -157,6 +175,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **6\. 三维向量归一化**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/b87abd2e-b74c-4cb1-8c50-0f7caeba33f5.undefined)
+
 **节点功能**
 
 将三维向量的长度归一化后输出
@@ -170,6 +190,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 三维向量 |  |
 
 ## **7\. 加法运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/c4a31984-28ed-439f-8658-d4b58462b491.undefined)
 
 **节点功能**
 
@@ -186,6 +208,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **8\. 减法运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/65e0de27-eaa5-4870-9c7e-23cd2ef2f6db.undefined)
+
 **节点功能**
 
 计算两个浮点数或整数的减法
@@ -201,6 +225,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **9\. 乘法运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/2f15b255-8858-42b9-8052-4e25749ece25.undefined)
+
 **节点功能**
 
 乘法运算，支持浮点数乘法和整数乘法
@@ -215,6 +241,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 泛型 |  |
 
 ## **10\. 除法运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/570941cc-a998-4920-bf6c-69b2728195cd.undefined)
 
 **节点功能**
 
@@ -235,6 +263,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **11\. 模运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/cf73a4ab-6aa9-4b83-8030-eaca85d40dc4.undefined)
+
 **节点功能**
 
 返回输入1对输入2的取模运算，输入1为被除数
@@ -249,6 +279,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 整数 |  |
 
 ## **12\. 幂运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/b51b98c2-3a8d-49bb-9d9c-dd4413cd5ffd.undefined)
 
 **节点功能**
 
@@ -265,6 +297,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **13\. 取较大值**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/ce49498a-2c63-4650-83dc-34f09a28bd33.undefined)
+
 **节点功能**
 
 取出两个输入中较大的一个
@@ -280,6 +314,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **14\. 取较小值**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/058ed54c-17c1-41dc-9b04-666e08cf12f9.undefined)
+
 **节点功能**
 
 取出两个输入中较小的一个
@@ -294,6 +330,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 较小值 | 泛型 |  |
 
 ## **15\. 对数运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/b82190f2-0f66-43e3-adb2-6dc145524013.undefined)
 
 **节点功能**
 
@@ -312,6 +350,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **16\. 绝对值运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/dbf1e286-9f00-448e-9c33-1f5321dc19d4.undefined)
+
 **节点功能**
 
 返回输入的绝对值
@@ -325,6 +365,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 泛型 |  |
 
 ## **17\. 取符号运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/de19d01c-9618-49d5-8e17-21e924972e16.undefined)
 
 **节点功能**
 
@@ -344,6 +386,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **18\. 三维向量模运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/41a76682-4eb7-473e-b949-6e14de9ada35.undefined)
+
 **节点功能**
 
 计算输入的三维向量的模
@@ -358,6 +402,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **19\. 算术平方根运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/020b2669-fee2-45af-aee2-691ec66312cb.undefined)
+
 **节点功能**
 
 返回输入值的算术平方根
@@ -371,6 +417,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 浮点数 |  |
 
 ## **20\. 范围限制运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/129f528d-a7d7-426a-a955-77f517f51699.undefined)
 
 **节点功能**
 
@@ -394,6 +442,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **21\. 取整数运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/ab32c0be-5351-4198-ac81-6c8205b0541d.undefined)
+
 **节点功能**
 
 根据取整方式进行一次取整运算，返回取整后的正数
@@ -408,6 +458,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 整数 |  |
 
 ## **22\. 创建三维向量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/339ced28-660e-436f-977d-da9dc13f107b.undefined)
 
 **节点功能**
 
@@ -425,6 +477,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **23\. 逻辑与运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/197c09f4-3fc8-4dd7-b6f4-386be0f42b60.undefined)
+
 **节点功能**
 
 对输入的两个布尔值进行与运算后输出
@@ -439,6 +493,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 布尔值 |  |
 
 ## **24\. 逻辑或运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/318ccc5e-7092-4d69-a0a9-38119982b195.undefined)
 
 **节点功能**
 
@@ -455,6 +511,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **25\. 逻辑异或运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/622c57d7-c84d-49b1-8586-8f586367e8b4.undefined)
+
 **节点功能**
 
 对输入的两个布尔值进行异或运算后输出
@@ -470,6 +528,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **26\. 逻辑非运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/13508026-2ae8-4d8d-8e2f-23a679b5c565.undefined)
+
 **节点功能**
 
 对输入的布尔值进行非运算后输出
@@ -483,6 +543,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 布尔值 |  |
 
 ## **27\. 数值小于**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/e0e31f70-3582-4bc8-bc11-0c371b367198.undefined)
 
 **节点功能**
 
@@ -499,6 +561,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **28\. 数值小于等于**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/e8afc3c9-3bad-4ca1-be97-57f9ae9ab614.undefined)
+
 **节点功能**
 
 返回左值是否小于等于右值
@@ -513,6 +577,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 布尔值 |  |
 
 ## **29\. 数值大于**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/d1eb1041-2814-4833-b2dd-de397f0b2d56.undefined)
 
 **节点功能**
 
@@ -529,6 +595,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **30\. 数值大于等于**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/d9575e9d-ea83-4c66-a477-5f2afff792c7.undefined)
+
 **节点功能**
 
 返回左值是否大于等于右值
@@ -543,6 +611,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 布尔值 |  |
 
 ## **31\. 两坐标点距离**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/eed00093-0403-414c-8ca6-c5d708ee3852.undefined)
 
 **节点功能**
 
@@ -559,6 +629,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **32\. 正弦函数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/736430b4-4f21-41fe-9274-9c01bd6559b7.undefined)
+
 **节点功能**
 
 计算输入弧度的正弦
@@ -572,6 +644,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 浮点数 |  |
 
 ## **33\. 余弦函数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/d8816c7a-4546-4203-88e1-24a0638e5644.undefined)
 
 **节点功能**
 
@@ -587,6 +661,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **34\. 正切函数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/3bfb09a1-612b-4850-a9d5-078618e971aa.undefined)
+
 **节点功能**
 
 计算输入弧度的正切
@@ -600,6 +676,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 浮点数 |  |
 
 ## **35\. 反正弦函数**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/942f45b7-9fa9-4761-a94e-eb1d691d5aea.undefined)
 
 **节点功能**
 
@@ -615,6 +693,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **36\. 反余弦函数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/a0f98c41-3085-4d25-a1ef-289b5f72660c.undefined)
+
 **节点功能**
 
 计算输入的反余弦值，返回为弧度值
@@ -629,6 +709,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **37\. 反正切函数**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/daf2b55f-5f2f-4131-b0ad-9d4ad940f253.undefined)
+
 **节点功能**
 
 计算输入的反正切值，返回为弧度值
@@ -642,6 +724,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 弧度 | 浮点数 |  |
 
 ## **38\. 三维向量旋转**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/44837e1a-245a-4c7a-9c33-8a8c4cc7e7fa.undefined)
 
 **节点功能**
 
@@ -659,6 +743,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 三维向量 |  |
 
 ## **39\. 方向向量转旋转**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/4e02f1ea-3391-4a29-ac93-63f47a8781f7.undefined)
 
 **节点功能**
 
@@ -679,6 +765,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **40\. 三维向量内积**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/1510effa-c903-404f-af43-35063a87fced.undefined)
+
 **节点功能**
 
 计算两个输入三维向量的内积（点乘）
@@ -693,6 +781,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 浮点数 |  |
 
 ## **41\. 三维向量外积**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/85f3ab96-edca-4edc-b4e6-37f051588cba.undefined)
 
 **节点功能**
 
@@ -709,6 +799,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **42\. 弧度转角度**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/06749a5f-391f-45fc-a8e4-563988df40c9.undefined)
+
 **节点功能**
 
 将弧度值转为角度值
@@ -723,6 +815,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **43\. 角度转弧度**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/7115a10c-c4e0-4ee4-886d-f561952c795a.undefined)
+
 **节点功能**
 
 将角度值转为弧度值
@@ -736,6 +830,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 弧度值 | 浮点数 |  |
 
 ## **44\. 根据时间戳计算格式化时间**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/1aa0f2ef-9bbc-4ed3-868a-bdcd535997b3.undefined)
 
 **节点功能**
 
@@ -756,6 +852,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **45\. 根据格式化时间计算时间戳**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/1a9889e8-9a56-4ec4-a10a-035657c9265e.undefined)
+
 **节点功能**
 
 根据输入的格式化时间将其转化为时间戳
@@ -775,6 +873,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **46\. 根据时间戳计算星期几**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/1373fae6-9059-4b7c-9686-e1e4977e81c7.undefined)
+
 **节点功能**
 
 根据输入的时间戳将其转化为星期几
@@ -788,6 +888,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 星期 | 整数 |  |
 
 ## **47\. 左移运算**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/7351cae2-b5e9-475d-a8f7-afb03728662a.undefined)
 
 **节点功能**
 
@@ -804,6 +906,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **48\. 右移运算**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/6acbff70-eee8-443c-a912-685aeaf833e4.undefined)
+
 **节点功能**
 
 将输入值作为二进制数逻辑右移一定位数后输出
@@ -818,6 +922,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 整数 |  |
 
 ## **49\. 按位与**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/8ea0cc23-4173-487c-8ca9-aeeb87ff2636.undefined)
 
 **节点功能**
 
@@ -834,6 +940,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **50\. 按位或**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/f75b0159-4845-4b93-9646-981de7cdaa27.undefined)
+
 **节点功能**
 
 将输入的两个值作为二进制进行按位或运算后返回结果
@@ -848,6 +956,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 整数 |  |
 
 ## **51\. 按位异或**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/238d1a16-2faf-4a0d-9656-5b2f95bf306d.undefined)
 
 **节点功能**
 
@@ -864,6 +974,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **52\. 按位取补**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/6875b49a-bcb7-4c4f-b899-3a08d9797f30.undefined)
+
 **节点功能**
 
 将输入值作为二进制进行按位取补运算后返回结果
@@ -877,6 +989,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结果 | 整数 |  |
 
 ## **53\. 按位写入**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/30e71040-4a5b-4e27-a930-7a8bd60c529b.undefined)
 
 **节点功能**
 
@@ -899,6 +1013,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **54\. 按位读出**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/54af8fb9-b997-414a-a3ee-f6024338eeed.undefined)
+
 **节点功能**
 
 从值（以二进制表示）的【起始位，结束位】读出值
@@ -917,6 +1033,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **1\. 拼装字典**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/2df45898-a04c-4d99-ac0e-7e363f204a0e.undefined)
+
 **节点功能**
 
 将至多50个键值对拼合为一个字典
@@ -931,6 +1049,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 入参 | 值0~49 | 泛型 |  |
 
 ## **2\. 建立字典**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/167e605c-bd19-4b2f-b964-97ba7b746ad5.undefined)
 
 **节点功能**
 
@@ -953,6 +1073,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 
 ## **1\. 拼装结构体**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/d9f8546e-09f4-4cbd-88c2-ff772a711b5b.undefined)
+
 **节点功能**
 
 将多个参数拼合为一个结构体类型的值
@@ -965,6 +1087,8 @@ crawledAt: 2026-05-20T03:36:29.989Z
 | 出参 | 结构体 |  |  |
 
 ## **2\. 拆分结构体**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhnd4l069tk0/dd25053a-b312-4435-bd47-55b96c5d036a.undefined)
 
 **节点功能**
 

@@ -6,12 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhxppurzujfq
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-05-20T03:33:57.232Z
+crawledAt: 2026-09-23T17:58:00.722Z
 ---
 
 # **一、通用**
 
 ## **1\. 双分支**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhxppurzujfq/4c3ce1d9-1af3-42ce-b158-c5af87a1cd94.undefined)
 
 **节点功能**
 
@@ -27,6 +29,8 @@ crawledAt: 2026-05-20T03:33:57.232Z
 | 入参 | 条件 | 布尔值 |  |
 
 ## **2\. 多分支**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhxppurzujfq/df227120-43d4-46d3-b7f1-3a51861aa95a.undefined)
 
 **节点功能**
 
