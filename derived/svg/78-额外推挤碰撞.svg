@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 784">
+<defs><linearGradient id="topGrad"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient><filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter></defs>
+<style>text {font-family:'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif}</style>
+<rect width="1200" height="784" fill="#F9F7F2"/><rect width="1200" height="6" fill="url(#topGrad)"/>
+<rect x="48" y="32" width="1104" height="90" rx="14" fill="#fff" filter="url(#card)"/><rect x="48" y="32" width="4" height="90" rx="2" fill="#2D6BE4"/>
+<text x="74" y="77" font-size="34" font-weight="bold" fill="#1A1B2E">额外推挤碰撞</text>
+<text x="75" y="103" font-size="14" fill="#8B8DA0">7.2 新增 · 官方功能速查</text>
+<rect x="48" y="154" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="184" r="13" fill="#2D6BE4"/><text x="82" y="189" text-anchor="middle" font-size="14" fill="#fff">1</text>
+<text x="110" y="190" font-size="18" fill="#2D6BE4">使用限制</text>
+<text x="78" y="226" font-size="14" fill="#4A4B65">仅部分复杂造物支持添加；区域需要挂载在复杂造物的挂接点上。</text>
+<text x="78" y="254" font-size="14" fill="#4A4B65">配置方式与额外碰撞组件基本一致。</text>
+<rect x="48" y="296" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="326" r="13" fill="#2D6BE4"/><text x="82" y="331" text-anchor="middle" font-size="14" fill="#fff">2</text>
+<text x="110" y="332" font-size="18" fill="#2D6BE4">添加与预览</text>
+<text x="78" y="368" font-size="14" fill="#4A4B65">复杂造物编辑 → 组件 → 添加通用组件 → 额外推挤碰撞 → 详细编辑。</text>
+<text x="78" y="396" font-size="14" fill="#4A4B65">新增条目默认初始生效，编辑时可预览生效范围。</text>
+<rect x="48" y="438" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="468" r="13" fill="#2D6BE4"/><text x="82" y="473" text-anchor="middle" font-size="14" fill="#fff">3</text>
+<text x="110" y="474" font-size="18" fill="#2D6BE4">区域配置</text>
+<text x="78" y="510" font-size="14" fill="#4A4B65">指定挂接点，使用长方体、球体或胶囊体定义基础形状。</text>
+<text x="78" y="538" font-size="14" fill="#4A4B65">可调整中心偏移、各轴缩放倍率及旋转。</text>
+<rect x="48" y="580" width="1104" height="96" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="610" r="13" fill="#2D6BE4"/><text x="82" y="615" text-anchor="middle" font-size="14" fill="#fff">4</text>
+<text x="110" y="616" font-size="18" fill="#2D6BE4">节点图控制</text>
+<text x="78" y="652" font-size="14" fill="#4A4B65">使用“激活/关闭额外推挤碰撞”，按对应序号切换运行时开关。</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh223e9ljnpu" target="_blank"><text x="48" y="724" font-size="14" fill="#2D6BE4">来源：千星奇域官方综合指南 · 查看原文</text></a>
+<text x="600" y="758" text-anchor="middle" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
+</svg>

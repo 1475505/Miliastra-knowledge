@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 926">
+<defs><linearGradient id="topGrad"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient><filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter></defs>
+<style>text {font-family:'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif}</style>
+<rect width="1200" height="926" fill="#F9F7F2"/><rect width="1200" height="6" fill="url(#topGrad)"/>
+<rect x="48" y="32" width="1104" height="90" rx="14" fill="#fff" filter="url(#card)"/><rect x="48" y="32" width="4" height="90" rx="2" fill="#2D6BE4"/>
+<text x="74" y="77" font-size="34" font-weight="bold" fill="#1A1B2E">战斗文字提示过滤器</text>
+<text x="75" y="103" font-size="14" fill="#8B8DA0">7.2 新增 · 官方功能速查</text>
+<rect x="48" y="154" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="184" r="13" fill="#2D6BE4"/><text x="82" y="189" text-anchor="middle" font-size="14" fill="#fff">1</text>
+<text x="110" y="190" font-size="18" fill="#2D6BE4">组件作用与适用对象</text>
+<text x="78" y="226" font-size="14" fill="#4A4B65">屏蔽玩家看到的战斗文字提示，或修改文字大小。</text>
+<text x="78" y="254" font-size="14" fill="#4A4B65">仅玩家实体可添加；可配置多个模板，同时只能生效一个。</text>
+<rect x="48" y="296" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="326" r="13" fill="#2D6BE4"/><text x="82" y="331" text-anchor="middle" font-size="14" fill="#fff">2</text>
+<text x="110" y="332" font-size="18" fill="#2D6BE4">模板与过滤器</text>
+<text x="78" y="368" font-size="14" fill="#4A4B65">每个过滤器模板可包含多个过滤器，通过模板名称和序号管理。</text>
+<text x="78" y="396" font-size="14" fill="#4A4B65">用“切换战斗文字提示过滤模板”节点切换生效模板。</text>
+<rect x="48" y="438" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="468" r="13" fill="#2D6BE4"/><text x="82" y="473" text-anchor="middle" font-size="14" fill="#fff">3</text>
+<text x="110" y="474" font-size="18" fill="#2D6BE4">释放者、目标与拥有者</text>
+<text x="78" y="510" font-size="14" fill="#4A4B65">释放者和目标是本次行为对应的实体。</text>
+<text x="78" y="538" font-size="14" fill="#4A4B65">拥有者指最上层拥有者；实体没有拥有者时，取该实体本身。</text>
+<rect x="48" y="580" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="610" r="13" fill="#2D6BE4"/><text x="82" y="615" text-anchor="middle" font-size="14" fill="#fff">4</text>
+<text x="110" y="616" font-size="18" fill="#2D6BE4">筛选条件</text>
+<text x="78" y="652" font-size="14" fill="#4A4B65">友善阵营：除自身阵营外的所有友善阵营。</text>
+<text x="78" y="680" font-size="14" fill="#4A4B65">标签包含：包含所有选中标签时生效；标签不包含：包含任一选中标签时不生效。</text>
+<rect x="48" y="722" width="1104" height="96" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="752" r="13" fill="#2D6BE4"/><text x="82" y="757" text-anchor="middle" font-size="14" fill="#fff">5</text>
+<text x="110" y="758" font-size="18" fill="#2D6BE4">字号上限</text>
+<text x="78" y="794" font-size="14" fill="#4A4B65">运行时字号受上限约束，达到上限时按上限字号显示。</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh3lmk9tmrky" target="_blank"><text x="48" y="866" font-size="14" fill="#2D6BE4">来源：千星奇域官方综合指南 · 查看原文</text></a>
+<text x="600" y="900" text-anchor="middle" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
+</svg>

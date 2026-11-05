@@ -6,22 +6,8 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhkwucr8awfq
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-08-12T17:24:03.175Z
+crawledAt: 2026-11-04T15:51:40.188Z
 ---
-
-经典模式也可以配置特殊数字控件了
-
-在数据来源为单位状态时，可选择监听模式
-
-
-
-监听实体变量：显示指定实体的指定单位状态的数据
-
-
-
-监听父级：需要与状态显示区控件配合使用，显示状态显示区分配的的对应单位状态（可以实现不同来源的单位状态区分显示在不同槽位）
-
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhkwucr8awfq/e3e8209d-78f6-455b-9da0-9eb3116defb2.png)特殊数字控件
 
 # 一、特殊数字的功能
 

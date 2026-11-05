@@ -6,10 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhn4bsi5lb58
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:38:30.521Z
+crawledAt: 2026-11-04T15:45:47.553Z
 ---
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/b5cadd77-5696-4b47-b555-1d39e68fbb24.png)
+
 # 一、系统菜单
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/d5a21146-0aa2-42f7-a76b-bbaf132f472e.png)
 
 点击左上角菜单图标（如图所示）可打开或关闭系统菜单，或使用快捷键ESC打开或关闭系统菜单。
 
@@ -27,7 +31,7 @@ crawledAt: 2025-10-30T19:38:30.521Z
 
 
 
-角色预览管理、计时器管理、关卡变量管理、预设点管理、技能资源管理、背景音乐管理、资产导入导出管理、装备数据管理、商店模板管理、高级数据管理、局内存档管理、试玩临时数据管理、实体布设组管理、单位标签管理、护盾管理、扫描标签管理、路径管理、多语言文本管理、光源管理、文字聊天管理和快捷键总览。
+角色预览管理、计时器管理、关卡变量管理、预设点管理、技能资源管理、背景音乐管理、资产导入导出管理、装备数据管理、商店模板管理、高级数据管理、局内存档管理、试玩临时数据管理、实体布设组管理、单位标签管理、护盾管理、扫描标签管理、路径管理、多语言文本管理、光源管理、语音和文字聊天管理、快捷键总览、场景生成模板管理、技能变量管理、风险检查、奇域任务以及后续可能新增加的功能
 
 
 
@@ -35,9 +39,13 @@ crawledAt: 2025-10-30T19:38:30.521Z
 
 ## 2.最小化
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/2ddf64dc-58c3-443b-ade1-09e339911772.png)
+
 在系统菜单中打开的功能界面收起后会置于顶栏，鼠标左键单击对应功能可再次呼出。
 
 # 二、资产栏
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/d08c2a87-d46d-40a0-b147-f1dd698bddae.png)
 
 点击左上角资产栏图标（如图所示）可打开/关闭资产栏。资产栏在不同的编辑模式下内容不同，通常会包含自定义的内容与预制投放的内容，预制内容不允许修改，可通过将预制内容存为自定义内容进行修改。资产栏包含以下通用功能：
 
@@ -54,6 +62,8 @@ crawledAt: 2025-10-30T19:38:30.521Z
 自定义页签管理：包含新建页签、页签重命名、置顶页签、解散页签。
 
 # 三、快捷设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/b4820bda-5920-4151-91fb-95c303be93aa.png)
 
 点击右上角设置图标（如图所示）可呼出快捷设置菜单，快捷设置菜单中包含以下功能：
 
@@ -123,9 +133,13 @@ Alt复制数量：长按Alt进行批量复制时复制的数量。
 
 # 四、详情面板
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/4c5f10f4-ddae-4e63-a83d-3ba478aa538b.png)
+
 当选中某单位时（包含场景中选中与资源栏选中）右侧会默认出现该单位的详情面板，场景选中单位的详情面板可通过右上角的详情按钮关闭/再次打开详情面板，而资源栏选中单位的详情面板收起后需再次选中开启。
 
 # 五、模式切换
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn4bsi5lb58/2b0969f2-59d5-40ce-bb8a-84b9fa105f7b.png)
 
 通过顶部的按钮（如图所示）可切换当前所属编辑模式，共分为以下4个模式：
 
@@ -145,16 +159,16 @@ Alt复制数量：长按Alt进行批量复制时复制的数量。
 
 战斗预设：包含玩家模板与职业编辑、单位状态编辑、技能编辑和本地投射物编辑和道具编辑。
 
-# 六、相机操作
+# 六、镜头操作
 
-相机操作方式快捷键如下：
+镜头操作方式快捷键如下：
 
 |     |     |
 | --- | --- |
-| 自由移动相机 | WASD |
-| 相机上升 | E |
-| 相机下降 | Q |
-| 旋转相机 | 鼠标右键 |
-| 水平移动相机 | 鼠标中键 |
-| 相机推远推进 | 鼠标滚轮 |
-| 开启/关闭相机水平锁 | ALT+L |
+| 自由移动镜头 | WASD |
+| 镜头上升 | E |
+| 镜头下降 | Q |
+| 旋转镜头 | 鼠标右键 |
+| 水平移动镜头 | 鼠标中键 |
+| 镜头推远推进 | 鼠标滚轮 |
+| 开启/关闭镜头水平锁 | ALT+L |

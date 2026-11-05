@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhk59aiqtwyk
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-07-01T08:24:14.512Z
+crawledAt: 2026-11-04T15:42:30.106Z
 ---
 
 # 一、多语言文本的功能
@@ -56,3 +56,19 @@ _导出导入_：可将该列表导出为CSV文本，在外部进行编辑，然
 行数不校验，只识别相同的原始语言文本进行填入
 
 是否翻译列不校验，自动填入表内内容
+
+# 三、多语言文本功能的迭代
+
+## 1.实体上的节点图变量
+
+在7.2版本更新以后，实体上的节点图变量可以被多语言文本管理工具收集到
+
+### (1)编辑节点图变量
+
+在实体上挂载节点图，并编辑节点图变量
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/8f6a6b1e-7cd9-4078-ad4c-ade168b1f7ea.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/64392fc0-9ac8-4b5b-b00a-799b3d6b5f83.png)
+
+### (2)在多语言文本管理中查看
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk59aiqtwyk/f70e5168-bcde-415b-b4db-a9fa4a427173.png)

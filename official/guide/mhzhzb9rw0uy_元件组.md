@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhzhzb9rw0uy
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:30:37.163Z
+crawledAt: 2026-11-04T15:41:30.187Z
 ---
 
 # 一、元件组的功能
@@ -17,15 +17,23 @@ crawledAt: 2025-10-30T19:30:37.163Z
 
 元件组可以比较方便的对实体进行布设，改动元件组的位置信息，其内部包含的元件会随之移动
 
+只有动态单位可以组成元件组
+
 # 二、元件组的编辑
 
 ## 1.元件库编辑
 
 在元件库同时选中多个元件，右键即可创建元件组（或合并元件组），元件组中心位置会自动计算确定。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhzhzb9rw0uy/322aa426-1281-437a-8a78-aa21bbb2c214.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhzhzb9rw0uy/f09801ed-04ed-4562-96fa-2c9183d9161e.png)
+
 ## 2.实体布设场景编辑
 
 布设好的实体也可以同时选中多个，右键创建元件组（或合并元件组），元件组中心位置会自动计算确定。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhzhzb9rw0uy/836d8aff-d783-4930-9059-a4a5f1301e5c.png)
 
 # 三、修改元件组信息
 
@@ -33,6 +41,10 @@ crawledAt: 2025-10-30T19:30:37.163Z
 
 如图为包含两个元件的元件组
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhzhzb9rw0uy/05d26e8d-111b-45f3-871e-45c02c090629.png)
+
 # 四、节点图创建元件组
 
-通过节点直接创建元件组，效果等同于分别创建其中的元件，
+通过节点直接创建元件组，效果等同于分别创建其中的元件
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhzhzb9rw0uy/02e84f5a-e472-4962-bdb6-707d67415ea4.png)

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhutlz9w46ze
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-07-01T08:22:42.824Z
+crawledAt: 2026-11-04T16:03:26.421Z
 ---
 
 各位亲爱的奇匠：
@@ -16,6 +16,8 @@ crawledAt: 2026-07-01T08:22:42.824Z
 **请通过手机浏览器或者网页端** [**点击群号>\> 863184780**](https://qm.qq.com/q/FzW4kktOKY) 或者扫描下方二维码申请入群。入群后请遵守群内公约，文明交流，理性讨论，共同维护积极、友善的社区氛围。
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhutlz9w46ze/5daa9905-b9ae-47fa-8f0a-22debe9701a9.png)
+
+_\*\*为便于后续就创作相关事项进行沟通，我们将在奇匠申请入群时收集各位的原神UID。各位奇匠可自愿填写。关于我们如何处理个人信息，各位奇匠可查阅页面底部的隐私政策了解更多。_
 
 我们一直在重视每一位奇匠的声音，我们会持续关注群内讨论与内容质量，并在群里同步最新官方咨询，具体信息请关注群内公告。
 

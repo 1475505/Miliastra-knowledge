@@ -6,14 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhk9zrrzshm6
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-09-23T17:58:57.325Z
+crawledAt: 2026-11-04T15:51:14.774Z
 ---
 
 # **一、通用**
 
 ## **1\. 双分支**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk9zrrzshm6/c9896380-5486-4c39-95bf-a5ec57de9d17.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk9zrrzshm6/6ca4ed5d-b5c4-4fe5-8633-e8e1b5f0cfc1.undefined)
 
 **节点功能**
 
@@ -30,7 +30,7 @@ crawledAt: 2026-09-23T17:58:57.325Z
 
 ## **2\. 多分支**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk9zrrzshm6/c5e01a92-8c73-4bb7-bc74-b1299fce098a.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhk9zrrzshm6/a0a17fbe-ad67-49de-b4d8-058d46632382.undefined)
 
 **节点功能**
 

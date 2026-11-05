@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhb8nl0w8cao
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-09-23T17:52:51.153Z
+crawledAt: 2026-11-04T15:42:16.467Z
 ---
 
 # 一、复杂造物的定义
@@ -36,6 +36,24 @@ crawledAt: 2026-09-23T17:52:51.153Z
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhb8nl0w8cao/20908844-ab5d-49fe-8f54-cf69533521e6.png)
 
 复杂造物可以调整预设状态，预设状态会影响复杂造物的一系列表现，包括但不局限于初始动作
+
+### (3)原生推挤碰撞
+
+原生推挤碰撞入口在造物详情栏
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhb8nl0w8cao/9449408a-d6cf-4291-bfae-17be9c31f9f5.png)
+
+启用自定义推挤碰撞
+
+关闭（默认）：使用默认配置，隐藏原生推挤碰撞列表，原有的开/关闭原推挤碰撞节点对该造物无效
+
+开启：展示该造物所有原生的推挤碰撞，可通过开/关闭原生推挤碰撞节点动态开关
+
+注：开启后每个原生推挤碰撞默认均为启用状态；选中某区域后可预览形状大小
+
+可以通过节点图来管理原生推挤碰撞
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhb8nl0w8cao/49fc2bbe-537a-4931-a01b-97b3ec833797.png)
 
 ## 2.特化配置
 

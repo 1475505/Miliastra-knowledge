@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh8wpr0h7ywg
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-07-31T00:24:53.816Z
+crawledAt: 2026-11-04T16:02:40.072Z
 ---
 
 # 前言
@@ -129,7 +129,7 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 5.为了让角色离开平台后不持续回血，还可以增加一个【离开碰撞触发器时】事件，将启动的定时器终止。
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/d2fd2e5d-13be-4665-9771-75291a5636a9.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh8wpr0h7ywg/7011b45a-554b-431c-9c86-3f17dc448ce2.png)
 
 6.将制作好的平台放入场景，试玩体验效果。
 

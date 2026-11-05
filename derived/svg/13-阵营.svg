@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2000">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2144">
 <defs>
   <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#2D6BE4"/>
@@ -12,10 +12,10 @@
   </filter>
 </defs>
 <style>
-  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+  text { font-family: 'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
 </style>
 
-<rect width="1200" height="2000" fill="#F9F7F2"/>
+<rect width="1200" height="2144" fill="#F9F7F2"/>
 <rect width="1200" height="6" fill="url(#topGrad)"/>
 
 <!-- Title Card -->
@@ -98,7 +98,7 @@
 <text x="284" y="1072" fill="#4A4B65" font-size="13">实体阵营发生变化时触发</text>
 
 <rect x="72" y="1088" width="200" height="26" rx="13" fill="#FFF3E0"/>
-<text x="172" y="1106" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">修改实体阵营</text>
+<text x="172" y="1106" fill="#E65100" font-size="12" text-anchor="middle" font-weight="500">设置实体阵营</text>
 <text x="284" y="1106" fill="#4A4B65" font-size="13">动态修改实体的阵营归属</text>
 
 <rect x="72" y="1122" width="200" height="26" rx="13" fill="#E8EEFB"/>
@@ -209,14 +209,15 @@
 <text x="84" y="1870" fill="#4A4B65" font-size="12">物件阵营1 vs 物件阵营2：双向敌对（用于需要互相攻击的物件组）</text>
 
 <!-- Source links -->
-<text x="48" y="1940" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
-<text x="48" y="1940" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<text x="48" y="2084" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="2084" fill="#8B8DA0" font-size="12" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhe1ixri46ta" target="_blank">
-  <text x="48" y="1960" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：阵营</text>
+  <text x="48" y="2104" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：阵营</text>
 </a>
 <!-- Footer -->
-<text x="600" y="1970" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="2114" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
 
 <!-- Bottom color band -->
 
+<g font-family="Noto Sans CJK SC, sans-serif"><rect x="48" y="1940" width="1104" height="114" rx="14" fill="#fff"/><text x="72" y="1974" font-size="18" fill="#2D6BE4">7.2 更新</text><text x="72" y="2008" font-size="14" fill="#4A4B65">运行时调整阵营使用“设置实体阵营”节点。</text></g>
 </svg>

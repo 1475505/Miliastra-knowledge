@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhstl890y7xe
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:44:53.499Z
+crawledAt: 2026-11-04T15:52:44.609Z
 ---
 
 # 一、角色扰动装置组件的功能
@@ -21,6 +21,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 ## 1.添加组件
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/b28e2325-6a44-4b01-975b-1fcee9249bfb.png)
+
 (1)在实体或元件编辑界面中，打开组件编辑页签
 
 (2)点击下方的“添加通用组件”，选择并点击“角色扰动装置”，成功添加
@@ -31,15 +33,21 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 ## 2.角色扰动装置的编辑
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/00d5b77c-7e63-4651-9aff-13a65189a9b5.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/f032052f-8754-44de-a926-9254fdc13d79.png)
+
 
 
-通过点击，添加“角色扰动装置”。
+通过点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/6ffcc94d-60ba-426b-b52f-d9e499c117df.png)，添加“角色扰动装置”。
 
 若当前“角色扰动装置”组为空，则添加的“角色扰动装置”初始生效默认开启。
 
 
 
 “序号X”，X为“角色扰动装置序号”，作为节点输入项可以调整扰动装置的参数
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/cb2142c4-3b75-41ef-a4d3-cdf616f0e638.png)
 
 
 
@@ -52,6 +60,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 | _装置类型_ | 角色扰动装置的类型 |
 | _装置规则_ | 根据选择的扰动类型不同，支持配置的扰动规则参数不同 |
 | _本地过滤器_ | 可引用本地过滤器节点图，用于判断扰动装置生效与否。两种过滤器的区分和使用请看[节点图](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhjwjrr5n73i)<br>_弹射器_：本地过滤器会在角色进入生效范围期间时，进行检测一次<br>_牵引器_：本地过滤器会在角色进入生效范围期间时，进行检测一次<br>_力场器_：本地过滤器会在角色进入生效范围期间内，持续进行检测<br>对应本地过滤器节点图中的基础节点，进行说明<br><br>获取自身实体<br>输出参数为挂载角色扰动装置组件的实体<br><br>获取目标实体<br>输出参数为在选项卡生效范围内的角色实体<br><br>获取当前角色<br>输出参数为本地角色 |
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/afd28f9f-b983-4448-8982-311cd6b94d9e.png)
 
 
 
@@ -79,9 +89,13 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 该作用力让角色在配置朝向上的_速度_额外增加对应配置值。
 
-弹射器施加过程中，若检测到某朝向发生碰撞，会把某分量上施加的弹射器清除。
+弹射器施加过程中，若检测到某朝向发生碰撞，会把该分量上施加的弹射器清除。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/9901415f-68fc-4f14-a3c1-383e35cda3ae.png)
 
 **装置规则**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/7840208b-93d1-4862-ae9f-aa9dfb75f923.png)
 
 
 
@@ -110,9 +124,13 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 **本地过滤器举例说明**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/a91b4a8a-cbf4-4c3e-88f8-32cfb8f55488.png)
+
 ### **(2)牵引器**
 
-该作用力让角色化身为球体特效，以配置的_速度_在扰动时间朝向_牵引终点_，被拖拽过去。
+该作用力让角色化身为球体特效，以配置的_速度_在扰动时间内朝向_牵引终点_，被拖拽过去。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/4dd91f76-df0b-4163-8d2c-c220ed593469.png)
 
 **牵引终点**
 
@@ -123,6 +141,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 | _半径_ | 当角色到达牵引终点附近半径距离时，算作抵达终点 |
 
 **装置规则**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/77de6e8d-5a34-4f70-be6b-e65c8665f4e1.png)
 
 |     |     |
 | --- | --- |
@@ -136,15 +156,21 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 **本地过滤器举例说明**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/93120065-5a6e-4110-88bf-08ee2e81cec8.png)
+
 ### **(3)力场器**
 
 该作用力让角色在生效范围内持续受力，在不同的范围受到的作用力支持配置不同效果。
 
 角色在配置的生效范围不同区域内，将持续被施加相应的作用力。
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/9f66212e-6a9f-40f6-aac3-92656571ce84.png)
+
 **逻辑力场球体**
 
 力场器的施加是以该同心球为核心施加的
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/a5cdca61-2ea0-48a9-a3e7-3a82028b3fda.png)
 
 |     |     |
 | --- | --- |
@@ -155,6 +181,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 **装置规则**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/0b2bc975-e5d9-45b5-a198-010e0d418bd6.png)
+
 
 
 当_扰动方向_配置为_指定方向_时，可额外配置参数为_方向向量_
@@ -164,6 +192,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 
 当_扰动方向_配置为_球心与触发区中心连线_时，可额外配置参数为_内径朝向_和_外径以外朝向_
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/1ca9c80f-10f7-4039-a1ca-6e52094e5c23.png)
 
 |     |     |
 | --- | --- |
@@ -191,6 +221,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 角色在力场器生效范围内时，本地过滤器将持续进行检测，若有结果变化，会立即生效
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/12b0e028-c41a-45cf-8312-223e8f299654.png)
+
 **力场器效果说明**
 
 玩家进入配置的力场器范围内，才会受到作用力效果。
@@ -198,6 +230,8 @@ crawledAt: 2025-10-30T19:44:53.499Z
 作用力效果和配置的内球半径、外球半径有关，具体效果如下
 
 通过立体图来详细说明
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/f834dd3c-1cfb-4296-9fb1-eced3b953e31.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/492eb2da-1acf-4fd0-89d7-369beff24d01.png)
 
 
 
@@ -221,7 +255,7 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 角色无法在力场器中原地起跳继而起飞
 
-力场器内径速率过大，且方向为“球心与触发区中心连线-朝向球心时”，若角色以飞行，或坠落情况进入范围，可能会无法脱离状态
+力场器内径速率过大，且方向为“球心与触发区中心连线-朝向球心时”，若角色以飞行或坠落情况进入范围，可能会无法脱离状态
 
 # 四、通过节点图管理角色扰动装置
 
@@ -229,8 +263,10 @@ crawledAt: 2025-10-30T19:44:53.499Z
 
 
 
-修改角色扰动装置
+设置角色扰动装置
 
 调整运行中的实体生效的角色扰动装置
 
 若序号配置为空，或配置不存在的序号，则所有角色扰动装置都不生效
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhstl890y7xe/c977df07-8ebe-48d0-b2cc-2442887b7011.png)

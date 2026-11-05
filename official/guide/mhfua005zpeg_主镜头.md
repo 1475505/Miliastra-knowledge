@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhfua005zpeg
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-09-23T17:51:34.657Z
+crawledAt: 2026-11-04T15:41:01.756Z
 ---
 
 _镜头_是游戏中用于呈现玩家视角的工具。它决定了玩家在游戏中看到的画面。
@@ -59,11 +59,13 @@ _模板名称_：该镜头模板的命名，用于备注该模板在玩法中的
 
 ## 3.镜头基础配置
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/66fda3ae-4622-4865-92c6-a0230e76f7f6.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/73848abf-fbf4-44e4-9aba-c46d8a486830.png)
 
-_移动模式_：当前版本仅支持镜头跟随单位为角色实体，后续会拓展为支持其他实体单位，例如载具等
+_镜头类型_：分为角色镜头和物件镜头
 
 _模式_：区分镜头模板类型的重要参数，模式决定了镜头的主要镜头规则，每种模式下的镜头可微调参数也会有所区别
+
+_移动模式_：角色镜头可选跟随角色；物件镜头可选跟随物件/造物
 
 _默认生效目标_：镜头模板作为玩家身上的参数，在运行时可以直接修改对应玩家的镜头模板，但初始化时必须依赖玩家的职业进行赋予，该字段可以设置该模板初始应用于哪些职业
 
@@ -212,3 +214,17 @@ _运动阻尼系数_：决定镜头三个方向的跟随阻尼系数，默认值
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/7d81ada0-b115-4685-89a6-bd7d862b84a4.png)
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/2566d494-aae9-4032-a230-f48a03605000.png)
+
+# 六、经典模式中的主镜头管理
+
+相比于超限模式，经典模式中的主镜头管理受到一定限制：
+
+1.经典模式角色镜头仅支持查看位置信息与设置参数，不支持进行编辑
+
+2.经典模式仅支持添加额外镜头，额外镜头的参数配置与超限模式一致
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhfua005zpeg/5ae7f37b-2323-4fda-b04a-0bfeb5a3850e.png)
+
+同样的，经典模式物件镜头的使用方式与超限模式一致，支持在动态物件和造物中添加通用组件【物件镜头】，在选择镜头中选择预先配置好的物件镜头模板，并在关卡运行时通过上述节点进行调用
+
+\*在经典模式中，若在物件镜头使用期间，使用切换瞄准视角的长按技能、重击状态、弓箭角色的瞄准状态、元素爆发等技能时，将强制切换为按照当前角色的技能镜头，并在技能释放结束后切回设置的物件镜头

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1910">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 2082">
 <defs>
   <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#2D6BE4"/>
@@ -12,10 +12,10 @@
   </filter>
 </defs>
 <style>
-  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+  text { font-family: 'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
 </style>
 
-<rect width="1200" height="1910" fill="#F9F7F2"/>
+<rect width="1200" height="2082" fill="#F9F7F2"/>
 <rect width="1200" height="6" fill="url(#topGrad)"/>
 
 <!-- Title Card -->
@@ -258,18 +258,19 @@
 <text x="284" y="1774" fill="#4A4B65" font-size="13">获取造物当前目标（攻击时为目标敌方，治疗时为目标友方）</text>
 
 <!-- Source links -->
-<text x="48" y="1850" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
-<text x="48" y="1850" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
+<text x="48" y="2022" fill="#8B8DA0" font-size="12">来源文档：</text><!-- 相关文档 -->
+<text x="48" y="2022" fill="#8B8DA0" font-size="12" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhufqo0c0tqw" target="_blank">
-  <text x="48" y="1870" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：造物</text>
+  <text x="48" y="2042" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：造物</text>
 </a>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh3rgo0c16c8">
-  <text x="160" y="1850" fill="#2D6BE4" font-size="12" text-decoration="underline">常规设置</text>
+  <text x="160" y="2022" fill="#2D6BE4" font-size="12" text-decoration="underline">常规设置</text>
 </a>
 
 <!-- Footer -->
-<text x="600" y="1880" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="2052" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
 
 <!-- Bottom color band -->
 
+<g font-family="Noto Sans CJK SC, sans-serif"><rect x="48" y="1850" width="1104" height="142" rx="14" fill="#fff"/><text x="72" y="1884" font-size="18" fill="#2D6BE4">7.2 更新</text><text x="72" y="1918" font-size="14" fill="#4A4B65">巡逻的抵达目的地半径设置为 0 时，会精确移动到目标点，可能出现滑步。</text><text x="72" y="1946" font-size="14" fill="#4A4B65">造物技能数量上限由 50 调整为 100。</text></g>
 </svg>

@@ -6,14 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhn7ko01v3yw
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-09-23T17:51:53.176Z
+crawledAt: 2026-11-04T15:41:20.353Z
 ---
 
 # **一、自定义变量**
 
 ## **1\. 自定义变量变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d7e01b00-edce-470a-a6d5-9f447827db5f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5517d7bb-de4a-4238-87b7-ee541978e553.undefined)
 
 **节点功能**
 
@@ -36,7 +36,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 节点图变量变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/912a1110-7805-4a51-b188-b977aafbcafd.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e058ca7d-5969-4c5f-ab30-ebefc41b5e54.undefined)
 
 **节点功能**
 
@@ -61,7 +61,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 预设状态变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/abc2e22e-3d9a-4351-8820-69e6c4ba58ad.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/34922be2-c318-44aa-8b60-ceba098aac33.undefined)
 
 **节点功能**
 
@@ -82,7 +82,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 实体创建时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/22b491b0-f3f7-4eb6-a650-8d51bfb0edfe.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/72939b67-1756-448e-8e8d-1294f43facd6.undefined)
 
 **节点功能**
 
@@ -100,7 +100,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 实体移除/销毁时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f7aa493c-7015-4d5a-9a43-6113cd6d2d09.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/496f8076-4fd6-4c57-ac15-ce4e25458fd6.undefined)
 
 **节点功能**
 
@@ -117,7 +117,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 实体销毁时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a13d3d56-d2e4-46d0-a21f-505eaa7c7568.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f0b4f7c4-8b4d-4f40-9789-5041ab165ab8.undefined)
 
 **节点功能**
 
@@ -140,7 +140,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **4\. 角色移动速度达到条件时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/c8ca11f9-7760-4cef-8734-6412544a6782.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/57eb00ad-8f99-4949-9e7d-b61e4b84c0dd.undefined)
 
 **节点功能**
 
@@ -162,7 +162,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 实体阵营变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e54909a2-51f9-4822-a48f-f1b8fb21455f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a544aee1-b248-4a30-89b9-2a389fc70759.undefined)
 
 **节点功能**
 
@@ -182,7 +182,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 角色倒下时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/06d4f795-83ac-43d4-83fe-33332db33884.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/2059b0cd-af7d-44e8-9c34-b859c27dd0ba.undefined)
 
 **节点功能**
 
@@ -199,7 +199,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 角色复苏时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/da2f8d0f-9feb-407e-9ec0-61b445679acb.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fb5e9285-d74b-4bfb-a23a-69fa03443551.undefined)
 
 **节点功能**
 
@@ -214,7 +214,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 玩家所有角色倒下时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f9cc6fa0-af26-4b3d-b36c-be877f46349c.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/2e42b17a-5f3f-4fd7-b35b-62eaedc7c3cb.undefined)
 
 **节点功能**
 
@@ -230,7 +230,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **4\. 玩家异常倒下并复苏时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/b94a58ae-0716-4c06-a82c-4de8549bd621.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/7995e84c-7ef7-4e59-b7da-9611420a107a.undefined)
 
 **节点功能**
 
@@ -245,7 +245,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **5\. 玩家所有角色复苏时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/cad71406-516d-4cd2-9639-0606e4822bff.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/1c9beb58-9b0a-4a13-9bd5-07887a557714.undefined)
 
 **节点功能**
 
@@ -260,7 +260,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **6\. 玩家传送完成时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/c615133e-db5e-4a66-a150-fb08b75c879f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/97ba73d7-49b7-4ffc-9690-a75cc37cd6a3.undefined)
 
 **节点功能**
 
@@ -276,7 +276,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **7\. 前台角色变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/ca9eb885-0ee0-42b0-a8a0-245592e2218e.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/3e069c8c-f68e-4942-b5fd-90c50fe29d21.undefined)
 
 **节点功能**
 
@@ -296,7 +296,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 离开碰撞触发器时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/6986948c-42fb-44c4-94c2-c1fa07693ceb.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/abd3876d-5c6f-4045-ab4c-515cf6850e35.undefined)
 
 **节点功能**
 
@@ -317,7 +317,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 进入碰撞触发器时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/3e38aed8-e0b5-48bd-88b1-6dfb126b61d1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f4c0164a-0738-49ba-805b-69c7fbc5eb87.undefined)
 
 **节点功能**
 
@@ -340,7 +340,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 受到攻击时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a44abcaa-e77d-4874-a93e-82850973c914.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/bf2604d9-b7a2-49dd-b747-39d32b4872b3.undefined)
 
 **节点功能**
 
@@ -361,10 +361,11 @@ crawledAt: 2026-09-23T17:51:53.176Z
 | 出参 | 元素类型 | 枚举 |  |
 | 出参 | 元素攻击强效 | 浮点数 | 攻击包含的元素含量 |
 | 出参 | 是否暴击 | 布尔值 |  |
+| 出参 | 受击等级 | 枚举 |  |
 
 ## **2\. 攻击命中时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/3262c92b-abc1-483d-8331-22214c4b0bce.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/89e8152a-425a-473f-a8d0-654097cd9e30.undefined)
 
 **节点功能**
 
@@ -388,7 +389,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 被恢复生命值时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/dc797e72-14f6-4508-bf23-1d7fead481a1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/9159a1d2-c799-420f-bb33-106381c2fdaf.undefined)
 
 **节点功能**
 
@@ -407,7 +408,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **4\. 发起恢复生命值时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d5ac1daf-f472-4eef-ab2f-d2cfa4366d61.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/c2b3cb69-b8c7-48ea-bfea-4f375afd42ea.undefined)
 
 **节点功能**
 
@@ -426,7 +427,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **5\. 进入易受打断状态时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/297658ec-5be1-4de0-b31c-af56268e10b6.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d1de4154-e835-42e7-921a-7da572bfc912.undefined)
 
 **节点功能**
 
@@ -445,7 +446,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 基础运动器停止时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/df6f27f5-00a4-41d0-a14d-5d73d77607b3.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/365c6810-62f4-4e2d-9568-c449186c4b7a.undefined)
 
 **节点功能**
 
@@ -462,7 +463,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 路径到达路点时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/293280ca-b115-4348-b51d-8da2d7af5e27.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/35093496-41f0-4698-90cf-bf44806c4c17.undefined)
 
 **节点功能**
 
@@ -482,7 +483,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 命中检测触发时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d680f255-242f-4b23-a154-2c0a9187842d.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/36216989-c18d-421f-a540-c26b7d408059.undefined)
 
 **节点功能**
 
@@ -503,7 +504,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 定时器触发时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/bc1facc1-b87f-4f1b-9506-3c14e40dcdd1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/58286cab-6bb7-48ff-83c0-39f057183ee4.undefined)
 
 **节点功能**
 
@@ -524,7 +525,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 全局计时器触发时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/9b4abb19-2d8c-4500-9aa8-777db53ed444.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/47cd8681-16fb-41d1-bc4f-f3d17f97549e.undefined)
 
 **节点功能**
 
@@ -545,7 +546,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 界面控件组触发时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/ee9b26e5-5b7c-4bf4-bf8e-7b8500a88dc7.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e9f186f1-c05c-46b8-be16-f3e6c2ed8aa1.undefined)
 
 **节点功能**
 
@@ -567,7 +568,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 单位状态结束时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/c2ffbc16-1d03-418a-815e-c679af41e779.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/8e1a65c5-938f-47fc-9665-fc695a68e4b5.undefined)
 
 **节点功能**
 
@@ -591,7 +592,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 单位状态变更时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/6be0a835-4609-4193-af3d-014534ac6a0f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/cdb0e9e9-3c31-4826-a34d-ffccd7af3613.undefined)
 
 **节点功能**
 
@@ -616,7 +617,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 发生元素反应事件时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/34e8d0fd-5183-4881-9973-e747dd9b48ec.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/cbbe439e-3e90-4b5d-b9b9-f80dcb5fe81a.undefined)
 
 **节点功能**
 
@@ -635,7 +636,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **4\. 护盾受到攻击时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/956cd3f1-e002-49c6-9112-d6b49fad7dd1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d3544789-bbe5-4556-bcfe-70fdd7f2b539.undefined)
 
 **节点功能**
 
@@ -660,7 +661,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 选项卡选中时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e8fbdf2b-f0fb-4364-a84f-f7ae419f3422.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e52ff075-05fd-469c-bb38-79577eeff670.undefined)
 
 **节点功能**
 
@@ -682,7 +683,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 造物入战时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/9b0b8d93-5920-4e37-870e-88f0e0676f14.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/8f21c53e-3666-436b-a4d5-f951073c1604.undefined)
 
 **节点功能**
 
@@ -700,7 +701,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 造物脱战时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/57c98352-4faa-406c-8cd5-30173eecc3e2.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/efa214b6-bdd7-4f9a-877e-5a99ca5e7eb2.undefined)
 
 **节点功能**
 
@@ -720,7 +721,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 玩家职业更改时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/cdb77ad2-70fe-4571-8f9e-e8ecee8bc537.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f91d3d18-0141-423c-965c-0c4bce0314bc.undefined)
 
 **节点功能**
 
@@ -738,7 +739,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 玩家职业等级变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/b84f85bc-bda9-480a-92ce-2bef36d032e9.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/4352157d-e9d3-4043-ad07-c723ea799f0b.undefined)
 
 **节点功能**
 
@@ -756,7 +757,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 玩家职业解除时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/99f55134-2f8f-4481-90ed-299ecf6d3b97.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fad991af-49b2-4b50-bd24-6684dac40c43.undefined)
 
 **节点功能**
 
@@ -776,7 +777,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 技能节点调用时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/712e9e73-dc49-4a0a-947b-3a299d822279.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5ff4cadb-8c74-43ce-aba3-72e865cf66fc.undefined)
 
 **节点功能**
 
@@ -797,7 +798,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 仇恨目标变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/8db9e66e-33fb-485a-a8c1-2d227fbc490d.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fea7bdba-957e-4ed3-ac83-ecc97f39a1aa.undefined)
 
 **节点功能**
 
@@ -819,7 +820,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 自身入战时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fe6559ec-1d8e-4ed6-8557-96ba11eaec18.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/97e77793-64ff-43b7-b672-67201b2ac0b4.undefined)
 
 **节点功能**
 
@@ -837,7 +838,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 自身脱战时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/4cf4f5e4-c996-4567-8af5-63630c86d6ff.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/b604898d-5eb6-40b8-9e3d-af1b0a02fa6f.undefined)
 
 **节点功能**
 
@@ -857,7 +858,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 监听信号**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e71c62d7-c4a0-4563-9c8d-05405710c4a4.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/0b0da3b9-98d5-412c-8d9b-a779d594ac72.undefined)
 
 **节点功能**
 
@@ -878,7 +879,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 卡牌选择器完成时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/15f7477e-29ec-4c97-8d41-3c66c7fa46b9.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/27450eb7-2832-4b43-8026-a91ddded57a4.undefined)
 
 **节点功能**
 
@@ -900,7 +901,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 文本气泡完成时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e520c552-ecfd-4a9d-877b-433e5a8c6f49.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/72467a3c-0dc4-466b-8ca7-33cf14fb3363.undefined)
 
 **节点功能**
 
@@ -922,7 +923,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 商店出售自定义商品时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/577a54c2-9874-48d7-a96d-3f752f9a3a68.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/50831938-fbe5-4478-918b-d89cbe7c27b3.undefined)
 
 **节点功能**
 
@@ -942,7 +943,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 商店出售背包物品时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/1828cb9a-b8cc-41d6-868a-7e449d4a33ae.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e842ff9a-51a1-4363-8063-5a8c403b6d63.undefined)
 
 **节点功能**
 
@@ -962,7 +963,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 商店收购道具时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/66e61f38-0c6a-4a01-a832-6b6862572a42.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5504dfec-1f7a-4385-985e-f151b999e16d.undefined)
 
 **节点功能**
 
@@ -983,7 +984,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 装备的词条数值改变时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/05cb8edf-0828-4c2a-98b2-d57e7433af7e.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/4c283300-84c8-4e40-8b06-0eb63711b1f9.undefined)
 
 **节点功能**
 
@@ -1003,7 +1004,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 装备初始化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/cc14ba4b-281c-4cbc-a6f5-1973c49632c4.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f6af9f3d-19c8-45c9-a6cd-adcd1e10c584.undefined)
 
 **节点功能**
 
@@ -1020,7 +1021,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 装备被穿戴时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fba42153-471d-4131-868b-5fd10a694469.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a73e9f49-e858-4df4-beb1-56335d33b38e.undefined)
 
 **节点功能**
 
@@ -1037,7 +1038,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **4\. 装备被卸下时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/6f13e56d-ce2f-464b-9869-b5772e324b3b.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/327d13cc-ca04-4ae8-ac2c-0ef39b09b48b.undefined)
 
 **节点功能**
 
@@ -1054,7 +1055,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **5\. 装备买入时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d41f8b85-db2e-4a7c-8a0a-8ce9f94016ac.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/aa8513de-0af7-43af-9ee8-adb2eefe9af4.undefined)
 
 **节点功能**
 
@@ -1073,7 +1074,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **6\. 装备卖出时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/c84cfeb8-4943-49eb-91f8-2536568b89e9.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/02a9299b-51e3-48b4-b84a-1d7b5bbd4223.undefined)
 
 **节点功能**
 
@@ -1094,7 +1095,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 背包道具新增时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/09b8cb3f-77b8-4cec-be9e-dbdf65ba78b7.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/091c3889-799d-470c-b61a-d664dca3fb1a.undefined)
 
 **节点功能**
 
@@ -1112,7 +1113,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 背包道具失去时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/59fb858f-ce40-491e-9bc9-aefe1add53e1.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/68fe29f3-88f7-4874-91eb-d648ea4753da.undefined)
 
 **节点功能**
 
@@ -1130,7 +1131,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 背包道具数量变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f769775d-bf71-407b-ac7d-cb1bdd2b7a95.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/57c58d8a-15c3-4edd-9fc7-3778a9cc1602.undefined)
 
 **节点功能**
 
@@ -1150,7 +1151,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **4\. 背包货币数量变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/d6d4694b-18fb-4e91-a2e2-e964ddff8004.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/16f3b2eb-7257-4c6c-af11-bfb315f8e73f.undefined)
 
 **节点功能**
 
@@ -1168,7 +1169,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **5\. 背包内道具被使用时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/5c354862-340b-4915-8021-7d2e40f8d4b8.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/f78bcc42-65cb-434d-8023-ee2c9443ff3a.undefined)
 
 **节点功能**
 
@@ -1188,7 +1189,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 造物抵达巡逻路点时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e20d700a-374c-4b5b-ae3f-c80e98aad37b.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/fb1d042f-fdd5-4956-b4ef-1076c602d29d.undefined)
 
 **节点功能**
 
@@ -1212,7 +1213,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 复杂造物预设状态变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/9e1805ab-ed27-46df-a89e-d7030f34d909.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/675494e0-ff61-4dd6-9ec0-e09b95d0b2c0.undefined)
 
 **节点功能**
 
@@ -1237,7 +1238,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 悬浮交互页操作触发时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/6df4c979-1faa-4290-bcde-1f10b2f6ddcd.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a3805211-a076-48db-a10c-5227ba4d1caf.undefined)
 
 **节点功能**
 
@@ -1277,7 +1278,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **1\. 玩家离开操控运动器时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/ea4ce9fd-9fb3-4ca5-a003-7b383c49dd77.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/30f2a069-2aff-4a3d-83f5-1188ac19afd0.undefined)
 
 **节点功能**
 
@@ -1294,7 +1295,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **2\. 玩家跟随操控运动器时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/e1e34630-c3a5-4006-830e-9a4e7b5ec43f.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/ae746dc8-7c28-40cf-86d9-dce3ab0c1c1a.undefined)
 
 **节点功能**
 
@@ -1311,7 +1312,7 @@ crawledAt: 2026-09-23T17:51:53.176Z
 
 ## **3\. 玩家激活操控运动器列表变化时**
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/80f0ae09-be2e-4b23-8183-56da6eb8fbad.undefined)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhn7ko01v3yw/a5dbc6a3-71da-4a1c-971f-1be15f111c87.undefined)
 
 **节点功能**
 

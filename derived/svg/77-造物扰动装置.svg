@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1096">
+<defs><linearGradient id="topGrad"><stop offset="0%" stop-color="#2D6BE4"/><stop offset="100%" stop-color="#4A3F6B"/></linearGradient><filter id="card"><feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#2D6BE4" flood-opacity="0.06"/></filter></defs>
+<style>text {font-family:'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif}</style>
+<rect width="1200" height="1096" fill="#F9F7F2"/><rect width="1200" height="6" fill="url(#topGrad)"/>
+<rect x="48" y="32" width="1104" height="90" rx="14" fill="#fff" filter="url(#card)"/><rect x="48" y="32" width="4" height="90" rx="2" fill="#2D6BE4"/>
+<text x="74" y="77" font-size="34" font-weight="bold" fill="#1A1B2E">造物扰动装置</text>
+<text x="75" y="103" font-size="14" fill="#8B8DA0">7.2 新增 · 官方功能速查</text>
+<rect x="48" y="154" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="184" r="13" fill="#2D6BE4"/><text x="82" y="189" text-anchor="middle" font-size="14" fill="#fff">1</text>
+<text x="110" y="190" font-size="18" fill="#2D6BE4">适用对象与入口</text>
+<text x="78" y="226" font-size="14" fill="#4A4B65">给动态物件添加组件，对与其碰撞的造物施加模拟物理作用力。</text>
+<text x="78" y="254" font-size="14" fill="#4A4B65">可配置多个扰动装置，同时只能生效一个；通过序号管理。</text>
+<rect x="48" y="296" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="326" r="13" fill="#2D6BE4"/><text x="82" y="331" text-anchor="middle" font-size="14" fill="#fff">2</text>
+<text x="110" y="332" font-size="18" fill="#2D6BE4">弹射器：额外增加指定方向速度</text>
+<text x="78" y="368" font-size="14" fill="#4A4B65">可指定方向向量，也可沿造物与实体的连线方向施力。</text>
+<text x="78" y="396" font-size="14" fill="#4A4B65">配置运动速率、稳定阶段与衰减阶段时长；碰撞会清除对应方向的弹射分量。</text>
+<rect x="48" y="438" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="468" r="13" fill="#2D6BE4"/><text x="82" y="473" text-anchor="middle" font-size="14" fill="#fff">3</text>
+<text x="110" y="474" font-size="18" fill="#2D6BE4">牵引器：拖拽至目标范围</text>
+<text x="78" y="510" font-size="14" fill="#4A4B65">配置终点偏移与半径、速率、稳定阶段和衰减阶段时长。</text>
+<text x="78" y="538" font-size="14" fill="#4A4B65">支持抵达终点时提前终止；内置持续时间上限为 30 秒。</text>
+<rect x="48" y="580" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="610" r="13" fill="#2D6BE4"/><text x="82" y="615" text-anchor="middle" font-size="14" fill="#fff">4</text>
+<text x="110" y="616" font-size="18" fill="#2D6BE4">力场器：持续聚集或推离</text>
+<text x="78" y="652" font-size="14" fill="#4A4B65">用同心内球与外球、偏移、衰减方向和速率定义不同区域的效果。</text>
+<text x="78" y="680" font-size="14" fill="#4A4B65">可指定方向、朝向球心或远离球心，并支持覆写造物重量。</text>
+<rect x="48" y="722" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="752" r="13" fill="#2D6BE4"/><text x="82" y="757" text-anchor="middle" font-size="14" fill="#fff">5</text>
+<text x="110" y="758" font-size="18" fill="#2D6BE4">扰动控制状态的影响</text>
+<text x="78" y="794" font-size="14" fill="#4A4B65">开启“非浮空状态是否可离地”时，受力期间可进入扰动控制状态。</text>
+<text x="78" y="822" font-size="14" fill="#4A4B65">进入时打断 AI 行为；期间战术和技能无法生效，并可受到重力与 Y 轴作用力。</text>
+<rect x="48" y="864" width="1104" height="124" rx="14" fill="#fff" filter="url(#card)"/>
+<circle cx="82" cy="894" r="13" fill="#2D6BE4"/><text x="82" y="899" text-anchor="middle" font-size="14" fill="#fff">6</text>
+<text x="110" y="900" font-size="18" fill="#2D6BE4">运行时切换</text>
+<text x="78" y="936" font-size="14" fill="#4A4B65">使用“设置造物扰动装置”调整生效序号。</text>
+<text x="78" y="964" font-size="14" fill="#4A4B65">序号为空或不存在时，所有造物扰动装置都不生效。</text>
+<a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhr24urr9kjq" target="_blank"><text x="48" y="1036" font-size="14" fill="#2D6BE4">来源：千星奇域官方综合指南 · 查看原文</text></a>
+<text x="600" y="1070" text-anchor="middle" font-size="12" fill="#8B8DA0">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
+</svg>

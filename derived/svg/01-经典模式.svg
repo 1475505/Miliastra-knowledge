@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1300">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1444">
 <defs>
   <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#2D6BE4"/>
@@ -12,10 +12,10 @@
   </filter>
 </defs>
 <style>
-.t{font-family:'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif;}
+.t{font-family:'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif;}
 </style>
 
-<rect width="1200" height="1300" fill="#F9F7F2"/>
+<rect width="1200" height="1444" fill="#F9F7F2"/>
 <rect width="1200" height="6" fill="url(#topGrad)"/>
 
 <!-- 标题卡片 -->
@@ -26,7 +26,7 @@
 
 <!-- 一、角色编号对照表 -->
 <text x="48" y="152" class="t" fill="#2D6BE4" font-size="18" font-weight="700">一、经典模式角色编号对照表</text>
-<text x="292" y="152" class="t" fill="#8B8DA0" font-size="13">全量 124 位角色 · 7.0 新增以绿色标注 · 7.1 新增以蓝色标注</text>
+<text x="292" y="152" class="t" fill="#8B8DA0" font-size="13">全量 126 位角色（7.2 新角色见下方） · 7.0 新增以绿色标注 · 7.1 新增以蓝色标注</text>
 
 <!-- 对照表卡片 -->
 <rect x="48" y="170" width="1104" height="604" rx="14" fill="#fff" filter="url(#card)"/>
@@ -384,11 +384,12 @@
 <text x="290" y="1189" class="t" fill="#1A1B2E" font-size="14" font-weight="500">薇斯纳</text>
 
 <!-- 相关文档 -->
-<text x="48" y="1244" class="t" fill="#8B8DA0" font-size="12">相关文档：</text>
+<text x="48" y="1388" class="t" fill="#8B8DA0" font-size="12">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh4imrrhzdzi" target="_blank">
-  <text x="48" y="1262" class="t" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：经典模式角色编号一览</text>
+  <text x="48" y="1406" class="t" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：经典模式角色编号一览</text>
 </a>
 
 <!-- 页脚 -->
-<text x="600" y="1284" class="t" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.1</text>
+<text x="600" y="1428" class="t" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
+<g font-family="Noto Sans CJK SC, sans-serif"><rect x="48" y="1244" width="1104" height="114" rx="14" fill="#fff"/><text x="72" y="1278" font-size="18" fill="#2D6BE4">7.2 更新</text><text x="72" y="1312" font-size="14" fill="#4A4B65">新增角色：米提亚（10000136）、瓦列里（10000137）。经典模式可用角色总数为 126。</text></g>
 </svg>

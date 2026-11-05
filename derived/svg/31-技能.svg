@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 4040">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 4408">
 <defs>
   <linearGradient id="topGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#2D6BE4"/>
@@ -12,10 +12,10 @@
   </filter>
 </defs>
 <style>
-  text { font-family: 'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
+  text { font-family: 'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif; }
 </style>
 
-<rect width="1200" height="4040" fill="#F9F7F2"/>
+<rect width="1200" height="4408" fill="#F9F7F2"/>
 <rect width="1200" height="6" fill="url(#topGrad)"/>
 
 <!-- Title Card -->
@@ -44,7 +44,7 @@
 
 <rect x="48" y="384" width="1104" height="220" rx="14" fill="#fff" filter="url(#card)"/>
 <text x="72" y="422" fill="#4A4B65" font-size="14">配置ID：技能的唯一标识，在节点图修改对应技能配置时引用该ID</text>
-<text x="72" y="444" fill="#1A1B2E" font-size="14" font-weight="500">技能类型分为以下五种：</text>
+<text x="72" y="444" fill="#1A1B2E" font-size="14" font-weight="500">技能类型共七种（新增两种见 7.2 补充）：</text>
 <text x="72" y="466" font-size="14"><tspan fill="#1A1B2E" font-weight="500">瞬发技能</tspan><tspan fill="#4A4B65">：无法编辑动画，在接受输入的瞬间立即触发逻辑</tspan></text>
 <text x="72" y="488" font-size="14"><tspan fill="#1A1B2E" font-weight="500">普通技能</tspan><tspan fill="#4A4B65">：基础技能类型，支持完整时间轴配置</tspan></text>
 <text x="72" y="510" font-size="14"><tspan fill="#1A1B2E" font-weight="500">长按技能</tspan><tspan fill="#4A4B65">：支持引用循环动画，玩家长按输入维持循环播放</tspan></text>
@@ -279,7 +279,7 @@
 
 <text x="72" y="3404" fill="#1A1B2E" font-size="14" font-weight="500">三种修改方式</text>
 <text x="72" y="3426" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能配置引用</tspan><tspan fill="#4A4B65">：在技能编辑中关联预先配置的属性组，初始值为全局默认值</tspan></text>
-<text x="72" y="3448" font-size="14"><tspan fill="#1A1B2E" font-weight="500">单位状态修改</tspan><tspan fill="#4A4B65">：通过单位状态的调整施法速度/冷却缩减运行时动态修改</tspan></text>
+<text x="72" y="3448" font-size="14"><tspan fill="#1A1B2E" font-weight="500">单位状态修改</tspan><tspan fill="#4A4B65">：通过单位状态的调整动画速度/调整冷却时间运行时动态修改</tspan></text>
 <text x="72" y="3470" font-size="14"><tspan fill="#1A1B2E" font-weight="500">技能轨道修改</tspan><tspan fill="#4A4B65">：动画编辑的状态轨道添加"调整动画速度"事件，只支持固定参数</tspan></text>
 
 <rect x="72" y="3492" width="1056" height="36" rx="8" fill="#E8EEFB"/>
@@ -310,28 +310,29 @@
 <!-- ============================================================ -->
 <!-- Sources -->
 <!-- ============================================================ -->
-<text x="48" y="3870" fill="#8B8DA0" font-size="12">相关文档：</text>
+<text x="48" y="4238" fill="#8B8DA0" font-size="12">相关文档：</text>
 
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mho81frl33im" target="_blank">
-  <text x="48" y="3890" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能</text>
+  <text x="48" y="4258" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能</text>
 </a>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh6ate95agb6" target="_blank">
-  <text x="48" y="3910" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能资源</text>
+  <text x="48" y="4278" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能资源</text>
 </a>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh57xz9afh7e" target="_blank">
-  <text x="48" y="3930" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能动画</text>
+  <text x="48" y="4298" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能动画</text>
 </a>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhhzqw98264i" target="_blank">
-  <text x="48" y="3950" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能变量</text>
+  <text x="48" y="4318" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能变量</text>
 </a>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh0inr0jak34" target="_blank">
-  <text x="48" y="3970" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能属性组</text>
+  <text x="48" y="4338" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：技能属性组</text>
 </a>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhapp3r8gkdq" target="_blank">
-  <text x="48" y="3990" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：关键行为</text>
+  <text x="48" y="4358" fill="#2D6BE4" font-size="12" text-decoration="underline">奇匠学院文档：关键行为</text>
 </a>
 
 <!-- Footer -->
-<text x="600" y="4016" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="4384" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2</text>
 
+<g font-family="Noto Sans CJK SC, sans-serif"><rect x="48" y="3870" width="1104" height="338" rx="14" fill="#fff"/><text x="72" y="3904" font-size="18" fill="#2D6BE4">7.2 更新</text><text x="72" y="3938" font-size="14" fill="#4A4B65">技能类型共七种：瞬发、普通、长按、连段、瞄准、空中、套组；套组当前仅支持蹲伏。</text><text x="72" y="3966" font-size="14" fill="#4A4B65">空中技能在满足高度条件时替换对应槽位；无限循环槽位在有效的落地分支判定后跳转。</text><text x="72" y="3994" font-size="14" fill="#4A4B65">新增动画裁切、时间轴吸附和循环节；长按、普通和空中技能支持自适应槽位及槽位增删。</text><text x="72" y="4022" font-size="14" fill="#4A4B65">长按技能的每个分支可配置多段动画，按顺序播放。</text><text x="72" y="4050" font-size="14" fill="#4A4B65">技能添加后生成唯一整数实例 ID；同一配置可有多个实例，槽位按后进先出的栈显示前台技能。</text><text x="72" y="4078" font-size="14" fill="#4A4B65">空中和地面技能独立存储；解绑不会销毁实例，次数保留且冷却在后台继续计算。</text><text x="72" y="4106" font-size="14" fill="#4A4B65">未绑定槽位的实例只能通过执行节点尝试触发；可通过服务端节点绑定、解绑技能。</text><text x="72" y="4134" font-size="14" fill="#4A4B65">清除当前速度不影响持续施加的力；新增受击、空中受击、游泳、攀爬状态的可用性配置。</text><text x="72" y="4162" font-size="14" fill="#4A4B65">游泳时可用仅支持瞬发技能；普通攻击槽位中的技能无法启用攀爬时可用。</text></g>
 </svg>

@@ -6,16 +6,20 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhe1ixri46ta
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:35:22.424Z
+crawledAt: 2026-11-04T15:57:50.752Z
 ---
 
 为了构建对抗性玩法而将实体划分为不同的群体，归属于同一群体内的玩家有着相同的游戏目标，这个群体被称为_阵营_
 
 在组队竞技类型的游戏中，阵营可以作为结算目标或得分的判断依据
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/c2d800ad-0a54-4b1e-882c-60d62122ef19.png)
+
 # 一、阵营的全局定义
 
 在_基础信息_上选择阵营之前，需要先在关卡设置的阵营页签定义玩法所需要的阵营
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/05830fd6-369e-4915-8099-1ed165f08e83.png)
 
 _阵营名称_：该阵营的命名
 
@@ -29,25 +33,39 @@ _包含的实体_：是物件和造物的列表，代表初始有哪些物件和
 
 任意两个阵营之间都一定存在_敌对_和_友善_两种关系，可以通过关卡设置中的_阵营关系_进行配置
 
-需要注意的是，阵营关系是单向的，阵营1对于阵营2敌对，但阵营2不一定对阵营1敌对。可能存在阵营2对阵营1友善的情况，此时仅阵营1的实体可以攻击阵营2，阵营2的实体无法攻击阵营1
+需要注意的是，阵营关系是单向的，阵营1对阵营2敌对，但阵营2不一定对阵营1敌对。可能存在阵营2对阵营1友善的情况，此时仅阵营1的实体可以攻击阵营2，阵营2的实体无法攻击阵营1
 
 以下图为例：初始玩家阵营与初始物件阵营和初始造物阵营均为敌对，因此可以直接攻击阵营为这两个阵营的实体（角色、造物或物件）
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/948b1acc-a9bd-4ee0-9a87-3c293c8bb101.png)
+
 其他系统中，阵营相关的配置均以关卡配置的阵营关系生效。例如下图中的能力单元会正确命中敌对阵营的目标
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/64002411-964a-4eac-8909-86a4e8f8113c.png)
 
 # 三、默认阵营配置
 
 每个阵营均可以配置一个_默认阵营对象_。当该对象类型的实体（例如图中的玩家和物件）创建时，如果是默认阵营（阵营的值为0），那么会被分配至该实体类型的默认阵营
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/55c28ee3-32c8-41de-86ce-5effe168d93d.png)
+
 以上图为例，该石质球元件在创建时，如果没有对其实体覆写阵营，那么会以【初始物件阵营】进行创建（因为物件的默认阵营是初始物件阵营）
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/e8457f29-3c1a-40dc-93ca-8a799c93a7d1.png)
 
 # 四、使用节点图控制玩家阵营
 
 实体阵营变化事件
 
-修改实体阵营
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/06707d95-4e9a-48c6-b1cf-32a3faa9e256.png)
+
+设置实体阵营
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/90a8ed94-a008-4399-bf54-0e192058dc36.png)
 
 查询实体阵营
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/54a03f75-f165-46a7-9ba6-8d1ad1324a26.png)
 
 # 五、经典模式中的阵营
 
@@ -77,5 +95,7 @@ _包含的实体_：是物件和造物的列表，代表初始有哪些物件和
 | **物件阵营3** | 友善 | 敌对 | 友善 | 敌对 | 友善 |
 
 各阵营之间的敌对关系可用下述有向图表示
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhe1ixri46ta/543a1719-ec4a-4000-8a82-d494fc2c04b5.png)
 
 物件阵营3通常用于与玩家阵营友善且可以辅助角色攻击造物的物件上。而物件阵营1用于常规物件，如果需要与物件阵营1敌对的物件，一般将物件阵营2用于这类物件。

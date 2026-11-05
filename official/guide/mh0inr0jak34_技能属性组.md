@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh0inr0jak34
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-04-08T02:17:36.874Z
+crawledAt: 2026-11-04T15:45:31.666Z
 ---
 
 # 一、什么是技能属性组
@@ -17,7 +17,11 @@ _技能属性组_可以被技能关联，并通过修改属性组的值来动态
 
 在系统菜单中点击【技能资源管理】，打开技能资源管理界面
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh0inr0jak34/171568c4-5d9f-4d9e-93bc-62c7478df95a.png)
+
 在打开的界面中选择【技能属性组】页签即可编辑全局可用的属性组配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh0inr0jak34/3fa7ff49-6638-496e-90b7-d1df939fe769.png)
 
 _属性组命名_：一个属性组配置的名称
 
@@ -61,12 +65,20 @@ _层数_：单位状态的总层数
 
 通过下拉框选中预先配置的技能属性组，将技能和预先配置的属性组进行关联，属性组的初始值即为全局定义的默认值
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh0inr0jak34/2da9b132-c6ee-4e0f-a2b7-c13de1e03ea9.png)
+
 ## 2.单位状态修改
 
-通过单位状态【调整施法速度】和【调整冷却缩减】，奇匠可以在游戏运行时动态的修改某个技能属性组的数值
+通过单位状态【调整动画速度】和【调整冷却时间】，奇匠可以在游戏运行时动态的修改某个技能属性组的数值
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh0inr0jak34/8409bb7e-c189-4e96-a513-4921a020d95c.png)
 
 ## 3.技能轨道修改
 
 通过技能动画编辑中的【状态轨道】添加“调整动画速度”事件，可以在技能释放的过程中对部分动画阶段实现动画速度修改。通过该方式修改只支持固定参数，通常用于优化动画的表现
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh0inr0jak34/6eb5bc2c-1953-44ee-a5b5-50080a98e904.png)
+
 # 五、节点图相关
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh0inr0jak34/f7299744-88cf-4306-9287-9175f2e50ea8.png)
