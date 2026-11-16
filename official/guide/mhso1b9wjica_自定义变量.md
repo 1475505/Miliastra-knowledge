@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhso1b9wjica
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:29:58.243Z
+crawledAt: 2026-11-15T15:22:36.485Z
 ---
 
 # 一、自定义变量的定义
@@ -38,6 +38,8 @@ crawledAt: 2026-01-16T03:29:58.243Z
 数据类型的说明见[基础概念](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhk23ora1wom)-节点图中的数据类型
 
 特别地，在自定义变量组件中，整数无法取到-2147483648，即取值范围为-2147483647~2147483647，若填入数据超出该范围，则会返回上一次的合法输入值
+
+浮点数类型的自定义变量的设置精度为0.0001
 
 ## 2.自定义变量的生命周期与作用域
 
@@ -99,6 +101,8 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 自定义变量的默认值：当实体创建时，该自定义变量会以这个默认值创建
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/4adda35d-f29a-43c1-8697-d8b2a1fd7aa2.png)
+
 # 三、自定义变量的编辑入口
 
 **步骤1**：在实体或元件的组件页签找到或新增自定义变量组件
@@ -111,13 +115,19 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 如果不存在，可以通过添加通用组件按钮新增一个自定义变量组件
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/3a84a7f0-05a0-468d-97f6-5fa699accf0a.png)
+
 在组件页面可以看到当前已定义的自定义变量数
 
 点击【详细编辑】进入自定义变量组件详细编辑页面
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/fdfabc69-f1a8-4099-990b-a69667e6e038.png)
+
 **步骤2**：在自定义变量组件详细编辑页面新增或修改自定义变量
 
 进入详细编辑后页面如下：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/7a0d1adc-f658-4979-9117-3f4086de5300.png)
 
 【已定义自定义变量】：可以查看和修改当前已定义的自定义变量，修改它们的命名、类型和默认值
 
@@ -127,23 +137,37 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 如果将组件中的【新增变量1】修改名字或类型，会导致节点图中的【设置自定义变量】节点因为无法找到对应变量而无法执行
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/b863724b-7582-4199-9df9-2a85b1949165.png)
+
 【新增自定义变量】：可以新增一个或若干个执行类型的自定义变量
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/03ac9809-defd-4ab2-8024-c1a341d46878.png)
 
 【其他功能】：关卡变量总览、筛选以及其他功能
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/0eadc98c-17a3-44f2-a45b-46041cd53e74.png)
+
 关卡自定义变量总览：可以查看当前关卡内所有实体上定义的自定义变量
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/e6363e65-6cf5-4597-829a-485701de03b0.png)
+
 筛选：可以按照类型筛选已定义的自定义变量
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/964cd37e-28d9-4c96-8c92-efda816b9325.png)
 
 其他功能-批量删除：开启后可以批量删除自定义变量
 
 注意，与修改相同的是，删除组件中定义的自定义变量也可能会导致节点图中自定义变量相关节点无法执行
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/e0072cb8-b52b-4751-a6ed-d0c85b70491a.png)
 
 # 四、在节点图中使用自定义变量
 
 ## 1.在服务端节点图中使用自定义变量
 
 **设置自定义变量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/9d08b1c4-d42f-406c-8dcb-584982d2a3c1.png)
 
 **节点类型**：执行
 
@@ -155,7 +179,7 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 
 
-要求目标实体上存在自定义变量组件，且有对应名字的变量值，否则节点无法正常执行
+要求目标实体上存在自定义变量组件，无论是否有对应变量名的变量，该节点都可正常执行，无对应变量名时则会新建变量
 
 
 
@@ -172,6 +196,8 @@ crawledAt: 2026-01-16T03:29:58.243Z
 | 入参 | 是否触发事件 | 布尔值 | 当该值为【是】时，会触发【自定义变量变化时】事件 |
 
 **获取自定义变量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/77417114-fb99-4546-925b-1a6c29a1bb31.png)
 
 **节点类型**：查询
 
@@ -200,6 +226,8 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 **自定义变量变化时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/5b7c1e18-d370-4b51-87b6-8f6e1533d78d.png)
+
 **节点类型**：事件
 
 **节点功能**
@@ -218,11 +246,15 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 所有自定义变量的变化都会推送该事件，因此推荐使用类似下图的做法对需要监听的变量名进行筛选
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/02627a10-f5d8-45df-9ee2-b76b038b16a7.png)
+
 需要特别注意的是，所有容器数据类型的自定义变量变化事件中不会包含该变化的_变化前值_和_变化后值_，需要额外使用获取自定义变量节点来获取变化后的值
 
 容器数据类型包括：所有列表数据类型、所有字典数据类型以及所有结构体数据类型
 
 如下图所示
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/d81fba8c-87a1-4015-99d1-ce397397d456.png)
 
 **节点参数**
 
@@ -238,6 +270,8 @@ crawledAt: 2026-01-16T03:29:58.243Z
 ## 2.在本地节点图中使用自定义变量
 
 **获取自定义变量**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/627e692d-56e6-4aaa-97ae-4ca371c78797.png)
 
 **节点类型**：查询
 
@@ -268,11 +302,15 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 见下图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/62c459e6-d90d-47db-b40b-f4d82c7993c8.png)
+
 在执行完上述流程后，【测试列表】这个自定义变量的值会变为{1，3，5，7}
 
 我们可以发现，【对列表插入值】、【列表排序】这两个节点在实际上改变了自定义变量中的值。
 
 这种方式我们称为【引用传值】。即当【获取自定义变量】节点获取的变量值类型为列表时，输出的是自定义变量中存储的列表的引用（而不是值），后续对其进行修改都会导致自定义变量内存储的列表的修改
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/8416a336-9433-48dc-bb63-1764a4def2c4.png)
 
 另外需要注意的是，这里的修改不会导致【自定义变量变化时】事件触发（该事件只有【设置自定义变量】节点可以触发）
 
@@ -282,8 +320,12 @@ crawledAt: 2026-01-16T03:29:58.243Z
 
 这就是典型的【值传递】，即【获取自定义变量】的出参输出的是自定义变量中存储的变量的值，因此修改这个值不会影响到组件内存储的自定义变量自身的值
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/b387d7e0-b784-4f62-9b36-cebc6c855c1a.png)
+
 总而言之，节点图中 **对容器类型自定义变量的操作，会导致自定义变量的值发生变化，而非容器类型的操作则不会**
 
 并且，容器数据类型通过【引用传值】的方法修改了自定义变量的值时，不会触发【自定义变量变化时】事件，需要通过【获取自定义变量】节点来获取变化后的值
 
 只有通过【设置自定义变量】节点才可以触发容器数据类型【自定义变量变化时】事件，并且_变化前值_和_变化后值_出参 **是没有值的**，需要通过_获取自定义变量_节点来获取变化后的值
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhso1b9wjica/299f497c-eb2b-4495-94f1-51e175eae1b8.png)

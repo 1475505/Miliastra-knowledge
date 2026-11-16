@@ -259,7 +259,7 @@
 
 <rect x="72" y="2330" width="160" height="24" rx="12" fill="#E8EEFB"/>
 <text x="152" y="2347" fill="#2D6BE4" font-size="11" text-anchor="middle" font-weight="500">状态轨道</text>
-<text x="244" y="2347" fill="#4A4B65" font-size="12">持续性表现（如播放特效），可配置开始/结束时点</text>
+<text x="244" y="2347" fill="#4A4B65" font-size="12">持续性表现，可配置起止时点；“设置造物朝向”事件重叠时，重叠的后续事件不执行</text>
 
 <!-- 7.1 浮空态 -->
 <text x="48" y="2390" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" fill="#2D6BE4" font-size="18">7.1 · 浮空状态与战术</text>

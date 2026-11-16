@@ -6,31 +6,30 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhgf8i0hvzag
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-07-31T00:19:48.448Z
+crawledAt: 2026-11-16T06:15:07.631Z
 ---
 
 # **前言**
 
 ## 课程说明：
 
-**课程内容：** 奇域资产中心的了解与使用。
+**课程内容：**奇域资产中心的了解与使用。
 
-**学习目标：** 了解奇域资产中心的进入方式，了解其作用，并学会上传下载与收藏资产/关卡，并能将资产/关卡文件导入到编辑器进行使用。
+**学习目标：**了解奇域资产中心的进入方式，了解其作用，并学会上传下载与收藏资产/关卡，并能将资产/关卡文件导入到编辑器进行使用。
 
 ## **相关信息：**
 
 **推荐学习顺序：**【当前课程】→【综合指南】（按需查阅）
 
-_\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息，根据需要查询_ **_【综合指南】_** _即可_
+_\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息，根据需要查询_**_【综合指南】_**_即可_
 
-**前置课程：** 该课程与以下前置课程所讲述的功能知识点相关 _（建议首次使用时，优先学习_ **_【前置课程】_**_，学习体验更流畅）_
+**前置课程：**该课程与以下前置课程所讲述的功能知识点相关_（建议首次使用时，优先学习_**_【前置课程】_**_，学习体验更流畅）_
 
 > [1.4存档导入与导出](https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhjuwpiubrh0)
 
-**关联知识点：** 课程中将涉及以下基础概念 _（可优先根据该课程学习，如在学习过程中遇到概念不清等问题或想要了解更多相关信息，再根据需要查阅_ **_【综合指南】_** _相关章节）_
+**关联知识点：**课程中将涉及以下基础概念_（可优先根据该课程学习，如在学习过程中遇到概念不清等问题或想要了解更多相关信息，再根据需要查阅_**_【综合指南】_**_相关章节）_
 
-> [资产导入导出](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhxbd59urbfu)
->
+> [资产导入导出](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhxbd59urbfu)<br>
 > [奇域资产中心](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhf66q9jc4uq)
 
 * * *
@@ -41,7 +40,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ### **通过局内编辑器进入**
 
-局内编辑器点击左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/3302f1b1-b8c8-4941-bdf0-df2ce1d6cf6b.png)（或者直接ESC）>>>呼出左侧面板-ESC菜单栏，点击左下角的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/e56e12bf-61e0-4e28-9558-a35c6d8dc54b.png)>>>即可跳转到 **奇域资产中心的网页。**
+局内编辑器点击左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/3302f1b1-b8c8-4941-bdf0-df2ce1d6cf6b.png)（或者直接ESC）\>>>呼出左侧面板-ESC菜单栏，点击左下角的![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/e56e12bf-61e0-4e28-9558-a35c6d8dc54b.png)\>>>即可跳转到**奇域资产中心的网页。**
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/2db8917c-bb34-4b1e-be6b-115537ba359c.png)
 
@@ -53,7 +52,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 通过上方搜索框，输入你想要的关键词或者作者名，搜索到你想要的关卡。
 
-![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/9229cc11-e72c-4bed-b699-eca94d0726c1.png)
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/9229cc11-e72c-4bed-b699-eca94d0726c1.png)<br>
 
 **2\. 筛选排序资产**
 
@@ -67,7 +66,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/ca8cadc3-cc44-48b4-88ea-564625450cd5.gif)
 
-### **2.下载资** 产
+### **2.下载资**产
 
 **1\. 预览界面下载**
 
@@ -81,7 +80,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/aec4ad9b-64c1-49a0-bb2b-2b0e23cf12c6.gif)
 
-### **3.导入资** 产
+### **3.导入资**产
 
 **1\. 进入【局内编辑器】**
 
@@ -113,23 +112,21 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/5618b698-e340-4db3-8cb9-7d9ea7d88669.png)
 
-**6\. 选择转存的页签**
-
+**6\. 选择转存的页签**<br>
 选择转存的页签，可以放到默认页签内，也可以选择创建一个导入资产的页签。
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/250b13a4-9ccf-46cd-9e17-56305adc1adc.png)
 
-**7\. 在局内编辑器内查看导入资产**
-
+**7\. 在局内编辑器内查看导入资产**<br>
 即可在对应位置查看到你导入的资产
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/941a0be1-34b9-45f4-bdff-0f891ac27d00.png)
 
-### **4.导入关卡/存** 档
+### **4.导入关卡/存**档
 
 **1\. 进入存档设置**
 
-局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/9cf1024d-03fd-4629-bd46-049ed922fa10.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/5d432f81-d550-40f5-868b-d26570968159.png)>>>即可打开
+局内编辑器左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/9cf1024d-03fd-4629-bd46-049ed922fa10.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/5d432f81-d550-40f5-868b-d26570968159.png)\>>>即可打开
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/c3f3c0c3-44ea-45ba-83b6-b6b7b15a563c.png)
 
@@ -141,7 +138,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ## **三、如何导出并上传资产**
 
-### **1.编辑器内导出资** 产
+### **1.编辑器内导出资**产
 
 了解如何导出各类的资产文件
 
@@ -157,7 +154,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/ff9f0a95-72e9-420c-8020-a8259f6899bc.gif)
 
-### **2.上传资** 产
+### **2.上传资**产
 
 **1\. 点击页面右上角的上传资产按钮。**![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/c33a6683-3a2c-435f-8358-b23ded732fba.png)
 
@@ -165,8 +162,7 @@ _\*\*如在课程中遇到概念不清等问题或想要了解更多相关信息
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/4f429146-0fb5-4382-9fd7-b377841adf34.png)
 
-**3\. 点击交互上传资产，并选择需要上传的资产文件。**
-
+**3\. 点击交互上传资产，并选择需要上传的资产文件。**<br>
 _\*\*请注意使用正确的资产或关卡存档的文件格式 gia/gil。_
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/0e01fa68-50d1-4699-a3f1-d512dc01605d.png)
@@ -179,7 +175,7 @@ _\*\*请注意使用正确的资产或关卡存档的文件格式 gia/gil。_
 
 **5\. 填入资产信息**
 
-所有带 **\\*** 的信息都是必填项，请务必保证没有填写遗漏。
+所有带 **\*** 的信息都是必填项，请务必保证没有填写遗漏。
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/23127feb-fca8-433d-918f-513501028044.png)
 
@@ -189,7 +185,7 @@ _\*\*请注意使用正确的资产或关卡存档的文件格式 gia/gil。_
 
 ![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhgf8i0hvzag/6038de91-70ac-4be2-bc96-33ac5eb4430f.png)
 
-### **3.** 资产状态管理
+### **3.**资产状态管理
 
 **1\. 进入个人主页**
 

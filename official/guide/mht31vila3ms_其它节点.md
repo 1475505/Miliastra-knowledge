@@ -6,16 +6,18 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mht31vila3ms
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-01-16T03:21:07.327Z
+crawledAt: 2026-11-15T15:15:22.750Z
 ---
 
 ## **1.按顺序唯一执行**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mht31vila3ms/7fdf8592-0267-4ad6-9c42-1060c34871f0.png)
 
 **节点功能**
 
 造物状态节点图的开始事件
 
-造物状态节点图以【 **按顺序唯一执行】** 节点起始，每个出引角连接执行节点，来做到按需执行不同行为，若前置行为的进入条件不满足，优先进入_失败执行_，若依然不满足条件，则会尝试执行下一引脚的行为
+造物状态节点图以【 **按顺序唯一执行】** 节点起始，每个出引脚连接执行节点，来做到按需执行不同行为，若前置行为的进入条件不满足，优先进入_失败执行_，若依然不满足条件，则会尝试执行下一引脚的行为
 
 造物状态节点图会持续执行，若前置顺序的行为满足条件，复杂造物会立刻切换执行行为，执行前置顺序的行为
 
@@ -24,6 +26,8 @@ crawledAt: 2026-01-16T03:21:07.327Z
 举例：运行时从1号分支开始优先判断A节点，若A节点满足条件执行成功则不会执行后续B和C节点，如果不满足条件则继续判断B节点。若A、B节点均不满足条件则从2号分支开始判断C节点是否满足条件
 
 若造物正在执行C节点内的行为，但A节点的执行条件满足了，则复杂造物会立即切换为执行A节点内的行为
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mht31vila3ms/5c601b78-50b0-4b5d-be13-2465a23c774e.png)
 
 **节点参数**
 

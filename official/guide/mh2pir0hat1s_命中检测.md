@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh2pir0hat1s
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2026-02-25T05:21:29.038Z
+crawledAt: 2026-11-15T15:15:56.271Z
 ---
 
 # 一、命中检测组件的功能
@@ -23,6 +23,8 @@ crawledAt: 2026-02-25T05:21:29.038Z
 
 ## 1.添加组件
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/14c3285a-42d0-421d-bdf7-4e7ce9d35a0c.png)
+
 (1)在实体/元件编辑界面中，打开组件编辑页签
 
 (2)点击下方的“添加通用组件”，选择并点击“命中检测”，成功添加
@@ -30,6 +32,8 @@ crawledAt: 2026-02-25T05:21:29.038Z
 (3)点击“详细编辑”，展开编辑页
 
 ## 2.命中规则的编辑
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/dd7fade3-fafe-45a5-98ef-53873b8ba99e.png)
 
 各个参数功能如下：
 
@@ -43,7 +47,7 @@ crawledAt: 2026-02-25T05:21:29.038Z
 | _连续碰撞检测类型_ | 速度超过阈值：当投射物的速度超过阈值时才启用CCD，有助于优化性能<br>持续生效：始终生效，对性能消耗较高 |
 | _速度阈值_ | 仅CCD类型为速度超过阈值时有效，投射物的速度高于该值时才会开启CCD，有助于优化性能 |
 | _检测半径_ | 连续碰撞检测通过在前后帧位置之间生成一个一定半径的圆柱体辅助碰撞检测实现，检测半径决定了这个圆柱体的半径，推荐与投射物的实际半径保持一致。当值为0时，使用射线进行检测 |
-| _过滤器节点图_ | 可引用本地过滤器节点图，用于判断当次命中是否生效。两种过滤器的具体区分和使用请看[节点图](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhjwjrr5n73i)<br>若筛选和本地过滤器一同使用，需要同时满足，才算做命中生效<br>本地过滤器会在每次命中发生时，执行一次<br>对应本地过滤器节点图中的基础节点，进行说明<br><br>获取自身实体<br>输出参数为投射物实体<br><br>获取目标实体<br>输出参数为在命中的实体<br><br>获取当前角色<br>输出参数为本地角色<br><br>本地过滤器举例说明 |
+| _过滤器节点图_ | 可引用本地过滤器节点图，用于判断当次命中是否生效。两种过滤器的具体区分和使用请看[节点图](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhjwjrr5n73i)<br>若筛选和本地过滤器一同使用，需要同时满足，才算做命中生效<br>本地过滤器会在每次命中发生时，执行一次<br>对应本地过滤器节点图中的基础节点，进行说明<br><br>获取自身实体<br>输出参数为投射物实体<br><br>获取目标实体<br>输出参数为命中的实体<br><br>获取当前角色<br>输出参数为本地角色<br><br>本地过滤器举例说明<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/840d9173-6c2d-47ba-ae60-e2182dceb5b8.png) |
 | _启用下方筛选_ | 开启后，启用下方的筛选参数。未开启时则视为没有进行筛选，会命中所有可以通过过滤器的实体 |
 | _阵营筛选_ | 无：不命中任何阵营的实体<br>敌对阵营：只命中与投射物敌对的阵营<br>友善阵营：只命中与投射物友善的阵营，不包含自身<br>友善阵营包含自身实体：只命中与投射物友善的阵营，包含自身<br>自身阵营：只命中投射物所在的阵营<br>所有阵营：命中所有阵营，包含自身<br>所有阵营排除自身实体：命中所有阵营，不包含自身 |
 | _实体类型筛选_ | 可以复选的选项，包括：物件、角色和造物 |
@@ -52,7 +56,15 @@ crawledAt: 2026-02-25T05:21:29.038Z
 
 ## 3.命中区域的编辑
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/be2e6145-2dc0-481c-aa9f-32fec83466d3.png)
+
 点击【添加触发区】新增一个命中区域配置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/38cec31c-23c0-4d7b-b351-bf46784525ba.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/e62e7f41-6e05-4258-a6af-677fb37c24a0.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/75632eb2-bdbb-4155-b262-07eeef1d64c4.png)
 
 命中检测区域与[碰撞触发器](https://act.mihoyo.com/ys/ugc/tutorial//detail/mh8w69rzuc3i)的配置类似，检测区域可以配置多个，当任意一个检测区域碰撞到实体或场景时，都会触发命中检测事件
 
@@ -73,13 +85,15 @@ crawledAt: 2026-02-25T05:21:29.038Z
 
 **命中检测触发时**
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh2pir0hat1s/45dc9ad3-2261-4055-9d2c-36dbb50b9d45.png)
+
 **节点类型**：事件
 
 **节点功能**
 
 
 
-当命中检测组件碰撞到实体或场景时，会向组件拥有者的节点图推送【投射物命中时】事件
+当命中检测组件碰撞到实体或场景时，会向组件拥有者的节点图推送【命中检测触发时】事件
 
 
 

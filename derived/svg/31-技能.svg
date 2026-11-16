@@ -194,7 +194,7 @@
 <text x="72" y="2340" font-size="14"><tspan fill="#1A1B2E" font-weight="500">引用信息</tspan><tspan fill="#4A4B65">：显示该技能资源被哪些技能引用</tspan></text>
 
 <text x="72" y="2372" fill="#1A1B2E" font-size="14" font-weight="500">增长类型（三种）</text>
-<text x="72" y="2394" font-size="14"><tspan fill="#1A1B2E" font-weight="500">无条件增长</tspan><tspan fill="#4A4B65">：超过可获取最大值时无条件增长</tspan></text>
+<text x="72" y="2394" font-size="14"><tspan fill="#1A1B2E" font-weight="500">无条件增长</tspan><tspan fill="#4A4B65">：未超过可获取最大值时无条件增长</tspan></text>
 <text x="72" y="2416" font-size="14"><tspan fill="#1A1B2E" font-weight="500">跟随技能（保留值）</tspan><tspan fill="#4A4B65">：仅当玩家有需要该资源的技能时才可改变，无对应技能时保留当前值</tspan></text>
 <text x="72" y="2438" font-size="14"><tspan fill="#1A1B2E" font-weight="500">跟随技能（不保留值）</tspan><tspan fill="#4A4B65">：规则同上，但无对应技能时清零</tspan></text>
 

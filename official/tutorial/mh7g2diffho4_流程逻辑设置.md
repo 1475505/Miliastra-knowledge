@@ -6,30 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mh7g2diffho4
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T20:03:31.068Z
+crawledAt: 2026-11-16T06:16:49.189Z
 ---
 
-不支持的音频/视频格式请试试刷新
-
-重播
-
-00:00/00:00
-
-_2X_ 快进中
-
-播放
-
-00:00/00:00直播
-
-进入全屏
-
-
-60
-
-1x
-
-- 2x
-- 1.5x
-- 1x
-- 0.75x
-- 0.5x
+[课程视频](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mh7g2diffho4/02aa5138-5dee-4dcd-8b6f-889915e8fe21.mp4)

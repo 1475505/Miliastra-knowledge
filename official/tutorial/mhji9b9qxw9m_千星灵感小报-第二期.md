@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhji9b9qxw9m
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-07-01T08:31:19.962Z
+crawledAt: 2026-11-16T06:14:24.247Z
 ---
 
 各位奇匠好~！为了辅助各位奇匠更好地创作新的奇域，新一期《千星灵感小报》来了~！

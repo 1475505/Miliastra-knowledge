@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhv9m60wv7ew
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2026-02-25T05:29:41.996Z
+crawledAt: 2026-11-16T06:15:32.898Z
 ---
 
 不支持的音频/视频格式请试试刷新

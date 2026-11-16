@@ -53,11 +53,11 @@
 
 <text x="162" y="438" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">随时间自动切换</text>
 <text x="440" y="438" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">启用后太阳月亮、光照随时间变换</text>
-<text x="820" y="438" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关闭后可设固定时间点</text>
+<text x="820" y="438" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关闭后保持当前配置的固定值</text>
 <line x1="72" y1="446" x2="1128" y2="446" stroke="#E8E4DA"/>
 
 <text x="162" y="470" fill="#1A1B2E" font-size="14" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">设定时间点</text>
-<text x="440" y="470" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关闭自动切换后，固定场景到特定时间</text>
+<text x="440" y="470" fill="#4A4B65" font-size="14" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">当前背景设置保存的时间点</text>
 <text x="820" y="470" fill="#8B8DA0" font-size="13" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">如00:00为夜晚</text>
 <line x1="72" y1="478" x2="1128" y2="478" stroke="#E8E4DA"/>
 
@@ -91,8 +91,8 @@
 <rect x="776" y="616" width="4" height="130" rx="2" fill="#2D6BE4"/>
 <rect x="800" y="636" width="64" height="24" rx="12" fill="#E8EEFB"/>
 <text x="832" y="653" fill="#2D6BE4" font-size="12" text-anchor="middle" font-weight="500" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">云</text>
-<text x="800" y="686" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">开启后可设置云强度</text>
-<text x="800" y="710" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可分别开关高/中/低层云</text>
+<text x="800" y="686" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">可设置各类云强度与受光颜色</text>
+<text x="800" y="710" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">支持高/中/低云和薄云</text>
 <text x="800" y="734" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">类型：全部 / 高 / 中 / 低</text>
 
 <!-- Section 4: 光源配置 -->
@@ -185,7 +185,7 @@
 
 <rect x="48" y="1474" width="1104" height="72" rx="14" fill="#fff" filter="url(#card)"/>
 <rect x="48" y="1474" width="4" height="72" rx="2" fill="#2D6BE4"/>
-<text x="72" y="1504" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关卡设置中可定义起始时间点和时间流逝速度，也可通过节点调整。</text>
+<text x="72" y="1504" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">关卡设置控制实际运行时间；环境配置中的流逝速度只用于预览。</text>
 <text x="72" y="1528" fill="#4A4B65" font-size="14" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">环境时间是全局唯一的运行值，仅有勾选「随时间自动切换」的环境配置生效时才可见时间变化效果。</text>
 
 <!-- Section 8: Tutorial flow - night scene -->
@@ -218,7 +218,7 @@
 </a>
 
 <!-- Footer -->
-<text x="600" y="1812" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="1812" fill="#8B8DA0" font-size="11" text-anchor="middle" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">由 AI 基于官方奇匠学院文档生成。版本：7.2（2026-11-16 校订）</text>
 
 <!-- Bottom color band -->
 </svg>

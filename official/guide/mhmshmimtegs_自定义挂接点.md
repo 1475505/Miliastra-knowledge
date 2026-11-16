@@ -6,14 +6,14 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhmshmimtegs
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:42:36.457Z
+crawledAt: 2026-11-15T15:23:08.095Z
 ---
 
 # 一、自定义挂接点组件的功能
 
 _挂接点_是指在_实体_的骨骼或结构上指定的特定位置，用于附加其他_单位_或_特效_。
 
-自定义挂接点组件允许创作者(奇匠)自由的选择一个位置作为该单位的挂接点
+自定义挂接点组件允许创作者(奇匠)自由地选择一个位置作为该单位的挂接点
 
 此类挂接点在添加后，对于中心原点的偏移是固定的，不会随实体的骨骼运动而改变相对偏移
 
@@ -22,6 +22,8 @@ _挂接点_是指在_实体_的骨骼或结构上指定的特定位置，用于�
 # 二、自定义挂接点组件的编辑
 
 ## **1.添加** 单位挂接点组件
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmshmimtegs/12a26d45-f31b-4e8b-adaa-0a3426255517.png)
 
 (1)在实体/元件编辑界面中，打开组件编辑页签
 
@@ -33,7 +35,11 @@ _挂接点_是指在_实体_的骨骼或结构上指定的特定位置，用于�
 
 在自定义挂接点组件的详情页面，可以点击【添加自定义挂接点】来新增一个挂接点
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmshmimtegs/5cdedbea-a0fe-4dbf-b4a7-0b8dcb65d1fe.png)
+
 ## **3.** 配置自定义挂接点
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhmshmimtegs/e6e15e15-515e-4d2e-89df-b71bf2888d6e.png)
 
 _挂接点名称_：挂接点的命名，可以被其他系统直接引用
 

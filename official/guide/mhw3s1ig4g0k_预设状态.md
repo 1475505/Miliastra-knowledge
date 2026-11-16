@@ -6,12 +6,12 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhw3s1ig4g0k
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:49:51.955Z
+crawledAt: 2026-11-15T15:26:09.586Z
 ---
 
 # 一、预设状态的定义
 
-预设状态是动态物件实体运行时表现。
+预设状态是动态物件实体的运行时表现。
 
 对不同表现维度的表现动画，会封装为不同的预设状态。
 
@@ -31,6 +31,8 @@ crawledAt: 2025-10-30T19:49:51.955Z
 
 ## 1.动态物件编辑时设置初始预设状态
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw3s1ig4g0k/acfb6a0f-f293-48a1-a549-d8305e9512e0.png)
+
 ## 2.以节点图管理预设状态
 
 
@@ -39,16 +41,22 @@ crawledAt: 2025-10-30T19:49:51.955Z
 
 获取关卡运行中实体指定预设状态的状态值
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw3s1ig4g0k/15a914c4-c846-4634-aec5-004efe302983.png)
+
 
 
 **设置预设状态**
 
 配置关卡运行中实体生效的预设状态以及状态值
 
-若填写状态值不存在，则不会进行预设状态值的切换
+若填写的状态值不存在，则不会进行预设状态值的切换
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw3s1ig4g0k/7a6fe951-c8fd-4aca-9ce9-9cad671a7fe8.png)
 
 
 
 **预设状态变化时**
 
 运行中的实体，预设状态及具体状态值变化时，会向节点图发送事件
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhw3s1ig4g0k/77fc935c-573a-4bde-a3c4-0b642e9ca5ff.png)

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhjuwpiubrh0
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T19:51:28.619Z
+crawledAt: 2026-11-15T15:28:37.233Z
 ---
 
 # 前言
@@ -43,13 +43,19 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 根据场景入口不同，存档页面分两种打开方式【未打开编辑器和千星沙箱——从原神游戏内进入】、【已打开编辑器和千星沙箱——从编辑器和千星沙箱内进入】
 
-● **【从原神游戏内进入】：** 进入原神游戏后，点击左上角派蒙菜单>>>【我的奇遇】>>>即可打开存档界面
+● **【从原神游戏内进入】：** 进入原神游戏后，点击左上角派蒙菜单![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/630c5bcb-6813-4632-855c-b0b44526e45a.png)>>>【我的奇域】>>>即可打开存档界面
 
-**●【从局内编辑器内进入】：局内编辑器** 左上角（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击>>>即可打开
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/11151ebd-5c65-4a08-b41c-c91a8bed2c59.png)
+
+**●【从局内编辑器内进入】：局内编辑器** 左上角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/02520e6f-cb48-44b2-a0ed-3bde7af7631b.png)（或直接按ESC键）>>>呼出左侧面板-ESC菜单栏，点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/ccf09ba7-d11b-4dc0-9f70-020780fb2119.png)>>>即可打开
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/60c5f2f1-f894-4867-91f3-4578f7bc02b4.png)
 
 ### 功能简述
 
 **存档页面：** 可进行存档页签设置、具体存档设置、存档导入导出等存档相关管理操作
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/8ba0e2fe-73cd-42f1-9ea2-ae126d3a4985.png)
 
 其中【新建页签】和【存档重命名】是最常用的两项管理操作，导入/导出将在下方进行详细讲解
 
@@ -61,14 +67,20 @@ _\*\*如课程中遇到概念不清等问题或想要了解更多相关信息，
 
 ### 操作方式
 
-在存档页面中，选择需要保存的存档>>>鼠标悬停后，点击左下角>>>点击弹出列表中的【导出存档】>>>选择对应保存路径即可导出存档
+在存档页面中，选择需要保存的存档>>>鼠标悬停后，点击左下角![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/f2f90aec-6390-4209-a5c6-ae4b759a9412.png)>>>点击弹出列表中的【导出存档】>>>选择对应保存路径即可导出存档
 
 _\*\*导出时命名的存档文件名与前文所讲的存档重命名互不影响，均可单独设置_
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/377c93f1-2023-4aad-9bd5-a617220232c5.png)
+
 最终存档导出文档为【.gil格式的文档】：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/c18dfb69-0ac9-4c9d-8af5-6f84305dda30.png)
 
 ## 存档导入
 
 ### 操作方式
 
 在存档页面中，点击右下角【导入存档】>>>选则对应需要导入的存档文件即可导入
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhjuwpiubrh0/530feb2f-3e61-4012-9483-1a33f260ff25.png)

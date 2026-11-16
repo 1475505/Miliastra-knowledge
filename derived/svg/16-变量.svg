@@ -22,7 +22,7 @@
   <text x="80" y="286" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">列表类型：上述所有基础类型的列表  |  字典类型：所有字典数据类型</text>
   <rect x="80" y="300" width="380" height="24" rx="12" fill="#FFF3E0"/><text x="95" y="317" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#1A1B2E">整数取值范围：-2147483647 ~ 2147483647（不含-2147483648）</text>
   <rect x="480" y="300" width="280" height="24" rx="12" fill="#FDE8E6"/><text x="495" y="317" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#1A1B2E">同实体上自定义变量名不可重名</text>
-  <text x="80" y="342" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">使用自定义变量名（字符串型）作为唯一索引，读取、修改、监听均依赖变量名。</text>
+  <text x="80" y="342" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#8B8DA0">使用变量名作为唯一索引；浮点数精度为 0.0001。实体有变量组件时，设置不存在的变量会创建该变量。</text>
   <!-- Section 2: 生命周期与作用域 -->
   <text x="60" y="385" font-family="'Noto Sans CJK SC','HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">二、生命周期与作用域</text>
   <rect x="60" y="400" width="520" height="120" rx="14" fill="#FFFFFF" filter="url(#card)"/>

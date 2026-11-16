@@ -1,38 +1,15 @@
 ---
 id: mhg94h90x3oq
-title: 关卡导出
+title:  关卡导出
 url: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhg94h90x3oq
 sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhg94h90x3oq
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T20:01:05.865Z
+crawledAt: 2026-11-16T06:15:07.589Z
 ---
 
-不支持的音频/视频格式请试试刷新
-
-重播
-
-00:00/00:00
-
-_2X_ 快进中
-
-播放
-
-00:00/00:00直播
-
-进入全屏
-
-
-60
-
-1x
-
-- 2x
-- 1.5x
-- 1x
-- 0.75x
-- 0.5x
+[课程视频](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhg94h90x3oq/ea6fc591-4da4-4682-8d90-e449e682b2e7.mp4)
 
 ### 辅助课件
 
@@ -42,4 +19,6 @@ _2X_ 快进中
 
 建成我的第一个奇域.gil
 
-217.1 KB
+217.2 KB
+
+[下载附件](https://act-webstatic.mihoyo.com/ugc-tutorial/course/cn/zh-cn/mhg94h90x3oq/95299399-27e5-4f6d-9280-c719fdb68984.gil)

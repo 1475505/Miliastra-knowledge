@@ -33,7 +33,7 @@
   <text x="640" y="434" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="13" fill="#4A4B65">过滤器节点图（布尔型/整型）| 初始生效</text>
   <text x="640" y="454" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#8B8DA0">过滤器：获取自身=挂载实体 | 获取目标=范围内本地角色 | 获取当前角色=本地角色</text>
   <!-- 铭牌内容 -->
-  <text x="60" y="495" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、铭牌内容（五种类型）</text>
+  <text x="60" y="495" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="18" font-weight="700" fill="#1B4FC0">三、铭牌内容（六种类型）</text>
   <!-- 文本框 -->
   <rect x="60" y="510" width="520" height="150" rx="14" fill="#FFFFFF" filter="url(#card)"/>
   <rect x="60" y="510" width="520" height="28" rx="14" fill="#2D6BE4"/>
@@ -94,13 +94,14 @@
   <circle cx="90" cy="1255" r="12" fill="#2D6BE4"/><text x="86" y="1260" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">1</text>
   <text x="112" y="1260" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">铭牌=被遮挡+同实体层级 | 导航指示器=不被遮挡+高于交互界面</text>
   <circle cx="90" cy="1280" r="12" fill="#2D6BE4"/><text x="86" y="1285" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">2</text>
-  <text x="112" y="1285" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">五种铭牌内容：文本框、图标、进度条、计时器、生命值与护盾</text>
+  <text x="112" y="1285" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">六种铭牌内容：文本框、图标、进度条、计时器、生命值与护盾、受打断值</text>
   <circle cx="90" cy="1305" r="12" fill="#2D6BE4"/><text x="86" y="1310" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#FFF" text-anchor="middle">3</text>
   <text x="112" y="1310" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" fill="#4A4B65">支持本地过滤器控制可见性 | 多个铭牌同时激活可能重叠</text>
+  <text x="80" y="1340" font-size="14" fill="#4A4B65">受打断值：可配置偏移、大小、计算规则，以及增加和减少时的颜色。</text>
   <!-- Source --><!-- 相关文档 -->
 <text x="48" y="1365" fill="#8B8DA0" font-size="12" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">相关文档：</text>
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mh5n160t2b6w" target="_blank">
   <text x="48" y="1385" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：铭牌</text>
 </a>
-<text x="600" y="1685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="1685" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2（2026-11-16 校订）</text>
 </svg>

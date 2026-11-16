@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhi9s7isvp50
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:33:34.175Z
+crawledAt: 2026-11-15T15:16:15.670Z
 ---
 
 # 一、商店的定义
@@ -27,9 +27,13 @@ _自身背包商店_：发生购买行为时购买者和商店持有者会实际
 
 商店模板是一份完整的商店信息配置，打开系统菜单，在下图位置点击【商店模板管理】即可打开商店模板编辑界面
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/06e7bbf8-b1cb-471d-9862-1e46555ba33e.png)
+
 ## 1.基础设置
 
 打开商店配置界面，点击“新建商店模板”即可添加并编辑模板
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/3c54a837-fed3-4211-82bb-78c0d0b52262.png)
 
 _商店名称_：创作者(奇匠)编辑时定义的商店名称，运行时无意义
 
@@ -38,6 +42,8 @@ _配置ID_：商店模板的唯一标识，被商店组件进行引用
 ## 2.显示设置
 
 该部分定义了商店界面的外显信息
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/76d1bd32-ca48-438f-85aa-db73b4236458.png)
 
 _开启商店时同时打开背包_：功能开启时，当玩家打开商店界面时，会同时打开背包界面
 
@@ -49,9 +55,13 @@ _默认页签_：会按道具的预制类型进行默认分类
 
 _自定义页签_：由创作者(奇匠)自行进行页签分类的配置
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/6f878479-962e-4876-979e-fe34164aeb43.png)
+
 _\*新增页签_：点击即可新增一个自定义页签，如果使用自定义页签，则可在后续配置商店出售表时，重定义物品的页签
 
 ## 3.出售设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/0bd02cb5-392c-42e8-8a9d-2f80755e7759.png)
 
 _商品来源_：即上文描述的商店类型，分为自身背包和自定义列表
 
@@ -63,7 +73,9 @@ _自定义列表_：可以自由定义出售商品类型和数量，其作为一
 
 _售价设置_：定义该商店模板的出售价格表
 
-当商品来源为为自身背包时，表结构如下图所示：
+当商品来源为自身背包时，表结构如下图所示：
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/ae3a9f6f-7a41-4df7-8eec-802cea72207b.png)
 
 _道具_：所有可被出售的道具列表
 
@@ -77,6 +89,8 @@ _售价_：在进行交易行为时，买方购买一个该道具需要的货币
 
 为自定义商品时，表结构如下图所示：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/cd32dbb6-7675-44b7-a5b0-0722d18b7a04.png)
+
 大部分字段和背包商品出售表一致，这里介绍有差异的部分
 
 _商品序号_：在用节点图动态修改出售表时，序号用于识别要修改的具体条目，因为在模板商店内，可能出现多个相同道具的情况，此时可以根据它们不同的商品序号来定位到具体要修改的条目
@@ -87,6 +101,8 @@ _是否限量_：若为“否”，则可以无限购买。若为“是”，则
 
 收购设置定义了交易过程中，玩家可以卖给商店的道具种类和价格
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/56735c84-d6cb-464d-8aec-a0c611a19db2.png)
+
 _\*收购范围_：定义了商店可收购的道具种类
 
 _不收购_：无法进行卖出，收购表为空
@@ -96,6 +112,8 @@ _全部道具_：收购表内包含创作者(奇匠)全局定义的所有道具�
 _部分道具_：创作者(奇匠)在收购表里自定义可收购哪些道具
 
 _收购价格设置_：点击编辑按钮即可进入价格表编辑
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/e6514255-449a-4ff5-830f-3ed74da8e603.png)
 
 _道具_：所有可被收购的道具列表
 
@@ -108,3 +126,5 @@ _收购价_：在进行交易行为时，商店收购一个该道具会返还的
 # 四、商店的运行时实例
 
 在游戏运行时，商店模板被[商店组件](https://act.mihoyo.com/ys/ugc/tutorial//detail/mho6gviqhsqs)引用并实例化
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhi9s7isvp50/e3156f47-1ea9-47fe-87db-3c71a0e99079.png)

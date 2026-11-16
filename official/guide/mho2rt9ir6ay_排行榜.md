@@ -6,20 +6,28 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mho2rt9ir6ay
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:38:20.850Z
+crawledAt: 2026-11-15T15:20:22.076Z
 ---
 
 # 一、排行榜的功能
 
 _排行榜_功能支持创作者(奇匠)将对局内的部分信息记录到外围系统，其他玩家在大厅内浏览该关卡的信息时，可以看到持久化记录的排行榜信息，展示信息如下图：
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mho2rt9ir6ay/fff8231c-df6c-4057-9393-44192662859d.png)
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mho2rt9ir6ay/aaa64cb8-b4d2-4cb7-84bd-649fa106e914.png)
+
 # 二、排行榜的编辑
 
 从系统菜单点击【外围系统管理】，可进入外围系统设置界面
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mho2rt9ir6ay/9674b961-510d-4cc5-b057-016cdea37a4f.png)
+
 在外围系统设置界面的排行榜页签，即可进行排行榜相关的设置
 
 排行榜功能与_竞技段位_功能仅可选择一项开放，一个关卡支持定义多个排行榜模板，在设置数据时，需要指定相应的排行榜模板序号，点击界面右下角的“新建排行榜”按钮，即可新增一个排行榜模板
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mho2rt9ir6ay/ce5429ed-3cf2-4e8e-b1db-3e9eaa3420ac.png)
 
 _排行榜设置_：排行榜功能整体逻辑的开关和有效性设置
 
@@ -65,6 +73,10 @@ _越大越靠前_：数值越大的玩家的排行榜信息越靠前
 
 以浮点数设置玩家排行榜分数
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mho2rt9ir6ay/c1e805fd-b604-4c3c-91a3-cf00e0b4c2da.png)
+
 
 
-以整数设置设置玩家排行榜分数
+以整数设置玩家排行榜分数
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mho2rt9ir6ay/4f48f900-cb14-4e61-b0cc-aa33080594f6.png)

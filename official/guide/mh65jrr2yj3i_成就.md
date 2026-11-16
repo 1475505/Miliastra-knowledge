@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh65jrr2yj3i
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:36:17.680Z
+crawledAt: 2026-11-15T15:18:49.708Z
 ---
 
 # 一、成就的功能
@@ -21,9 +21,13 @@ _成就_用于记录玩家在游戏中达成的特定目标或里程碑
 
 从系统菜单点击【外围系统管理】，可进入外围系统设置界面
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/ff24d4af-5158-4535-a332-e33f9c0f91a7.png)
+
 在外围系统设置界面的成就页签，即可进行成就相关的设置
 
-一个关卡支持配置多个_普通成就_和一个_极致成就_，极致成就会在所有普通成就完成后自动达成，同时极致成就只有在至少设置了五个普通成就，并完成名称，图片配置后才可生效
+一个关卡支持配置多个_普通成就_和一个_极致成就_，极致成就会在所有普通成就完成后自动达成，同时极致成就只有在至少设置了五个普通成就，并完成名称、图片配置后才可生效
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/2b7cccdb-2865-4386-8630-eac736b78d04.png)
 
 _成就设置_：成就功能整体逻辑的开关和有效性设置
 
@@ -33,7 +37,11 @@ _允许房间内游玩结算成就_：当玩家通过房间组队而非匹配来
 
 ## 1.极致成就
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/9a0f1c19-e7ab-467f-89fa-9f8f1ed071ff.png)
+
 _极致成就_：极致成就相关设置，点击右侧编辑按钮，可进入详情编辑界面
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/dd598448-62a0-46bf-b560-033a6a946af3.png)
 
 _成就名称_：成就的名称，作为展示用，可在下方的成就名称中修改
 
@@ -43,7 +51,11 @@ _成就图标_：可以上传一张本地的图片作为成就的图标
 
 ## 2.普通成就
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/7f6667a6-6d8c-4aa5-9aee-1fa5d6bc165a.png)
+
 _普通成就_：点击右下方的新建成就按钮，即可新增一个普通成就，点击编辑按钮进行详情编辑
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/646ba58e-6932-42cb-ad4b-cd513e367ebc.png)
 
 _成就名称_：成就的名称，作为展示用，可在下方的成就名称中修改
 
@@ -61,10 +73,16 @@ _成就描述_：该成就的显示描述
 
 设置成就进度计数
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/b1892306-40d3-4238-bb1e-aae118f844fb.png)
+
 
 
 变更成就进度计数
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/06b96381-616d-4fae-8d6b-7b27e8c946f0.png)
+
 
 
 查询成就是否完成
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh65jrr2yj3i/099cdf45-bd7a-40d4-83fa-bad14c94ec63.png)

@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mh8w69rzuc3i
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:41:42.586Z
+crawledAt: 2026-11-15T15:21:35.380Z
 ---
 
 # 一、碰撞触发器组件的功能
@@ -35,6 +35,8 @@ crawledAt: 2025-10-30T19:41:42.586Z
 
 ## 1.添加组件
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/bd299dc8-ed70-4f40-b6e7-28d0f55430f3.png)
+
 (1)在实体/元件编辑界面中，打开组件编辑页签
 
 (2)点击下方的“添加通用组件”，选择并点击“碰撞触发器”，成功添加
@@ -46,14 +48,18 @@ crawledAt: 2025-10-30T19:41:42.586Z
 |     |     |
 | --- | --- |
 | 配置参数 | 说明 |
-| _初始生效触发器_ | 枚举实体运行时默认生效的碰撞触发器<br>支持通过下拉箭头修改触发器后面的枚举勾选方框来修改触发器的默认生效状态，修改后的生效状态会同步到对应触发器的详细编辑页内 |
+| _初始生效触发器_ | 枚举实体运行时默认生效的碰撞触发器<br>支持通过下拉箭头修改触发器后面的枚举勾选方框来修改触发器的默认生效状态，修改后的生效状态会同步到对应触发器的详细编辑页内<br>![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/282365fe-cf38-417a-8ba4-e61529075e5d.png)![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/0df93095-bd96-4556-a651-5cb1cb79ac2a.png) |
 | _\*触发器列表_ | 枚举实体配置的所有碰撞触发器 |
 
 ## **3.碰撞触发器的编** 辑
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/7fac506f-d426-4043-9df2-189d0f54ae82.png)
+
 关卡编辑窗口中，实体会显示当前选中的碰撞触发器范围。
 
 ### **(1)碰撞触发器组**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/ccd0fdbc-f244-4b3f-9402-4b1fe12a56e1.png)
 
 
 
@@ -61,13 +67,15 @@ crawledAt: 2025-10-30T19:41:42.586Z
 
 
 
-通过点击，添加碰撞触发器
+通过点击![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/6078c46e-60ea-4d74-bca1-2cf27e6982cf.png)，添加碰撞触发器
 
 
 
 “序号:X”，X为“触发器序号”，作为节点输入项，可以调整碰撞触发器的参数
 
 ### (2)碰撞触发器基础信息
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/48666862-ab1d-4651-a972-1297f04cbea8.png)
 
 |     |     |
 | --- | --- |
@@ -77,7 +85,11 @@ crawledAt: 2025-10-30T19:41:42.586Z
 
 ### (3)碰撞触发器范围
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/62a8eafc-f092-4d3a-a3bd-376bacfe2eb8.png)
+
 通过“添加触发区”可新增触发区域，同一碰撞触发器下的范围会取并集范围生效
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/898675bd-13cd-4f18-8dab-2df316e0577c.png)
 
 |     |     |
 | --- | --- |
@@ -95,9 +107,11 @@ crawledAt: 2025-10-30T19:41:42.586Z
 
 **进入碰撞触发器时**
 
-运行中实体的”碰撞触发源“范围，进入其他运行中实体的“碰撞触发器”范围。
+运行中实体的“碰撞触发源”范围，进入其他运行中实体的“碰撞触发器”范围。
 
 会发送节点图事件给配置“碰撞触发器”的实体
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/6d8492b6-1eb0-4a0c-8889-e7fa6c02d688.png)
 
 
 
@@ -107,8 +121,12 @@ crawledAt: 2025-10-30T19:41:42.586Z
 
 会发送节点图事件给配置“碰撞触发器”的实体
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/8850c46e-5523-451f-9021-fe20606a9ada.png)
+
 
 
 **激活/关闭碰撞触发器**
 
 “碰撞触发器”组件功能支持通过节点图动态调整生效参数
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mh8w69rzuc3i/04f770eb-3e31-465d-965e-ee09691c4eaa.png)

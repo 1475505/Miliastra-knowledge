@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/course/detail/mhysk6rycl8m
 description: undefined
 language: zh
 scope: tutorial
-crawledAt: 2025-10-30T20:05:33.869Z
+crawledAt: 2026-11-15T15:36:29.234Z
 ---
 
 不支持的音频/视频格式请试试刷新
@@ -49,6 +49,8 @@ _2X_ 快进中
 普通攻击.gia
 
 3.3 KB
+
+![](https://webstatic.mihoyo.com/upload/static-resource/2022/10/14/64e71b8a5e28fbdbc3d3df5d311e4154_847866555738962172.svg)
 
 场景地形.gil
 

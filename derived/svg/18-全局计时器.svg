@@ -74,8 +74,8 @@
   <text x="760" y="835" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#4A4B65">恢复暂停的计时器及界面表现</text>
   <!-- 修改 -->
   <rect x="80" y="860" width="420" height="100" rx="10" fill="#F9F7F2"/>
-  <text x="100" y="882" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">修改全局计时器</text>
-  <text x="100" y="904" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">变化值：倒计时正数=增加剩余时间，负数=减少</text>
+  <text x="100" y="882" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="14" font-weight="500" fill="#1A1B2E">增加全局计时器的值</text>
+  <text x="100" y="904" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">增加值：倒计时正数=增加剩余时间，负数=减少</text>
   <text x="100" y="922" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">正计时正数=增加累计时间，负数=减少</text>
   <text x="100" y="940" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="12" fill="#4A4B65">暂停后修改减少到0s再恢复 > 触发事件 | 修改到0s再增加再恢复 > 不触发</text>
   <!-- 触发事件 -->
@@ -97,5 +97,5 @@
 <a xlink:href="https://act.mihoyo.com/ys/ugc/tutorial/detail/mhawd6rl5kpy" target="_blank">
   <text x="48" y="1140" fill="#2D6BE4" font-size="12" text-decoration="underline" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif">奇匠学院文档：来源：全局计时器</text>
 </a>
-<text x="600" y="1185" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="1185" font-family="'HYWenHei 85W','Noto Sans SC','PingFang SC','Roboto',sans-serif" font-size="11" fill="#8B8DA0" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2（2026-11-16 校订）</text>
 </svg>

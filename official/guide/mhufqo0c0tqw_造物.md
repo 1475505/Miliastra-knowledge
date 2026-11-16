@@ -6,7 +6,7 @@ sourceURL: https://act.mihoyo.com/ys/ugc/tutorial/detail/mhufqo0c0tqw
 description: undefined
 language: zh
 scope: guide
-crawledAt: 2025-10-30T19:46:42.587Z
+crawledAt: 2026-11-15T15:24:20.926Z
 ---
 
 # 一、造物的定义
@@ -49,25 +49,37 @@ crawledAt: 2025-10-30T19:46:42.587Z
 
 菜单栏第一栏，为_基础信息_栏
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/7f29b50c-0d16-480e-b911-aa3ec271681b.png)
+
 
 
 **变换**
 
 不支持空间X、Z轴的旋转，仅支持Y轴（水平朝向）的编辑
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/6526a255-3b70-4758-9fd5-46cad82a6f1d.png)
+
 ## 2.特化配置
 
 菜单栏第二栏，为_特化配置_栏
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/867c0b3a-6734-4730-84f0-d729dde0d020.png)
+
 ### **(1)基础战斗属性**
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/64f024d8-2e74-41ab-bbf5-7720e414917f.png)
 
 从等级属性和固定属性两方面，支持创作者(奇匠)对造物进行参数的调整、成长曲线的规划，详见[基础战斗属性](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhvyqz9xwu0q)
 
 ### (2)仇恨配置
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/0c27d33a-f800-4f7e-b72c-34eda4d4b832.png)
+
 详见[仇恨配置](https://act.mihoyo.com/ys/ugc/tutorial//detail/mhw9ut96q96y)
 
 ### (3)常规设置
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/d198aa9b-6845-46a3-98ac-f0c1beccf81c.png)
 
 详见[常规设置](https://act.mihoyo.com/ys/ugc/tutorial//detail/mh3rgo0c16c8)
 
@@ -75,9 +87,13 @@ crawledAt: 2025-10-30T19:46:42.587Z
 
 菜单栏第三栏，为通用组件栏
 
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/33e71fb7-23fe-4e8b-9ad5-e891e11492d2.png)
+
 通过下方的“添加通用组件”按键，可以按需选择组件挂载。
 
 每一种组件最多挂载一次。
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/b4fe0e09-adaa-43bb-8ac6-e4f96570ec5c.png)
 
 造物实体支持添加多种组件功能，包括
 
@@ -148,5 +164,7 @@ crawledAt: 2025-10-30T19:46:42.587Z
 ## 4.节点图功能
 
 菜单栏第四栏，为_节点图_配置栏
+
+![](https://act-webstatic.mihoyo.com/ugc-tutorial/knowledge/cn/zh-cn/mhufqo0c0tqw/86bb46c6-aaaa-4672-9eab-e6ec4cf0a587.png)
 
 可引用预先配置的实体节点图，为造物添加逻辑功能

@@ -156,7 +156,7 @@
 <!-- Row 4 -->
 <rect x="72" y="1374" width="1056" height="34" rx="0" fill="#F4F1EA"/>
 <text x="178" y="1396" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">伴生范围</text>
-<text x="280" y="1396" fill="#4A4B65" font-size="13">定义生成物以植被层内目标对象为圆心的生成距离，超过则不生成。</text>
+<text x="280" y="1396" fill="#4A4B65" font-size="13">以树木层物件为圆心的植被生成半径，超过范围不生成。</text>
 <text x="1000" y="1396" fill="#4A4B65" font-size="13" text-anchor="middle">仅植被层</text>
 <line x1="280" y1="1382" x2="280" y2="1402" stroke="#E8E4DA"/>
 <line x1="870" y1="1382" x2="870" y2="1402" stroke="#E8E4DA"/>
@@ -180,7 +180,7 @@
 <!-- Row 2 -->
 <rect x="72" y="1556" width="1056" height="34" rx="0" fill="#F4F1EA"/>
 <text x="178" y="1578" fill="#1A1B2E" font-size="13" font-weight="500" text-anchor="middle">生成间隔距离</text>
-<text x="286" y="1578" fill="#4A4B65" font-size="13">影响下一层生成物与该模型的间隔距离。</text>
+<text x="286" y="1578" fill="#4A4B65" font-size="13">支持正负值；当前模型外包围盒半径加此值的区域内，禁止生成下一层物件。</text>
 <line x1="280" y1="1564" x2="280" y2="1594" stroke="#E8E4DA"/>
 
 <!-- Row 3 -->
@@ -212,6 +212,6 @@
 </a>
 
 <!-- Footer -->
-<text x="600" y="1904" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：月之七</text>
+<text x="600" y="1904" fill="#8B8DA0" font-size="11" text-anchor="middle">由 AI 基于官方奇匠学院文档生成。版本：7.2（2026-11-16 校订）</text>
 
 </svg>
